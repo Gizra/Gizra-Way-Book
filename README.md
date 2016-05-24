@@ -13,6 +13,7 @@
 | CRM | 1 |  |
 | Gathering leads | 2 | Adding leads to the CRM |
 | Email templates | 3 | Write emails |
+| Call scripts | 3 | Live call |
 | Cold calls | 1 | Document calls in CRM |
 | Gizra Presentation | 4 | Record existing presentation |
 | New presentation slides | 4 |  Google docs presentation
