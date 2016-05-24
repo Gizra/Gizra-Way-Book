@@ -12,6 +12,7 @@
 | Building budget | 4 | Google docs sheet |
 | CRM | 1 |  |
 | Gathering leads | 2 | Adding leads to the CRM |
+| Email templates | 3 | Write emails |
 | Cold calls | 1 | Document calls in CRM |
 | Gizra Presentation | 4 | Record existing presentation |
 | New presentation slides | 4 |  Google docs presentation
