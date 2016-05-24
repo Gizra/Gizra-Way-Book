@@ -12,9 +12,9 @@
 | CRM | 1 |  |
 | Gathering leads | 2 | Adding leads to the CRM |
 | Cold calls | 1 | Document calls in CRM |
-| Presentation | 4 | Record existing presentation |
+| Gizra Presentation | 4 | Record existing presentation |
 | New presentation slides | 4 |  Google docs presentation
-| Building new presentation slides | 4 |  Record new presentation
+| Original presentation | 4 |  Record new presentation
 
 
 ## Account manager
