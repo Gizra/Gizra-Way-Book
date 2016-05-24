@@ -1,6 +1,11 @@
 # On boarding
 
-## Devs
+## Developers
+
+| Task | Time | Deliverable |
+| -- | -- |
+| What is Gizra | 4 | |
+| How to do code review | 2 | |
 
 
 
