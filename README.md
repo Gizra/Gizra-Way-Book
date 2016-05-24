@@ -8,7 +8,8 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| GitHub training | 4 | Open issues on tasks
+| What is Gizra | 4 | |
+| GitHub training | 4 | Open issues on tasks |
 | Building budget | 4 | Google docs sheet |
 | CRM | 1 |  |
 | Gathering leads | 2 | Adding leads to the CRM |
