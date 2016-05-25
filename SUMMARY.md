@@ -4,5 +4,5 @@
    * [On Boarding Plan - week 1](on_boarding_-_week_1.md)
    * Development Plan
 * [GitHub](issue-queue.md)
-* [On Boarding](README.md)
+* [OnePage CRM](README.md)
 
