@@ -4,5 +4,5 @@
    * [On Boarding Plan - Week 1](on_boarding_-_week_1.md)
    * [Development Plan](development_plan.md)
 * [GitHub](issue-queue.md)
-* [OnePage CRM](README.md)
+* [About Gizra](README.md)
 
