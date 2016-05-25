@@ -1,11 +1,15 @@
 # On boarding
 
-## Developers
+## General
 
 | Task | Time | Deliverable |
 | -- | -- |
 | What is Gizra | 4 | |
 | How to do code review | 2 | |
+
+
+## Developers
+
 
 
 
@@ -30,5 +34,4 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| What is Gizra | 4 | |
-| How to do code review | 2 | |
+| A project life cycle (price offer, contract) | 1 |  |
