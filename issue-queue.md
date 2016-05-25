@@ -17,3 +17,7 @@ Often times mistakes are avoided by doing so. A screenshot can help detect early
 
 A pull request is ready for review whenever you feel it's ready for a review by the team lead, and is ready to be merged into the `master` branch.
 
+1. Review your own work, by checking the `Files changes` tab
+
+
+
