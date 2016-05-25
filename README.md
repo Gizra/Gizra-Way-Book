@@ -4,7 +4,7 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| What is Gizra | 4 | |
+| About Gizra | 4 | |
 | How to do code review | 2 | |
 
 
@@ -13,7 +13,7 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| What is Gizra | 4 | |
+| About Gizra | 4 | |
 | GitHub training | 4 | Open issues on tasks |
 | Building budget | 4 | Google docs sheet |
 | CRM | 1 |  |
@@ -30,5 +30,5 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| What is Gizra | 4 | |
+| About Gizra | 4 | |
 | How to do code review | 2 | |
