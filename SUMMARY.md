@@ -4,4 +4,5 @@
 * [GitHub](issue-queue.md)
 * [On Boarding](README.md)
 * [Training & Development](training_&_development.md)
+   * On Boarding - week 1
 
