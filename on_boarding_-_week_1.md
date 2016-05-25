@@ -1,4 +1,4 @@
-# On Boarding - week 1
+# On Boarding - Week 1
 
 ## Developers
 
