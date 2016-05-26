@@ -16,9 +16,9 @@ If you'll tell us you want to leave because you got a better offer, know we neve
 
 ## Negative reasons
 
-You don't get along with your direct boss
+**You don't get along with your direct boss**
 
-You are not doing what you like
+**Your role is no longer pleasent**
 
-You don't feel appreciated
+**You don't feel appreciated**
 
