@@ -11,6 +11,7 @@
 * [Sales Process and Resources](sales_process_and_resources.md)
    * [Approach](approach.md)
        * [Sales Pitches](sales_pitches.md)
+       * e-mail templates
    * [Present](present.md)
    * [Work Meeting](work_meeting.md)
    * [Issue Proposal](issue_proposal.md)
