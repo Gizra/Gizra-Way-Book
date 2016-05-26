@@ -36,8 +36,12 @@
 | Message Notify | 2 | Send emails |
 | Message subscribe | 2 | Send emails to subscribed users |
 | Panelize the homepage | 2 | Group info, recent articles, activity stream |
+| CTools plugnis | 4 | Custom plugin articles list with pager |
+| Theme overrides | 3 | Article teaser view mode |
 | Migrate | 3 | Migrate schools and articles |
 | RESTful | 3 | Create RESTful plugin |
+| Theme intro | 2 | Add base theme |
+
 | Elm intro | 3 | Scaffold repo |
 | Simple Elm App | 3 | Show Schools list |
 | Behat test | 2 | Verify access |
