@@ -1,15 +1,21 @@
 # Approach
 
-Approach buyer with goal of setting a meeting. 
 
-_Buyer at the stage of status quo or identifying a problem or opportunity requiring attention._
+### Prospect and Qualify leads
 
-[Gizra's Sales Pitches] (https://github.com/Gizra/sales/wiki/Approach: sales pitches)
+Source leads or gathered through research. Qualify leads by comparing to ideal customer persona.
 
-[Sending the first e-mail] (https://github.com/Gizra/sales/wiki/Approach: email)
+### Contact
 
-[Making the phone call] (https://github.com/Gizra/sales/wiki/Approach: phone call) 
+Approach buyer with the goal of setting a meeting. 
 
-[Suggested Content to use] (https://github.com/Gizra/sales/wiki/Approach: content) 
+_The buyer is at the stage of status quo or identifying a problem or opportunity requiring attention._
 
-[Projects List] (https://github.com/Gizra/sales/wiki/Approach:-project-list)
+Supporting Content for this stage in the sales process:
+
+* Case Studies
+
+* Blogs
+
+* External Material
+
