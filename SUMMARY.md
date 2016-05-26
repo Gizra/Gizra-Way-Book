@@ -19,6 +19,6 @@
    * [Close](close.md)
    * [Project](project.md)
 * [Resource: Project Summaries](project_summaries.md)
-* [Last Day](last_day.md)
+* [HR](last_day.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 
