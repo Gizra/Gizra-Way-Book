@@ -7,7 +7,7 @@
 
 
 
-**Work Meeting** - Gather requirements. Determine if/when Acct. Mgt participation.
+
  
 **Price Offer** - max 12 hour timeboxed task breakdown with cost per each.  
 

@@ -10,5 +10,5 @@
 * [Sales Process and Resources](sales_process_and_resources.md)
    * [Approach](approach.md)
    * [Present](present.md)
-   * Work Meeting
+   * [Work Meeting](work_meeting.md)
 
