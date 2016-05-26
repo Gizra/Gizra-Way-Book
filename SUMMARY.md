@@ -16,7 +16,7 @@
    * [2. Present](present.md)
    * [3. Work Meeting](work_meeting.md)
    * [4. Issue Proposal](issue_proposal.md)
-   * [Close](close.md)
+   * [5. Close](close.md)
    * [Project Delivery](project.md)
 * [HR](hr.md)
    * [Preparation for new employee](preparation_for_new_employee.md)
