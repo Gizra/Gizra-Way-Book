@@ -1,4 +1,4 @@
-s# On Boarding - Week 1
+# On Boarding - Week 1
 
 
 ## General
@@ -9,7 +9,8 @@ s# On Boarding - Week 1
 | GitHub training | 1 | Open issues on tasks |
 | How to do code review | 1 | |
 | Building budget | 4 | Google docs sheet |
-| How to solve problems | 2 |  |
+| Solving problems | 2 |  |
+| Contributions | 1 |  |
 
 ## Developers
 
@@ -27,6 +28,8 @@ s# On Boarding - Week 1
 | Panels | 1 | Homepage |
 | Panels variants | 1 | Homepage variants |
 | Features | 2 | Export to code and add to repository |
+| Community site intro | 1 | Create repo and open issues |
+
 
 ## Sales
 
