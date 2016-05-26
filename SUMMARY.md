@@ -9,7 +9,7 @@
    * [Pull Requests](pull_requests.md)
 * [Sales Process and Resources](sales_process_and_resources.md)
    * [Resource: Project Summaries](project_summaries.md)
-   * [Approach](approach.md)
+   * [1. Approach](approach.md)
        * [Sales Pitches](sales_pitches.md)
        * [e-mail templates](e-mail_templates.md)
        * [Phone Call](phone_call.md)
