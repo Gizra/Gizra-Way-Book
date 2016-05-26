@@ -19,5 +19,3 @@ Supporting Content for this stage in the sales process:
 
 * External Material
 
-
-[Projects List] (https://github.com/Gizra/sales/wiki/Approach:-project-list)
