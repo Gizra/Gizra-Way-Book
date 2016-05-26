@@ -1,2 +1,0 @@
-# Thinking of quiting
-
