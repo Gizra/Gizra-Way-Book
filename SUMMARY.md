@@ -11,5 +11,5 @@
    * [Approach](approach.md)
    * [Present](present.md)
    * [Work Meeting](work_meeting.md)
-   * Issue Proposal
+   * [Issue Proposal](issue_proposal.md)
 
