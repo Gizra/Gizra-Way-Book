@@ -7,4 +7,5 @@
 * [About Gizra](aboutgizra.md)
 * [GitHub](issue-queue.md)
    * [Pull Requests](pull_requests.md)
+* Sales Process and Resources
 
