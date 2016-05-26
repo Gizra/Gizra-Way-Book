@@ -15,5 +15,4 @@
    * [Issue Proposal](issue_proposal.md)
 * [Last Day](last_day.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
-   * Preparation for departing employee
 
