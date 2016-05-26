@@ -6,4 +6,3 @@
    * [Development Plan](development_plan.md)
 * [About Gizra](aboutgizra.md)
 * [GitHub](issue-queue.md)
-
