@@ -2,6 +2,8 @@
 
 Gizra's project summaries. An important resource for sales to work with prospect clients.
 
+Tags:
+
 | Process | Industry | Tech | The Gizra Way |
 | -- | -- | -- | -- |
 | Complex CMS Project | Education | Drupal | Best Practices |
