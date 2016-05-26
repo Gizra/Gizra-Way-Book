@@ -1,11 +1,26 @@
 # On Boarding - Week 1
 
+
+## General
+
+| Task | Time | Deliverable |
+| -- | -- |
+| About Gizra | 2 | |
+| GitHub training | 1 | Open issues on tasks |
+| How to do code review | 1 | |
+| Building budget | 4 | Google docs sheet |
+
 ## Developers
 
 | Task | Time | Deliverable |
 | -- | -- |
-| About Gizra | 4 | |
-| How to do code review | 2 | |
+| Jekyll | 2 | Setup repository |
+| Flex | 1 | Complete [game](http://flexboxfroggy.com/) |
+| PSD to HTML | 4 | Using BEM, overlay images and browserStack screenshots |
+| Behat tests | 3 | Write an assertion for the homepage |
+| Travis | 2 | Setup Travis and add Travis build icon to README |
+
+
 
 
 
@@ -13,8 +28,6 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| About Gizra | 4 | |
-| GitHub training | 4 | Open issues on tasks |
 | Building budget | 4 | Google docs sheet |
 | CRM | 1 |  |
 | Gathering leads | 2 | Adding leads to the CRM |
