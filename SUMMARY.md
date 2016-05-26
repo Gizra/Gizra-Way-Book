@@ -15,7 +15,7 @@
        * [Phone Call](phone_call.md)
    * [2. Present](present.md)
    * [3. Work Meeting](work_meeting.md)
-   * [Issue Proposal](issue_proposal.md)
+   * [4. Issue Proposal](issue_proposal.md)
    * [Close](close.md)
    * [Project Delivery](project.md)
 * [HR](hr.md)
