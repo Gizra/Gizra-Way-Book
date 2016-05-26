@@ -11,12 +11,13 @@ Approach buyer with the goal of setting a meeting.
 
 _The buyer is at the stage of status quo or identifying a problem or opportunity requiring attention._
 
-[Gizra's Sales Pitches] (https://github.com/Gizra/sales/wiki/Approach: sales pitches)
+Supporting Content for this stage in the sales process:
 
-[Sending the first e-mail] (https://github.com/Gizra/sales/wiki/Approach: email)
+* Case Studies
 
-[Making the phone call] (https://github.com/Gizra/sales/wiki/Approach: phone call) 
+* Blogs
 
-[Suggested Content to use] (https://github.com/Gizra/sales/wiki/Approach: content) 
+* External Material
+
 
 [Projects List] (https://github.com/Gizra/sales/wiki/Approach:-project-list)
