@@ -9,6 +9,7 @@ s# On Boarding - Week 1
 | GitHub training | 1 | Open issues on tasks |
 | How to do code review | 1 | |
 | Building budget | 4 | Google docs sheet |
+| How to solve problems | 2 |  |
 
 ## Developers
 
