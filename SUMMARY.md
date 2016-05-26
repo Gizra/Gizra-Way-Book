@@ -1,9 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [Training & Development](training_&_development.md)
+* [Training](training_&_development.md)
    * [On Boarding Plan - Week 1](on_boarding_-_week_1.md)
-   * [Development Plan](development_plan.md)
+   * [On Going Plan](development_plan.md)
+   * [Preparation for new employee](preparation_for_new_employee.md)
 * [About Gizra](aboutgizra.md)
 * [GitHub](issue-queue.md)
    * [Pull Requests](pull_requests.md)
@@ -12,4 +13,6 @@
    * [Present](present.md)
    * [Work Meeting](work_meeting.md)
    * [Issue Proposal](issue_proposal.md)
+* [Last Day](last_day.md)
+   * [Preparation for departing employee](preparation_for_departing_employee.md)
 
