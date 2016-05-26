@@ -29,6 +29,10 @@
 | Panels variants | 1 | Homepage variants |
 | Features | 2 | Export to code and add to repository |
 | Community site intro | 1 | Create repo and open issues |
+| Organic groups | 2 | Create School content |
+| Message | 3 | Create activity stream |
+| Message Notify | 2 | Send emails |
+| Message subscribe | 2 | Send emails to subscribed users |
 
 
 ## Sales
