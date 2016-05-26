@@ -1,6 +1,6 @@
 # Sales Process and Resources
 
-#####Approach > Presentation > Work Meeting > Price Offer > Follow Up > Project
+#####Approach > Present > Work Meeting > Price Offer > Follow Up > Project
 
 **Supporting Activities**: networking, marketing
 
