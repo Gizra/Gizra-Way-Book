@@ -17,7 +17,7 @@
    * [Work Meeting](work_meeting.md)
    * [Issue Proposal](issue_proposal.md)
    * [Project Summaries](project_summaries.md)
-   * Close
+   * [Close](close.md)
 * [Last Day](last_day.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 
