@@ -16,6 +16,6 @@
 * [Last Day](last_day.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 * [Fly or Fight (Dealing with pressure)](fly_or_fight_dealing_with_pressure.md)
-   * [Thinking of quiting](thinking_of_quiting.md)
    * [Work life balance](work_life_balance.md)
+   * [Thinking of quiting](thinking_of_quiting.md)
 
