@@ -1,4 +1,4 @@
-# On Boarding - Week 1
+s# On Boarding - Week 1
 
 
 ## General
@@ -23,7 +23,7 @@
 | Content types | 1 | Page element content type |
 | Views | 1 | Page element view |
 | Panels | 1 | Homepage |
-| Panels variants | 1 | Homepage |
+| Panels variants | 1 | Homepage varia |
 
 
 
