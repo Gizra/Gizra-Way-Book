@@ -22,7 +22,8 @@
 | Drupal intro & Page element | 1 | Install Drupal locally |
 | Content types | 1 | Page element content type |
 | Views | 1 | Page element view |
-| Panels | 1 | Page element view |
+| Panels | 1 | Homepage |
+| Panels variants | 1 | Homepage |
 
 
 
