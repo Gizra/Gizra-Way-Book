@@ -7,8 +7,16 @@ The are few reasons behind this:
 * Working overtime can be stressful for long periods of time. But then again, if we manage our time correctly, we shouldn't have a need for overtime
 * We all have families, friends and hobbies. Work is an important element in our life, but not the only one. Other elements should not be harmed by it. Further more, having a healthy work-life balance often increases our productivity.
 
-Things we 
+## Things we encourage
 
+* Having short breaks every hour.
+* Learning new stuff and contribute code at home - it doesn't need to be work/ projects related. Contribution is like a muscle that needs exercise.
+
+
+## Things we discourage
+
+* Eating in front of the computer at work. You need to rest your eyes and mind.
+* Taking too many responsibilities.
 
 An interesting Drupal New-Orleans 2016, [Community Keynote](https://youtu.be/ZA95tpXUIos?t=4m13s)
 
