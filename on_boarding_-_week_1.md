@@ -41,12 +41,10 @@
 | Theme overrides | 3 | Article teaser view mode |
 | No css in Drupal | 1 | |
 | Migrate | 3 | Migrate schools and articles |
+| Behat test | 2 | Verify access |
 | RESTful | 3 | Create RESTful plugin |
 | Elm intro | 3 | Scaffold repo |
 | Simple Elm App | 3 | Show Schools list |
-| Behat test | 2 | Verify access |
-
-
 
 
 ## Sales
