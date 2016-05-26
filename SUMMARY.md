@@ -14,4 +14,5 @@
    * [Present](present.md)
    * [Work Meeting](work_meeting.md)
    * [Issue Proposal](issue_proposal.md)
+* Last Day
 
