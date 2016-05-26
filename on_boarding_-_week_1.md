@@ -24,7 +24,7 @@ s# On Boarding - Week 1
 | Views | 1 | Page element view |
 | Panels | 1 | Homepage |
 | Panels variants | 1 | Homepage variants |
-| Features | 1 | Homepage variants |
+| Features | 2 | Export to code and add to repository|
 
 
 
