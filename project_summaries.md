@@ -1,6 +1,6 @@
 # Project Summaries
 
-List of projects - resource for work with prospect clients
+Gizra's project summaries. An important resource for sales to work with prospect clients.
 
 | Process | Industry | Tech | The Gizra Way |
 | -- | -- | -- | -- |
