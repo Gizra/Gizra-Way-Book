@@ -19,9 +19,9 @@
 | PSD to HTML | 4 | Using BEM, overlay images and browserStack screenshots |
 | Behat tests | 3 | Write an assertion for the homepage |
 | Travis | 2 | Setup Travis and add Travis build icon to README |
-| Drupal intro | 1 | Install Drupal locally |
+| Drupal intro & Page element | 1 | Install Drupal locally |
 | Content types | 1 | Page element content type |
-| Views | 1 | Page element |
+| Views | 1 | Page element view |
 
 
 
