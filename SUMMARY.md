@@ -18,7 +18,7 @@
    * [Issue Proposal](issue_proposal.md)
    * [Project Summaries](project_summaries.md)
    * [Close](close.md)
-   * Project
+   * [Project](project.md)
 * [Last Day](last_day.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 
