@@ -30,12 +30,19 @@
 | Features | 2 | Export to code and add to repository |
 | Community site intro | 1 | Create repo and open issues |
 | Installation profile | 2 | Scaffold site with Yo hedley |
-| Organic groups | 2 | Create School content |
+| Organic groups | 2 | Create School content and Article content |
 | Organic groups access | 1 | Make Schoold public/ private |
 | Message | 3 | Create activity stream |
 | Message Notify | 2 | Send emails |
 | Message subscribe | 2 | Send emails to subscribed users |
 | Panelize the homepage | 2 | Group info, recent articles, activity stream |
+| Migrate | 3 | Migrate schools and articles |
+| RESTful | 3 | Create RESTful plugin |
+| Elm intro | 3 | Scaffold repo |
+| Simple Elm App | 3 | Show Schools list |
+| Behat test | 2 | Verify access |
+
+
 
 
 ## Sales
