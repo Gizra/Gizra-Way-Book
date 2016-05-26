@@ -13,7 +13,7 @@
        * [Sales Pitches](sales_pitches.md)
        * [e-mail templates](e-mail_templates.md)
        * [Phone Call](phone_call.md)
-   * [Present](present.md)
+   * [2. Present](present.md)
    * [Work Meeting](work_meeting.md)
    * [Issue Proposal](issue_proposal.md)
    * [Close](close.md)
