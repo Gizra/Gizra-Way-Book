@@ -18,5 +18,9 @@ The are few reasons behind this:
 * Eating in front of the computer at work. You need to rest your eyes and mind.
 * Taking too many responsibilities.
 
-An interesting Drupal New-Orleans 2016, [Community Keynote](https://youtu.be/ZA95tpXUIos?t=4m13s)
+
+## Related resources
+
+* [Mental Health & Open Source](https://www.youtube.com/watch?v=TdEVaOjL20s&feature=youtu.be&t=48m59s), DrupalCon Barcelona 2016
+* [Your Brain Health is More Important than your Standing Desk](https://youtu.be/ZA95tpXUIos?t=4m13s), DrupalCon New-Orleans 2016
 
