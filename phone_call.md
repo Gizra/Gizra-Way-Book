@@ -5,7 +5,7 @@ Hi, I am [name], [role] at Gizra. I sent you an e-mail. I am not sure you had th
 
 > No IT project at the moment.
 
-[Name Dropping pitch] It is our technical expertise along with how we approach IT projects. [Gizra Way pitch]
+[Prominent Clients pitch] It is our technical expertise along with how we approach IT projects. [Gizra Way pitch]
 
 > We already have a company we work with.
 
@@ -13,7 +13,7 @@ Great! If you have something outside of your usual scope in the lines of [Good A
 
 > You are too big for us.
 
-True that we work with [Name Dropping] but we also love taking on interesting projects that usually run around the 3 month length that fit into our [Good At] scope. If your scope is only a corporate website, then correct, it's not for us. We understand the market and that we are not the cheapest. 
+True that we work with [Prominent Clients] but we also love taking on interesting projects that usually run around the 3 month length that fit into our [Good At] scope. If your scope is only a corporate website, then correct, it's not for us. We understand the market and that we are not the cheapest. 
 
 >Used Drupal in the past. Bad experience.
 
