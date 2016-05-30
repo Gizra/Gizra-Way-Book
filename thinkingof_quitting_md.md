@@ -14,6 +14,10 @@ If you'll tell us you want to leave because you got a better offer, know we neve
 
 **You want to have a career change**
 
+A career change can actually be an outcome of both positive and negative reasons. You might had enough of your current profession, or you might just intrigued by a new field.
+
+Either way, it's worth reaching out and discussing this with us. We might be able to adapt your position to include your new passion.
+
 ## Negative reasons
 
 **You don't get along with your direct boss**
