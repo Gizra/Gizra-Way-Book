@@ -24,7 +24,7 @@ Either way, it's worth reaching out and discussing this with us. We might be abl
 
 As in any social situation, people might not get along. And like any social situation, it's worth raising the point early on.
 
-Admittedly it would be hard to completely avoid each other, nor is this encouraged. We are working hard on establishing a professional working environment, where being "friendly" isn't just a bonus.
+Admittedly it would be hard to completely avoid each other, nor is this encouraged. We are working hard on establishing a professional working environment, where being friendly isn't just a bonus.
 
 We that said we can consider shifting people from one team to another.
 
