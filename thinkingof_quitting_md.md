@@ -22,6 +22,14 @@ Either way, it's worth reaching out and discussing this with us. We might be abl
 
 **You don't get along with your direct boss**
 
+As in any social situation, people might not get along. And like any social situation, it's worth raising the point early on.
+
+Admittedly it would be hard to completely avoid each other, nor is this encouraged. We are working hard on establishing a professional working environment, where being "friendly" isn't just a bonus.
+
+We that said we can consider shifting people from one team to another.
+
+If the case is not getting along with the owners, then you might be intimidated to discuss it with them alone. First, don't be afraid - they are people to, and it's in their interest to solve the situation. Further more, you are also encouraged you to approach HR and have them help you with this matter.
+
 **Your role is no longer pleasant**
 
 **You don't feel appreciated**
