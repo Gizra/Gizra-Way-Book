@@ -22,7 +22,7 @@ Either way, it's worth reaching out and discussing this with us. We might be abl
 
 **You don't get along with your direct boss**
 
-**Your role is no longer pleasent**
+**Your role is no longer pleasant**
 
 **You don't feel appreciated**
 
