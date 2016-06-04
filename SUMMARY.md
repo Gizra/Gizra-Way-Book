@@ -4,6 +4,7 @@
 * [Training and Development](training_&_development.md)
    * [On Boarding Plan - Week 1](on_boarding_-_week_1.md)
    * [On Going Plan](development_plan.md)
+   * Roles and Responsabilties
 * [About Gizra](aboutgizra.md)
 * [GitHub](issue-queue.md)
    * [Pull Requests](pull_requests.md)
