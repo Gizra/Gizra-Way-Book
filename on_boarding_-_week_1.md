@@ -1,6 +1,6 @@
 # On Boarding - Week 1
 
-## General
+## General - all employees
 
 | Task | Time | Deliverable |
 | -- | -- |
@@ -47,20 +47,23 @@
 
 ##Team Lead
 
-## Sales
+## General - Sales and Account Managers
 
 | Task | Time | Deliverable |
 | -- | -- |
-| Building budget | 4 | Google docs sheet |
 | CRM | 1 |  |
-| Gathering leads | 2 | Adding leads to the CRM |
-| Email templates | 3 | Write emails |
-| Call scripts | 3 | Live call |
-| Cold calls | 1 | Document calls in CRM |
 | Gizra Presentation | 4 | Record existing presentation |
 | New presentation slides | 4 |  Google docs presentation
 | Original presentation | 4 |  Record new presentation
 
+## Sales
+
+| Task | Time | Deliverable |
+| -- | -- |
+| Gathering leads | 2 | Adding leads to the CRM |
+| Email templates | 3 | Write emails |
+| Call scripts | 3 | Live call |
+| Cold calls | 1 | Document calls in CRM |
 
 ## Account manager
 
