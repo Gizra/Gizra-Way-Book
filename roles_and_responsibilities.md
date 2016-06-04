@@ -14,7 +14,7 @@ Manages specific accounts, takes care of clients, solves their problems, maintai
 * Gaining more business in existing accounts
 
 ### Marketing
-Build brand and reputation. Communicate value proposition and support sales function.
+Build brand and reputation. Communicate value proposition and support Sales and Account Manager functions.
 
 
 
