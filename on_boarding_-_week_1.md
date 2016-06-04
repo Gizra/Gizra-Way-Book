@@ -66,5 +66,5 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| About Gizra | 4 | |
-| How to do code review | 2 | |
+| Growth Plan | 4 | Plan for existing account |
+|  |  | |
