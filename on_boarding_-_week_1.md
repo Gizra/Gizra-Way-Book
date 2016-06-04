@@ -1,6 +1,5 @@
 # On Boarding - Week 1
 
-
 ## General
 
 | Task | Time | Deliverable |
@@ -46,6 +45,7 @@
 | Elm intro | 3 | Scaffold repo |
 | Simple Elm App | 3 | Show Schools list |
 
+##Team Lead
 
 ## Sales
 
