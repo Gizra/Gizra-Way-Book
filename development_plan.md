@@ -11,3 +11,19 @@ The ongoing training and development of Gizra employees will help us become more
 ##Sales
 
 ##Account Managers
+**Core Skills**:
+1. Negotiation
+2. Communication
+3. Presentation
+4. Meeting management
+5. Project management
+6. Tech skills
+7. Networking skills
+**Selling Skills**:
+1. Selling
+2. Growth Planning
+3. Services knowledge
+4. Market knowledge
+5. Company knowledge
+
+
