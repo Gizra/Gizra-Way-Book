@@ -19,6 +19,7 @@ The ongoing training and development of Gizra employees will help us become more
 5. Project management
 6. Tech skills
 7. Networking skills
+
 **Selling Skills**:
 1. Selling
 2. Growth Planning
