@@ -39,3 +39,6 @@ Obviously, if your desire is being a soccer coach we won't be able to help. But 
 
 **You don't feel appreciated**
 
+Say something about it, being shy won't help here. If you are doing something you should be acknowledged about it. We try to stay fair, but both pointing out good work in the same manner we point out bad work. Constant review and feedback is in the core of our culture.
+
+Furthermore, determine if your work is being bubbled up properly. If it is not ,e.g. as an account manager no one seems to appreciate all your projects are right on time, find a way to make it clear. It doesn't have to be a meeting, which we normally discourage, but rather some mechanism to show success/ failure. For example, if we had an automatic notification alerting in deviation from the estimation could help make your work more visible (luckily we have such alert in place)
