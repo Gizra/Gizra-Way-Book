@@ -26,11 +26,16 @@ As in any social situation, people might not get along. And like any social situ
 
 Admittedly it would be hard to completely avoid each other, nor is this encouraged. We are working hard on establishing a professional working environment, where being friendly isn't just a bonus.
 
-We that said we can consider shifting people from one team to another.
+With that said we can consider shifting people from one team to another.
 
-If the case is not getting along with the owners, then you might be intimidated to discuss it with them alone. First, don't be afraid - they are people to, and it's in their interest to solve the situation. Further more, you are also encouraged you to approach HR and have them help you with this matter.
+If the case is not getting along with the owners, then you might be intimidated to discuss it with them alone. First, don't be afraid - they are people too, and it's in their interest as-well to solve the situation. Further more, you are also encouraged you to approach HR or another liaison and have them help you with this matter.
 
 **Your role is no longer pleasant**
+
+Is it because you have been doing for too long and just had enough? Sounds fair.
+Do you have other skills you would like to develop? We might be able to help you shape your new role. Even if we don't have this role currently, don't hesitate to offer it - accompanied with good selling points. 
+
+Obviously, if your desire is being a soccer coach we won't be able to help. But if it's related to our industry, we will work hard with you on finding the balance between the company needs, and your desiers.
 
 **You don't feel appreciated**
 
