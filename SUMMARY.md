@@ -19,7 +19,6 @@
    * [4. Issue Proposal](issue_proposal.md)
    * [5. Close](close.md)
    * [6. Project Delivery](project.md)
-   * [Measuring Performance](measuring_performance.md)
 * [HR](hr.md)
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
