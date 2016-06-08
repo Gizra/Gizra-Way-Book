@@ -35,7 +35,7 @@ If the case is not getting along with the owners, then you might be intimidated 
 Is it because you have been doing for too long and just had enough? Sounds fair.
 Do you have other skills you would like to develop? We might be able to help you shape your new role. Even if we don't have this role currently, don't hesitate to offer it - accompanied with good selling points. 
 
-Obviously, if your desire is being a soccer coach we won't be able to help. But if it's related to our industry, we will work hard with you on finding the balance between the company needs, and your desiers.
+Obviously, if your desire is being a soccer coach we won't be able to help. But if it's related to our industry, we will work hard with you on finding the balance between the company needs, and your desires.
 
 **You don't feel appreciated**
 
