@@ -24,21 +24,21 @@ Either way, it's worth reaching out and discussing this with us. We might be abl
 
 As in any social situation, people might not get along. And like any social situation, it's worth raising the point early on.
 
-Admittedly it would be hard to completely avoid each other, nor is this encouraged. We are working hard on establishing a professional working environment, where being friendly isn't just a bonus.
+Admittedly it would be hard to completely avoid each other, nor is this encouraged. We work hard to establish a professional working environment, where being friendly isn't just a bonus.
 
 With that said we can consider shifting people from one team to another.
 
-If the case is not getting along with the owners, then you might be intimidated to discuss it with them alone. First, don't be afraid - they are people too, and it's in their interest as-well to solve the situation. Further more, you are also encouraged you to approach HR or another liaison and have them help you with this matter.
+If the case is not getting along with the owners, then you may be intimidated to discuss it with them directly. First, don't be afraid - they are people too, and it is in their interest as-well to solve the situation. Further more, you are also encouraged to approach HR or another liaison and have them help you with this matter.
 
 **Your role is no longer pleasant**
 
-Is it because you have been doing for too long and just had enough? Sounds fair.
+Is it because you have been doing it for too long and have just had enough? Sounds fair.
 Do you have other skills you would like to develop? We might be able to help you shape your new role. Even if we don't have this role currently, don't hesitate to offer it - accompanied with good selling points. 
 
-Obviously, if your desire is being a soccer coach we won't be able to help. But if it's related to our industry, we will work hard with you on finding the balance between the company needs, and your desires.
+Obviously, if your desire is to be a soccer coach we won't be able to help. But if it's related to our industry, we will work hard with you on finding the balance between the company needs, and your desires.
 
 **You don't feel appreciated**
 
-Say something about it, being shy won't help here. If you are doing something you should be acknowledged about it. We try to stay fair, but both pointing out good work in the same manner we point out bad work. Constant review and feedback is in the core of our culture.
+Say something about it, being shy won't help here. You should be acknowledged for your accomplishments. We try to stay fair, by pointing out good work in the same manner we point out bad work. Constant review and feedback is in the core of our culture.
 
-Furthermore, determine if your work is being bubbled up properly. If it is not ,e.g. as an account manager no one seems to appreciate all your projects are right on time, find a way to make it clear. It doesn't have to be a meeting, which we normally discourage, but rather some mechanism to show success/ failure. For example, if we had an automatic notification alerting in deviation from the estimation could help make your work more visible (luckily we have such alert in place)
+Furthermore, determine if your work is being bubbled up properly. If it is not ,e.g. as an account manager no one seems to appreciate all your projects are on time, find a way to make it clear. It doesn't have to be a meeting, which we normally discourage, but rather some mechanism to show success/ failure. For example, an automatic notification alerting deviations from the estimation could help make your work more visible (luckily we have such alert in place.)
