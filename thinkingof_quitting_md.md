@@ -54,7 +54,7 @@ If there is no such place where the work is documented, and can be easily found,
 
 ## Summary
 
-The gist of this chapter is to encourage you to communicate your thoughts and feeling, and try to act on them early on.
+The gist of this chapter is to encourage you to communicate your thoughts and feelings, and try to act on them early on.
 
-Often times big problems can be solved with simple solution. Sometimes having another person you trust and that knows the company from within talk with you, can help you. 
+Often times big problems can be solved with simple solutions. Sometimes having another person you trust and that knows the company from within talk with you can help you. 
 
