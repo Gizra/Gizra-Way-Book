@@ -11,7 +11,3 @@ Tags:
 | UX and Design | Textile | AngularJS | Partner: in the project with you. Not given the project by you. |
 | Strategy & Consulting | Energy Management | Jekyll | Budget Goggles |
 | Integration | Auctions | Elm |  |
-|  |  |  | . |
-|  |  |  | . |
-
-
