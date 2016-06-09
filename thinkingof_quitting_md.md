@@ -20,7 +20,7 @@ Either way, it's worth reaching out and discussing this with us. We might be abl
 
 ## Negative reasons
 
-**You don't get along with your direct boss**
+**You don't get along with another person**
 
 As in any social situation, people might not get along. And like any social situation, it's worth raising the point early on.
 
@@ -41,4 +41,13 @@ Obviously, if your desire is to be a soccer coach we won't be able to help. But 
 
 Say something about it, being shy won't help here. You should be acknowledged for your accomplishments. We try to stay fair, by pointing out good work in the same manner we point out bad work. Constant review and feedback is in the core of our culture.
 
-Furthermore, determine if your work is being bubbled up properly. If it is not ,e.g. as an account manager no one seems to appreciate all your projects are on time, find a way to make it clear. It doesn't have to be a meeting, which we normally discourage, but rather some mechanism to show success/ failure. For example, an automatic notification alerting deviations from the estimation could help make your work more visible (luckily we have such alert in place.)
+First ask yourself if the outcome of the work you are doing can be easily tracked. Examples can be:
+
+* As a developer, you comment once an hour on your work in progress pull request, with an update and a screenshot
+* As a sales person, you document in the CRM every call or interaction you had with a lead
+* As an account manager, you document in the CRM the outcome of your weekly call with the client
+
+If there is no such place where the work is documented, and can be easily found, try to find some mechanism to show success/ failure or to remind you to do it. For example:
+
+* As a developer, use a time tracking app to remind you to update the pull request
+* As a sales person or account manager, record your conversations and upload them to the CRM
