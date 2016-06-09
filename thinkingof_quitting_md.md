@@ -51,3 +51,10 @@ If there is no such place where the work is documented, and can be easily found,
 
 * As a developer, use a time tracking app to remind you to update the pull request
 * As a sales person or account manager, record your conversations and upload them to the CRM
+
+## Summary
+
+The gist of this chapter is to encourage you to communicate your thoughts and feeling, and try to act on them early on.
+
+Often times big problems can be solved with simple solution. Sometimes having another person you trust and that knows the company from within talk with you, can help you. 
+
