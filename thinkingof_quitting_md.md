@@ -10,7 +10,7 @@ First, you'll need to figure out why you have this feeling. It can be the outcom
 
 Financial improvements are important. If your offer is way above your current salary, then it's definitely worth considering it. If you feel that the existing advantages we provide - the technological challenges, the working environment, the sane working hours - will be provided in the next place, then it sounds like the right thing.
 
-If you'll tell us you want to leave because you got a better offer, know we never provide a counter offer. This is done out of fairness, to avoid the "why didn't they offer me better conditions before? Why did we they have to wait for the last minute" feeling. This is another reason for our management to keep a close eye, and make sure people are compensated as they should.
+If you'll tell us you want to leave because you got a better offer, know we never provide a counter offer. This is done out of fairness, to avoid the "why didn't they offer me better conditions before? Why did they wait for the last minute" feeling. This is another reason for our management to keep apprised to the industry compensation norms and to  ensure our people are compensated fairly.
 
 **You want a career change**
 
@@ -35,7 +35,7 @@ If the case is not getting along with the owners, then you may be intimidated to
 Is it because you have been doing it for too long and have just had enough? Sounds fair.
 Do you have other skills you would like to develop? We might be able to help you shape your new role. Even if we don't have this role currently, don't hesitate to offer it - accompanied with good selling points. 
 
-Obviously, if your desire is to be a soccer coach we won't be able to help. But if it's related to our industry, we will work hard with you on finding the balance between the company needs, and your desires.
+Obviously, if your desire is to be a soccer coach we won't be able to help. But if it's related to our industry, we will work hard with you on finding the balance between the company's needs, and your desires.
 
 **You don't feel appreciated**
 
@@ -56,5 +56,5 @@ If there is no such place where the work is documented, and can be easily found,
 
 The gist of this chapter is to encourage you to communicate your thoughts and feelings, and try to act on them early on.
 
-Often times big problems can be solved with simple solutions. Sometimes having another person you trust and that knows the company from within talk with you can help you. 
+Often times big problems can be solved with simple solutions. Having another person you trust and that knows the company from within to talk to can be of tremendous help. 
 
