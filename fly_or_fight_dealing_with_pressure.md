@@ -1,2 +1,2 @@
-# Flight or Fight (Dealing with stress)
+# Fight or Flight (Dealing with stress)
 
