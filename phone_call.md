@@ -9,7 +9,7 @@ Hi, I am [name], [role] at Gizra. I sent you an e-mail. I am not sure you had th
 
 > We already have a company we work with.
 
-Great! If you have something outside of your usual scope in the lines of [Good At]. Lets meet to hear how we do projects with [Name Dropping], worse comes to worse, you will get some great tips to use with your current developer.
+Great! If you have something outside of your usual scope in the lines of [Good At]. Lets meet to hear how we do projects with [Prominent Clients], worse comes to worse, you will get some great tips to use with your current developer.
 
 > You are too big for us.
 
