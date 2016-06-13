@@ -1,2 +1,2 @@
-# Fly or Fight (Dealing with pressure)
+# Flight or Fight (Dealing with pressure)
 
