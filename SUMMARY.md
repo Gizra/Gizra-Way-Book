@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Who Are We
 * [Training and Development](training_&_development.md)
    * [On Boarding Plan - Week 1](on_boarding.md)
 * [GitHub](issue-queue.md)
@@ -17,3 +18,4 @@
 * [Fly or Fight (Dealing with pressure)](fly_or_fight_dealing_with_pressure.md)
    * [Work life balance](work_life_balance.md)
    * [Thinking of quitting](thinking_of_quitting.md)
+
