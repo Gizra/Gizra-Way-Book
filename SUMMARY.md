@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Who Are We
+   * [Who Are We](who_are_we.md)
 * [Training and Development](training_&_development.md)
    * [On Boarding Plan - Week 1](on_boarding.md)
 * [GitHub](issue-queue.md)
