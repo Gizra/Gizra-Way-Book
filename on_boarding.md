@@ -12,11 +12,11 @@ view of our operation rather than dive in deep.
 
 ## Confusion & Leap of Faith
 
-Experience shows that you already are or very soon will be confused. A lot of the material can be new, and even if you are a seasoned developer and have years of Drupal experience you might now know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of believes on what "right" is.
+Experience shows that you already are or very soon will be confused. A lot of the material can be new, and even if you are a seasoned developer and have years of Drupal experience you might not know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of believes on what "right" is.
 
 ## Take Breaks
 
-Don't be confused by our time boxing system. I you got a task at 12:30 and it was time boxed for two hours, it doesn't mean you need to work until 14:30. No, go have your lunch or a break - as you would normally do.
+Don't be confused by our time boxing system. If you got a task at 12:30 and it was time boxed for two hours, it doesn't mean you need to work until 14:30. No, go have your lunch or a break - as you would normally do.
 
 Then, we you come back, start measuring the time. You are in charge of managing your own time. The time-boxing is just a mechanism to set the expectations and put boundaries on the task.
 
