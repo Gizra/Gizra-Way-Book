@@ -1,73 +1,19 @@
-# On Boarding - Week 1
+# On Boarding
 
-## General - all employees
+Hi there newbie, welcome to Gizra. Hate the word newbie? Meh, don't feel bad about it.
+Not only we were newbies our self, part of "The Gizra Way" is always exploring new places where we are
+ourself still newbies. In other words, we probably know how you feel.
 
-| Task | Time | Deliverable |
-| -- | -- |
-| About Gizra | 2 | |
-| GitHub training | 1 | Open issues on tasks |
-| How to do code review | 1 | |
-| Building budget | 4 | Google docs sheet |
-| Solving problems | 2 |  |
-| Contributions | 1 |  |
+In this coming week you will get a bunch of different tasks you will need to accomplish. Here are some of
+the guide lines behind those tasks:
 
-## Developers
+* We want to get your comfortable with "The Gizra Way". Even if you still don't fully get what it is, you are in fact already experiencing it.
+* We want to get you a bit uncomfortable. Challenged with tasks you are not sure how to solve in the given timebox. It will force you to reach out and learn when, who and how to ask questions.
+* We want to give you a feeling of the many different elements that compile into a project.
+We will not go deep due to time constraints, and since we think that first steps should give you a broader
+view of the operation rather than diving in deep.
 
-| Task | Time | Deliverable |
-| -- | -- |
-| Jekyll | 2 | Setup repository |
-| Flex | 1 | Complete [game](http://flexboxfroggy.com/) |
-| PSD to HTML | 4 | Using BEM, overlay images and browserStack screenshots |
-| Behat tests | 3 | Write an assertion for the homepage |
-| Travis | 2 | Setup Travis and add Travis build icon to README |
-| Drupal intro | 1 | Install Drupal locally |
-| Page element intro | 1 | Create repo and open issues |
-| Content types | 1 | Page element content type |
-| Views | 1 | Page element view |
-| Panels | 1 | Homepage |
-| Panels variants | 1 | Homepage variants |
-| Features | 2 | Export to code and add to repository |
-| Community site intro | 1 | Create repo and open issues |
-| Installation profile | 2 | Scaffold site with Yo hedley |
-| Organic groups | 2 | Create School content and Article content |
-| Organic groups access | 1 | Make Schoold public/ private |
-| Message | 3 | Create activity stream |
-| Message Notify | 2 | Send emails |
-| Message subscribe | 2 | Send emails to subscribed users |
-| Panelize the homepage | 2 | Group info, recent articles, activity stream |
-| CTools plugnis | 4 | Custom plugin articles list with pager |
-| Theme intro | 1.5 | Add base theme |
-| Theme overrides | 3 | Article teaser view mode |
-| No css in Drupal | 1 | |
-| Migrate | 3 | Migrate schools and articles |
-| Behat test | 2 | Verify access |
-| RESTful | 3 | Create RESTful plugin |
-| Elm intro | 3 | Scaffold repo |
-| Simple Elm App | 3 | Show Schools list |
+## Confusion & Leap of Faith
 
-##Team Lead
-
-## General - Sales and Account Managers
-
-| Task | Time | Deliverable |
-| -- | -- |
-| CRM | 1 |  |
-| Gizra Presentation | 4 | Record existing presentation |
-| New presentation slides | 4 |  Google docs presentation
-| Original presentation | 4 |  Record new presentation
-
-## Sales
-
-| Task | Time | Deliverable |
-| -- | -- |
-| Gathering leads | 2 | Adding leads to the CRM |
-| Email templates | 3 | Write emails |
-| Call scripts | 3 | Live call |
-| Cold calls | 1 | Document calls in CRM |
-
-## Account manager
-
-| Task | Time | Deliverable |
-| -- | -- |
-| Growth Plan | 4 | Plan for existing account |
-|  |  | |
+Experience shows that you already are or very soon will feel confused. A lot of the material can be new,
+and even if you are a seasoned developer and have years of Drupal experience you might now know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is precieved as "the right way", simply because we have a different set of believes on what "right" is.
