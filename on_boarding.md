@@ -20,7 +20,8 @@ Don't be confused by our time boxing system. If you got a task at 12:30 and it w
 
 Then, we you come back, start measuring the time. You are in charge of managing your own time. The time-boxing is just a mechanism to set the expectations and put boundaries on the task.
 
-Furthermore, don't feel obliged to come first, and leave last. As part of the Gizra-Way we recognize that a productive day is a 8-9 hours. You are actually under a bigger pressure, as you have to learn so many new stuff. So be kind to yourself, to your brain, and to Gizra - and don't try to over do. There's always tomorrow to learn new skills and improve.
+Furthermore, don't feel obliged to come first, and leave last. As part of the Gizra Way we recognize that a productive day is a 8-9 hours work day. 
+You are under a bigger pressure, as you have to learn so many new stuff. Be kind to yourself, to your brain, and to Gizra - and don't try to over do. There's always tomorrow to learn new skills and improve.
 
 ## What's Next
 
