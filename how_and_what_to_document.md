@@ -10,7 +10,7 @@ As a privileged user, start by [editing](https://www.gitbook.com/book/amitaibu/t
 
 ![](images/gitbook/image1.jpg)
 
-Create a new branch, you will work on a side branch, which will not immediately be reflected in the official book. This allows you to go wild with your edits, without the fear of breaking the live site.
+Create a new branch that will work as a side branch that will not immediately be reflected in the official book. This allows you to go wild with your edits, without the fear of breaking the live site.
 
 ![](images/gitbook/image2.jpg)
 
