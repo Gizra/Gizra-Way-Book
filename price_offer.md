@@ -1,7 +1,7 @@
 # Price offer
 
-[Template](http://bit.ly/price-offer-template)
-[Webinar](http://www.gizra.com/content/gizra-way-webinar-budget-goggles/)
+* [Price offer Template](http://bit.ly/price-offer-template)
+* [Webinar](http://www.gizra.com/content/gizra-way-webinar-budget-goggles/)
 
 ## Migration estimation
 
@@ -20,7 +20,7 @@ much value to split it to the field level, we are taking a formula approach.
 
 Examples:
 
-1. A `{content}` table with title, body and reference to an existing `{tags}` table
+A `{content}` table with title, body and reference to an existing `{tags}` table
 
 | Item | Number of items | Total hours |
 | -- | -- | -- |
@@ -29,9 +29,9 @@ Examples:
 | Reference field (`tags_reference`) | 1 |  5 |
 | Testing | 1 |  5 |
 
-Total: 13.5 hours
+**Total: 13.5 hours**
 
-2. A `{posts_spanish}` and `{posts_english}` table with title, body.
+A `{posts_spanish}` and `{posts_english}` table with title, body.
 
 | Item | Number of items | Total hours |
 | -- | -- | -- |
@@ -40,7 +40,7 @@ Total: 13.5 hours
 | Another table with data in another language  | 1 | 10 |
 | Testing | 1 |  5 |
 
-Total: 18 hours
+**Total: 18 hours**
 
 ### Pre-processing data
 
