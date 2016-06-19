@@ -6,7 +6,7 @@
 ## Migration estimation
 
 As migration is a bigger task, which is hard to split into smaller tasks, nor is there
-much value to split it to the field level, we are taking a formula approach.
+much value to split it to the field level, we are taking a formula approach:
 
 
 | Item  | Hours |
@@ -18,7 +18,7 @@ much value to split it to the field level, we are taking a formula approach.
 | Table with content in mixed languages  | 5 |
 | Testing  | 5 |
 
-Examples:
+### Examples
 
 A `{content}` table with title, body and reference to an existing `{tags}` table
 
