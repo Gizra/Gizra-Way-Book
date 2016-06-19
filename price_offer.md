@@ -45,6 +45,6 @@ A `{posts_spanish}` and `{posts_english}` table with title, body.
 ### Pre-processing data
 
 There are cases that for example the body field may hold internal links or media
-that needs to be attached. Often times some massaging is needs, however we don't have a specific formula for this
+that needs to be retained . Often times some massaging is needs. However we currently don't have a specific formula for this
 as it's a custom that may differ from site to site. It is important to be aware of
 this, and add it to the estimation.
