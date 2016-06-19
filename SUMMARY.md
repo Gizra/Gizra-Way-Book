@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Training and Development](training_&_development.md)
-   * [On Boarding Plan - Week 1](on_boarding.md)
+* [On Boarding](on_boarding.md)
+   * [Agenda](on_boarding_agenda.md)
 * [GitHub](issue-queue.md)
    * [Pull Requests](pull_requests.md)
 * [Sales Process and Resources](sales_process_and_resources.md)
