@@ -1,8 +1,7 @@
 # On Boarding
 
 Hi there newbie, welcome to Gizra. Hate the word newbie? Meh, don't feel bad about it.
-Not only we were newbies our self, part of "The Gizra Way" is always exploring new places where we are
-ourself still newbies. In other words, we probably know how you feel.
+Not only we were newbies our self, but part of "The Gizra Way" is always exploring new places where we are still newbies. In other words, we probably know how you feel.
 
 In this coming week you will get a bunch of different tasks you will need to accomplish. Here are some of
 the guide lines behind those tasks:
