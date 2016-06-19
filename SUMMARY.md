@@ -17,3 +17,6 @@
 * [Fly or Fight (Dealing with pressure)](fly_or_fight_dealing_with_pressure.md)
    * [Work life balance](work_life_balance.md)
    * [Thinking of quitting](thinking_of_quitting.md)
+* [How and What to Document](how_and_what_to_document.md)
+   * How to Contribute to GitBook
+
