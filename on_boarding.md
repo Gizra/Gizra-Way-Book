@@ -25,9 +25,9 @@ You are under a bigger pressure, as you have to learn so many new stuff. Be kind
 
 ## What's Next
 
-When the on boarding week finishes you will still have much more to learn. However, you got a taste of how projects are being done in Gizra.
-You learned that we are not afraid at throwing you into the deep water, but on the same time we keep any eye to see you are not drowning. In fact, you might have occasionally drowned in the on boarding process. There's a value for that to, as we hope it encouraged you to reach out for help (if you didn't or we missed, please let us know - as we want to improve our process).
+When the on-boarding week finishes you will still have much more to learn. However, you got a taste of how projects are being done in Gizra.
+You learned that we are not afraid at throwing you into the deep water, but on the same time we keep any eye to see you are not drowning. In fact, you might have occasionally drowned. There's a value for that to, as we hope it encouraged you to reach out for help (if you didn't or we missed, please let us know - as we want to improve our process).
 
-Training isn't done. It's just changing a phase, so instead of having imaginary tasks, you will not be added to one of the existing teams, on an existing project.
+Training isn't done, it's just changing a phase. Instead of having imaginary tasks, you will not be added to one of the existing teams, on an existing project.
 
 
