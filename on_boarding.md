@@ -8,7 +8,7 @@ In this coming week you will get a bunch of different tasks you will need to acc
 the guide lines behind those tasks:
 
 * We want to get your comfortable with "The Gizra Way". Even if you still don't fully get what it is, you are in fact already experiencing it.
-* We want to get you a bit uncomfortable. Challenged with tasks you are not sure how to solve in the given timebox. It will force you to reach out and learn when, who and how to ask questions.
+* We want to get you a bit uncomfortable. You are challenged with tasks you are not sure how to solve in the given timebox. It will force you to reach out and learn when, who and how to ask questions.
 * We want to give you a feeling of the many different elements that compile into a project.
 We will not go deep due to time constraints, and since we think that first steps should give you a broader
 view of the operation rather than diving in deep.
