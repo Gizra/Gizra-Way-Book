@@ -1,6 +1,6 @@
 # GitBook & GitHub Workflow
 
-The following chappter assumes you are working with GitBook UI. As a developer you may feel comfortable working with your text editor and command line. Both ways are fine, as long as the end results will be a GitHub pull request.
+The following chapter assumes you are working with GitBook UI. As a developer you may feel comfortable working with your text editor and command line. Both ways are fine, as long as the end results will be a GitHub pull request.
 
 GitBook's repository is being automatically synced to GitHub, so you may change it in one of them, and it is guaranteed to be reflected in the other.
 
@@ -10,7 +10,7 @@ As a privileged user, start by [editing](https://www.gitbook.com/book/amitaibu/t
 
 ![](images/gitbook/image1.jpg)
 
-Create a new branch the have your work on a side branch, which will not be reflected immediately on the officail book. This allows you to go wild with your edits, without the fear of breaking the live site.
+Create a new branch, you will work on a side branch, which will not immediately be reflected on the official book. This allows you to go wild with your edits, without the fear of breaking the live site.
 
 ![](images/gitbook/image2.jpg)
 
