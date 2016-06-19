@@ -16,4 +16,4 @@ view of the operation rather than diving in deep.
 ## Confusion & Leap of Faith
 
 Experience shows that you already are or very soon will feel confused. A lot of the material can be new,
-and even if you are a seasoned developer and have years of Drupal experience you might now know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is precieved as "the right way", simply because we have a different set of believes on what "right" is.
+and even if you are a seasoned developer and have years of Drupal experience you might now know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of believes on what "right" is.
