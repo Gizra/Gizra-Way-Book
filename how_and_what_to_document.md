@@ -6,8 +6,6 @@ GitBook's repository is automatically synced to GitHub, so you may make changes 
 
 As a privileged user, start by [editing](https://www.gitbook.com/book/amitaibu/the-gizra-way/details) the book
 
-
-
 ![](images/gitbook/image1.jpg)
 
 Create a new branch that will work as a side branch that will not immediately be reflected in the official book. This allows you to go wild with your edits, without the fear of breaking the live site.
