@@ -2,7 +2,7 @@
 
 The following chapter assumes you are working with GitBook UI. As a developer you may feel comfortable working with your text editor and command line. Both ways are fine, as long as the end results will be a GitHub pull request.
 
-GitBook's repository is being automatically synced to GitHub, so you may change it in one of them, and it is guaranteed to be reflected in the other.
+GitBook's repository is automatically synced to GitHub, so you may make changes on either of them, and it is guaranteed to be reflected in the other.
 
 As a privileged user, start by [editing](https://www.gitbook.com/book/amitaibu/the-gizra-way/details) the book
 
@@ -10,7 +10,7 @@ As a privileged user, start by [editing](https://www.gitbook.com/book/amitaibu/t
 
 ![](images/gitbook/image1.jpg)
 
-Create a new branch, you will work on a side branch, which will not immediately be reflected on the official book. This allows you to go wild with your edits, without the fear of breaking the live site.
+Create a new branch, you will work on a side branch, which will not immediately be reflected in the official book. This allows you to go wild with your edits, without the fear of breaking the live site.
 
 ![](images/gitbook/image2.jpg)
 
@@ -28,5 +28,5 @@ On GitHub, open a [Pull Request](http://www.thegizraway.com/pull_requests.html),
 
 ![](images/gitbook/image6.jpg)
 
-Once the review is done, and all comments have been addressed, the PR may be merged into the `master` branch, will automatically cause the official book to be updated. It may take a minute or two for the [site](http://www.thegizraway.com/) to show the new content.
+Once the review is done, and all comments have been addressed, the PR may be merged into the `master` branch which will automatically update the official book. It may take a minute or two for the [site](http://www.thegizraway.com/) to show the new content.
 ![](images/gitbook/image7.jpg)
