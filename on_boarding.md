@@ -6,22 +6,22 @@ Meh, don't feel bad about it. We were all once newbies, and part of "The Gizra W
 In this coming week you will get a bunch of different tasks to complete. Here are some of the guidelines behind the tasks:
 
 * We want to get your comfortable with "The Gizra Way". Even if you still don't fully get what it is, you are in fact already experiencing it.
-* We want you outside your comfort zone. You will be challenged with tasks you may not be sure how to solve in the given timebox. It will force you to reach out and learn when, who and how to ask questions.
+* We want you outside your comfort zone. You will be challenged with tasks you may not be sure how to solve in the given time-box. It will force you to reach out and learn when, who and how to ask questions.
 * We want to give you an overall feeling of the many different elements that comprise a project. We will not delve deep due to time constraints, and because we think that the first steps should be to give you a broad
 view of our operation rather than detailed.
 
 ## Confusion & Leap of Faith
 
-Experience shows that you already are or very soon will be confused. A lot of the material may be new, and even if you are a seasoned developer and have years of Drupal experience you still may not know some of the stuff. It's OK, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of beliefs on what "right" is.
+Experience shows that you already are or very soon will be confused. A lot of the material may be new to you, and even if you are a seasoned developer and have years of Drupal experience you still may not know some of the stuff. It's OK, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of beliefs on what "right" is.
 
 ## Take Breaks
 
-Don't be confused by our time boxing system. If you have a task at 12:30 and it was time boxed for two hours, it doesn't mean you need to work until 14:30. No, go have your lunch or a break - as you would normally do.
+Don't get confused by our time boxing system. If you have a task at 12:30 and it was time-boxed for two hours, it doesn't mean you need to work until 14:30. No, go have your lunch or a break - as you would normally do.
 
 Then, when you come back, start measuring the time. You are in charge of managing your own time. The time-boxing is just a mechanism to set the expectations and put boundaries on the task.
 
-Furthermore, don't feel obliged to come first, and leave last. As part of the Gizra Way we recognize that a productive day is an 8-9 hour work day. 
-You are already under a lot of pressure, as you have so many new stuff to learn. Be kind to yourself, to your brain, and to Gizra - and don't try to overdo it. There's always tomorrow to learn new skills and improve.
+Furthermore, don't feel obliged to come first into the office, or leave last. As part of the Gizra Way we recognize that a productive day is an 8-9 hour work day. 
+You are already under a lot of pressure, as you have so many new stuff to learn. Be kind to yourself, to your brain, and to Gizra - and don't overdo it. There's always tomorrow to learn new skills and improve.
 
 ## What's Next
 
