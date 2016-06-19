@@ -11,7 +11,7 @@
        * [Sales Pitches](sales_pitches.md)
        * [e-mail templates](e-mail_templates.md)
        * [Phone Call](phone_call.md)
-
+   * [Price offer](price_offer.md)
 * [HR](hr.md)
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
