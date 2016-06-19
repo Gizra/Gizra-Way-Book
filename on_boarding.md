@@ -1,7 +1,7 @@
 # On Boarding
 
 Hi there newbie, welcome to Gizra! Hate the word newbie? 
-Meh, don't feel bad about it. Not only we were newbies our self, but part of "The Gizra Way" is always exploring new places where we are still newbies. In other words, we probably know how you feel.
+Meh, don't feel bad about it. Not only were we newbies our self, but part of "The Gizra Way" is always exploring new places where we are *still* newbies. In other words, we probably know how you feel.
 
 In this coming week you will get a bunch of different tasks you will need to accomplish. Here are some of the guide lines behind those tasks:
 
@@ -12,8 +12,7 @@ view of our operation rather than dive in deep.
 
 ## Confusion & Leap of Faith
 
-Experience shows that you already are or very soon will feel confused. A lot of the material can be new,
-and even if you are a seasoned developer and have years of Drupal experience you might now know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of believes on what "right" is.
+Experience shows that you already are or very soon will be confused. A lot of the material can be new, and even if you are a seasoned developer and have years of Drupal experience you might now know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of believes on what "right" is.
 
 ## Take Breaks
 
