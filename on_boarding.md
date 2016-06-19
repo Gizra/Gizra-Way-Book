@@ -8,12 +8,20 @@ In this coming week you will get a bunch of different tasks you will need to acc
 * We want to get your comfortable with "The Gizra Way". Even if you still don't fully get what it is, you are in fact already experiencing it.
 * We want to get you a bit uncomfortable. You are challenged with tasks you are not sure how to solve in the given timebox. It will force you to reach out and learn when, who and how to ask questions.
 * We want to give you a feeling of the many different elements that compile into a project. We will not go deep due to time constraints, and since we think that first steps should give you a broader
-view of the operation rather than diving in deep.
+view of our operation rather than dive in deep.
 
 ## Confusion & Leap of Faith
 
 Experience shows that you already are or very soon will feel confused. A lot of the material can be new,
 and even if you are a seasoned developer and have years of Drupal experience you might now know some of the stuff. It's ok, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of believes on what "right" is.
+
+## Take Breaks
+
+Don't be confused by our time boxing system. I you got a task at 12:30 and it was time boxed for two hours, it doesn't mean you need to work until 14:30. No, go have your lunch or a break - as you would normally do.
+
+Then, we you come back, start measuring the time. You are in charge of managing your own time - the timeboxing is just a mechanism to set the expectations and put boundaries on the task.
+
+Furthermore, don't feel obliged to come first, and leave last. As part of the Gizra-Way we recognize that a productive day is a 8-9 hours. You are actually under a bigger pressure, as you have to learn so many new stuff. So be kind to yourself, to your brain, and to Gizra - and don't try to over do. There's always tomorrow to learn new skills and improve.
 
 ## What's Next
 
