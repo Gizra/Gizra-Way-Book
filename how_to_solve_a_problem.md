@@ -4,7 +4,7 @@ Mastering problem solving will get you far. There are some techniques to do it, 
 
 A dev who encounters a nasty bug; An account manager working on a price estimation; A sales person trying to reach more leads. These are all big problems, which probably have solutions.
 
-As we will refer to "problem" as "bug" this chapter might seem as relevant only for developer. However the mind set applies to all the roles in the company.
+As we will refer to "problem" as "bug" this chapter might seem as relevant only for developer. However the methods and mind set applies to all the roles in the company.
 
 ## Finding the cause
 
