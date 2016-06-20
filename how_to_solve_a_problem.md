@@ -30,7 +30,7 @@ Solution: Check if it is even invoked. Again, no need to have very delicate debu
 Problem: Something that used to work stopped working
 Solution: You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things.
 
-As you can see the gist of the examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem.
+As you can see the gist of the examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem's cause - there is one specific lines that causes the havoc.
 
 The next question you need to ask yourself, is did it change anything?
 If yes, you know you are in the right area, keep zooming in.
