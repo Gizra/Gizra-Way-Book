@@ -72,7 +72,7 @@ After 10 days of what we can imagine a very unhappy client, and on the last day 
 
 The escalation was simple, an email to the lead developers stating that the client has a problem for the last 10 days and that they are starting to become impatient.
 
-Two hours later the lead developers found the cause, and the issue was solved on production.
+Two hours later the lead developers found the cause, and the issue was solved in the production site.
 
 ---
 
