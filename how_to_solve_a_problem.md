@@ -18,7 +18,7 @@ Assumptions are good but need to be taken with a pinch of salt. You shouldn't di
 The first step for diving into a bug is not using a scalpel, but rather a D9. This means that the first steps don't require slow and tedious examniation of lots of code, but rather big and radical changes. Examples:
 
 **Problem**: You think a bug is a result of some module. You are not sure exactly which line
-**Solution**: Completely delete the file
+**Solution**: Completely delete the file, and confirm there was indeed a change
 
 **Problem**: You are not sure if a wrong output of the screen is the result of wrong code in the theme.
 
