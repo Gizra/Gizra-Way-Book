@@ -68,7 +68,7 @@ In terms of priority, a bug or some service interruption in production site need
 Here's a real example we had in the past:
 
 In a production site of a client some emails have stopped being sent. That is, some emails were sent, and others were not.
-The lead developer has started doing some debugging and sent questions to the client, suspecting they have did some configuration change they had access to.
+The lead developer has started doing some debugging and sent questions to the client, suspecting they have done some configuration change they had access to.
 The client has confirmed no config change has been done from their side. It was communicated via GitHub's issue queue.
 The developer has re-started their effort in finding the cause. No communication has been done with the client, so now, not only did their site not work correctly, but they also thought we were not having their back.
 The developer was responsible also for another project, so the issue was not getting their full attention.
