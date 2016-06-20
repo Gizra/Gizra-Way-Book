@@ -84,7 +84,7 @@ Two hours later the lead developers found the cause, and the issue was solved on
 
 ---
 
-Let us analyze the above horror story, and try to read between the lines. The fact it need to be escalated quicker is probably trivial by now, but there is more. Lets assume there was such a serious bug we had to re-write a substantial chunk of the system. If the client is kept in the dark, they have a feeling it should be solved in no time. However if we would have explained them the problem, and in terms of setting expectation told them it would take 10-12 days, then they would not be disappointed every day that passed.
+Let us analyze the above horror story, and try to read between the lines. The fact that it should have escalated quicker is probably trivial by now, but there is more. Lets assume there was such a serious bug we had to re-write a substantial chunk of the system. If the client is kept in the dark, they have a feeling it should be solved in no time. However if we would have explained them the problem, and in terms of setting expectation told them it would take 10-12 days, then they would not be disappointed every single day that passed.
 
 That probably one of the big takeaways from this story. The fact it took 10 days, is bad given the fact we were able to solve it within 2 hours once more experienced developers stepped in. But what is bad, is that the client was not aware of the time table, and what is worse is that the effort that have been done were not communicated. So from their perspective, if they don't hear anything from us, they assumed we didn't do any work.
 
