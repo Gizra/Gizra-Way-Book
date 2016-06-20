@@ -28,7 +28,7 @@ The first step for diving into a bug is not using a scalpel, but rather a D9. Th
 
 **Solution**: Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead trace the places the code is being called and figure out if is called as you assume.
 
-**Problem**: Something that used to work stopped working
+**Problem**: Something that used to work stopped working.
 
 **Solution**: You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things.
 
