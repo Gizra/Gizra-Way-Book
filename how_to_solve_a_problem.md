@@ -53,7 +53,7 @@ To emphasize, a work around is a valid solution, but it's kept as the last resor
 ## Taking responsibility
 
 Digging into a problem might reveal unexpected stuff. A bug lurking in the shadows might reveal itself as you dive in.
-Don't be distracted by it, as our brain can't process two problems at once, however don't disregard it. It is expected that you open an issue, giving some context so you or others may pick up the problem and solve it.
+Don't be distracted by it, as our brain can't process two problems at once, however don't disregard it. It is expected that you open an issue on GitHub, for you or others to pick up the problem and solve it.
 
 However the term "taking responsibility" refers to owning the code or piece of work that was done, even though it might have been done by others. Nothing is carved in stone, and past developers have not necessarily been smarter than you or aware of this problem.
 A system is a leaving thing, that may change. You don't need to work around stuff, you can go ahead and fix the problem. A classic example is CSS code, which becomes bloated very quickly. Don't keep adding new classes, if with a slight more effort you may find yourself changing existing classes or even completely removing them.
