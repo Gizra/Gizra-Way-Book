@@ -30,7 +30,7 @@ The first step for diving into a bug is not using a scalpel, but rather a D9. Th
 
 **Problem**: Something that used to work stopped working.
 
-**Solution**: You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things.
+**Solution**: You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things, and then you'll have a smaller diff to investigate.
 
 As you can see the gist of the examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem's cause - there is one specific lines that causes the havoc.
 
