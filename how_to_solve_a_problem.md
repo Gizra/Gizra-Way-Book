@@ -14,18 +14,29 @@ Understanding the cause of the bug is the first step and the most important one,
 It's better to reflect on the term "the cause". Are you sure the cause you are seeing is the "root cause"?
 Systems are always convoluted, and miss identification of the real cause, will cause the bug to appear in different places.
 
+Assumptions are good but need to be taken with a pinch of salt. You shouldn't dive in too deeply just based on your assumption, without verifying it. For example, don't waste time on debugging a certain module before you have asserted that it's indeed the one to blame.
+
 The first step for diving into a system for finding a bug is not using a scalpel, but rather a D9. This means that the first steps don't require slow and tedious debugging of every line of code, but rather big and radical changes. Examples:
 
 Problem: You think a bug is a result of some module. You are not sure exactly which line
 Solution: Completely delete the file
 
-
 Problem: You are not sure if a wrong output of the screen is the result of wrong code in the theme
 Solution: Change the theme to under one, thus completely remove all the theme's code from the equation.
+
+Problem: Your new shiny code doesn't work
+Solution: Check if it is even invoked. Again, no need to have very delicate debugging. Instead trace the places the code is being called and figure out if is indeed called
+
+Problem: Something that used to work stopped working
+Solution: You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things.
+
+As you can see the gist of the examples is work out really fast in getting into right area and from there starting pin pointing the problem.
 
 The next question you need to ask yourself, is did it change anything?
 If yes, you know you are in the right area, keep zooming in.
 If not, you know you are barking at the wrong tree. Use your D9 to squash other parts.
+
+![Caterpillar D9](images/solving_problem/image.jpg)
 
 ### Time boxing
 
@@ -38,8 +49,6 @@ The way to decide when to move to a work around solution, is the time boxing. If
 In any case, as always, be sure to reach out to other team members to see if they have a similar experience or a different suggestion.
 
 To emphasize, a work around is a valid solution, but it's kept as the last one. Having a work around is adding a lot of technical debt to the system. Meaning, you have solved a problem, but most likely created new future ones, so be careful with this solution.
-
-![Caterpillar D9](images/solving_problem/image.jpg)
 
 ## Taking responsibility
 
