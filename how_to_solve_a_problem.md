@@ -78,6 +78,7 @@ The escalation was simple, an email to lead developers stating the client has a 
 
 Two hours later the lead developers found the cause, and the issue was solved on production.
 
+---
 
 Let us analyze the above horror story, and try to read between the lines. The fact it need to be escalated quicker is probably trivial by now, but there is more. Lets assume there was such a serious bug we had to re-write a substantial chunk of the system. If the client is kept in the dark, they have a feeling it should be solved in no time. However if we would have explained them the problem, and in terms of setting expectation told them it would take 10-12 days, then they would not be disappointed every day that passed.
 
