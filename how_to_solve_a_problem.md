@@ -17,20 +17,12 @@ Assumptions are good but need to be taken with a pinch of salt. You shouldn't di
 
 The first step for diving into a bug is not using a scalpel, but rather a D9. This means that the first steps don't require slow and tedious examniation of lots of code, but rather big and radical changes. Examples:
 
-**Problem**: You think a bug is a result of some module. You are not sure exactly which line.
-**Solution**: Completely delete the file, and confirm there was indeed a change.
-
-**Problem**: You are not sure if a wrong output of the screen is the result of wrong code in the theme.
-
-**Solution**: Change the theme to another one, thus completely remove the theme from the equation.
-
-**Problem**: Your new shiny code doesn't work.
-
-**Solution**: Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead trace the places the code is being called and figure out if is called as you assume.
-
-**Problem**: Something that used to work stopped working.
-
-**Solution**: You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things, and then you'll have a smaller diff to investigate.
+| Problem | Solution |
+| -- | -- |
+| You think a bug is a result of some module. You are not sure exactly which line | Completely delete the file, and confirm there was indeed a change |
+| You are not sure if a wrong output of the screen is the result of wrong code in the theme. |  Change the theme to another one, thus completely remove the theme from the equation.|
+| Your new shiny code doesn't work. |  Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead trace the places the code is being called and figure out if is called as you assume. |
+| Something that used to work stopped working. | You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things, and then you'll have a smaller diff to investigate. |
 
 As you can see the gist of the examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem's cause - there is always *one specific line* that causes the havoc.
 
