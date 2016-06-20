@@ -36,7 +36,7 @@ The next question you need to ask yourself, is did it change anything?
 If yes, you know you are in the right area, keep zooming in.
 If not, you know you are barking at the wrong tree. Use your D9 to squash other parts.
 
-![Caterpillar D9](images/solving_problem/image.jpg)
+![Caterpillar D9](images/solving_problem/image1.jpg)
 
 ### Time boxing
 
