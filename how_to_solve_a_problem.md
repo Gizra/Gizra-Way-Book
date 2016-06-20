@@ -8,7 +8,7 @@ As we will refer to "problem" as "bug" this chapter might seem as relevant only 
 
 ## Finding the cause
 
-Understanding the cause of the bug is the first step and the most important one. Only in very rare cases where a serious bug happens in production and we want to first patch the bug with some quick fix, we will start by "solving" the problem. But we'll always circle back at finding the cause.
+Understanding the cause of the bug is the first step and the most important one. Only in very rare cases where a serious bug happens in production and we want to first patch the bug with some quick fix, we will start by working around the problem. But we'll always circle back at finding the cause.
 
 It's better to reflect on the term "the cause". Are you sure the cause you are seeing is the "root cause"?
 Systems are always convoluted, and miss identification of the real cause, will cause the bug to appear in different places.
