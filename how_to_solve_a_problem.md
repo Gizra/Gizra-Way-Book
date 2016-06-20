@@ -76,7 +76,7 @@ The developer has re-started their effort in finding the cause. No communication
 
 The developer was responsible also for another project, so the issue was not getting their full attention.
 Only after their CEO called after a few days to confirm someone was working on it, did the developer go back to checking the issue. Unfortunelty, once again it was hanging without update from our side.
-After 10 days of, and on the last day of the week just before the weekend, was the issue properly escalated by the developer.
+After 10 days of what we can imagine unhappy client, and on the last day of the week just before the weekend, was the issue properly escalated by the developer.
 
 The escalation was simple, an email to lead developers stating the client has a problem for the last 10 days and they are starting to become impatient.
 
