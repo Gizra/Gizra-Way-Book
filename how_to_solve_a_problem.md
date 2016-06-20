@@ -22,7 +22,7 @@ The first step for diving into a bug is not using a scalpel, but rather a D9. Th
 
 **Problem**: You are not sure if a wrong output of the screen is the result of wrong code in the theme.
 
-**Solution**: Change the theme to under one, thus completely remove all the theme's code from the equation.
+**Solution**: Change the theme to another one, thus completely remove all the theme's code from the equation.
 
 **Problem**: Your new shiny code doesn't work
 
