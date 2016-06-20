@@ -15,7 +15,7 @@ Systems are always convoluted, and miss-identification of the real cause, will r
 
 Assumptions are good but need to be taken with a pinch of salt. You shouldn't dive in too deeply just based on your assumption without verifying every step. For example, don't waste time on debugging line by line a certain module before you have asserted that it's indeed the one to blame.
 
-The first step for diving into a bug is not using a scalpel, but rather a D9. This means that the first steps don't require slow and tedious debugging of every line of code, but rather big and radical changes. Examples:
+The first step for diving into a bug is not using a scalpel, but rather a D9. This means that the first steps don't require slow and tedious examniation of lots of code, but rather big and radical changes. Examples:
 
 Problem: You think a bug is a result of some module. You are not sure exactly which line
 Solution: Completely delete the file
