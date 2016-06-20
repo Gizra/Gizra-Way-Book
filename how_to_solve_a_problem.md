@@ -57,7 +57,7 @@ Don't be distracted by it, as our brain can't process two problems at once, howe
 
 However the term "taking responsibility" refers to owning the code or piece of work that was done, even though it might have been done by others. Nothing is carved in stone, and past developers have not necessarily been smarter than you or aware of this problem.
 
-A system is a living thing, that changes over time. You don't need to work around stuff, you can go ahead and fix the problem. A classic example is CSS code, which becomes bloated very quickly. Don't keep adding new classes, if with a slight more effort you may find yourself changing existing classes or even completely removing them.
+A system is a living thing, that changes over time. You don't need to work around stuff, you can go ahead and fix the problem. A classic example is CSS code, which becomes bloated very quickly. Don't keep adding new classes, if with a slight more effort you can change existing classes or even completely remove them, thus reducing the CSS complexity.
 
 ## Escalation
 
