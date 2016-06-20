@@ -24,7 +24,7 @@ The first step for diving into a bug is not using a scalpel, but rather a D9. Th
 | Your new shiny code doesn't work |  Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead trace the places the code is being called and figure out if is called as you assume |
 | Something that used to work stopped working | You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things, and then you'll have a smaller diff to investigate |
 
-As you can see the gist of the examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem's cause - there is always *one specific line* that causes the havoc.
+As you can see the gist of the above examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem's cause - there is always *one specific line* that causes the havoc.
 
 After each of those above solutions we asked ourself, did it change anything?
 If yes, we knew we were in the right area, and kept zooming in.
