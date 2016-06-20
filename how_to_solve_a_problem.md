@@ -26,7 +26,7 @@ The first step for diving into a bug is not using a scalpel, but rather a D9. Th
 
 **Problem**: Your new shiny code doesn't work.
 
-**Solution**: Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead trace the places the code is being called and figure out if is called as you assume
+**Solution**: Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead trace the places the code is being called and figure out if is called as you assume.
 
 **Problem**: Something that used to work stopped working
 
