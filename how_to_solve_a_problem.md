@@ -42,8 +42,7 @@ If not, we knew we were barking at the wrong tree. We kept using our D9 go over 
 
 ### Time boxing
 
-Like any task you must be disciplined and time box your efforts. Sometimes to _root cause_ can be buried
-very deep inside a legacy very complex system. For example, trying to find the root cause of Drupal's from API
+Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy very complex system. For example, trying to find the root cause of Drupal's from API
 can be very challenging. There are times it's needed, but there are cases a work around would be easier.
 
 The way to decide when to move to a work around solution, is the time boxing. If you are about to exceed the time allocated, it might be time to also investigate what are the work around options.
