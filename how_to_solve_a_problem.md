@@ -1,4 +1,4 @@
-# How to Solve a Problem
+ # How to Solve a Problem
 
 Mastering problem solving will get you far. There are some techniques to do it, and it's important to be aware of the fact your day is mostly composed of problems that need to be solved.
 
@@ -42,10 +42,9 @@ If not, we knew we were barking at the wrong tree. We kept using our D9 go over 
 
 ### Time boxing
 
-Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy very complex system. For example, trying to find the root cause of Drupal's from API
-can be very challenging. There are times it's needed, but there are cases a work around would be easier.
+Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy or a complex system. For example, trying to find the root cause of Drupal's from API can be very challenging. There are times it's needed, but there are cases a work around would be easier.
 
-The way to decide when to move to a work around solution, is the time boxing. If you are about to exceed the time allocated, it might be time to also investigate what are the work around options.
+The way to decide when to move and develop a work around solution, is the time boxing. If you are about to exceed the time allocated, it might be time to also investigate what are the work around options.
 
 In any case, as always, be sure to reach out to other team members to see if they have a similar experience or a different suggestion.
 
