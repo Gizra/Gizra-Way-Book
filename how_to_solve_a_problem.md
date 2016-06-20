@@ -88,6 +88,11 @@ Let us analyze the above horror story, and try to read between the lines. The fa
 
 That is probably one of the big takeaways from this story. The fact it took 10 days, is of course bad given the fact we were able to solve it within 2 hours once more experienced developers stepped in. But what is really bad, is that the client was not aware of the time table, and what is even worse is that the effort that have been done were not communicated. So from their perspective, if they didn't hear anything from us, they assumed we didn't do any work.
 
-Notice for example how when a lead developer stepped in, 4 different updates in the issue queue were done in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows something is on it, and some progress is being achieved.
+Notice for example how when a lead developer stepped in, four different updates in the issue queue were done in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows something is on it, and some progress is being achieved.
 
 ![Constantly updating all the stakeholders](images/solving_problem/image2.jpg)
+
+The effect of such a case, are obviously having an un-happy client, which will not be so patient the next time should something happen. Being able to avoid those pitfalls is very important.
+It doesn't mean that from now on, every single issue should be pushed up to the managment or lead develoeprs, but rather being able to understand that there is always a client, and according to the situation they have high expectations form us and we try to do our best to deliver.
+
+Note that it's probably worth mentioning that doing a mistake is fine. Usually no problem there. However having the same mistake twice is really sloppy, and we should strive to avoid it.
