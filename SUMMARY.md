@@ -5,7 +5,7 @@
    * [Agenda](on_boarding_agenda.md)
 * [GitHub](issue-queue.md)
    * [Pull Requests](pull_requests.md)
-* [Sales Process and Resources](sales_process_and_resources.md)
+* [Sales](sales_process_and_resources.md)
    * [Resource: Project Summaries](project_summaries.md)
    * [Approach](approach.md)
        * [Sales Pitches](sales_pitches.md)
