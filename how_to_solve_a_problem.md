@@ -1,76 +1,76 @@
  # How to Solve a Problem
 
-Mastering problem solving will get you far. There are some techniques to do it, and it's important to be aware of the fact your day is mostly composed of problems that need to be solved.
+Mastering problem solving will get you far. There are some techniques to accomplish this, and it's important to be aware of the fact that your day is mostly composed of problems that need to be solved.
 
-A dev who encounters a nasty bug; An account manager working on a price estimation; A sales person trying to reach more leads. These are all big problems, which probably have solutions.
+A dev who encounters a nasty bug; an account manager working on a price estimation; a salesperson trying to reach more leads. These are all big problems, which probably have solutions.
 
-As we will refer to "problem" as "bug" this chapter might seem as relevant only for developer. However the methods and mind set applies to all the roles in the company.
+As we will refer to "problem" as "bug" this chapter may seem only relevant for a developer. However, the methods and mindset applies to all the roles in the company.
 
 ## Finding the cause
 
-Understanding the cause of the bug is the first step and the most important one. Only in very rare cases where a serious bug happens in production and we want to first patch the bug with some quick fix, we will start by working around the problem. But we'll always circle back at finding the cause.
+Understanding the cause of the bug is the first step and the most important one. Only in very rare cases where a serious bug happens in production, we want to first patch the bug with a quick fix, working around the problem, before circling back to find the cause.
 
-It's better to reflect on the term "the cause". Are you sure the cause you are seeing is the "root cause"?
-Systems are always convoluted, and miss-identification of the real cause, will result with the bug simply appearing in different places.
+Let's take a moment to reflect on the term "the cause." Are you sure the cause you have identified is the "root cause"?
+Systems are always convoluted, and miss-identification of the real cause, will result with the bug simply appearing at different places.
 
-Assumptions are good but need to be taken with a pinch of salt. You shouldn't dive in too deeply just based on your assumption without verifying every step. For example, don't waste time on debugging line by line a certain module before you have asserted that it's indeed the one to blame.
+Assumptions are good but need to be taken with a grain of salt. You shouldn't dive in too deeply based on an assumption without verifying every step. For example, don't waste time on debugging line by line a certain module before you have asserted that it's indeed the one to blame.
 
-The first step for diving into a bug is not using a scalpel, but rather a D9. This means that the first steps don't require slow and tedious examniation of lots of code, but rather big and radical changes. Examples:
+The first step for diving into a bug is not using a scalpel, but rather a D9. This means that the first steps will not require slow and tedious examination of a lot of code, but rather big and radical changes. Examples: 
 
 | Problem | Solution |
 | -- | -- |
-| You think a bug is a result of some module. You are not sure exactly which line | Completely delete the file, and confirm there was indeed a change |
-| You are not sure if a wrong output of the screen is the result of wrong code in the theme |  Change the theme to another one, thus completely remove the theme from the equation|
-| Your new shiny code doesn't work |  Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead trace the places the code is being called and figure out if is called as you assume |
-| Something that used to work stopped working | You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things, and then you'll have a smaller diff to investigate |
+| You think a bug is a result of some module. You are not sure exactly which line. | Completely delete the file, and confirm there was indeed a change. |
+| You are not sure if a wrong output of the screen is the result of wrong code in the theme. |  Change the theme to another one, thus completely removing the theme from the equation.|
+| Your new shiny code doesn't work. |  Check if it is even invoked. Again, no need to have a very delicate debugging session. Instead, trace the places the code is being called and figure out if is called as you assume. |
+| Something that used to work stopped working. | You are in luck, because you can try and find the working instance (e.g. go back in Git's history). If you are able to find a working example, the next step is to pin point the exact time in history (i.e. the git commit) that broke things, and then you'll have a smaller diff to investigate. |
 
-As you can see the gist of the above examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem's cause - there is always *one specific line* that causes the havoc.
+The gist of the above examples is to figure out as quickly as possible the right area of the bug. From there start pin pointing the bug's cause - there is always *one specific line* that causes the havoc.
 
-After each of those above solutions we asked ourself, did it change anything?
-If yes, we knew we were in the right area, and kept zooming in.
-If not, we knew we were barking at the wrong tree. We kept using our D9 go over other parts of the code until we saw a change.
+In summary: After each of those above solutions we asked ourself, did it change anything?
+If yes, we know we are in the right area, and we keep zooming in.
+If not, we know we were barking up the wrong tree. We keep using our D9 to go over other parts of the code until we see a change.
 
 ![Caterpillar D9](images/solving_problem/image1.jpg)
 
 ### Time boxing
 
-Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy or a complex system. For example, trying to find the root cause of Drupal's from API can be very challenging. There are times it's needed, but there are cases a work around would be easier.
+Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy or a complex system. For example, trying to find the root cause in Drupal's API can be very challenging. There are times it's needed, but there are cases a work around would be easier.
 
-The way to decide when to move and develop a work around solution, is the time boxing. If you are about to exceed the time allocated, it might be time to also investigate what are the work around options.
+The way to decide when to move and develop a work around solution, is with time boxing. If you are about to exceed the time allocated, it may be time to also investigate what are the work around options.
 
 In any case, as always, be sure to reach out to other team members to see if they have a similar experience or a good suggestion.
 
-To emphasize, a work around is a valid solution, but it's kept as the last resort. Having a work around in place often adds a technical debt to the system. Meaning, you have solved a problem, but most likely created new future ones, so be careful with this solution.
+To emphasize, a work around is a valid solution, but it's kept as a last resort. Having a workaround in place often adds a technical debt to the system. Meaning, you have solved a problem, but most likely created new future ones, so be careful with this solution.
 
 ## Taking responsibility
 
-Digging into a problem might reveal unexpected stuff. A bug lurking in the shadows might reveal itself as you dive in.
-Don't be distracted by it, as our brain can't process two problems at once, however don't disregard it. It is expected that you open an issue on GitHub, for you or others to pick up later on.
+Digging into a problem might reveal unexpected stuff, maybe a bug lurking in the shadows.
+Don't be distracted by it, as our brain can't process two problems at once, however don't disregard it. You are expected to open an issue in GitHub, for you or others to address it later on.
 
-However the term "taking responsibility" refers to owning the code or piece of work that was done, even though it might have been done by others. Nothing is carved in stone, and past developers have not necessarily been smarter than you or aware of this problem.
+The term "taking responsibility" refers to owning the code or a piece of work that was done, even if it was authored by others. Nothing is carved in stone, and past developers have not necessarily been smarter than you.
 
-A system is a living thing, that changes over time. You don't need to work around stuff, you can go ahead and fix the problem. A classic example is CSS code, which becomes bloated very quickly. Don't keep adding new classes, if with a slight more effort you can change existing classes or even completely remove them, thus reducing the CSS complexity.
+A system is a living thing, that changes over time. You don't need to work around other's code, you can go ahead and fix the problem. A classic example is CSS code, which becomes bloated very quickly. Don't keep adding new classes, if with a slight more effort you can change existing classes or even completely remove them, thus reducing the CSS complexity, then do it!
 
 ## Escalation
 
-You are not alone in the never ending battle field of bugs and problems. Furthermore, there is always a client  that needs to be updated.
+You are not alone in the never-ending battle of bugs and problems. And most importantly, there is always a client that needs to be updated.
 
-In terms of priority, a bug or some service interruption in production site needs to be addressed quickly. We don't mean the a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
+In terms of priority, a bug or some service interruption in a production site needs to be addressed quickly. We don't mean that a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
 
 Here's a real example we had in the past:
 
-In a production site of a client some emails have stopped being sent. That is, some emails were sent, and others were not.
+In a production site of a client some emails stopped being sent. That is, some emails were sent, while  others not.
 
-The lead developer has started doing some debugging and sent questions to the client, suspecting they have done some configuration changes.
-The client has confirmed no config change has been done from their side. It was communicated via GitHub's issue queue.
+The lead developer started doing some debugging and sent questions to the client, suspecting they have done some configuration changes.
+The client confirmed no config change had been done from their side. It was communicated via GitHub's issue queue.
 
-The developer has re-started their effort in finding the cause. No communication has been done with the client, so now, not only did their site not work correctly, but they also thought we were not having their back.
+The developer re-started efforts in finding the cause but did not communicate this to the client. From the client's perspective, not only did their site not work correctly, but they were under the impression that their issue was not being addressed. 
 
-The developer was responsible also for another project, so the issue was not getting their full attention.
-Only after their CEO called after a few days to confirm someone was working on it, did the developer go back to checking the issue. Unfortunelty, once again it was hanging without update from our side.
-After 10 days of what we can imagine unhappy client, and on the last day of the week just before the weekend, was the issue properly escalated by the developer.
+The developer was also responsible for another project, so the issue did not get the full attention it deserved.
+A few days later and after the client's CEO called to confirm someone was working on it, did the developer go back to checking the issue. However, again did not send any updates to the client.
+After 10 days of what we can imagine a very unhappy client, and on the last day of the work week, the issue was finally properly escalated by the developer.
 
-The escalation was simple, an email to the lead developers stating the client has a problem for the last 10 days and they are starting to become impatient.
+The escalation was simple, an email to the lead developers stating that the client has a problem for the last 10 days and that they are starting to become impatient.
 
 Two hours later the lead developers found the cause, and the issue was solved on production.
 
