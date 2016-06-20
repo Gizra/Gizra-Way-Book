@@ -24,7 +24,20 @@ Problem: You are not sure if a wrong output of the screen is the result of wrong
 Solution: Change the theme to under one, thus completely remove all the theme's code from the equation.
 
 The next question you need to ask yourself, is did it change anything?
-If yes, you know you are in the right file. If not, you know you are barking at the wrong tree.
+If yes, you know you are in the right area, keep zooming in.
+If not, you know you are barking at the wrong tree. Use your D9 to squash other parts.
+
+### Time boxing
+
+Like any task you must be disciplined and time box your efforts. Sometimes to _root cause_ can be buried
+very deep inside a legacy very complex system. For example, trying to find the root cause of Drupal's from API
+can be very challenging. There are times it's needed, but there are cases a work around would be easier.
+
+The way to decide when to move to a work around solution, is the time boxing. If you are about to exceed the time allocated, it might be time to also investigate what are the work around options.
+
+In any case, as always, be sure to reach out to other team members to see if they have a similar experience or a different suggestion.
+
+To emphasize, a work around is a valid solution, but it's kept as the last one. Having a work around is adding a lot of technical debt to the system. Meaning, you have solved a problem, but most likely created new future ones, so be careful with this solution.
 
 ![Caterpillar D9](images/solving_problem/image.jpg)
 
