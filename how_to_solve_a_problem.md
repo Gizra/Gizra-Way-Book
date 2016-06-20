@@ -35,7 +35,7 @@ The first step for diving into a bug is not using a scalpel, but rather a D9. Th
 As you can see the gist of the examples is to work out as quickly as possible in getting into right area. From there start pin pointing the problem's cause - there is always *one specific line* that causes the havoc.
 
 After each of those above solutions we asked ourself, did it change anything?
-If yes, you know you are in the right area, keep zooming in.
+If yes, we knew we are in the right area, and kept zooming in.
 If not, you know you are barking at the wrong tree. Use your D9 to squash other parts.
 
 ![Caterpillar D9](images/solving_problem/image1.jpg)
