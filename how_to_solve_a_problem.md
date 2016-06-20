@@ -83,4 +83,6 @@ Let us analyze the above horror story, and try to read between the lines. The fa
 
 That probably one of the big takeaways from this story. The fact it took 10 days, is bad given the fact we were able to solve it within 2 hours once more experienced developers stepped in. But what is bad, is that the client was not aware of the time table, and what is worse is that the effort that have been done were not communicated. So from their perspective, if they don't hear anything from us, they assumed we didn't do any work.
 
-Notice for example how when the lead developer stepped in, 4 different updates in the issue queue were done in the span of two hours. Even though it's very techincal talk, it provides internally some context, and to the client it shows something is on it, and some progress is being achieved.
+Notice for example how when the lead developer stepped in, 4 different updates in the issue queue were done in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows something is on it, and some progress is being achieved.
+
+![Constantly updating all the stakeholders](images/solving_problem/image2.jpg)
