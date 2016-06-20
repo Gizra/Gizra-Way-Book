@@ -46,7 +46,7 @@ Like any task you must be disciplined and time box your efforts. Sometimes the _
 
 The way to decide when to move and develop a work around solution, is the time boxing. If you are about to exceed the time allocated, it might be time to also investigate what are the work around options.
 
-In any case, as always, be sure to reach out to other team members to see if they have a similar experience or a different suggestion.
+In any case, as always, be sure to reach out to other team members to see if they have a similar experience or a good suggestion.
 
 To emphasize, a work around is a valid solution, but it's kept as the last one. Having a work around is adding a lot of technical debt to the system. Meaning, you have solved a problem, but most likely created new future ones, so be careful with this solution.
 
