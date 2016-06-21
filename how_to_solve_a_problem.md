@@ -57,7 +57,7 @@ A system is a living thing, that changes over time. You don't need to work aroun
 
 You are not alone in the never-ending battle of bugs and problems. There is also always a client that needs to be updated.
 
-In terms of priority, a bug or some service interruption in a production site needs to be addressed quickly. It does not necessarily mean that a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
+In terms of priority, a bug or some service interruption in a production site needs to be addressed quickly, and be dealt with before other stuff. It does not necessarily mean that a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
 
 Escalation should happen every time you are about to hit the limit of the time boxed task. If you see you won't be able to accomplish it on time, go ahead and reach out to the team lead, the project owner or even the management in severe cases, so they are aware of the situation and can act accordingly.
 
@@ -65,7 +65,7 @@ Here's a real case we had in the past:
 
 In the production site of a client some emails stopped being sent. That is, some emails were sent, while  others not.
 
-The lead developer started doing some debugging and sent questions to the client, suspecting that they had done some configuration changes.
+The developer started doing some debugging and sent questions to the client, suspecting that they had done some configuration changes.
 The client confirmed no config change had been done from their side. It was communicated via the GitHub's issue queue.
 
 The developer re-started efforts to find the cause but did not communicate this to the client. From the client's perspective, not only did their site not work correctly, but they were under the impression that their issue was not being addressed. 
