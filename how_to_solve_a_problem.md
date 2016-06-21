@@ -57,17 +57,17 @@ You are not alone in the never-ending battle of bugs and problems. And most impo
 
 In terms of priority, a bug or some service interruption in a production site needs to be addressed quickly. We don't mean that a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
 
-Here's a real example we had in the past:
+Here's a real use case we had in the past:
 
 In a production site of a client some emails stopped being sent. That is, some emails were sent, while  others not.
 
-The lead developer started doing some debugging and sent questions to the client, suspecting they have done some configuration changes.
-The client confirmed no config change had been done from their side. It was communicated via GitHub's issue queue.
+The lead developer started doing some debugging and sent questions to the client, suspecting they had done some configuration changes.
+The client confirmed no config change had been done from their side. It was communicated via the GitHub's issue queue.
 
-The developer re-started efforts in finding the cause but did not communicate this to the client. From the client's perspective, not only did their site not work correctly, but they were under the impression that their issue was not being addressed. 
+The developer re-started efforts to find the cause but did not communicate this to the client. From the client's perspective, not only did their site not work correctly, but they were under the impression that their issue was not being addressed. 
 
 The developer was also responsible for another project, so the issue did not get the full attention it deserved.
-A few days later and after the client's CEO called to confirm someone was working on it, did the developer go back to checking the issue. However, again did not send any updates to the client.
+A few days later and after the client's CEO called to confirm someone was working on it, the developer gave it some attention. However, again did not send any updates to the client.
 After 10 days of what we can imagine a very unhappy client, and on the last day of the work week, the issue was finally properly escalated by the developer.
 
 The escalation was simple, an email to the lead developers stating that the client has a problem for the last 10 days and that they are starting to become impatient.
@@ -76,15 +76,15 @@ Two hours later the lead developers found the cause, and the issue was solved in
 
 ---
 
-Let us analyze the above incident. The fact that it should have escalated quicker is probably trivial by now, but there is another point to be made. Lets assume it was a serious bug that required re-writing a substantial chunk of the system. If the client is kept in the dark, they will assume that the issue should be solved in no time. However if we would explain to them the problem, and set their expectation to 10-12 days, then they would not be disappointed every single day that passed.
+Let us analyze the above incident. The fact that it should have been escalated sooner, based on the above time boxing guidelines, is probably trivial by now, but there is another point to be made. Lets assume it was a serious bug that required re-writing a substantial chunk of the system. If the client is kept in the dark, they will assume that the issue will be resolved at any moment. However if we  explain to them the problem, and set their expectation to 10-12 days, then they would not be disappointed every single day that passed.
 
-That is one of the big takeaways from this story. The 10 days to find a solution is of course bad, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is really bad, is that the client was not aware of the time table, and what is even worse is that the effort that have been done were not communicated. So from their perspective, if they didn't hear anything from us, they assumed we didn't do any work.
+That is one of the big takeaways from this story. The 10 days to find a solution is of course detrimental, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is troubling, is that the client was not aware of the time table, and our efforts were not communicated. So from their perspective, as long as they did not hear from us and the problem was not yet solved, they could only assumed we were not working on it. 
 
-Notice for example how when a lead developer stepped in, four different updates in the issue queue were done in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows something is on it, and some progress is being achieved.
+Notice for example that when a lead developer stepped in, four different updates in the issue queue were done in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows someone is on it.
 
 ![Constantly updating all the stakeholders](images/solving_problem/image2.jpg)
 
-The effect of such a case, are obviously having an un-happy client, which will not be so patient the next time should something happen. Being able to avoid those pitfalls is very important.
-It doesn't mean that from now on, every single issue should be pushed up to the managment or lead develoeprs, but rather being able to understand that there is always a client, and according to the situation they have high expectations form us and we try to do our best to deliver.
+The ramifications of this case is an un-happy client that will not be patient the next time a system bug presents itself. This is a very important pitfull to avoid. 
+It doesn't mean that from now on, every single issue should be pushed up to the managment or lead develoeprs. Use time boxing as an indication to when to escalate. The lesson learned here is that we must always remember there is a client with high expectations from us and we must communicate and manage their expectations during the sensitive period of a system bug. We are doing our best to deliver and they need to know about it.  
 
-Note that it's probably worth mentioning that doing a mistake is fine. Usually no problem there. However having the same mistake twice is really sloppy, and we should strive to avoid it.
+**Note** - It's worth mentioning here that making a mistake is fine. As seen above, a mistake has spurred this use case for all of us to learn from. However, making the same mistake twice is sloppy, and we strive to avoid this.
