@@ -46,7 +46,7 @@ To emphasize, a workaround is a valid solution, but it's kept as a last resort. 
 
 ## Taking responsibility
 
-Digging into a problem might reveal unexpected stuff, maybe a bug lurking in the shadows.
+Digging into a problem might reveal unexpected stuff, like a bug lurking in the shadows.
 Don't be distracted by it, as our brain can't process two problems at once, however don't disregard it either. You are expected to open an issue in GitHub, for you or others to address later on.
 
 The term "taking responsibility" refers to owning the code or a piece of work, even if it was authored by others. Nothing's carved in stone, and past developers have not necessarily been smarter than you.
