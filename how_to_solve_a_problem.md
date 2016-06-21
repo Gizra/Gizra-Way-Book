@@ -91,4 +91,4 @@ Notice for example that when a lead developer stepped in, four different updates
 The ramifications of this case is an un-happy client, that will probably not be as patient the next time a system bug presents itself. This is a critical pitfall to avoid. 
 It doesn't mean that from now on, every single issue should be pushed up to the management or lead developers. Use time boxing as an indication to when to escalate. The lesson learned here is that we must always remember there is a client with high expectations and we must communicate and manage their expectations, especially during the sensitive period of a system bug. We are doing our best to deliver and they need to know about it.  
 
-**Note:**  It's worth mentioning here that making a mistake is fine. As seen above, a mistake has spurred this case study for all of us to learn from. However, making the same mistake twice is sloppy, and we strive to avoid this.
+Note it's worth mentioning here that making a mistake is fine. As seen above, a mistake has spurred this case study for all of us to learn from. However, making the same mistake twice is sloppy, and we strive to avoid this.
