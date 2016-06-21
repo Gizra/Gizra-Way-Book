@@ -57,6 +57,8 @@ You are not alone in the never-ending battle of bugs and problems. And most impo
 
 In terms of priority, a bug or some service interruption in a production site needs to be addressed quickly. We don't mean that a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
 
+Escalation should happen every time you are about to hit the limit of the time boxed task. If you see you won't be able to accomplish it on time, go ahead and reach out to the team lead, the project owner or event the managment in severe cases, so they are aware of the situation and can act accordingly.
+
 Here's a real use case we had in the past:
 
 In a production site of a client some emails stopped being sent. That is, some emails were sent, while  others not.
