@@ -14,6 +14,8 @@ view of our operation rather than detailed.
 
 Experience shows that you already are or very soon will be confused. A lot of the material may be new to you, and even if you are a seasoned developer and have years of Drupal experience you still may not know some of the stuff. It's OK, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of beliefs on what "right" is.
 
+Have faith in us, we have lots of experience with on boarding both complete newbies, as well as experienced people. We promise you will have time to dive deep into all those subjects we cover quickly.
+
 ## Take Breaks
 
 Don't get confused by our time boxing system. If you have a task at 12:30 and it was time-boxed for two hours, it doesn't mean you need to work until 14:30. No, go have your lunch or a break - as you would normally do.
