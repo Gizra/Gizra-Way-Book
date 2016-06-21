@@ -31,7 +31,9 @@ If not, we know we were barking up the wrong tree. We keep using our D9 to go ov
 The gist of the above examples is to figure out as quickly as possible the right area of the bug. From there start pin pointing the bug's cause - there is always *one specific line* that causes the havoc.
 
 ![Caterpillar D9](images/solving_problem/image1.jpg)
-_Caption: _
+
+*Caption: D9 going over your project looking for the right place to dig*
+
 ### Time boxing
 
 Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy or a complex system. For example, trying to find the root cause in Drupal's API can be very challenging. There are times it's needed, but there are cases a work around would be easier.
