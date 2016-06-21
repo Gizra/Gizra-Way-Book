@@ -4,14 +4,14 @@ Mastering problem solving will get you far. There are some techniques to accompl
 
 A dev who encounters a nasty bug; an account manager working on a price estimation; a salesperson trying to reach more leads. These are all big problems, which probably have solutions.
 
-As we will refer to "problem" as "bug" this chapter may seem only relevant for a developer. However, the methods and mindset applies to all the roles in the company.
+As we will refer to "problem" often as a "bug" this chapter may seem only relevant for a developer. However, the methods and mindset applies to all the roles in the company.
 
 ## Finding the cause
 
-Understanding the cause of the bug is the first step and the most important one. Only in very rare cases where a serious bug happens in production, we want to first patch the bug with a quick fix, working around the problem, before circling back to find the cause.
+Understanding the cause of the bug is the first step and the most important one. Only in very rare cases where a serious bug happens in production, would we want to first patch the bug with a quick fix, working around the problem, before circling back to find the cause.
 
 Let's take a moment to reflect on the term "the cause." Are you sure the cause you have identified is the "root cause"?
-Systems are always convoluted, and miss-identification of the real cause, will result with the bug simply appearing at different places.
+Systems are convoluted, and miss-identification of the real cause, will result with the bug simply appearing at different places.
 
 Assumptions are good but need to be taken with a grain of salt. You shouldn't dive in too deeply based on an assumption without verifying every step. For example, don't waste time on debugging line by line a certain module before you have asserted that it's indeed the one to blame.
 
@@ -38,16 +38,16 @@ Like any task you must be disciplined and time box your efforts. Sometimes the _
 
 The way to decide when to move and develop a work around solution, is with time boxing. If you are about to exceed the time allocated, it may be time to also investigate what are the work around options.
 
-In any case, as always, be sure to reach out to other team members to see if they have a similar experience or a good suggestion.
+In any case, as always, be sure to reach out to other team members to see if they had a similar experience or a good suggestion.
 
 To emphasize, a work around is a valid solution, but it's kept as a last resort. Having a workaround in place often adds a technical debt to the system. Meaning, you have solved a problem, but most likely created new future ones, so be careful with this solution.
 
 ## Taking responsibility
 
 Digging into a problem might reveal unexpected stuff, maybe a bug lurking in the shadows.
-Don't be distracted by it, as our brain can't process two problems at once, however don't disregard it. You are expected to open an issue in GitHub, for you or others to address it later on.
+Don't be distracted by it, as our brain can't process two problems at once, however don't disregard it either. You are expected to open an issue in GitHub, for you or others to address later on.
 
-The term "taking responsibility" refers to owning the code or a piece of work that was done, even if it was authored by others. Nothing is carved in stone, and past developers have not necessarily been smarter than you.
+The term "taking responsibility" refers to owning the code or a piece of work, even if it was authored by others. Nothing is carved in stone, and past developers have not necessarily been smarter than you.
 
 A system is a living thing, that changes over time. You don't need to work around other's code, you can go ahead and fix the problem. A classic example is CSS code, which becomes bloated very quickly. Don't keep adding new classes, if with a slight more effort you can change existing classes or even completely remove them, thus reducing the CSS complexity, then do it!
 
@@ -55,13 +55,13 @@ A system is a living thing, that changes over time. You don't need to work aroun
 
 You are not alone in the never-ending battle of bugs and problems. And most importantly, there is always a client that needs to be updated.
 
-In terms of priority, a bug or some service interruption in a production site needs to be addressed quickly. We don't mean that a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
+In terms of priority, a bug or some service interruption in a production site needs to be addressed quickly. It does not necessarly mean that a fix can be deployed quickly, but rather communicating with the client and updating them about the resolution and expected time is crucial.
 
 Escalation should happen every time you are about to hit the limit of the time boxed task. If you see you won't be able to accomplish it on time, go ahead and reach out to the team lead, the project owner or event the managment in severe cases, so they are aware of the situation and can act accordingly.
 
-Here's a real use case we had in the past:
+Here's a real case we had in the past:
 
-In a production site of a client some emails stopped being sent. That is, some emails were sent, while  others not.
+In the production site of a client some emails stopped being sent. That is, some emails were sent, while  others not.
 
 The lead developer started doing some debugging and sent questions to the client, suspecting they had done some configuration changes.
 The client confirmed no config change had been done from their side. It was communicated via the GitHub's issue queue.
@@ -80,13 +80,13 @@ Two hours later the lead developers found the cause, and the issue was solved in
 
 Let us analyze the above incident. The fact that it should have been escalated sooner, based on the above time boxing guidelines, is probably trivial by now, but there is another point to be made. Lets assume it was a serious bug that required re-writing a substantial chunk of the system. If the client is kept in the dark, they will assume that the issue will be resolved at any moment. However if we  explain to them the problem, and set their expectation to 10-12 days, then they would not be disappointed every single day that passed.
 
-That is one of the big takeaways from this story. The 10 days to find a solution is of course detrimental, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is troubling, is that the client was not aware of the time table, and our efforts were not communicated. So from their perspective, as long as they did not hear from us and the problem was not yet solved, they could only assumed we were not working on it. 
+That is one of the big takeaways from this case. The 10 days to find a solution is of course detrimental, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is troubling, is that the client was not aware of the time table, and our efforts were not communicated. So from their perspective, as long as they did not hear from us and the problem was not yet solved, they could only assumed we were not working on it. 
 
 Notice for example that when a lead developer stepped in, four different updates in the issue queue were done in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows someone is on it.
 
 ![Constantly updating all the stakeholders](images/solving_problem/image2.jpg)
 
-The ramifications of this case is an un-happy client that will not be patient the next time a system bug presents itself. This is a very important pitfull to avoid. 
+The ramifications of this case is an un-happy client that will probably not be as patient the next time a system bug presents itself. This is a critical pitfull to avoid. 
 It doesn't mean that from now on, every single issue should be pushed up to the managment or lead develoeprs. Use time boxing as an indication to when to escalate. The lesson learned here is that we must always remember there is a client with high expectations from us and we must communicate and manage their expectations during the sensitive period of a system bug. We are doing our best to deliver and they need to know about it.  
 
-**Note** - It's worth mentioning here that making a mistake is fine. As seen above, a mistake has spurred this use case for all of us to learn from. However, making the same mistake twice is sloppy, and we strive to avoid this.
+**Note** - It's worth mentioning here that making a mistake is fine. As seen above, a mistake has spurred this case study for all of us to learn from. However, making the same mistake twice is sloppy, and we strive to avoid this.
