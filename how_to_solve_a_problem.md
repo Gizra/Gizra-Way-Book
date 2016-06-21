@@ -66,7 +66,7 @@ Here's a real case we had in the past:
 In the production site of a client some emails stopped being sent. That is, some emails were sent, while  others not.
 
 The developer started doing some debugging and sent questions to the client, suspecting that they had done some configuration changes.
-The client confirmed no config change had been done from their side. It was communicated via the GitHub's issue queue.
+The client confirmed no config change had been done from their side. It was communicated via GitHub's issue queue.
 
 The developer re-started efforts to find the cause but did not communicate this to the client. From the client's perspective, not only did their site not work correctly, but they were under the impression that their issue was not being addressed. 
 
@@ -82,7 +82,7 @@ Two hours later the lead developers found the cause, and the issue was solved in
 
 Let us analyze the above incident. The fact that it should have been escalated sooner, based on the above time boxing guidelines, is probably trivial by now, but there is another point to be made. Let's assume it was a serious bug that required re-writing a substantial chunk of the system. If the client is kept in the dark, they will assume that the issue will be resolved at any moment. However if we  explain to them the problem, and set their expectation to 10-12 days, then they would not be disappointed every single day that passed.
 
-That is one of the big takeaways from this case. The 10 days to find a solution is of course detrimental, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is troubling, is that the client was not aware of the time table, and our efforts were not communicated. So from their perspective, as long as they did not hear from us and the problem was not yet solved, they could only assumed we were not working on it. 
+That is one of the big takeaways from this case. The 10 days to find a solution is of course detrimental, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is troubling, is that the client was not aware of the time table, and our efforts were not communicated. So from their perspective, as long as they did not hear from us and the problem was not yet solved, they could only assume we were not working on it. 
 
 Notice for example that when a lead developer stepped in, four different updates in the issue queue were entered in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows someone is on it.
 
