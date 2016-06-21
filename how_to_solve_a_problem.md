@@ -32,7 +32,7 @@ The gist of the above examples is to figure out as quickly as possible the right
 
 ![Caterpillar D9](images/solving_problem/image1.jpg)
 
-*Caption: D9 going over your project looking for the right place to dig*
+*Caption: D9 tractor going over your project looking for the right place to dig*
 
 ### Time boxing
 
