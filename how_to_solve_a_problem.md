@@ -15,7 +15,7 @@ Systems are convoluted, and miss-identification of the real cause, will result w
 
 Assumptions are good but need to be taken with a grain of salt. You shouldn't dive in too deeply based on an assumption without verifying every step. For example, don't waste time on debugging line by line a certain module before you have asserted that it's indeed the one to blame.
 
-The first step for diving into a bug is not using a scalpel, but rather a D9. This means that the first steps will not require slow and tedious examination of a lot of code, but rather big and radical changes. Examples: 
+The first step for diving into a bug is not using a scalpel, but rather a D9 tractor. This means that the first steps will not require slow and tedious examination of a lot of code, but rather big and radical changes. Examples: 
 
 | Problem | Solution |
 | -- | -- |
@@ -31,7 +31,7 @@ If not, we know we were barking up the wrong tree. We keep using our D9 to go ov
 The gist of the above examples is to figure out as quickly as possible the right area of the bug. From there start pin pointing the bug's cause - there is always *one specific line* that causes the havoc.
 
 ![Caterpillar D9](images/solving_problem/image1.jpg)
-
+_Caption: _
 ### Time boxing
 
 Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy or a complex system. For example, trying to find the root cause in Drupal's API can be very challenging. There are times it's needed, but there are cases a work around would be easier.
