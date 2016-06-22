@@ -15,7 +15,7 @@ Systems are convoluted, and miss-identification of the real cause, will result w
 
 Assumptions are good but need to be taken with a grain of salt. You shouldn't dive in too deeply based on an assumption without verifying every step. For example, don't waste time on debugging line by line a certain module before you have asserted that it's indeed the one to blame.
 
-The first step for diving into a bug is not using a scalpel, but rather a D9 tractor. This means that the first steps will not require slow and tedious examination of a lot of code, but rather big and radical changes. Examples: 
+The first step for diving into a bug is not using a scalpel, but rather a D9 tractor. This means that the first steps will not require slow and tedious examination of a lot of code, but rather big and radical changes. Examples:
 
 | Problem | Solution |
 | -- | -- |
@@ -44,6 +44,22 @@ In any case, as always, be sure to reach out to other team members to see if the
 
 To emphasize, a workaround is a valid solution, but it's kept as a last resort. Having a workaround in place often adds a technical debt to the system. Meaning, you have solved a problem, but most likely created new future ones, so be careful with this solution.
 
+### Taking breaks
+
+With the exception of some urgent bug on a production site, sometimes a complicated problem needs to be put down. That is, while still being inside the timeboxed range, you may decide to let things go.
+Visiting the toilet, having a drink or even having a good night sleep can be more valuable than sitting for hours in front of the computer fighting it. Find the balance between not giving up, and between letting go.
+More often than not we are able to solve a problem by not really thinking about it.
+
+### Multiple bugs
+
+The hardest problems to solve are the ones that are made out of multiple bugs. You can never know upfront if a bug is actually multiple bugs. Be disciplined with not jumping to conclusions and verify your assumptions.
+
+For example, if you expect to see some value on the screen, don't jump to conclusions that there is a problem with the view related code. Are you sure that value even exists? Verify it. Maybe the problem is in the data - it wasn't saved correctly. Go ahead and fix that.
+
+Then you see that even though the data exists after your fix it still doesn't appear. You might find that indeed there was some problem in the view related code.
+
+It's a good thing you started with fixing the first,data related, bug, as you were in fact hitting two completely separate bugs. Fixing the data made it easier for you to pin point where view problem was coming from.
+
 ## Taking responsibility
 
 Digging into a problem might reveal unexpected stuff, like a bug lurking in the shadows.
@@ -68,7 +84,7 @@ In the production site of a client some emails stopped being sent. That is, some
 The developer started doing some debugging and sent questions to the client, suspecting that they had done some configuration changes.
 The client confirmed no config change had been done from their side. It was communicated via GitHub's issue queue.
 
-The developer re-started efforts to find the cause but did not communicate this to the client. From the client's perspective, not only did their site not work correctly, but they were under the impression that their issue was not being addressed. 
+The developer re-started efforts to find the cause but did not communicate this to the client. From the client's perspective, not only did their site not work correctly, but they were under the impression that their issue was not being addressed.
 
 The developer was also responsible for another project, so the issue did not get the full attention it deserved.
 A few days later and after the client's CEO called to confirm someone was working on it, the developer gave it some attention. However, again did not send any updates to the client.
@@ -82,13 +98,13 @@ Two hours later the lead developers found the cause, and the issue was solved in
 
 Let us analyze the above incident. The fact that it should have been escalated sooner, based on the above time boxing guidelines, is probably trivial by now, but there is another point to be made. Let's assume it was a serious bug that required re-writing a substantial chunk of the system. If the client is kept in the dark, they will assume that the issue will be resolved at any moment. However if we  explain to them the problem, and set their expectation to 10-12 days, then they would not be disappointed every single day that passed.
 
-That is one of the big takeaways from this case. The 10 days to find a solution is of course detrimental, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is troubling, is that the client was not aware of the time table, and our efforts were not communicated. So from their perspective, as long as they did not hear from us and the problem was not yet solved, they could only assume we were not working on it. 
+That is one of the big takeaways from this case. The 10 days to find a solution is of course detrimental, especially given the fact that we were able to solve it within 2 hours once more experienced developers stepped in. But what is troubling, is that the client was not aware of the time table, and our efforts were not communicated. So from their perspective, as long as they did not hear from us and the problem was not yet solved, they could only assume we were not working on it.
 
 Notice for example that when a lead developer stepped in, four different updates in the issue queue were entered in the span of two hours. Even though it's very technical talk, it provides internally some context, and to the client it shows someone is on it.
 
 ![Constantly updating all the stakeholders](images/solving_problem/image2.jpg)
 
-The ramifications of this case is an un-happy client, that will probably not be as patient the next time a system bug presents itself. This is a critical pitfall to avoid. 
+The ramifications of this case is an un-happy client, that will probably not be as patient the next time a system bug presents itself. This is a critical pitfall to avoid.
 It doesn't mean that from now on, every single issue should be pushed up to the management or lead developers. Use time boxing as an indication to when to escalate. The lesson learned here is that we must always remember there is a client with high expectations and we must communicate and manage their expectations, especially during the sensitive period of a system bug. We are doing our best to deliver and they need to know about it.  
 
 Note it's worth mentioning here that making a mistake is fine. As seen above, a mistake has spurred this case study for all of us to learn from. However, making the same mistake twice is sloppy, and we strive to avoid this.
