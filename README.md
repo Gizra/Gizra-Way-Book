@@ -1,4 +1,4 @@
-**The Gizra Way Definitive Guide**
+# The Gizra Way Definitive Guide
 
 This book is the definitive guide to the Gizra Way, and it tries to encapsulate both the technical
 aspects along with the culture.
