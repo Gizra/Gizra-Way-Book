@@ -56,7 +56,7 @@ More often than not we are able to solve a problem by not really thinking about 
 
 The hardest problems to solve are the ones that are composed of multiple bugs. You can never know upfront if a bug is actually multiple bugs. Be disciplined with not jumping to conclusions and always *verify your assumptions*.
 
-For example, if you expect to see some value on the screen, don't jump to conclusions that there is a problem with the view related code. Are you sure that value even exists? Verify it. Maybe the problem is in the data - it wasn't saved correctly. Go ahead and fix that.
+For example, if you expect to see some value on the screen, don't jump to the conclusion that there is a problem with the view related code. Are you sure that the value you expect to see even exists? Verify it. Maybe the problem is in the data - it wasn't saved correctly. Go ahead and fix that.
 
 Then you see that even though the data exists after your fix it still doesn't appear. You might find that indeed there was some problem in the view related code.
 
