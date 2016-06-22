@@ -54,13 +54,13 @@ More often than not we are able to solve a problem by not really thinking about 
 
 ### Multiple bugs
 
-The hardest problems to solve are the ones that are composed of multiple bugs. You can never know upfront if a bug is actually multiple bugs. Be disciplined by not jumping to conclusions and always *verifing your assumptions*.
+The hardest problems to solve are the ones that are composed of multiple bugs. You can never know upfront if a bug is actually multiple bugs. Be disciplined by not jumping to conclusions and always *verifying your assumptions*.
 
 For example, if you expect to see some value on the screen, don't jump to the conclusion that there is a problem with the view related code. Are you sure that the value you expect to see even exists? Verify it by starting at the root. Maybe the problem is in the data - it wasn't saved correctly. Go ahead and fix that.
 
 Then you might see that even though the data exists after your fix, it still doesn't appear. Now you know that indeed there is also a problem in the view related code.
 
-It's a good thing you started with fixing the data related bug, as you were in fact hitting two completely separate bugs. Fixing the data made it easier for you to pin point where view problem was coming from.
+It's a good thing you started with fixing the data related bug, as you were in fact hitting two completely separate bugs. Fixing the data made it easier for you to pinpoint where the view problem was coming from.
 
 ## Taking responsibility
 
