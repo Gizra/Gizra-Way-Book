@@ -46,19 +46,19 @@ To emphasize, a workaround is a valid solution, but it's kept as a last resort. 
 
 ### Taking breaks
 
-With the exception of an urgent bug on a production site, sometimes a complicated problem needs to be put down. That is, while still being inside the timeboxed range, you may decide to let things go until the next day.
+With the exception of an urgent bug on a production site, sometimes a complicated problem needs to be set aside. That is, as long as you are within the timeboxed range, you may decide to let things go until the next day.
 
-Visiting the toilet, having a drink or even having a good night sleep can be more valuable than sitting for hours in front of the computer fighting it. Find the balance between not giving up, and between letting go.
+Taking a break for a drink or even a good night sleep can be  more valuable than sitting for hours in front of the computer fighting it. Find the balance between not giving up and temporarily letting go.
 
 More often than not we are able to solve a problem by not really thinking about it.
 
 ### Multiple bugs
 
-The hardest problems to solve are the ones that are composed of multiple bugs. You can never know upfront if a bug is actually multiple bugs. Be disciplined with not jumping to conclusions and always *verify your assumptions*.
+The hardest problems to solve are the ones that are composed of multiple bugs. You can never know upfront if a bug is actually multiple bugs. Be disciplined by not jumping to conclusions and always *verifing your assumptions*.
 
-For example, if you expect to see some value on the screen, don't jump to the conclusion that there is a problem with the view related code. Are you sure that the value you expect to see even exists? Verify it. Maybe the problem is in the data - it wasn't saved correctly. Go ahead and fix that.
+For example, if you expect to see some value on the screen, don't jump to the conclusion that there is a problem with the view related code. Are you sure that the value you expect to see even exists? Verify it by starting at the root. Maybe the problem is in the data - it wasn't saved correctly. Go ahead and fix that.
 
-Then you might see that even though the data exists after your fix, it still doesn't appear. Oh no, there is indeed also some problem in the view related code.
+Then you might see that even though the data exists after your fix, it still doesn't appear. Now you know that indeed there is also a problem in the view related code.
 
 It's a good thing you started with fixing the data related bug, as you were in fact hitting two completely separate bugs. Fixing the data made it easier for you to pin point where view problem was coming from.
 
