@@ -60,7 +60,7 @@ For example, if you expect to see some value on the screen, don't jump to the co
 
 Then you might see that even though the data exists after your fix, it still doesn't appear. Oh no, there is indeed also some problem in the view related code.
 
-It's a good thing you started with fixing the first,data related, bug, as you were in fact hitting two completely separate bugs. Fixing the data made it easier for you to pin point where view problem was coming from.
+It's a good thing you started with fixing the data related bug, as you were in fact hitting two completely separate bugs. Fixing the data made it easier for you to pin point where view problem was coming from.
 
 ## Taking responsibility
 
