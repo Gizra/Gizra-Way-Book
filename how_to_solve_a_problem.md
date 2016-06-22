@@ -58,7 +58,7 @@ The hardest problems to solve are the ones that are composed of multiple bugs. Y
 
 For example, if you expect to see some value on the screen, don't jump to the conclusion that there is a problem with the view related code. Are you sure that the value you expect to see even exists? Verify it. Maybe the problem is in the data - it wasn't saved correctly. Go ahead and fix that.
 
-Then you might see that even though the data exists after your fix, it still doesn't appear. Oh no, there is indeed some problem in the view related code.
+Then you might see that even though the data exists after your fix, it still doesn't appear. Oh no, there is indeed also some problem in the view related code.
 
 It's a good thing you started with fixing the first,data related, bug, as you were in fact hitting two completely separate bugs. Fixing the data made it easier for you to pin point where view problem was coming from.
 
