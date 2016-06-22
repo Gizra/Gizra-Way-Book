@@ -47,6 +47,7 @@ To emphasize, a workaround is a valid solution, but it's kept as a last resort. 
 ### Taking breaks
 
 With the exception of an urgent bug on a production site, sometimes a complicated problem needs to be put down. That is, while still being inside the timeboxed range, you may decide to let things go until the next day.
+
 Visiting the toilet, having a drink or even having a good night sleep can be more valuable than sitting for hours in front of the computer fighting it. Find the balance between not giving up, and between letting go.
 More often than not we are able to solve a problem by not really thinking about it.
 
