@@ -1,10 +1,8 @@
 **The Gizra Way Definitive Guide**
 
-*The Gizra Way* to write *The Gizra Way GitBook*. Some guidelines:
+This book is the definitive guide to the Gizra Way, and it tries to encapsulate both the technical
+aspects along with the culture.
 
-1. Document the **bottom line**. Include only processes that have been tested and work. Cut out fluff.
-2. **Iterate**. If this document is not a live document, its useless.
-3. For every standard provide a way, preferably automatic, to **monitor** it.
+The idea is that there is always a place for everyone to go and better understand the expectations from them and the processes that we have. For doing that we are document only processes that have been tested and work. We are trying our best to cut out fluff and give the bottom line.
 
-
-
+Even though this guide is public to the entire world, we are not afraid of exposing also unpleasant mistakes we had, or touch sensitive subjects. In a way that's also part of the Gizra Way. having this slight uncomfortable feeling. We found that we learn and improve way better and way faster once we are outside of our comfort zone, and share with others our experiences.

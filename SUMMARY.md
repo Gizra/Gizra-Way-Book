@@ -5,7 +5,7 @@
    * [Agenda](on_boarding_agenda.md)
 * [GitHub](issue-queue.md)
    * [Pull Requests](pull_requests.md)
-* [How to Solve a Problem](how_to_solve_a_problem.md) 
+* [How to Solve a Problem](how_to_solve_a_problem.md)
 * [Sales](sales_process_and_resources.md)
    * [Phone Call](phone_call.md)
    * [Price offer](price_offer.md)
@@ -16,3 +16,4 @@
    * [Work life balance](work_life_balance.md)
    * [Thinking of quitting](thinking_of_quitting.md)
 * [How and What to Document](how_and_what_to_document.md)
+  * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
