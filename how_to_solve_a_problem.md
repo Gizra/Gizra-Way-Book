@@ -36,7 +36,7 @@ The gist of the above examples is to figure out as quickly as possible the right
 
 ### Time boxing
 
-Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy or a complex system. For example, trying to find the root cause in Drupal's API can be very challenging. There are times it's needed, but there are cases a work around would be easier.
+Like any task you must be disciplined and time box your efforts. Sometimes the _root cause_ can be buried very deep inside a legacy or a complex system. For example, trying to find the root cause in Drupal's from API can be very challenging. There are times it's needed, but there are cases a work around would be easier.
 
 The way to decide when to move and develop a work around solution is with time boxing. If you are about to exceed the time allocated, it may be time to also investigate what are the workaround options.
 
