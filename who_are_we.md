@@ -53,11 +53,11 @@ We love doing projects that challenge us. This naturally led us to get really go
 
 **Complex Content Management Systems** Gizra was born from here. We joined the Drupal boat pretty early on and had the privilege to pioneered many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and it's because we love solving problems.
 
-**Lean Demonstration of a Product Idea** This can be a prototype, a Minimal Viable Product, or Proof of Concept. The challenge here is how to make the most of a limited budget and short iteration. Our budget driven approach gives us a great advantage here since we know how to define the project well and timebox it both on a project wide level (3-4 months, 1-3 developers) and at the individual task level.
+**Lean Demonstration of a Product Idea** This can be a prototype, a Minimal Viable Product, or Proof of Concept. The challenge here is how to make the most of a limited budget and short iteration. Our budget driven approach gives us a great advantage here since we know how to define the project well and time-box it both on a project wide level (3-4 months, 1-3 developers) and at the individual task level.
 
 Don't get me wrong, we do and enjoy projects that also sit in the middle of these two edges. Every project lets us practice and teaches us a little more about how we can do better.
 
 ###We dabble in:
-[Amitai to fill in about the technical systems we work with]
+Drupal is not the only open source tool in our toolbox. We are also creative users of and active participants in the communities for projects such as Symfony, AngularJS, Jekyll, and Elm. We tend to sit at the bleeding-edge of web technologies because that is where all the fun is.
 
 Source: ["Three Moves Every Startup Founder Must Make to Build a Brand That Matters"](http://firstround.com/review/three-moves-every-startup-founder-must-make-to-build-a-brand-that-matters/)
