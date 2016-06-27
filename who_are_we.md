@@ -13,7 +13,7 @@ It is summed up nicely under four sections of The Gizra Way. Let’s look at the
 
 **Open Communication**. We work hard to create a common language with our clients and to set expectations early on and this applies internally as well.  
 
-**Meticulous Execution**. This area is the core of how well we do things.  We implement tested processes to ensure the highest technical standards. For example, a complete deployment system is built into our projects, we use our own Gizra developed testing toolkit, and do pixel-perfect design implementation.
+**High Standards**. This is our core. We work at keeping high standards and it pays off because we have become experts clients turn to. For example, a complete deployment system is built into our projects, we use our own Gizra developed testing toolkit, and do pixel-perfect design implementation.
 
 **Investment in you and the community**. We can do better is about bettering ourselves and others as an organization and also as individuals.  You can become better by embracing our mentoring process that will usually keep you on your toes - being a little uncomfortable means you are stretching your bounds.  We also like seeing you want to contribute and encouraged you to do so to the open-source community on company time.
 
