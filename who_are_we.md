@@ -5,15 +5,15 @@ A couple of guys, with a pretty interesting perspective, joined forces, synergiz
 
 ###The Gizra Way:
 
-The Gizra story is about a way, an outlook, a philosophy that navigates all the aspects of a web development company. It is knowing and acting on the understanding that *we can do better.*
+The Gizra story is about a way, an outlook, a philosophy that navigates all the internal and external aspects of a web development company. It is knowing and acting on the understanding that *we can do better.*
 
 It is summed up nicely under four sections of The Gizra Way. Let’s look at them:
 
-**Transparency**.  Everything is out in the open, warts and all.  This may be new to you and may take some adjustment. We set the tone as early as our price estimations by basing them on a detailed breakdown of project tasks (small chunks of 12 hours or less) with an attached cost.  This extends into our projects where our clients have full access to Github. They see everything - including our internal communications. Even this guide is public. 
+**Transparency**.  Everything is out in the open, warts and all.  This may be new to you and may take some adjustment. We set the tone as early as our price estimations by basing them on a detailed breakdown of project tasks (small chunks of 12 hours or less) with an attached cost.  This extends into our projects where our clients have full access to Github. They see everything - including our internal communications. Even this book is public. 
 
 **Open Communication**. We work hard to create a common language with our clients and to set expectations early on and this applies internally as well.  
 
-**Meticulous Execution**. This area is the core of how well we do things.  We implement tested processes to ensure the highest technical standards. For example, a complete deployment and testing system is built into our projects, we use our own Gizra developed testing toolkit, and do pixel-perfect design implementation.
+**Meticulous Execution**. This area is the core of how well we do things.  We implement tested processes to ensure the highest technical standards. For example, a complete deployment system is built into our projects, we use our own Gizra developed testing toolkit, and do pixel-perfect design implementation.
 
 **Investment in you and the community**. We can do better is about bettering ourselves and others as an organization and also as individuals.  You can become better by embracing our mentoring process that will usually keep you on your toes - being a little uncomfortable means you are stretching your bounds.  We also like seeing you want to contribute and encouraged you to do so to the open-source community on company time.
 
@@ -21,7 +21,7 @@ Keep in mind and check yourself against these Gizra values. They will guide you 
 
 ###Our Purpose:
 
-A general problem we all face is the high failure rate of web projects due to bad project management. The projects don’t meet any one of the three criteria of success: being on time, in budget,happy users. 
+A general problem our industry faces is the high failure rate of web projects due to bad project management. The projects usually do not meet any one of the three criteria of success: being on time, in budget,happy users. 
 
 So, if we intersect the Gizra Way with what is going on outside, our purpose becomes clear:
 
@@ -37,7 +37,7 @@ Our purpose probably strikes a chord with anyone who is implementing an IT proje
 
 Gizra is a web solution provider
 
-**That** understands your needs and grows the project with you
+**That** understands their client's needs and grows the project with them
 
 **Unlike** most web development companies
 
@@ -49,9 +49,9 @@ Our unusual [About Story](http://www.gizra.com/content/the-about-story/) should 
 
 ###Our Core Strengths
 
-We love doing projects that challenge us. This naturally led us to get really good at the two edges of web projects:
+We love doing projects that challenge us. This naturally led us to get really good at the two edges of web development projects:
 
-**Complex Content Management Systems** Gizra was born from here. We joined the Drupal boat pretty early on and had the privilege to pioneered many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and we it's because we love solving problems.
+**Complex Content Management Systems** Gizra was born from here. We joined the Drupal boat pretty early on and had the privilege to pioneered many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and it's because we love solving problems.
 
 **Lean Demonstration of a Product Idea** This can be a prototype, a Minimal Viable Product, or Proof of Concept. The challenge here is how to make the most of a limited budget and short iteration. Our budget driven approach gives us a great advantage here since we know how to define the project well and timebox it both on a project wide level (3-4 months, 1-3 developers) and at the individual task level.
 
