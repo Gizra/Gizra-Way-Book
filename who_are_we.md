@@ -1,7 +1,7 @@
 # Who Are We
 ###The Amitai and Brice Story:
 
-A couple of guys, with a pretty interesting perspective, joined forces, synergized, made a lot of mistakes, learned and repeated.  They like the idea of open source, in fact they like the idea of open everything. After plenty of failures and pretty amazing success, these guys, with the help of this team, are still paving the way in the interesting world of web development.
+A couple of guys, with a pretty interesting perspective, joined forces, synergized, made a lot of mistakes, learned and moved forward.  They like the idea of open source, in fact they like the idea of open everything. After plenty of failures and pretty amazing success, these guys, with the help of this team, are still paving the way in the interesting world of web development.
 
 ###The Gizra Way:
 
@@ -29,9 +29,9 @@ So, if we intersect the Gizra Way with what is going on outside, our purpose bec
 
 ###Our Position
 
-Our purpose probably strikes a chord with anyone who has implementing an IT project of any kind.  We want to reach the clients that can appreciate that there needs to be a better way.  Hence, we believe our message best reaches seasoned executive who have seen enough web projects to get burned. They may have already resigned to the idea that that is how projects are run but know deep down that there has to be another way. Our target clients are most probably in medium sized organizations but really it's about any place a brave executive can successfully influence their organization to adopt a new, simple, and sometimes radical, way of doing things.
+Our purpose probably strikes a chord with anyone who has implemented an IT project of any kind.  We want to reach the clients that can appreciate that there needs to be a better way.  Hence, we believe our message best reaches seasoned executive who have seen enough web projects to get burned. They may have already resigned to the idea that that is how projects are run but know deep down that there has to be another way. Our target clients are medium to large organizations but really it's about any place a brave decision maker can successfully influence their organization to adopt a new, simple, and sometimes radical, way of doing things.
 
-**For** medium sized companies
+**For** medium to large organizations
 
 **Who** have settled for mediocrity
 
@@ -51,13 +51,13 @@ Our unusual [About Story](http://www.gizra.com/content/the-about-story/) should 
 
 We love doing projects that challenge us. This naturally led us to excel at the two edges of web development projects:
 
-**Complex Content Management Systems** Gizra was born from here. We joined the Drupal boat pretty early on and had the privilege to pioneered many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and it's because we love solving problems.
+**Complex Content Management Systems** Gizra was born from here. We joined the Drupal community pretty early on and had the privilege to pioneered many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and it's because we love solving problems.
 
 **Lean Demonstration of a Product Idea** This can be a prototype, a Minimal Viable Product, or Proof of Concept. The challenge here is how to make the most of a limited budget and short iteration. Our budget driven approach gives us a great advantage here since we know how to define the project well and time-box it both on a project wide level (3-4 months, 1-3 developers) and at the individual task level.
 
-Don't get it wrong, we do and enjoy projects that also sit in the middle of these two edges. Every project lets us practice and teaches us a little more about how we can do better.
+Don't get it wrong, we do and enjoy projects that also sit in the middle of these two edges. Every project lets us practice and teaches us a little more about how we can be better.
 
-###We dabble in:
-Drupal is not the only open source tool in our toolbox. We are also creative users of and active participants in the communities for projects such as Symfony, AngularJS, Jekyll, and Elm. We tend to sit at the bleeding-edge of web technologies because that is where all the fun is. We are always looking at better ways to do things.
+###Our Tools
+Drupal is not the only open source tool in our toolbox. We are also creative users of and active participants in the communities for projects such as Symfony, AngularJS, Jekyll, and Elm. We tend to sit at the bleeding-edge of web technologies because that is where all the fun is. We are always looking out for better ways to do things.
 
 Source: ["Three Moves Every Startup Founder Must Make to Build a Brand That Matters"](http://firstround.com/review/three-moves-every-startup-founder-must-make-to-build-a-brand-that-matters/)
