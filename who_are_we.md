@@ -58,6 +58,6 @@ We love doing projects that challenge us. This naturally led us to get really go
 Don't get me wrong, we do and enjoy projects that also sit in the middle of these two edges. Every project lets us practice and teaches us a little more about how we can do better.
 
 ###We dabble in:
-[Amitai to fill in about the technical systems we work in]
+[Amitai to fill in about the technical systems we work with]
 
 Source: ["Three Moves Every Startup Founder Must Make to Build a Brand That Matters"](http://firstround.com/review/three-moves-every-startup-founder-must-make-to-build-a-brand-that-matters/)
