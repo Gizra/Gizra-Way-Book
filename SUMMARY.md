@@ -6,10 +6,10 @@
 * [How to Solve a Problem](how_to_solve_a_problem.md)
 * [GitHub](issue-queue.md)
    * [Pull Requests](pull_requests.md)
-
 * [Sales](sales_process_and_resources.md)
    * [Phone Call](phone_call.md)
    * [Price offer](price_offer.md)
+   * Our Brand
 * [HR](hr.md)
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
@@ -17,3 +17,4 @@
    * [Work life balance](work_life_balance.md)
    * [Thinking of quitting](thinking_of_quitting.md)
 * [How and What to Document](how_and_what_to_document.md)
+
