@@ -9,7 +9,7 @@
 * [Sales](sales_process_and_resources.md)
    * [Phone Call](phone_call.md)
    * [Price offer](price_offer.md)
-   * Our Brand
+   * [Our Brand](our_brand.md)
 * [HR](hr.md)
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
