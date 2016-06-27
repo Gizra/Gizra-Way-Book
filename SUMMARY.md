@@ -17,3 +17,4 @@
    * [Work life balance](work_life_balance.md)
    * [Thinking of quitting](thinking_of_quitting.md)
 * [How and What to Document](how_and_what_to_document.md)
+* [How to be a Client](how_to_be_a_client.md)
