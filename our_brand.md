@@ -1,4 +1,5 @@
 # Our Brand
+How we take what is on the inside and present it outwards.  
 
 ###The Gizra Way:
 
@@ -26,7 +27,7 @@ So, if we intersect the Gizra Way with what is going on outside, our purpose bec
 
 ###Our Position
 
-Our position is revisited every year to make sure we are focusing on the right potential client groups - find the clients that [fit](http://www.gizra.com/fit/). Our purpose probably strikes a chord with anyone who has implemented an IT project of any kind.  We want to reach the clients that can appreciate that there needs to be a better way.  Hence, for now at least, we believe our message best reaches seasoned executive who have seen enough web projects to get burned. They may have already resigned to the idea that that is how projects are run but know deep down that there has to be another way. Our target clients are medium to large organizations but really it's about any place a brave decision maker can successfully influence their organization to adopt a new, simple, and sometimes radical, way of doing things.
+Our position is revisited every year to make sure we are focusing on the right potential client groups - that we find the clients that [fit](http://www.gizra.com/fit/). Our purpose probably strikes a chord with anyone who has implemented an IT project of any kind.  We want to reach the clients that can appreciate that there needs to be a better way.  Hence, for now at least, we believe our message best reaches seasoned executive who have seen enough web projects to get burned. They may have already resigned to the idea that this is how projects are run but know deep down that there has to be another way. Our target clients are medium to large organizations but really it's about any place a brave decision maker can successfully influence their organization to adopt a new, simple, and sometimes radical, way of doing things.
 
 **For** medium to large organizations
 
@@ -46,13 +47,13 @@ Our unusual [About Story](http://www.gizra.com/content/the-about-story/) should 
 
 ###Our Core Strengths
 
-We love doing projects that challenge us. This naturally led us to excel at the two edges of web development projects:
+We love doing projects that challenge us. This naturally led us to excel at the two edges of the spectrum of web development projects:
 
-**Complex Content Management Systems** Gizra was born from here. We joined the Drupal community pretty early on and had the privilege to pioneered many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and it's because we love solving problems.
+**Complex Content Management Systems** Gizra was born from here. We joined the Drupal community pretty early on and had the privilege to pioneer many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and it's because we love solving problems.
 
 **Lean Demonstration of a Product Idea** This can be a prototype, a Minimal Viable Product, or Proof of Concept. The challenge here is how to make the most of a limited budget and short iteration. Our budget driven approach gives us a great advantage here since we know how to define the project well and time-box it both on a project wide level (3-4 months, 1-3 developers) and at the individual task level.
 
-Don't get it wrong, we do and enjoy projects that also sit in the middle of these two edges. Every project lets us practice and teaches us a little more about how we can be better.
+Don't get it wrong, we do and enjoy projects that also sit in the middle of these two edges. Every project challenges us in some way and teaches us a little more about how we can be better.
 
 ###Our Tools
 Drupal is not the only open source tool in our toolbox. We are also creative users of and active participants in the communities for projects such as Symfony, AngularJS, Jekyll, and Elm. We tend to sit at the bleeding-edge of web technologies because that is where all the fun is. We are always looking out for better ways to do things.
