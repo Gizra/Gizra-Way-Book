@@ -1,8 +1,8 @@
 # The Gizra Way Definitive Guide
 
 This book is the definitive guide to the Gizra Way, and it tries to encapsulate both the technical
-aspects along with the culture.
+aspects and our culture.
 
-The idea is that there is always a place for everyone to go and better understand the expectations from them and the processes that we have. For doing that we document only processes that have been tested and work. We are trying our best to cut out fluff and give the bottom line.
+The idea is a place for everyone to go - to better understand what is expected of them and the processes that encapsulate that. To effectively do this, we document only processes that have been tested and work. We try our best to cut out fluff and give the bottom line.
 
-Even though this guide is public to the entire world, we are not afraid of exposing also unpleasant mistakes we had, or touch sensitive subjects. Actually, we even enjoy it. In a way that's also part of the Gizra Way - having this slight uncomfortable feeling. We found that we learn and improve way better and way faster once we are outside of our comfort zone, and share with others our experiences.
+Even though this guide is public to the entire world, we are not afraid of exposing our unpleasant mistakes, or touch on sensitive subjects. Actually, we like it that way because it is also part of the Gizra Way - that slight uncomfortable feeling means we are challenging ourselves. We found that we learn and improve way better and way faster once we are outside of our comfort zone, and share our experiences with others.
