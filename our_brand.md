@@ -19,7 +19,7 @@ We work hard to create a common language with our clients and to set expectation
 
 This is our core. We work at keeping high standards and it pays off because we have become experts clients turn to. This is reflected on all aspects, from development to account managers and even the way we conduct out sales process.
 
-### Investment in you and the community
+### Investment in You and the Community
 
 We can do better is about bettering ourselves and others as an organization and also as individuals.  You can become better by embracing our mentoring process that will usually keep you on your toes - being a little uncomfortable means you are stretching your bounds.  We also like seeing you want to contribute and encouraged you to do so to the open-source community on company time.
 
