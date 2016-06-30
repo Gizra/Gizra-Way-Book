@@ -46,7 +46,7 @@ Our unusual [About Story](http://www.gizra.com/content/the-about-story/) should 
 
 ## Our Core Strengths
 
-We love doing projects that challenge us. This naturally led us to excel at the two edges of the spectrum of web development projects:
+We excel at the two edges of the spectrum of web development projects:
 
 ### Complex Content Management Systems
 
