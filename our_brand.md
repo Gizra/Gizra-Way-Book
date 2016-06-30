@@ -13,7 +13,7 @@ Everything is out in the open, warts and all.  This may be new to you and may ta
 
 ### Open Communication
 
-We work hard to create a common language with our clients and to set expectations early on and this applies internally as well.  
+We work hard to create a common language with our clients and to set expectations early on, and this applies internally as well.  
 
 ### High Standards
 
