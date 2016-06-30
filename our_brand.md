@@ -17,7 +17,7 @@ We work hard to create a common language with our clients and to set expectation
 
 ### High Standards
 
-This is our core. We work at keeping high standards and it pays off because we have become experts clients turn to. For example, a complete deployment system is built into our projects, we use our own Gizra developed testing toolkit, and do pixel-perfect design implementation.
+This is our core. We work at keeping high standards and it pays off because we have become experts clients turn to. This is reflected on all aspects, from development to account managers and even the way we conduct out sales process.
 
 ### Investment in you and the community
 
