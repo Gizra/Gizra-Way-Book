@@ -25,7 +25,7 @@ A general problem our industry faces is the high failure rate of web projects. T
 
 So, if we intersect the Gizra Way with what is going on outside, our purpose becomes clear:
 
-**For Gizra, the world will be a better place if more web projects realize that there is a better way.**
+For Gizra, the world will be a better place if more web projects realize that there is a better way.
 
 ## Our Position
 
