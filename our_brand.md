@@ -50,7 +50,7 @@ We excel at the two edges of the spectrum of web development projects:
 
 ### Complex Content Management Systems
 
-Gizra was born from here. We joined the Drupal community pretty early on and had the privilege to pioneer many of the core Drupal modules that serve complex client challenges.  Yes, we are experts here, and it's because we love solving problems.
+Gizra was born from here. We joined the Drupal community pretty early on and had the privilege to pioneer many of the Drupal modules that serve complex client challenges.
 
 ### Lean Demonstration of a Product Idea
 
