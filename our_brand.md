@@ -9,7 +9,7 @@ It is summed up nicely under four sections of The Gizra Way. Let’s look at the
 
 ### Transparency  
 
-Everything is out in the open, warts and all.  This may be new to you and may take some adjustment. We set the tone as early as our price estimations by basing them on a detailed breakdown of project tasks (small chunks of 12 hours or less) with an attached cost.  This extends into our projects where our clients have full access to Github. They see everything - including our internal communications. Even this book is public. 
+Everything is out in the open, warts and all.  This may be new to you and may take some adjustment. We set the tone as early as our price estimations by basing them on a detailed breakdown of project tasks with an attached cost.  This extends into our projects where our clients have full access to Github. They see everything - including our internal communications. Even this book is public. 
 
 ### Open Communication
 
