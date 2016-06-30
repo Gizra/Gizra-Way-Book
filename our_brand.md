@@ -21,7 +21,7 @@ This is our core. We work at keeping high standards and it pays off because we h
 
 ## Our Purpose
 
-A general problem our industry faces is the high failure rate of web projects. This is due to numerous reasons such as bad project management or low quality code. The projects usually do not meet any one of the three criteria of success: being on time, in budget,happy users. 
+A general problem our industry faces is the high failure rate of web projects. This is due to numerous reasons such as bad project management or low quality code. The projects usually do not meet any of the three criteria of success: being on time, in budget, with happy clients/users. 
 
 So, if we intersect the Gizra Way with what is going on outside, our purpose becomes clear:
 
