@@ -19,12 +19,6 @@ We work hard to create a common language with our clients and to set expectation
 
 This is our core. We work at keeping high standards and it pays off because we have become experts clients turn to. This is reflected on all aspects, from development to account managers and even the way we conduct out sales process.
 
-### Investment in You and the Community
-
-We can do better is about bettering ourselves and others as an organization and also as individuals.  You can become better by embracing our mentoring process that will usually keep you on your toes - being a little uncomfortable means you are stretching your bounds.  We also like seeing you want to contribute and encouraged you to do so to the open-source community on company time.
-
-Keep in mind and check yourself against these Gizra values. They will guide you in situations where you still don’t have an answer and set the standards you should want to reach.
-
 ## Our Purpose
 
 A general problem our industry faces is the high failure rate of web projects due to bad project management. The projects usually do not meet any one of the three criteria of success: being on time, in budget,happy users. 
