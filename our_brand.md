@@ -1,7 +1,7 @@
 # Our Brand
 How we take what is on the inside and present it outwards.  
 
-###The Gizra Way:
+## The Gizra Way
 
 The Gizra story is about a way, an outlook, a philosophy that navigates all the internal and external aspects of a web development company. It is knowing and acting on the understanding that *we can do better.*
 
