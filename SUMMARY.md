@@ -8,6 +8,7 @@
 * [Work life balance](work_life_balance.md)
    * [Thinking of quitting](thinking_of_quitting.md)   
 * [Sales](sales_intro.md)
+   * [Our Brand](our_brand.md)
    * [Phone Call](phone_call.md)
    * [Price offer](price_offer.md)
 * [How and What to Document](how_and_what_to_document.md)
