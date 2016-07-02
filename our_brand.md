@@ -17,13 +17,14 @@ We work hard to create a common language with our clients and to set expectation
 
 ### High Standards
 
-This is our core. We work at keeping high standards and it pays off because we have become experts clients turn to. This is reflected on all aspects, from development to account managers and even the way we conduct out sales process.
+This is our core. We work at keeping high standards and it pays off because we have become experts that clients turn to. This is reflected in all aspects, from development to account managers and even the way we conduct our sales process.
 
 ## Our Purpose
 
-A general problem our industry faces is the high failure rate of web projects. This is due to numerous reasons such as bad project management or low quality code. The projects usually do not meet any of the three criteria of success: being on time, in budget, with happy clients/ users. 
+A general problem our industry faces is the high failure rate of web projects. This is due to numerous reasons such as bad project management or low quality code. The projects usually do not meet any of the three criteria of success: being on time, in budget, with happy clients/users. 
 
-So, if we intersect the Gizra Way with what is going on outside, our purpose becomes clear:  
+So, if we intersect the Gizra Way with what is going on outside, our purpose becomes clear: 
+
 For Gizra, the world will be a better place if more web projects realize that there is a better way.
 
 ## Our Position
