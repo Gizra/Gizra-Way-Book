@@ -17,7 +17,7 @@
 | -- | -- |
 | Jekyll | 2 | Setup repository |
 | Flex | 1 | Complete [game](http://flexboxfroggy.com/) |
-| PSD to HTML | 4 | Using BEM, overlay images and browserStack screenshots |
+| PSD to HTML | 4 | Using [BEM](https://css-tricks.com/bem-101/), overlay images and browserStack screenshots |
 | Behat tests | 3 | Write an assertion for the homepage |
 | Travis | 2 | Setup Travis and add Travis build icon to README |
 | Drupal intro | 1 | Install Drupal locally |
