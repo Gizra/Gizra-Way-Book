@@ -11,7 +11,7 @@
    * [Our Brand](our_brand.md)
    * [Phone Call](phone_call.md)
    * [Price offer](price_offer.md)
-   * Work Flow with Clients
+   * [Work Flow with Clients](work_flow_with_clients.md)
 * [How and What to Document](how_and_what_to_document.md)
    * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
 * [HR](hr.md)
