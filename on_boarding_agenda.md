@@ -17,7 +17,7 @@
 
 | Task | Time | Deliverable |
 | -- | -- |
-| Jekyll | 2 | Setup repository |
+| Jekyll | 2 | Fork [base repo](https://github.com/Gizra/jekyll-base) |
 | Flex | 1 | Complete [game](http://flexboxfroggy.com/) |
 | PSD to HTML | 4 | Using [BEM](https://css-tricks.com/bem-101/), overlay images and browserStack screenshots |
 | Drupal intro | 1 | Install Drupal locally |
