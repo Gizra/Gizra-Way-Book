@@ -1,73 +1,33 @@
-# On Boarding - Week 1
+# On Boarding
 
-## General - all employees
+Hi there newbie, welcome to Gizra! Hate the word newbie? 
+Meh, don't feel bad about it. We were all once newbies, and part of "The Gizra Way" is always exploring new places where we are *still* newbies. In other words, we know how you feel.
 
-| Task | Time | Deliverable |
-| -- | -- |
-| About Gizra | 2 | |
-| GitHub training | 1 | Open issues on tasks |
-| How to do code review | 1 | |
-| Building budget | 4 | Google docs sheet |
-| Solving problems | 2 |  |
-| Contributions | 1 |  |
+In this coming week you will get a bunch of different tasks to complete. Here are some of the guidelines behind the tasks:
 
-## Developers
+* We want to get your comfortable with "The Gizra Way". Even if you still don't fully get what it is, you are in fact already experiencing it.
+* We want you outside your comfort zone. You will be challenged with tasks you may not be sure how to solve in the given time-box. It will force you to reach out and learn when, who and how to ask questions.
+* We want to give you an overall feeling of the many different elements that comprise a project. We will not delve deep due to time constraints, and because we think that the first steps should be to give you a broad
+view of our operation rather than detailed.
 
-| Task | Time | Deliverable |
-| -- | -- |
-| Jekyll | 2 | Setup repository |
-| Flex | 1 | Complete [game](http://flexboxfroggy.com/) |
-| PSD to HTML | 4 | Using BEM, overlay images and browserStack screenshots |
-| Behat tests | 3 | Write an assertion for the homepage |
-| Travis | 2 | Setup Travis and add Travis build icon to README |
-| Drupal intro | 1 | Install Drupal locally |
-| Page element intro | 1 | Create repo and open issues |
-| Content types | 1 | Page element content type |
-| Views | 1 | Page element view |
-| Panels | 1 | Homepage |
-| Panels variants | 1 | Homepage variants |
-| Features | 2 | Export to code and add to repository |
-| Community site intro | 1 | Create repo and open issues |
-| Installation profile | 2 | Scaffold site with Yo hedley |
-| Organic groups | 2 | Create School content and Article content |
-| Organic groups access | 1 | Make Schoold public/ private |
-| Message | 3 | Create activity stream |
-| Message Notify | 2 | Send emails |
-| Message subscribe | 2 | Send emails to subscribed users |
-| Panelize the homepage | 2 | Group info, recent articles, activity stream |
-| CTools plugnis | 4 | Custom plugin articles list with pager |
-| Theme intro | 1.5 | Add base theme |
-| Theme overrides | 3 | Article teaser view mode |
-| No css in Drupal | 1 | |
-| Migrate | 3 | Migrate schools and articles |
-| Behat test | 2 | Verify access |
-| RESTful | 3 | Create RESTful plugin |
-| Elm intro | 3 | Scaffold repo |
-| Simple Elm App | 3 | Show Schools list |
+## Confusion & Leap of Faith
 
-##Team Lead
+Experience shows that you already are or very soon will be confused. A lot of the material may be new to you, and even if you are a seasoned developer and have years of Drupal experience you still may not know some of the stuff. It's OK, we know that. In fact, we sometimes do things differently from what is perceived as "the right way", simply because we have a different set of beliefs on what "right" is.
 
-## General - Sales and Account Managers
+Have faith in us, we have lots of experience with on boarding both complete newbies, as well as experienced people. We promise you will have time to dive deep into all those subjects we cover quickly.
 
-| Task | Time | Deliverable |
-| -- | -- |
-| CRM | 1 |  |
-| Gizra Presentation | 4 | Record existing presentation |
-| New presentation slides | 4 |  Google docs presentation
-| Original presentation | 4 |  Record new presentation
+## Take Breaks
 
-## Sales
+Don't get confused by our time boxing system. If you have a task at 12:30 and it was time-boxed for two hours, it doesn't mean you need to work until 14:30. No, go have your lunch or a break - as you would normally do.
 
-| Task | Time | Deliverable |
-| -- | -- |
-| Gathering leads | 2 | Adding leads to the CRM |
-| Email templates | 3 | Write emails |
-| Call scripts | 3 | Live call |
-| Cold calls | 1 | Document calls in CRM |
+Then, when you come back, start measuring the time. You are in charge of managing your own time. The time-boxing is just a mechanism to set the expectations and put boundaries on the task.
 
-## Account manager
+Furthermore, don't feel obliged to come first into the office, or leave last. As part of the Gizra Way we recognize that a productive day is an 8-9 hour work day. 
+You are already under a lot of pressure, as you have so many new stuff to learn. Be kind to yourself, to your brain, and to Gizra - and don't overdo it. There's always tomorrow to learn new skills and improve.
 
-| Task | Time | Deliverable |
-| -- | -- |
-| Growth Plan | 4 | Plan for existing account |
-|  |  | |
+## What's Next
+
+When the on-boarding week finishes you will still have much more to learn. However, you will have gotten a taste of how projects are done in Gizra.
+You will have experienced it firsthand that we are not afraid of throwing you into the deep water, and that we do still keep an eye out on you. In fact, you may have occasionally drowned. There's a value to that too, as we hope it encourages you to reach out for help (if you didn't or we missed it, please let us know - as we want to improve our process).
+
+Your training is not yet complete. It's just moving to the next phase. Instead of imaginary tasks, you will now be added to one of our teams, and start working on an existing project.
