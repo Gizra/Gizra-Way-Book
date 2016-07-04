@@ -46,4 +46,13 @@ We retuned back to Israel, with commit access to one of the most important Drupa
 
 ## Theatrical Recognition
 
-Eventhough we were handed a significant module, we were still quite unknown by the international community. Amitai, being the maintainer of Organic groups have indeed started re-writing the module and upgrading its architecture in order to make it ready for the, back then, new Drupal 7 release.
+Eventhough we were handed a significant module, we were still quite unknown by the international community. Amitai, being the maintainer of Organic groups have indeed started [re-writing](https://www.drupal.org/node/567840) the module and upgrading its architecture in order to make it ready for the, back then, new Drupal 7 release.
+
+A year has passed, Brice had a new baby girl, and Amitai as well, and it was time for DrupalCon Copenhagen. Amitai has submitted a session that was accpeted - a session about the new OG for Drupal 7.
+
+Amitai has decided to take a different approach to the talk. Rather than making a boring presentations about the nitty gritty technical asspects, that is which checkbox or button needs to be clicked, give a more tehatricl sessopn. Amitai and Brice have performed in the first fifteen minutes of the session a completely imagniry scenario where Ban Ki Moon, the secretary general of the UN approached Gizra and commisioned them with building sites for all the countries in the world. Through this story they illustrated the new features of OG.
+
+The impact of this session was immediate.
+
+
+https://www.drupal.org/node/1342632
