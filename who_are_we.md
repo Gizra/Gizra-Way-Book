@@ -26,3 +26,24 @@ As "bad" startup-y stories go, like for most entreupeners working on their first
 
 We kept our name "Gizra" which means pattern or sillouhete in Hebrew, and posted in community related sites that there's a new kid in town.
 Thanks to our contributions people on the community already knew our names, so the very next day we already got our first 100$ worth of ordered work. We were on the way to the top!
+
+## Technical Recognition
+
+As any new company we have struggeled to get clients (a struggle we still face, although we're already equipped with better tools and understanding to deal with it). Eventhough our income was poor, we have on decided to travel to DrupalCon Paris that was hapenning on 2009.
+
+It was the first time we attended a conference, let alone an international one, and it was a blast. We finally got to meet our Drupal heroes, people we were sometimes in daily contact with them thanks to our contributions and involvment.
+
+We finally had the opportunity to meet in person people like [fago](https://www.drupal.org/u/fago) and [klausi](https://www.drupal.org/u/klausi) and [dasjo](https://www.drupal.org/u/dasjo) that we were working with on the issue queue. Having our first dinner with our new yet old Drupal friends, was in fact a first in what to become many more dinners and DrupalCamps, DrupalCons and other social events. On Paris we got our first taste of the Drupal community, and have been loving it ever since.
+
+Beyond that we were fortunate enough to meet [Moshe Weitzman](https://www.drupal.org/u/moshe-weitzman), a legendary Drupal core contributor who was also having many high profile modules (Drush, Organic groups and others). Moshe knew Amitai from the issue queue, where Amitai was submitting patches to either fix bugs - and most probably introducting new bugs in the process - or suggest new features. As it so happened Moshe was already looking for a new Organic Groups (OG) module maintainer. OG is a high profile module, that exists for ever and is responsible for having mini-site functionality. That is, on a single site, you can spin up as many subsites as you want, and each one can behave completely independently from each other, while still giving the site admin easy way to administer them all.
+
+Moshe has suggested Amitai to take ownership on OG, to which he immediatly replyed no. It was a huge responsibilty and he felt completely un worthy.  
+30 minutes later, he said "yes, but you should stick around".  
+The next day Amitai has already suggested Moshe a complete re-write of Organic groups.
+
+We retuned back to Israel, with commit access to one of the most important Drupal modules. Even back then we knew this was an important milestone.
+
+
+## Theatrical Recognition
+
+Eventhough we were handed a significant module, we were still quite unknown by the international community. Amitai, being the maintainer of Organic groups have indeed started re-writing the module and upgrading its architecture in order to make it ready for the, back then, new Drupal 7 release.
