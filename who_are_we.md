@@ -54,6 +54,5 @@ Amitai has decided to take a different approach to the talk. Rather than making 
 
 The impact of this session was immediate.
 
-
-
-[OG7 re-roll](https://www.drupal.org/node/1342632)
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Amitaibu sets a pretty high standard for theatrical presentations.... history in the making! <a href="https://twitter.com/hashtag/drupalcon?src=hash">#drupalcon</a></p>&mdash; Gábor Hojtsy (@gaborhojtsy) <a href="https://twitter.com/gaborhojtsy/status/22181237352">August 26, 2010</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
