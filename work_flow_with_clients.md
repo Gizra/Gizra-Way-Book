@@ -1,6 +1,8 @@
 # Work Flow with Clients
 
-| | Step | Owner(s) | Documentation |
+Sales did their job. They worked hard to bring in a potential client and now we are at the critical point of finding out their needs and providing a price offer. 
+
+| | Step | Owner(s) | Documents |
 | -- | -- | -- | -- |
 | 1 | Discovery - meeting(s) to understand our potential client's needs | Sales + Account Manager |  |
 | 2 | Proposal - budget goggles | Account Manager + Operations Manager | Price Offer spreadsheet +  Price Proposal document |
