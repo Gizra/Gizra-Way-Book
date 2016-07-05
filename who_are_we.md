@@ -52,7 +52,9 @@ A year has passed, Brice had a new baby girl, and Amitai as well, and it was tim
 
 Amitai has decided to take a different approach to the talk. Rather than making a boring presentations about the nitty gritty technical asspects, that is which checkbox or button needs to be clicked, give a more tehatricl sessopn. Amitai and Brice have performed in the first fifteen minutes of the session a completely [imagniry scenario](http://www.gizra.com/content/og7-session-drupalcon-copenhagen/) where Ban Ki Moon, the secretary general of the UN approached Gizra and commisioned them with building sites for all the countries in the world. Through this story they illustrated the new features of OG.
 
+It's worth mentioning that as much as the scenario was completely ridicoulus, in the end of the session one of the people in the audience approached Brice and Amitai and told them he was working in the UN, building an OG site for them - and in fact, our story wasn't so far from the reality.
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Amitaibu sets a pretty high standard for theatrical presentations.... history in the making! <a href="https://twitter.com/hashtag/drupalcon?src=hash">#drupalcon</a></p>&mdash; Gábor Hojtsy (@gaborhojtsy) <a href="https://twitter.com/gaborhojtsy/status/22181237352">August 26, 2010</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The impact of this session was immediate, and once again a DrupalCon ended being an important corner stone in Gizra's life.
+The impact of this session was immediate, and once again a DrupalCon ended being an important corner stone in Gizra's life. Invitations to appear in different Drupal camps and Drupal events around the globe started coming - events in: Greece, Belgium, France, Spain, Canada and more. 
