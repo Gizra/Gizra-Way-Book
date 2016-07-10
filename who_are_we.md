@@ -52,11 +52,42 @@ Amitai, being the maintainer of Organic groups have indeed started [re-writing](
 
 A year has passed, Brice had a new baby girl, and Amitai as well, and it was time for DrupalCon Copenhagen (2010). Amitai has submitted a session that was accepted - a session about the new OG for Drupal 7.
 
-Amitai has decided to take a different approach to the talk. Rather than making a boring presentations about the nitty gritty technical asspects, that is which checkbox or button needs to be clicked, give a more theatrical session. Amitai and Brice have performed in the first fifteen minutes of the session a completely [imaginary scenario](http://www.gizra.com/content/og7-session-drupalcon-copenhagen/) where Ban Ki Moon, the secretary general of the UN approached Gizra and commisioned them with building sites for all the countries in the world. Through this story they illustrated the new features of OG.
+Amitai has decided to take a different approach to the talk. Rather than making a boring presentations about the nitty gritty technical asspects, that is which checkbox or button needs to be clicked, give a more theatrical session. Amitai and Brice have performed in the first fifteen minutes of the session a completely [imaginary scenario](http://www.gizra.com/content/og7-session-drupalcon-copenhagen/) where Ban Ki Moon, the secretary general of the UN approached Gizra and commissioned them with building sites for all the countries in the world. Through this story they illustrated the new features of OG.
 
 It's worth mentioning that as much as the scenario was completely ridiculous, in the end of the session one of the people in the audience approached Brice and Amitai and told them he was working in the UN, building an OG site for them - and in fact, our story wasn't so far from the reality.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Amitaibu sets a pretty high standard for theatrical presentations.... history in the making! <a href="https://twitter.com/hashtag/drupalcon?src=hash">#drupalcon</a></p>&mdash; Gábor Hojtsy (@gaborhojtsy) <a href="https://twitter.com/gaborhojtsy/status/22181237352">August 26, 2010</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The impact of this session was immediate, and once again a DrupalCon ended being an important corner stone in Gizra's life. Invitations to appear in different Drupal camps and Drupal events around the globe started coming - events in: Greece, Belgium, France, Spain, Canada and more.
+The impact of this session was immediate, and once again a DrupalCon ended being an important corner stone in Gizra's life. Invitations to appear in different Drupal camps and Drupal events around the globe started coming - events in: Greece, Belgium, France, Spain, Canada and more. Each got a completely new presentation.
+
+From a fashion show in DrupalCon London (2011), An Ant eater working on OG in Drupal Dev Days Bruseeles, to a full blow application made for creating [ridiculous issues](http://www.gizra.com/content/gizra-drupalcon-portland/), he always tries to make his presentations informative and interesting.
+
+## First International Client(s)
+
+In 2011 we have received an inquiry in our contact form a request from an Israeli born, New-York residence that worked for a US based startup. They were called Medico.com (after $2 million dollars and 2 years closed) and they were looking for a Drupal web shop. They were building a stackoverflow like platform for QA in the medical industry. That is, when you wake up with an headache, you'd ask what to do, and get answers from the community or paid doctors.
+
+They had a european company working for several month, but they had a feeling they were not the right team for the job. They saw our names as presenters for DrupalCon Chicago, linked us to our OG work, recognized the Israeli name, and the rest was history.
+
+For one year and a half we have worked along with the Nir Yariv, the project manager, who later joined the Gizra team and is now leading some of the most interesting projects we have.
+
+It was our biggest client at the time, paying in dollars and giving us a lot of freedom to constantly iterate and polish our work. We were heavily invested for the first time in automatic testing. The tool we used was bare bone selenium. It was a horrible experience in terms of false positives and taiming the automatic tests, but it showed us what we believed all along. Real platforms can't be built without a certain amount of automatic test coverage.
+
+Even though it was our first international client, we were already work life balance aware. The automatic tests made it possible to maintin it, as the platform hardly broke.
+
+The platform, originally starting in Spanish didn't pick up, so they have decided to translate to English and Portuguese. They required an activity log that could be translated. That was the birth of the [Message ](https://www.drupal.org/project/message) module, later becoming a set of modules know as "the message stack".
+
+The site in Portuguese at a certain point picked up rapidly and we saw heavy use by Portuguese people. This sudden success in the Portuguese market did not impress the investors who pulled the plug and didn't go for round two.
+
+We were five people in the office when we were told the money is going to end in a week or so.
+
+## Commerce Guys
+
+Luck, or asking the universe or whatever you will decide to call it, has brought Commerce Guys (CG) to approach us immediately after the work for Medico has completely terminated.
+
+We have known the owners for some time, and were always both good friends and both sharing similar technical vision. So that might have been the reason for them to ask us to jump on board and help them get their [Commerce Kickstart](http://demo.commerceguys.com/) distribution up and running. Timeline was fierce, given the amount of tasks they wanted to have, and scrutinizing code reviews were in abundance. Just the way we liked it.
+
+If you'll look at our fancy Drupal's installation profile scripts you might not recognize it, but it all started with the work we've done _long_ time ago with CG.
+
+
+## Harvard University
