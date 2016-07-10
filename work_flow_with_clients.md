@@ -16,7 +16,9 @@ Here is the outline:
 At this point, Sales invites the Account Manager to join the meetings. The Account Manager will be the primary contact for the clients in navigating through their project and therefore it makes sense that they join at this early stage. It is also reassuring to the clients to know their main contact before jumping into a project.
 
 ###Stage 2: Price Proposal
-The Account Manager is responsible for preparing both the Price Offer spreadsheet and the Work Proposal document.  
+The Account Manager is responsible for preparing both the Price Offer spreadsheet and the Work Proposal document. 
+
+Review process. Once the Price Proposal including both documents is prepared, it goes to CTO for review.
 
 ??? Operation Manager - responsibility?
 
