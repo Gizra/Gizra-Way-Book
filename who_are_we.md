@@ -46,15 +46,17 @@ We retuned back to Israel, with commit access to one of the most important Drupa
 
 ## Theatrical Recognition
 
-Eventhough we were handed a significant module, we were still quite unknown by the international community. Amitai, being the maintainer of Organic groups have indeed started [re-writing](https://www.drupal.org/node/567840) the module and upgrading its architecture in order to make it ready for the, back then, new Drupal 7 release.
+Even though we were handed a significant module, we were still quite unknown by the international community. We did however hired our first employee: an office manager who was also a project manager, followed by a developer.
 
-A year has passed, Brice had a new baby girl, and Amitai as well, and it was time for DrupalCon Copenhagen. Amitai has submitted a session that was accpeted - a session about the new OG for Drupal 7.
+Amitai, being the maintainer of Organic groups have indeed started [re-writing](https://www.drupal.org/node/567840) the module and upgrading its architecture in order to make it ready for the, back then, new Drupal 7 release.
 
-Amitai has decided to take a different approach to the talk. Rather than making a boring presentations about the nitty gritty technical asspects, that is which checkbox or button needs to be clicked, give a more tehatricl sessopn. Amitai and Brice have performed in the first fifteen minutes of the session a completely [imagniry scenario](http://www.gizra.com/content/og7-session-drupalcon-copenhagen/) where Ban Ki Moon, the secretary general of the UN approached Gizra and commisioned them with building sites for all the countries in the world. Through this story they illustrated the new features of OG.
+A year has passed, Brice had a new baby girl, and Amitai as well, and it was time for DrupalCon Copenhagen (2010). Amitai has submitted a session that was accepted - a session about the new OG for Drupal 7.
 
-It's worth mentioning that as much as the scenario was completely ridicoulus, in the end of the session one of the people in the audience approached Brice and Amitai and told them he was working in the UN, building an OG site for them - and in fact, our story wasn't so far from the reality.
+Amitai has decided to take a different approach to the talk. Rather than making a boring presentations about the nitty gritty technical asspects, that is which checkbox or button needs to be clicked, give a more theatrical session. Amitai and Brice have performed in the first fifteen minutes of the session a completely [imaginary scenario](http://www.gizra.com/content/og7-session-drupalcon-copenhagen/) where Ban Ki Moon, the secretary general of the UN approached Gizra and commisioned them with building sites for all the countries in the world. Through this story they illustrated the new features of OG.
+
+It's worth mentioning that as much as the scenario was completely ridiculous, in the end of the session one of the people in the audience approached Brice and Amitai and told them he was working in the UN, building an OG site for them - and in fact, our story wasn't so far from the reality.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Amitaibu sets a pretty high standard for theatrical presentations.... history in the making! <a href="https://twitter.com/hashtag/drupalcon?src=hash">#drupalcon</a></p>&mdash; Gábor Hojtsy (@gaborhojtsy) <a href="https://twitter.com/gaborhojtsy/status/22181237352">August 26, 2010</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The impact of this session was immediate, and once again a DrupalCon ended being an important corner stone in Gizra's life. Invitations to appear in different Drupal camps and Drupal events around the globe started coming - events in: Greece, Belgium, France, Spain, Canada and more. 
+The impact of this session was immediate, and once again a DrupalCon ended being an important corner stone in Gizra's life. Invitations to appear in different Drupal camps and Drupal events around the globe started coming - events in: Greece, Belgium, France, Spain, Canada and more.
