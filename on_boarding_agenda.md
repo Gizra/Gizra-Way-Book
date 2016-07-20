@@ -3,23 +3,23 @@
 ## General - all employees
 
 | Task | Time | Deliverable |
-| -- | -- |
+| -- | -- | -- |
 | About Gizra | 2 | |
-| GitHub training | 1 | Open issues on tasks |
-| How to do code review | 1 | |
+| Solving problems | 1 |  |
 | Building budget | 4 | Google docs sheet |
-| Solving problems | 2 |  |
-| Contributions | 1 |  |
+| GitHub training | 1 | Open issues on tasks |
+| How to do code review | 1 | -|
+
+
+
 
 ## Developers
 
 | Task | Time | Deliverable |
 | -- | -- |
-| Jekyll | 2 | Setup repository |
+| Jekyll | 2 | Fork [base repo](https://github.com/Gizra/jekyll-base) |
 | Flex | 1 | Complete [game](http://flexboxfroggy.com/) |
-| PSD to HTML | 4 | Using BEM, overlay images and browserStack screenshots |
-| Behat tests | 3 | Write an assertion for the homepage |
-| Travis | 2 | Setup Travis and add Travis build icon to README |
+| PSD to HTML | 4 | Using [BEM](https://css-tricks.com/bem-101/), overlay images and browserStack screenshots |
 | Drupal intro | 1 | Install Drupal locally |
 | Page element intro | 1 | Create repo and open issues |
 | Content types | 1 | Page element content type |
@@ -40,8 +40,9 @@
 | Theme overrides | 3 | Article teaser view mode |
 | No css in Drupal | 1 | |
 | Migrate | 3 | Migrate schools and articles |
-| Behat test | 2 | Verify access |
 | RESTful | 3 | Create RESTful plugin |
+| Behat tests | 3 | Write an assertion for the homepage |
+| Travis | 2 | Setup Travis and add Travis build icon to README |
 | Elm intro | 3 | Scaffold repo |
 | Simple Elm App | 3 | Show Schools list |
 
@@ -70,4 +71,3 @@
 | Task | Time | Deliverable |
 | -- | -- |
 | Growth Plan | 4 | Plan for existing account |
-|  |  | |
