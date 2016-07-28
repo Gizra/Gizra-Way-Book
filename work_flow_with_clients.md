@@ -46,11 +46,11 @@ Upon confirmation, the Operations Manager requests payment (invoices) accordingl
 It is really important to use one 'master' source for all of our documentation. This allows us to continue updating one document and ensures we are consistent with all our clients.
 
 * Price Offer Spreadsheet
+* Price Proposal Document
 * Work Proposal Document
   * Project and Retainer
   * Retainer only
 * Scope of Work
 * Master Service Agreement
-* Milestone email?
 
 
