@@ -8,7 +8,7 @@ Here is the outline:
 | -- | -- | -- | -- |
 | 1 | Discovery meeting(s)  | Account Manager |  |
 | 2 | Price Proposal | Account Manager| e-mail template + Price Offer spreadsheet +  Proposal document |
-| 3 | Terms of work | Operations Manager| Master Service Agreement + Scope Of Work|
+| 3 | Terms of Work | Operations Manager| Master Service Agreement + Scope Of Work|
 | 4 | Payment Milestones  | Operations Manager |  |
 | 5 | Accounts Receivable | Operations Manager | Invoice |
 
