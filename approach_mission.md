@@ -104,6 +104,14 @@ We need to know of course when the membership began, then we can calculate if 9 
 But this information is not enough. Think about situation user decide not to renew his registration, what happened to his membership? Is it going away, delete from the system? Well, usually we don’t delete entities from the system, but we can mark them as inactive.
 So in order to send the user reminder, we need to know two things:  the membership’s time stamp and if it is active or not.
 
+[drawing with “membership” and “time stamp”, “status=active/inactive”]
+
+Ok, so now we have all the information we need for sending the first reminder email (the one that come after 9 month), so in order to know to which user we need to send that email, we need to retrieve from the database right user. 
+Let’s describe in words the query for getting the right information from database:
+
+Give me all “membership” that their “status” is -*active*- and their “time stamp” is -*today's date - 9 month*-
+
+
 
 
 
