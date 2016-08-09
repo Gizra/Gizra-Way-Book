@@ -110,5 +110,10 @@ Is one "membership" can has million "Email log"? No it can has only three "email
 //pic11
 
 
+Finally, let's describe the exact query:
+
+**Give me all “membership” that their “status” is *active* and their “time stamp” is *today's date minus 9 month* and we didn't sent email yet to the user who created this membership.**
+
+
 
 
