@@ -111,7 +111,16 @@ Give me all “membership” that their “status” is *active* and their “ti
 
 Ok, we almost there, but there is still one more thing - we need to check that we don't send the email more then one time to the same user. Assuming that we have a lots of "membership" in our database, so we need to limit the number of "membership" we get every time we run the query (if the system will bring us all the fit "membership" at ones, it can be run out of memory). So we will tell the system to brings us only 100 "membership" at a time, and we will run the query every 5 min. 
 How we make sure that the system won't bring us the same "membership" we already sent email for them 5 min ago?
+Of course we need to save an Email log, and check it every time we want to send reminder email.
 
+so let's add new entity call "email log"
+Remember that we going to have 3 emails send per membership: 3 month before expired, 1 month before and 1 day before.
+
+//pic9
+
+Now we need to define the relationship. the "email log" has relationship with "membership" (and not with the "user" if you happen to think so) because an email sent based on a membership's time stamp. It is data that the "membership" holds and not the "user".
+So "membership" and "email log" have a relationship, but who refer to whom?
+According to the "million question" one "membership" can't have million "Email log", only 3 "email log" maximum. So although   
 
 
 
