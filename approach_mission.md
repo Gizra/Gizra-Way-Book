@@ -15,7 +15,7 @@ Let's take a look of a simple story:
 
 Yes, it’s a story with only one line, but it’s a story. Let's try to recognize the entities and the relationships in this story. the best way to do it is to draw it! We can use circle as an entity and line as a relationship.
 
-//pic1
+![](111.jpg)
 
 A relationship defines how entities are related to one another, so we better use arrow line to express the reference between the entities. In order to know the direction of the arrow, we should ask two important questions:
 1. Is the author can write more than one article?
