@@ -17,13 +17,11 @@ Yes, it’s a story with only one line, but it’s a story. Let's try to recogni
 
 //pic1
 
-
-
 A relationship defines how entities are related to one another, so we better use arrow line to express the reference between the entities. In order to know the direction of the arrow, we should ask two important questions:
 1. Is the author can write more than one article?
 Yes, he can! So it will look like this:
 
-//pic2
+![](2.jpg)
 
 And if our author is particularly diligent, he can write even a million articles (theoretically of course…), so this will bring us to the second important question, we call it “the million question”: 
 2. Is the entity “author” can refer to million entities “article”?
@@ -32,7 +30,7 @@ No, the answer is definitely not. To understand that, we need to understand the 
 So because we don’t want “author” refer to million entities “article”, the “article” is refer to “author”. 
 It will look like this:
 
-//pic3
+![](3.jpg)
 
 
 Now let’s add more details to our story:
@@ -42,7 +40,7 @@ Now let’s add more details to our story:
 Now we have another entity “topic”. How does “topic” relate to the others entities?
 Article written on a particular topic, then the ״article״ and the “topic” have a relationship.
 
-//pic4
+![](4.jpg)
 
 
 And who refer to whom? (what is the arrow direction?)
@@ -51,8 +49,12 @@ Is one topic can has more than one article? Yes.
 Is one article can written on more than one topic? Theoretically yes, but for the practice we decide that every article belongs only to one topic, so the answer to this question is No.
 
 
-//pic5a //pic5b
+//pic5a 
+![](5a.jpg)
 
+
+//pic5b
+![](5b.jpg)
 
 
 Our story continue - 
@@ -65,17 +67,19 @@ Is “user” has relationship with “topic”?
 
 Well, user can register to many topics and many users can register to the same topic, so we will get something like this:
 
-//pic6
+![](6.jpg)
 
 
 Try to answer the “million question” for this case… a bit complicated, huh?! It can be a million users and a million topics...
 So, to make it simple, we can add more entity - let’s call it “Membership”, and it will represent a specific register of user to a topic.
 
-//pic7
+![](7.jpg)
 
 In that case “Membership” refer to “Topic” (because we don’t want “Topic” refer to million “Membership”) and ““Membership” also refer to “User” (because we don’t want “User” refer to million “Membership”). It looks like this:
 
 //pic8
+
+
 
 Let us continue with our story - 
 
@@ -87,7 +91,7 @@ We need to know of course when the membership began, then we can calculate when 
 But this information is not enough. Think about situation user decide not to renew his registration, what happened to his membership? Is it going away, delete from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
 So in order to send the user reminder, we need to know two things:  the membership’s created date (i.e "time stamp") and if it is active or not (i.e "status").
 
-//pic9
+![](9.jpg)
 
 Ok, so now we have all the information we need for sending the first reminder email (the one that comes after 9 month), so in order to know to which user we need to send that email, we need to retrieve from the database the right user. 
 Let’s describe in words the query for getting the right information from database:
@@ -101,19 +105,22 @@ Of course we need to save an Email log, and check it every time we want to send 
 so let's add new entity call "email log"
 Remember that we going to have 3 emails send per membership: 3 month before expired, 1 month before and 1 day before.
 
-//pic10
+![](10.jpg)
 
 Now we need to define the relationship. the "email log" has relationship with "membership" (and not with the "user" if you happen to think so) because an email sent based on a membership's time stamp. It is data that the "membership" holds and not the "user".
 So "membership" and "email log" have a relationship, but who refer to whom?
 Is one "membership" can has million "Email log"? No it can has only three "email log" maximum. So in this case we prefer the "membership" will refer to "email log" so when we retrieve from the database the "membership" we get also the information about the "email log".
 
-//pic11
+
+![](11.jpg)
 
 
 Finally, let's describe the exact query:
 
 **Give me all “membership” that their “status” is *active* and their “time stamp” is *today's date minus 9 month* and we didn't sent email yet to the user who created this membership.**
 
+
+Summary:
 
 
 
