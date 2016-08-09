@@ -1,7 +1,5 @@
 # Approach mission
 
-Title
-
 As a newbie a lot of things seems very confusing and sometimes even a simple task may appear threatening because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt an approach how to think about a problem, according to clear rules, everything starts to become clear and seem less threatening.
 
 In this post I will try to present method includes a few steps of logical thinking, to help you find the [קצה חוט] from which to start dealing with the mission.
@@ -106,10 +104,13 @@ So in order to send the user reminder, we need to know two things:  the membersh
 
 [drawing with “membership” and “time stamp”, “status=active/inactive”]
 
-Ok, so now we have all the information we need for sending the first reminder email (the one that come after 9 month), so in order to know to which user we need to send that email, we need to retrieve from the database right user. 
+Ok, so now we have all the information we need for sending the first reminder email (the one that comes after 9 month), so in order to know to which user we need to send that email, we need to retrieve from the database the right user. 
 Let’s describe in words the query for getting the right information from database:
 
-Give me all “membership” that their “status” is -*active*- and their “time stamp” is -*today's date - 9 month*-
+Give me all “membership” that their “status” is *active* and their “time stamp” is *today's date minus 9 month*
+
+Ok, we almost there, but there is still one more thing - we need to check that we don't send the email more then one time to the same user. Assuming that we have a lots of "membership" in our database, so we need to limit the number of "membership" we get every time we run the query (if the system will bring us all the fit "membership" at ones, it can be run out of memory). So we will tell the system to brings us only 100 "membership" at a time, and we will run the query every 5 min. 
+How we make sure that the system won't bring us the same "membership" we already sent email for them 5 min ago?
 
 
 
