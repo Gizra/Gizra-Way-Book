@@ -77,7 +77,7 @@ So, to make it simple, we can add more entity - let’s call it “Membership”
 
 In that case “Membership” refer to “Topic” (because we don’t want “Topic” refer to million “Membership”) and ““Membership” also refer to “User” (because we don’t want “User” refer to million “Membership”). It looks like this:
 
-//pic8
+![](88.jpg)
 
 
 
