@@ -25,7 +25,7 @@ Yes, he can! So it will look like this:
 
 And if our author is particularly diligent, he can write even a million articles (theoretically of course…), so this will bring us to the second important question, we call it “the million question”: 
 2. Is the entity “author” can refer to million entities “article”?
-No, the answer is definitely not. To understand that, we need to understand the meaning of reference. When object A refer to object B it means object A “knows” about object B, and this “knowing” became part of the information that object A holds.  So when we call object A from the Database, it will brings us also the informations of all the “B”s objects that it refer to. So if there are milion “B”s objects, the systems brings them all. This is a very heavy task for the system to deal with and needs a lot of memory resources … We want to make it easier for the system and not make it difficult for her. 
+No, the answer is definitely not. To understand that, we need to understand the meaning of reference. When object A refer to object B it means object A “knows” about object B, and this “knowing” became part of the information that object A holds.  So when we call object A from the Database, it will brings us also the information of all the “B”s objects that it refer to. So if there are milion “B”s objects, the systems brings them all. This is a very heavy task for the system to deal with and needs a lot of memory resources … We want to make it easier for the system and not make it difficult for her. 
 
 So because we don’t want “author” refer to million entities “article”, the “article” is refer to “author”. 
 It will look like this:
