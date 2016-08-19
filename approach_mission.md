@@ -1,15 +1,14 @@
-# Approach mission
+# Approaching a Mission
 
-As a newbie a lot of things seems very confusing and sometimes even a simple task may appear threatening because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt an approach how to think about a problem, according to clear rules, everything starts to become clear and seem less threatening.
+As a newbie, a lot of things seem very confusing and sometimes even a simple task may be overwhelming because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt a clear approach to a problem, with defined rules, ever the most complex task becomes approachable and less threatening.
 
-In this post I will try to present method includes a few steps of logical thinking, to help you find the [קצה חוט] from which to start dealing with the mission.
+In this post I will try to present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a mission.
 
-First of all, we can think about mission as a story with a plot and characters. 
-What makes a story to be a well written story? The characters and their relationships must define clearly, so we can better understand the plot.
+First of all, we can think about a mission as a story with a plot and characters. A well written and understood story plot includes clearly defined relationships between the characters.
 
-In our technical world we call characters as entities, and our first steps when we deal with new mission, is to be able to recognize the entities in the story and the relationships between them.
+In our technical world, our characters are called entities, and the first step to understanding our new mission, the plot, is to be able to recognize the entities and the relationships between them.
 
-Let's take a look of a simple story: 
+Let's take a look at a simple story: 
 
 **Author writes articles.**
 
