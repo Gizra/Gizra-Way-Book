@@ -16,3 +16,4 @@
 * [HR](hr.md)
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)  
+* [How to be a Client](how_to_be_a_client.md)
