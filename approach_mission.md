@@ -1,20 +1,22 @@
-# Approaching a Mission
+# Approaching a Mission - determining a website's technical structure. 
 
 As a newbie, a lot of things seem very confusing and sometimes even a simple task may be overwhelming because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt a clear approach to a problem, with defined rules, ever the most complex task becomes approachable and less threatening.
 
-In this post I will try to present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a mission.
+In this post I will try to present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a mission. A mission being the determination of a website's technical structure.
 
-First of all, we can think about a mission as a story with a plot and characters. A well written and understood story plot includes clearly defined relationships between the characters.
+First of all, we can think about a mission as a story plot with characters. A well written and understood story plot includes clearly defined relationships between the characters.
 
-In our technical world, our characters are called entities, and the first step to understanding our new mission, the plot, is to be able to recognize the entities and the relationships between them.
+In our technical world, characters are called entities, and the first step to understanding the story, our new mission, is to be able to recognize the entities and the relationships between them.
 
 Let's take a look at a simple story: 
 
-**Author writes articles.**
+**An author writes articles.**
 
-Yes, it’s a story with only one line, but it’s a story. Let's try to recognize the entities and the relationships in this story. the best way to do it is to draw it! We can use circle as an entity and line as a relationship.
+Let's try to identify the entities and relationships in this story - the best way to do it - is to draw it! Use circles for entities and lines for relationships.
 
 ![](111.jpg)
+
+In this case, the entities are "Author" and "Article".  The line indicates that they are related.
 
 A relationship defines how entities are related to one another, so we better use arrow line to express the reference between the entities. In order to know the direction of the arrow, we should ask two important questions:
 1. Is the author can write more than one article?
