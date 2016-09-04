@@ -295,6 +295,13 @@ Be aware that when we pass the node title, we use the ```check_plain``` function
   
 Because the user enters the title, we need to protect the site from XSS attack.
 
+**Node variant**
+
+Check out the final code [here](https://github.com/Gizra/dynamic_example/tree/lesson1/dynamic_example/modules/custom/dynamic_example_lesson/plugins/content_types/company_card_node).
+
+Variants in Panels are the way to vary an output. The decision to use one variant or the other can be based on selection rules (i.e. node of specific type etc.) or contexts (i.e. the node being viewed etc.). In the following example we can display nodes in a custom layout using Panels without having to edit the node template file.
+
+
 
 
 
