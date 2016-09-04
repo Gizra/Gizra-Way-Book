@@ -84,10 +84,10 @@ Inside this folder we need to place the ```page.tpl.php``` file. This file is th
 
 ```
 theme/
-    MYTHEME/
-        MYTHEME.info
-        templates/
-             page.tpl.php
+   MYTHEME/
+      MYTHEME.info
+      templates/
+         page.tpl.php
 ```
 
 Now, let’s go back to our markup. Remember we recognized three parts of the page: **header**, **footer** and **content**. That is the layout of the page, so we need to replace the ```page.tpl.php``` default code with the HTML of this layout. 
@@ -149,6 +149,108 @@ That’s all we need. Delete the rest of the original code in ```page.tpl.php```
 ### 4 - Create Panel page
 In drupal site, go to ```/admin/structure/pages``` and create a page. Give it title and path, choose 1 column layout and leave content empty for now. Later we will add the plugin to the content area.
 Save the panel page and export it by Features. Put the module in ```/modules/custom/MYMODULE```. Don’t forget to enable the module.
+
+
+### 5 - Create the plugin
+First, we need to define a hook to tell CTools where our plugin is located. Open the file ```/modules/custom/MYMODULE/MYMODULE.module``` and paste the following code:
+
+```
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function dynamic_example_lesson_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'ctools') {
+    return 'plugins/' . $plugin;
+  }
+}
+```
+
+Next, we need to provide an include file. Create ```MYPLUGIN.inc``` Within the module directory, following this structure:
+
+```
+MYMODULE/
+   plugins/
+      content_types/
+         MYPLUGIN/
+            MYPLUGIN.inc
+```
+
+*Content types* is the plugin type (not be confused with the entity "node" and its bundles, also called content types).
+You don’t need to remember the exact code should be in ```.inc``` file, you can just copy it from another project who used plugins. When you copy the code you need to rename all functions’s names to our module name & plugin name, and delete irrelevant code.
+
+Look at the following, it's kind of a ```.inc``` file frame:
+
+```
+<?php
+
+/**
+ * @file
+ * Plugin definition.
+ */
+
+$plugin = array(
+  'title' => t('PLUGIN_TITLE'),
+  'description' => t('PLUGIN DESCRIPTION'),
+  'category' => t('PLUGIN CATEGORY'),
+  'hook theme' => 'MYMODULE_MYPLUGIN_content_type_theme',
+);
+
+/**
+ * Render callback.
+ */
+function MYMODULE_MYPLUGIN_content_type_render($subtype, $conf, $args, $context) {
+  $block = new stdClass();
+  $block->module = 'MYMODULE';
+  $block->title = '';
+
+
+  $block->content = '';
+  return $block;
+}
+
+/**
+ * Edit form.
+ */
+function MYMODULE_MYPLUGIN_content_type_edit_form($form, &$form_state) {
+  return $form;
+}
+
+/**
+ * Delegated hook_theme().
+ */
+function MYMODULE_MYPLUGIN_content_type_theme(&$theme, $plugin) {
+  $theme['MYMODULE_MYPLUGIN'] = array(
+    'variables' => array(
+    ),
+    'path' => $plugin['path'],
+    'template' => 'MYTEMPLATE',
+  );
+}
+
+```
+
+The items **title**, **description** and **category** in ```$plugins``` array will show up in the Panels UI.
+The ```$block``` variable will get the renderable content of the plugin. 
+The ```hook_theme()``` will take the content in ```$block```, and pass it to a template file called ```MYTEMPLATE.tpl.php``` in our modules directory.
+
+
+### 6 - Create  template files
+Template files are used for the HTML markup and PHP variables. To create a ```MYTEMPLATE.tpl.php``` copy the relevant HTML from the markup and replace the static content with a dynamic variables.
+
+**Note**: depending on the structure of the HTML, it can be more than one template file, so in that case we need to define in the hook_theme() all the templates we are going to use (see example in the Example section below).
+
+**Important**: when you implement new ```hook``` or add new ```.inc``` or ```.tpl.php``` file, you need to clear cache to get these changes active.
+
+
+### 7 - Add the plugin as a content in the Panel page.
+Go to ```/admin/structure/pages``` in Drupal site and add our plugin as a content item in the panel page we created before. Don’t forget to update the feature.
+
+And that's it. When our page loads, it will get its content from our CTools plugin.
+
+
+
+
+
 
 
 
