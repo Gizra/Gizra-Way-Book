@@ -249,6 +249,53 @@ And that's it. When our page loads, it will get its content from our CTools plug
 
 
 
+### Examples
+
+**List of companies**
+
+Check out the final code [here](https://github.com/Gizra/dynamic_example/tree/lesson1/dynamic_example/modules/custom/dynamic_example_lesson/plugins/content_types/companies_list).
+
+The plugin displays list view of companies, used this markup: 
+
+![](list view plugin.png)
+
+As you can see, in this markup we have container div and items inside it. Each item has **image**, **title** and **link** (the title is a link to full node). So when we build the plugin, it should have two template files: ```compatnies_list.tpl.php``` holds the HTML for the container div, and ```companies_item.tpl.php``` holds the HTML for the item itself.
+
+If you look into ```companies_list.inc``` file, at the section we delegated the ```hook_theme()```, you will see we defined two ```$theme``` arrays.
+
+One is for the item, gets the ```title```, ```url``` and ```image``` as a variables, and pass them to the ```companies_item``` template file: 
+
+```
+$theme['dynamic_example_lesson_companies_item'] = array(
+    'variables' => array(
+      'title' => NULL,
+      'url' => NULL,
+      'image' => NULL,
+    ),
+    'path' => $plugin['path'],
+    'template' => 'companies_item',
+  );
+
+```
+The other one is for the container div, gets the ```item``` as a variable, and pass it to the ```companies_list``` template file:
+```
+  $theme['dynamic_example_lesson_companies_list'] = array(
+    'variables' => array(
+      'companies_item' => NULL,
+    ),
+    'path' => $plugin['path'],
+    'template' => 'companies_list',
+  );
+
+```
+
+Be aware that when we pass the node title, we use the ```check_plain``` function:
+
+  ```'title' => check_plain($node->title),```
+  
+Because the user enters the title, we need to protect the site from XSS attack.
+
+
 
 
 
