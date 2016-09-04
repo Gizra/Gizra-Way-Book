@@ -2,7 +2,7 @@
 
 ## Tools
 
-| GIT&GitHub |  |
+| GIT & GitHub |  |
 | -- | -- |
 | [Git - try git](https://try.github.io/levels/1/challenges/1) |  |
 | [Git - git real](https://www.codeschool.com/courses/git-real) |  |
@@ -16,7 +16,17 @@
 
 | PhpStorm |  |
 | -- | -- |
-| [Drupal&PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/Drupal+Development+using+PhpStorm#DrupalDevelopmentusingPhpStorm-CoderandPHPCodeSnifferIntegration) |  |
+| [Drupal & PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/Drupal+Development+using+PhpStorm#DrupalDevelopmentusingPhpStorm-CoderandPHPCodeSnifferIntegration) | This tutorial describes the features and best practices relevant to using PhpStorm as an IDE for Drupal development. |
+
+| Command line |  |
+| -- | -- |
+| [Command line](https://www.codecademy.com/learn/learn-the-command-line) | Course with online practice to learn this text-based tool. |
+
+| Drush |  |
+| -- | -- |
+| [Drush for beginners](https://www.digitalocean.com/community/tutorials/a-beginner-s-guide-to-drush-the-drupal-shell) | A Beginner's Guide To Drush: The Drupal Shell. |
+| [Drush commands](https://drushcommands.com) | all the core Drush commands. |
+
 
 
 
@@ -26,11 +36,6 @@
 | -- | -- |
 | [PHP for beginners](http://www.sololearn.com/Play/PHP#)| Nice and clear course, including online practice. When you done, you will know all the basics of PHP language. |
 
-
-
-| Drush for beginners | https://www.digitalocean.com/community/tutorials/a-beginner-s-guide-to-drush-the-drupal-shell |
-| Drush commands | https://drushcommands.com |
-| Command line | https://www.codecademy.com/learn/learn-the-command-line |
 
 
 ## Working methods
