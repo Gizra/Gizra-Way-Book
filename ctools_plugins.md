@@ -143,6 +143,9 @@ This code now is in our drupal page, but it’s completely static, exactly like 
 </footer>
 ```
 
+That’s all we need. Delete the rest of the original code in ```page.tpl.php```.
+
+
 
 
 
