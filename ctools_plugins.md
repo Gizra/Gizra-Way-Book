@@ -251,7 +251,7 @@ And that's it. When our page loads, it will get its content from our CTools plug
 
 ### Examples
 
-**List of companies**
+**1. List of companies**
 
 Check out the final code [here](https://github.com/Gizra/dynamic_example/tree/lesson1/dynamic_example/modules/custom/dynamic_example_lesson/plugins/content_types/companies_list).
 
@@ -295,7 +295,7 @@ Be aware that when we pass the node title, we use the ```check_plain``` function
   
 Because the user enters the title, we need to protect the site from XSS attack.
 
-**Node variant**
+**2. Node variant**
 
 Check out the final code [here](https://github.com/Gizra/dynamic_example/tree/lesson1/dynamic_example/modules/custom/dynamic_example_lesson/plugins/content_types/company_card_node).
 
