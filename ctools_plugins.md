@@ -146,6 +146,10 @@ This code now is in our drupal page, but it’s completely static, exactly like 
 That’s all we need. Delete the rest of the original code in ```page.tpl.php```.
 
 
+### 4 - Create Panel page
+In drupal site, go to ```/admin/structure/pages``` and create a page. Give it title and path, choose 1 column layout and leave content empty for now. Later we will add the plugin to the content area.
+Save the panel page and export it by Features. Put the module in ```/modules/custom/MYMODULE```. Don’t forget to enable the module.
+
 
 
 
