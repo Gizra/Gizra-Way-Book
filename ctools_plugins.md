@@ -54,5 +54,24 @@ label: Hello-world
 </div>
 ```
 
+We see that the code for the item in the list view is in single_item.html - it will be the first plugin, and the code for the item in the grid view is in card.html - it will be the second plugin.
+Also we can see the layout for this page is default. So let’s take a look at the layout. Go to */static/src/_layouts/default.html*.
 
+```
+<body>
+
+    {% include header.html %}
+
+    <main class="ui container">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    <script src="/assets/javascript/script.js"></script>
+  </body>
+```
+Here, inside the ```<body>``` tag, we see first the **header** (which his code is in *header.html*), then the **content** (inside the ```<main>``` tag), and final the **footer** (which his code is in *footer.html*)
+
+Now, after we saw the parts of the page, and identified the plugins, we can go ahead and start building them.
 
