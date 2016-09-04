@@ -17,5 +17,5 @@
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 * Training
-   * References
+   * [References](references.md)
 
