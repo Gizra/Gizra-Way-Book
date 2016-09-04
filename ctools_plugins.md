@@ -17,3 +17,42 @@ For example, look at this page:
 
 ![](markup.png)
 
+We can identify three parts: **header**, **footer** and **content**. The content area contains two items lists: one is a list view and the second is a grid view. Header and footer repeat on every page, so they will be part of our layout. Every item in the list is a piece of code that repeat itself, so we can look at one list as a plugin. In this page we have two lists, so we will create separate plugin for each list.
+
+The final code for the examples below can be found in [this repository](https://github.com/Gizra/dynamic_example/tree/lesson1).
+
+Let’s look at the code in the static site. 
+Go to */static/src/hello-world/index.html* and open the file.
+
+```
+---
+layout: default
+label: Hello-world
+---
+
+<div class="ui segment stacked">
+  <div class="ui very relaxed items">
+
+    {% include single_item.html %}
+    {% include single_item.html %}
+    {% include single_item.html %}
+
+
+  </div>
+</div>
+
+<div class="ui link cards">
+
+
+  {% include card.html %}
+  {% include card.html %}
+  {% include card.html %}
+  {% include card.html %}
+  {% include card.html %}
+  {% include card.html %}
+  
+</div>
+```
+
+
+
