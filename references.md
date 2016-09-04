@@ -2,7 +2,7 @@
 
 ## Tools
 
-|  |  |
+| Topic | Link |
 | -- | -- |
 | PHP for beginners | http://www.sololearn.com/Play/PHP# |
 | Git - try git | https://try.github.io/levels/1/challenges/1 |
@@ -18,7 +18,7 @@
 
 ## Working method
 
-|  |  |
+| Topic | Link |
 | -- | -- |
 | GitHub Issues | http://www.gizra.com/content/how-we-use-github-issues/ |
 | Time boxing | https://www.mindtools.com/pages/article/timeboxing.htm |
