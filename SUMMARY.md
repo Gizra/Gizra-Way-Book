@@ -6,13 +6,15 @@
 * [How to Solve a Problem](how_to_solve_a_problem.md)
 * [Pull Requests](pull_requests.md)
 * [Work life balance](work_life_balance.md)
-   * [Thinking of quitting](thinking_of_quitting.md)   
+   * [Thinking of quitting](thinking_of_quitting.md)
 * [Sales](sales_intro.md)
    * [Our Brand](our_brand.md)
    * [Phone Call](phone_call.md)
    * [Price offer](price_offer.md)
 * [How and What to Document](how_and_what_to_document.md)
-  * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
+   * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
 * [HR](hr.md)
    * [Preparation for new employee](preparation_for_new_employee.md)
-   * [Preparation for departing employee](preparation_for_departing_employee.md)  
+   * [Preparation for departing employee](preparation_for_departing_employee.md)
+* Training
+
