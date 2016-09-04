@@ -2,12 +2,12 @@
 
 ## Tools
 
-| GIT & GitHub |  |
+| Git & GitHub |  |
 | -- | -- |
-| [Git - try git](https://try.github.io/levels/1/challenges/1) |  |
-| [Git - git real](https://www.codeschool.com/courses/git-real) |  |
-| [Git - learn git](https://www.codecademy.com/learn/learn-git) | |
-| [GitHub](https://www.codeschool.com/courses/mastering-github) | |
+| [Git - try git](https://try.github.io/levels/1/challenges/1) | Quick start for Git. |
+| [Git - git real](https://www.codeschool.com/courses/git-real) | Very clear and comprehensive course, including video tutorials and online practice. *only level 1 is free. |
+| [Git - learn git](https://www.codecademy.com/learn/learn-git) | Online course. |
+| [GitHub](https://www.codeschool.com/courses/mastering-github) | Online course teach best practices for collaborating more effectively with GitHub. *only level 1 is free. |
 
 | Jekyll |  |
 | -- | -- |
@@ -40,11 +40,14 @@
 
 ## Working methods
 
-| Topic | Link |
+| BEM |  |
 | -- | -- |
-| GitHub Issues | http://www.gizra.com/content/how-we-use-github-issues/ |
-| Time boxing | https://www.mindtools.com/pages/article/timeboxing.htm |
-| BEM | https://youtu.be/IO-4Z32O--c |
-| BEM | https://en.bem.info/methodology/quick-start/#block |
-| BEM | https://css-tricks.com/bem-101 |
+| [Introduction to BEM](https://youtu.be/IO-4Z32O--c) | 7 minutes video that explains concisely BEM methodology. |
+| [BEM quick start](https://en.bem.info/methodology/quick-start/) | Quick start text guide. |
+| [Understanding BEM](https://css-tricks.com/bem-101) | Good post about why to use BEM methodology. | 
+
+| Miscellaneous topics |  |
+| -- | -- |
+| [GitHub Issues](http://www.gizra.com/content/how-we-use-github-issues) | Great article by our Nir Yariv explain how to achieve better communication using GitHub issues. |
+| [Time boxing](https://www.mindtools.com/pages/article/timeboxing.htm) | Excellent article explaining the principles of the Time boxing method. |
 
