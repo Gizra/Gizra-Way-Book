@@ -133,8 +133,10 @@ Remember that we going to have 3 emails send per membership: 3 month before expi
 
 Now we need to define the relationship. the ```email log``` has relationship with ```membership``` (and not with the ```user``` if you happen to think so) because an email sent based on a membership's time stamp. It is data that the ```membership``` holds and not the ```user```.
 
-We know ```membership``` and ```email log``` have a relationship, but who refer to whom?
-Is one ```membership``` can has million ```email log```? No it can has three ```email log``` maximum. So in this case we prefer the ```membership``` will refer to ```email log``` so when we retrieve from the database the ```membership``` we get also the information about the ```email log```.
+We know ```membership``` and ```email log``` have a relationship, but what refers to what (direction of the arrow)?
+Question 1: can one ```membership``` has million ```email log```? No it can has maximum three ```email log``` . 
+
+Because the answer is no, we don't need to ask the million question. we can decide that```membership``` will refer to ```email log```, because when we retrieve ```membership``` from the database, we want to get also the information about the ```email log```.
 
 
 ![](11.jpg)
