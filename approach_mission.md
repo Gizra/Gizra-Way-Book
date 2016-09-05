@@ -140,7 +140,13 @@ Give me all ```membership``` that their ```status``` is **active**, and their ``
 
 
 
-Summary:
+**Summary:**
+
+In our developing websites world, we are facing with new tasks on a regular basis. Even a complex task can be simple to approach If we adopt clear principles:
+1. Define the characters (entities) in the plot.
+2. define the relationships between the entities - who refer to whom. Use 'The million question' to help you out.
+3. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
+
 
 
 
