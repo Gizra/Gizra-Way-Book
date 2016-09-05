@@ -14,63 +14,65 @@ Take a look at a simple story:
 > An author writes articles.
 
 
-Let's try to identify the entities and relationships in this story - the best way to do it - is to draw it! Use circles for entities and lines for relationships.
+Let's try to identify the entities and relationships in this story. the best way to do it - is to draw it! Use circles for entities and lines for relationships.
 
 ![](111.jpg)
 
-In this case, the entities are "Author" and "Article".  The line indicates that they are related.
+In this case, the entities are ```Author``` and ```Article```.  The line indicates that they are related.
 
 A relationship defines how entities are related to one another, so we better use arrow line to express the reference between the entities. In order to know the direction of the arrow, we should ask two important questions:
-1. Is the author can write more than one article?
+
+1- Is the author can write more than one article?
 Yes, he can! So it will look like this:
 
 ![](2.jpg)
 
-And if our author is particularly diligent, he can write even a million articles (theoretically of course…), so this will bring us to the second important question, we call it “the million question”: 
-2. Is the entity “author” can refer to million entities “article”?
-No, the answer is definitely not. To understand that, we need to understand the meaning of reference. When object A refer to object B it means object A “knows” about object B, and this “knowing” became part of the information that object A holds.  So when we call object A from the Database, it will brings us also the information of all the “B”s objects that it refer to. So if there are milion “B”s objects, the systems brings them all. This is a very heavy task for the system to deal with and needs a lot of memory resources … We want to make it easier for the system and not make it difficult for her. 
+And if our author is particularly diligent, he can write even a million articles (theoretically of course…), so this will bring us to the second important question, we call it **The million question**: 
 
-So because we don’t want “author” refer to million entities “article”, the “article” is refer to “author”. 
+2 - Is the entity ```author``` can refer to million entities ```article```?
+No, the answer is definitely not. To understand that, we need to understand the meaning of reference. When object A refer to object B it means object A “knows” about object B, and this “knowing” became part of the information that object A holds.  So when we call object A from the database, it will brings us also the information of all the “B”s objects that it refer to. So if there are million “B”s objects, the systems brings them all. This is a very heavy task for the system to deal with and needs a lot of memory resources … that is something we want to avoid from. 
+
+So because we don’t want ```author``` to refer to million ```article```, the ```article``` is refer to ```author```. 
 It will look like this:
 
 ![](3.jpg)
 
 
-Now let’s add more details to our story:
+Now let's add more details to our story:
 
 
 > Author writes articles in various topics.
 
 
-Now we have another entity “topic”. How does “topic” relate to the others entities?
-Article written on a particular topic, then the ״article״ and the “topic” have a relationship.
+Now we have another entity called ```topic```. How does ```topic``` relate to the other entities?
+Article written on a particular topic, so the ```article``` and the ```topic``` have a relationship.
 
 ![](4.jpg)
 
 
 And who refer to whom? (what is the arrow direction?)
-Let’s ask the “million question” - 
-Is one topic can has more than one article? Yes.
-Is one article can written on more than one topic? Theoretically yes, but for the practice we decide that every article belongs only to one topic, so the answer to this question is No.
+Well, here comes **the million question** - 
+
+Is one ```topic``` can has more than one ```article```? Yes.
+
+Is one ```topic``` can refer to million ```article```? No, we don't want that.
+
+Is one ```article``` can written on more than one ```topic```? Theoretically yes, but to keep things simple let's assume that every article belongs only to one topic. In that case the answer to this question is no.
 
 
-//pic5a 
+After we answered the questions, we can add the arrows to the drawing: 
 ![](5a.jpg)
 
 
-//pic5b
-![](5b.jpg)
+Our story continues - 
 
 
-Our story continue - 
+> We going to build a Premium Website, contains articles. People can sign up and register to one or more topic that interest them. While they register to a topic, they can read articles belong to it.
 
 
-> We going to build a Premium Website, contains articles. People can signup and register to one or more topic that interest them. While they register to a topic, they can read articles belong to it.
+Now we have new entity: people.  Let's call it ```user```.
 
-
-Now we have new entity: People.  Let's call it “User”.
-
-Is “user” has relationship with “topic”?
+Is ```user``` has relationship with ```topic```?
 
 Well, user can register to many topics and many users can register to the same topic, so we will get something like this:
 
