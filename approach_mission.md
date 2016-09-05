@@ -70,23 +70,25 @@ Now we know that the Article refers to the topic. Here it is represented by the 
 ![](5a.jpg)
 
 
-Our story continues - 
+Our story continues... 
 
 
-> We are going to build a Premium Website that contains articles. People can sign up and register to one or more topics that interest them. While they register to a topic, they can read articles belong to it.
+> We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics that interest them. Registering to a topic means that they can read articles that belong to it.
 
 
 Now we have new entity: people.  Let's call it ```user```.
 
-Is ```user``` has relationship with ```topic```?
+Question 1: Does a ```user``` have a relationship with a ```topic```?
+Can a ```user``` register for more than one ```topic```?
+Can ```topic``` be chosen by more than one ```user```?
 
 Well, user can register to many topics and many users can register to the same topic, so we will get something like this:
 
 ![](6.jpg)
 
 
-Try to answer **The million question** for this case… a bit complicated, huh?! It can be a million users and a million topics...
-So, to make it simple, we can add more entity - we can call it ```membership```, and it will represent a specific register of user to a topic.
+Question 2: (The million question) In this case, it gets a bit complicated, huh?! It can be a million users and a million topics...
+So, to simplify, we can add another entity, called ```membership```, and it will represent a specific register of user to a topic.
 
 ![](7.jpg)
 
