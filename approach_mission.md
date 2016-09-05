@@ -79,18 +79,18 @@ Well, user can register to many topics and many users can register to the same t
 ![](6.jpg)
 
 
-Try to answer the “million question” for this case… a bit complicated, huh?! It can be a million users and a million topics...
-So, to make it simple, we can add more entity - let’s call it “Membership”, and it will represent a specific register of user to a topic.
+Try to answer **The million question** for this case… a bit complicated, huh?! It can be a million users and a million topics...
+So, to make it simple, we can add more entity - we can call it ```membership```, and it will represent a specific register of user to a topic.
 
 ![](7.jpg)
 
-In that case “Membership” refer to “Topic” (because we don’t want “Topic” refer to million “Membership”) and ““Membership” also refer to “User” (because we don’t want “User” refer to million “Membership”). It looks like this:
+In that case ```membership``` refer to ```topic``` (because we don’t want ```topic``` refer to million ```membership```). ```membership``` also refer to ```user``` (because we don’t want ```user``` refer to million ```membership```). It looks like this:
 
 ![](88.jpg)
 
 
 
-Let us continue with our story - 
+Continue with our story - 
 
 
 > Registration expired after a year. The user will get a reminder emails - 3 month, 1 month and 1 day before expired, so he can renew his registration.
