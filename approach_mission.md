@@ -123,21 +123,20 @@ Give me all `membership` that their `status` is **active** and their `timestamp`
 
 Ok, we almost there, but there is still one more thing - we need to check that we don't send the email more then one time to the same user. Assuming that we have a lots of `membership` in our database, so we need to limit the number of `membership` we get every time we run the query (if the system will bring us all the fit `membership` at ones, it can be run out of memory). So for example we will tell the system to brings us only 100 `membership` at a time, and we will run the query every 5 min. 
 
-How we make sure that the system won't bring us the same `membership` we already sent email for 5 min ago?
+How do we make sure that the system won't bring us the same `membership` we already sent email for 5 min ago?
 
+We need to save the information for which `membership` we already sent emails, and check it every time we want to send reminder email.
+But where are we going to save this information?
+Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership`, so it will be very complex to put all this data at the `user` entity. Additionally, the email sends based on a membership's timestamp, so it makes more sense that the `membership` will hold the information about the emails who was send. Well, this won't be good enough ether, because we need to send three emails (3 month, 1 month and 1 day before the membership expire), and it's to much data to put at at the `membership` entity.
 
+In that case it will be better to create new entity.Let's call it `email log`.
 
-We need to save an email log, and check it every time we want to send reminder email.
-
-Let's add new entity call `email log`.
-Remember that we going to have 3 emails send per membership: 3 month before expired, 1 month before and 1 day before.
 
 ![](10.jpg)
 
-Now we need to define the relationship. the `email log` has relationship with `membership` (and not with the `user` if you happen to think so) because an email sent based on a membership's timestamp. It is data that the `membership` holds and not the `user`.
-
+Now we need to define the relationship. the `email log` has relationship with `membership` (and not with the `user` if you happen to think so) because we already mentioned that an email sent based on a `membership` data (`timestamp` and `status`).
 We know `membership` and `email log` have a relationship, but what refers to what (direction of the arrow)?
-Question 1: can one `membership` has million `email log`? No it can has maximum three `email log` . 
+**Question 1:** can one `membership` has million `email log`? No it can has maximum three `email log` . 
 
 Because the answer is no, we don't need to ask the million question. we can decide that `membership` will refer to `email log`, because when we retrieve `membership` from the database, we want to get also the information about the `email log`.
 
