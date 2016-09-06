@@ -1,6 +1,6 @@
 # Approaching a Task - determining a website's technical structure. 
 
- When you need to deal with new task, sometimes things seem confusing and even a simple task may be overwhelming because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt a clear approach to a problem, with defined rules, ever the most complex task becomes approachable and less threatening.
+When you need to deal with new task, sometimes things seem confusing and even a simple task may be overwhelming because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt a clear approach to a problem, with defined rules, ever the most complex task becomes approachable and less threatening.
 
 In this post we present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a task. A task being the determination of a website's technical structure.
 
@@ -129,7 +129,7 @@ We need to save the information for which `membership` we already sent emails, a
 But where are we going to save this information?
 Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership`, so it will be very complex to put all this data at the `user` entity. Additionally, the email sends based on a membership's timestamp, so it makes more sense that the `membership` will hold the information about the emails who was send. Well, this won't be good enough ether, because we need to send three emails (3 month, 1 month and 1 day before the membership expire), and it's to much data to put at at the `membership` entity.
 
-In that case it will be better to create new entity.Let's call it `email log`.
+In that case it will be better to create new entity. Let's call it `email log`.
 
 
 ![](10.jpg)
