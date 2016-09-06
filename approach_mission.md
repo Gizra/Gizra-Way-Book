@@ -1,8 +1,8 @@
-# Approaching a Mission - determining a website's technical structure. 
+# Approaching a Task - determining a website's technical structure. 
 
-As a newbie, most things will seem confusing and sometimes even a simple task may be overwhelming because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt a clear approach to a problem, with defined rules, ever the most complex task becomes approachable and less threatening.
+ When you need to deal with new task, sometimes things seem confusing and even a simple task may be overwhelming because you don’t know from where to start. Well, no need to reinvent the wheel, once you adopt a clear approach to a problem, with defined rules, ever the most complex task becomes approachable and less threatening.
 
-In this post I will try to present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a mission. A mission being the determination of a website's technical structure.
+In this post we present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a task. A task being the determination of a website's technical structure.
 
 First of all, we can think about a mission as a story plot with characters. A well written and understood story plot includes clearly defined relationships between the characters.
 
