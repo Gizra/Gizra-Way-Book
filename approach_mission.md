@@ -136,6 +136,7 @@ In that case it will be better to create new entity. Let's call it `email log`.
 
 Now we need to define the relationship. the `email log` has relationship with `membership` (and not with the `user` if you happen to think so) because we already mentioned that an email sent based on a `membership` data (`timestamp` and `status`).
 We know `membership` and `email log` have a relationship, but what refers to what (direction of the arrow)?
+
 **Question 1:** can one `membership` has million `email log`? No it can has maximum three `email log` . 
 
 Because the answer is no, we don't need to ask the million question. we can decide that `membership` will refer to `email log`, because when we retrieve `membership` from the database, we want to get also the information about the `email log`.
@@ -155,9 +156,10 @@ Give me all ```membership``` that their ```status``` is **active**, and their ``
 **Summary:**
 
 In our developing websites world, we are facing with new tasks on a regular basis. Even a complex task can be simple to approach if we adopt clear principles:
-1. Define the characters (entities) in the plot.
-2. Define the relationships between the entities - who refer to whom. Use 'The million question' to help you out.
-3. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
+1. Define the entities. No matter how complex the task is, always start from drawing the first circle (entity) and then continue to the next one.
+2. Define the relationships between the entities - what refer to what. Use 'The million question' to help you out.
+3. Remember you can create additional entity in case we have complex relationships between two entities. 
+4. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
 
 
 
