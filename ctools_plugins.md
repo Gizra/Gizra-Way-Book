@@ -21,7 +21,7 @@ We can identify three parts: **header**, **footer** and **content**. The content
 The final code for the examples below can be found in [this repository](https://github.com/Gizra/dynamic_example/tree/lesson1).
 
 Let’s look at the code in the static site. 
-Go to ```/static/src/hello-world/index.html``` and open the file.
+Go to `/static/src/hello-world/index.html` and open the file.
 
 ```
 ---
@@ -101,7 +101,7 @@ Then copy the ```<main>``` tag and all it contains from ```/static/src/_layouts/
 Finally go to ```/static/src/_includes/footer.html``` and copy it’s content too.
 The result should be look like this:
 
-```
+```html
 <header class="ui container header">
   <h2 class="ui header">
     <a href="/"><i class="home icon"></i></a>
@@ -122,7 +122,7 @@ The result should be look like this:
 
 This code now is in our drupal page, but it’s completely static, exactly like our markup. Let’s replace the static parts with a dynamic content. In the original ```page.tpl.php``` code, find the line where Drupal prints the content. Cut and paste this line inside the ```<main>``` tag, where the content should be print. Additionally we want to see the drupal messages, so cut the relevant line and paste it above the ```<main>``` tag. Now your code should look like this:
 
-```
+```php
 <header class="ui container header">
   <h2 class="ui header">
     <a href="/"><i class="home icon"></i></a>
