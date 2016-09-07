@@ -9,7 +9,7 @@ A task is often composed of many small parts. We need to break the "problem" dow
 Take a look at the following simple scenario: 
 
 
-> An author writes articles.
+> Authors can write articles.
 
 
 Let's try to identify the entities and relationships in this story. The best way to do it - is to draw it! Use circles for entities and lines for relationships.
