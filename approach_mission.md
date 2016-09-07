@@ -78,7 +78,6 @@ The simplicity and logic presnted can assist us even with the next scenarios:
 
 In the above example we cheated a bit since we have called the `User` entity an `Author`. But it's a real user. It's very rare of a site not to have a user, since, well you know - we, the people, are still important.
 
-Obviously in the above example, an `article` would reference a `user`, but in this scenario we'll have to write it
 
 Question 1: Does a `user` have a relationship with a `topic`?
 Can a `user` register for more than one `topic`?
