@@ -44,7 +44,7 @@ It looks like this:
 Now let's add more details to our scenario:
 
 
-> Author writes articles on various topics.
+> Author can write articles on various topics.
 
 
 Now we have another entity called `topic`. How does `topic` relate to the other entities?
