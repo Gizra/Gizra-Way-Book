@@ -23,7 +23,7 @@ The final code for the examples below can be found in [this repository](https://
 Let’s look at the code in the static site. 
 Go to `/static/src/hello-world/index.html` and open the file.
 
-```
+```html
 ---
 layout: default
 label: Hello-world
@@ -56,7 +56,7 @@ label: Hello-world
 We see that the code for the item in the list view is in ```single_item.html``` - it will be the first plugin, and the code for the item in the grid view is in ```card.html``` - it will be the second plugin.
 Also we can see the layout for this page is ```default```. So let’s take a look at the layout. Go to ```/static/src/_layouts/default.html```.
 
-```
+```html
 <body>
 
     {% include header.html %}
@@ -122,7 +122,7 @@ The result should be look like this:
 
 This code now is in our drupal page, but it’s completely static, exactly like our markup. Let’s replace the static parts with a dynamic content. In the original ```page.tpl.php``` code, find the line where Drupal prints the content. Cut and paste this line inside the ```<main>``` tag, where the content should be print. Additionally we want to see the drupal messages, so cut the relevant line and paste it above the ```<main>``` tag. Now your code should look like this:
 
-```php
+```html
 <header class="ui container header">
   <h2 class="ui header">
     <a href="/"><i class="home icon"></i></a>
@@ -154,7 +154,9 @@ Save the panel page and export it by Features. Put the module in ```/modules/cus
 ### 5 - Create the plugin
 First, we need to define a hook to tell CTools where our plugin is located. Open the file ```/modules/custom/MYMODULE/MYMODULE.module``` and paste the following code:
 
-```
+```html
+<?php
+
 /**
  * Implements hook_ctools_plugin_directory().
  */
@@ -180,7 +182,7 @@ You don’t need to remember the exact code should be in ```.inc``` file, you ca
 
 Look at the following, it's kind of a ```.inc``` file frame:
 
-```
+```html
 <?php
 
 /**
@@ -265,7 +267,8 @@ If you look into ```companies_list.inc``` file, at the section we delegated the 
 
 One is for the item, gets the ```title```, ```url``` and ```image``` as a variables, and pass them to the ```companies_item``` template file: 
 
-```
+```html
+<?php
 $theme['dynamic_example_lesson_companies_item'] = array(
     'variables' => array(
       'title' => NULL,
@@ -278,7 +281,8 @@ $theme['dynamic_example_lesson_companies_item'] = array(
 
 ```
 The other one is for the container div, gets the ```item``` as a variable, and pass it to the ```companies_list``` template file:
-```
+```html
+<?php
   $theme['dynamic_example_lesson_companies_list'] = array(
     'variables' => array(
       'companies_item' => NULL,
@@ -295,11 +299,6 @@ Be aware that when we pass the node title, we use the ```check_plain``` function
   
 Because the user enters the title, we need to protect the site from XSS attack.
 
-**2. Node variant**
-
-Check out the final code [here](https://github.com/Gizra/dynamic_example/tree/lesson1/dynamic_example/modules/custom/dynamic_example_lesson/plugins/content_types/company_card_node).
-
-Variants in Panels are the way to vary an output. The decision to use one variant or the other can be based on selection rules (i.e. node of specific type etc.) or contexts (i.e. the node being viewed etc.). In the following example we can display nodes in a custom layout using Panels without having to edit the node template file.
 
 
 
