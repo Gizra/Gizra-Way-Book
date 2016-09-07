@@ -28,7 +28,7 @@ Answer: Yes, she can! So, let's represent that in the sketch. It would look like
 
 And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question we call:
 
-**Question 2. The Million Question** Can a single entity `author` refer to a million `article` entities?
+**Question 2. The Million Question** Can a single `author` entity refer to a million `article` entities?
 
 Answer: No, the answer is definitely not. It would be a bad idea 
 
