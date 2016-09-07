@@ -53,12 +53,11 @@ Articles are written on particular topics, so the `article` and the `topic` have
 
 ![](4.jpg)
 
+but what is the relationship direction. That is, who is referring to who? Let's apply our questions to answer this:
 
-What refers to what (direction of the arrow)? Let's use our questions:
+Question 1; Can one `topic` be written about in more than one `article`? Yes.
 
-Question 1: Can one `topic` be written about in more than one `article`? Yes.
-
-Question 2: (The Million Question) Can one `topic`refer to a million `article`? No, we don't want that.
+Question 2; (The Million Question) Can one `topic`refer to a million `article`? No, we don't want that.
 
 Now use the questions the other way around:
 
