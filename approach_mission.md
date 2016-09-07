@@ -99,7 +99,7 @@ As a side note, it's worth mentioing that this Membership entity and its referen
 
 But we must continue, it seems that our client has more needs for thier Premium site.
 
-> Registration expired after a year. The user will get a reminder emails - 3 month, 1 month and 1 day before expired, so he can renew his registration.
+> Registration should expire after a year. The user will get a reminder emails - 3 month, 1 month and 1 day before expired, so he can renew his registration.
  
  
 
