@@ -4,7 +4,7 @@ When you need to deal with new task, sometimes things seem confusing and even a 
 
 In this chappter we will present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a task. A task being understanding how to implement a set of requirements, by first finding the underlying data structure.
 
-Task composed of many small parts that if we will map them correctly, then their implementation will be much more accurate and simple. So the big trick is to be able to recognize the entities and the relationships between them. It is ultimately a world of circles and arrows.
+A task is often composed of many small parts. We need to break the "problem" down to atom parts and reveal the entities and the relationships between them. It is ultimately a world of circles and arrows.
 
 Take a look at the following simple story: 
 
