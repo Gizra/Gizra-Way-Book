@@ -61,7 +61,7 @@ Question 2; (The Million Question) Can and should one single `topic`refer to a m
 
 Now use the questions the other way around:
 
-Question 1: Can one `article` be written in more than one `topic`? Theoretically yes, but to keep things simple let's assume that every article belongs only to one topic. In that case the answer to this question is no.
+Question 1: Can one `article` be written in more than one `topic`? Yes, that is the requirement
 
 Question 2: We don't need to ask the Million Question since the answer to the first Question is 'no'.
 
