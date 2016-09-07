@@ -94,11 +94,6 @@ Worry not, because we have an elegant solution for this case. We'll simply creat
 
 ![](7.jpg)
 
-In this case `membership` refer to `topic` (because we don’t want `topic` refer to million `membership`). `membership` also refer to `user` (because we don’t want `user` refer to million `membership`). It looks like this:
-
-![](88.jpg)
-
-
 
 Continue with our story - 
 
