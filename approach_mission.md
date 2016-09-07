@@ -63,13 +63,16 @@ Now use the questions the other way around:
 
 Question 1 Can one `article` be written in more than one `topic`? Yes, that is the requirement
 
-Question 2 (the Million Question); This is where the reality should help us dictate the answer. While in theory an article could reference a million topics, we know that won't be the case. A typical article/ blog post is probably under a single or a few of topics. So it should be safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, we can safely say that the `article` will refer the `topic`. 
+Question 2 (the Million Question); This is where the reality should help us dictate the answer. While in theory an article could reference a million topics, we know that won't be the case. A typical article/ blog post is probably under a single or a few of topics. So it should be safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, we can safely say that the `article` will refer the `topic`.
 
 ![](5a.jpg)
 
 
-Our story continues... 
+### Advanced requirements
 
+Up until now nothing was too complicated. Even if you are not a web developer, you are probably comfortable with the above logic. You might be tempted to think that the below requirements require some deep understanding of computer science. They don't!
+
+The simplicity and logic presnted can assist us even with the next scenarios:
 
 > We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics that interest them. Registering to a topic means that they can read articles that belong to it.
 
