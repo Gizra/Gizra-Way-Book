@@ -4,9 +4,7 @@ When you need to deal with new task, sometimes things seem confusing and even a 
 
 In this post we present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a task. A task being the determination of a website's technical structure.
 
-First of all, we can think about a mission as a story plot with characters. A well written and understood story plot includes clearly defined relationships between the characters.
-
-In our technical world, characters are called entities, and the first step to understanding the story, our new mission, is to be able to recognize the entities and the relationships between them.
+The first step to understanding the task is to be able to recognize the entities and the relationships between them.
 
 Take a look at the following simple story: 
 
