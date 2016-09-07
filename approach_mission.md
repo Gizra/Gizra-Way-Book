@@ -44,10 +44,11 @@ It looks like this:
 Now let's add more details to our scenario:
 
 
-> Author can write articles on various topics.
+> Author can write articles on various topic(s).
 
 
-Now we have another entity called `topic`. How does `topic` relate to the other entities?
+What is this new topic? Simple - It's an entity, represented as a circle.
+How does `topic` relate to the other entities?
 Articles are written on particular topics, so the `article` and the `topic` have a relationship.
 
 ![](4.jpg)
