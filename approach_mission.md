@@ -28,7 +28,7 @@ Answer: Yes, she can! So, let's represent that in the sketch. It would look like
 
 And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question we call:
 
-**Question 2. The Million Question** Can a single `author` entity refer to a million `article` entities?
+**Question 2. The Million Question** Can and should a single `author` entity refer to a million `article` entities?
 
 Answer: No, the answer is definitely not. It would be a bad idea. 
 
@@ -57,7 +57,7 @@ but what is the relationship direction. That is, who is referring to who? Let's 
 
 Question 1; Can one `topic` be written about in more than one `article`? Yes.
 
-Question 2; (The Million Question) Can one `topic`refer to a million `article`? No, we don't want that.
+Question 2; (The Million Question) Can and should one `topic`refer to a million `article`? No, we don't want that.
 
 Now use the questions the other way around:
 
