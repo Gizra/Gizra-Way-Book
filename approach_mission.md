@@ -16,7 +16,7 @@ Let's try to identify the entities and relationships in this simple scenario. An
 
 ![](111.jpg)
 
-That wasn't so hard, was it? In this case, the entities are `author` and `article`.  The line indicates that they are related.
+That wasn't so hard, was it? In this case, the entities are `author` and `article`.  The line indicates that they are somehow related.
 
 A relationship defines how entities are related to one another, so we can use arrows to express the reference between the entities. In order to know the direction of the arrow, we should ask two important questions:
 
