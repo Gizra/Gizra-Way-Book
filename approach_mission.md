@@ -79,17 +79,18 @@ The simplicity and logic presnted can assist us even with the next scenarios:
 In the above example we cheated a bit since we have called the `User` entity an `Author`. But it's a real user. It's very rare of a site not to have a user, since, well you know - we, the people, are still important.
 
 
-Question 1: Does a `user` have a relationship with a `topic`?
+Question 1: Does a `user` have a relationship with a `topic`? Yes, they do.
 Can a `user` register for more than one `topic`?
-Can `topic` be chosen by more than one `user`?
+Can a `topic` be chosen by more than one `user`?
 
-Well, user can register to many topics and many users can register to the same topic, so we will get something like this:
 
 ![](6.jpg)
 
 
-Question 2: (The million question) In this case, it gets a bit complicated, huh?! It can be a million users and a million topics... how can we solve it? 
-We can add another entity, called `membership`. It will represent a specific register of user to a topic. Now every user has only one `membership` per topic.
+Question 2: (The million question) hmm, seems we have a real problem here! A single user cannot reference million topics, and vice versa. Is the universe going to collapse into itself?! 
+
+Worry not, because we have an elegant solution for this case. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `Membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
+
 
 ![](7.jpg)
 
