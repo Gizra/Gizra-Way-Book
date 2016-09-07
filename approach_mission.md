@@ -76,7 +76,7 @@ The simplicity and logic presnted can assist us even with the next scenarios:
 
 > We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics of interest. Registering to a topic means that they can read articles that belong to it.
 
-In the above example we cheated a bit since we have called the `User` entity an `Author`. But it's a real user. It's very rare of a site not to have a user, since, well you know - we, the people, are still important.
+In the above example we cheated a bit since we have called the `user` entity an `author`. But it's a real user. It's very rare of a site not to have a user, since, well you know - we, the people, are still important.
 
 
 Question 1: Does a `user` have a relationship with a `topic`? Yes, they do.
@@ -89,9 +89,9 @@ Can a `topic` be chosen by more than one `user`?
 
 Question 2: (The million question) hmm, seems we have a real problem here! A single user cannot reference million topics, and vice versa. Is the universe going to collapse into itself?! 
 
-Worry not, because we have an elegant solution for this case. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `Membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
+Worry not, because we have an elegant solution for this case. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
 
-By having a special entity for capturing the membership, we can actually add more meta-data to the memebership. Things like the state of the membership (i.e. Is the user an active member, pending or even blocked). The `created` timestamp, that is - when exactly was the `Membership` created; and so on.
+By having a special entity for capturing the membership, we can actually add more meta-data to the memebership. Things like the state of the membership (i.e. Is the user an active member, pending or even blocked). The `created` timestamp, that is - when exactly was the `membership` created; and so on.
 
 As a side note, it's worth mentioing that this Membership entity and its references are the base concept for the Organic groups module in Drupal.
 
