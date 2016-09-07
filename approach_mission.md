@@ -30,17 +30,18 @@ And, if our author is particularly diligent, she can even write a million articl
 
 **Question 2. The Million Question** Can a single `author` entity refer to a million `article` entities?
 
-Answer: No, the answer is definitely not. It would be a bad idea 
+Answer: No, the answer is definitely not. It would be a bad idea. 
 
-To understand that, we need to understand the **meaning of reference**. When object A refers to object B it means object A “knows” about object B, and this “knowing” becomes part of the information that object A holds.  So when we call object A from the database, it will also retrieve the information of all the “B” objects that it refers to. So, if theoretically there can be a million “B” objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
+To understand that we need to understand the **meaning of reference**. When object A refers to object B it means object A “knows” about object B, and this "knowing" becomes part of the information that object A holds.  So for example when we call object A from the database, it might also retrieve the information of all the "B" objects that it refers to. So, if theoretically there can be a million "B" objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
 
-So because we don’t want the `author` to refer to a million `articles`, the `article` will refer to (know about and hold the information on), the `author`.
+Thus, because we don’t want the `author` to refer to a million `articles`, the `article` will refer to (know about and hold the information on), the `author`.
+
 It looks like this:
 
 ![](3.jpg)
 
 
-Now let's add more details to our story:
+Now let's add more details to our scenario:
 
 
 > Author writes articles on various topics.
