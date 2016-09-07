@@ -91,14 +91,16 @@ Question 2: (The million question) hmm, seems we have a real problem here! A sin
 
 Worry not, because we have an elegant solution for this case. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `Membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
 
+As a side note, it's worth mentioing that this Membership entity and its references are the base concept for the Organic groups module in Drupal.
+
 
 ![](7.jpg)
 
 
-Continue with our story - 
-
+But we must continue, it seems that our client has more needs for thier Premium site.
 
 > Registration expired after a year. The user will get a reminder emails - 3 month, 1 month and 1 day before expired, so he can renew his registration.
+ 
  
 
 What information do we need in order to send the reminder emails?
