@@ -57,11 +57,11 @@ but what is the relationship direction. That is, who is referring to who? Let's 
 
 Question 1; Can one `topic` be written about in more than one `article`? Yes.
 
-Question 2; (The Million Question) Can and should one `topic`refer to a million `article`? No, we don't want that.
+Question 2; (The Million Question) Can and should one single `topic`refer to a million `article`? No, we don't want that.
 
 Now use the questions the other way around:
 
-Question 1: Can one `article` be written on more than one `topic`? Theoretically yes, but to keep things simple let's assume that every article belongs only to one topic. In that case the answer to this question is no.
+Question 1: Can one `article` be written in more than one `topic`? Theoretically yes, but to keep things simple let's assume that every article belongs only to one topic. In that case the answer to this question is no.
 
 Question 2: We don't need to ask the Million Question since the answer to the first Question is 'no'.
 
