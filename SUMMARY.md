@@ -17,5 +17,5 @@
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 * Training
-   * [Approach mission](approach_mission.md)
+   * [Approach mission](approach_data_structure_task.md)
 
