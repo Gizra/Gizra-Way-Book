@@ -91,6 +91,8 @@ Question 2: (The million question) hmm, seems we have a real problem here! A sin
 
 Worry not, because we have an elegant solution for this case. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `Membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
 
+By having a special entity for capturing the membership, we can actually add more meta-data to the memebership. Things like the state of the membership (i.e. Is the user an active member, pending or even blocked). The `created` timestamp, that is - when exactly was the `Membership` created; and so on.
+
 As a side note, it's worth mentioing that this Membership entity and its references are the base concept for the Organic groups module in Drupal.
 
 
