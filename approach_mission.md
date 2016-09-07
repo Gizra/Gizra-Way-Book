@@ -63,9 +63,8 @@ Now use the questions the other way around:
 
 Question 1 Can one `article` be written in more than one `topic`? Yes, that is the requirement
 
-Question 2 (the Million Question); This is where the reality should help us dictate the answer. While in theory an article could reference a million topics, we know that won't be the case. A typical article/ blog post is probably under a single or a few of topics. So it should be safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, we can safely sat that the `article` will refer the `topic`. 
+Question 2 (the Million Question); This is where the reality should help us dictate the answer. While in theory an article could reference a million topics, we know that won't be the case. A typical article/ blog post is probably under a single or a few of topics. So it should be safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, we can safely say that the `article` will refer the `topic`. 
 
-Here it is represented by the arrows:
 ![](5a.jpg)
 
 
