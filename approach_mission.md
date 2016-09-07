@@ -6,7 +6,7 @@ In this chappter we will present a method that includes a few steps of logical t
 
 A task is often composed of many small parts. We need to break the "problem" down to atom parts and reveal the entities and the relationships between them. It is ultimately a world of circles and arrows.
 
-Take a look at the following simple story: 
+Take a look at the following simple scenario: 
 
 
 > An author writes articles.
