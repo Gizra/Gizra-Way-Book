@@ -18,7 +18,7 @@ Let's try to identify the entities and relationships in this simple scenario. An
 
 That wasn't so hard, was it? In this case, the entities are `author` and `article`.  The line indicates that they are somehow related.
 
-A relationship defines how entities are related to one another, so we can use arrows to express the reference between the entities. In order to know the direction of the arrow, we should ask two important questions:
+A relationship defines how entities relate, so we can use arrows to express the reference between the entities. In order to know the direction of the arrow, we should ask two important questions:
 
 **Question 1:** Can the author write more than one article?
 
@@ -28,9 +28,9 @@ Answer: Yes, she can! So, let's represent that in the sketch. It would look like
 
 And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question we call:
 
-**Question 2. The Million Question** Can the entity `author` refer to a million `article` entities?
+**Question 2. The Million Question** Can a single entity `author` refer to a million `article` entities?
 
-Answer: No, the answer is definitely not. 
+Answer: No, the answer is definitely not. It would be a bad idea 
 
 To understand that, we need to understand the **meaning of reference**. When object A refers to object B it means object A “knows” about object B, and this “knowing” becomes part of the information that object A holds.  So when we call object A from the database, it will also retrieve the information of all the “B” objects that it refers to. So, if theoretically there can be a million “B” objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
 
