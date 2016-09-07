@@ -74,7 +74,7 @@ Up until now nothing was too complicated. Even if you are not a web developer, y
 
 The simplicity and logic presnted can assist us even with the next scenarios:
 
-> We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics that interest them. Registering to a topic means that they can read articles that belong to it.
+> We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics of interest. Registering to a topic means that they can read articles that belong to it.
 
 
 Now we have new entity: people.  Let's call it `user`.
