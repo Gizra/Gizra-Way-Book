@@ -1,4 +1,4 @@
-# Approaching a Task - determining a website's technical structure 
+# How to approach a new task, and its underlying data structure 
 
 When you need to deal with new task, sometimes things seem confusing and even a simple task may be overwhelming because you don’t know from where to start.
 
