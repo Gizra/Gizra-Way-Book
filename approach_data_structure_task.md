@@ -34,7 +34,7 @@ Answer: No, the answer is definitely not. It would be a bad idea.
 
 To understand this, we need to talk about the **meaning of reference**. When object A refers to object B it means object A “knows” about object B. This "knowing" becomes part of the information that object A holds.  So for example when we call object A from the database, it might also retrieve the information of all the "B" objects that it refers to. So, if theoretically there can be a million "B" objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
 
-Therefore if in our case the "A" object is `author` and the "B" object is `articles`, we don’t want the `author` to refer to a million `articles`. The `article` will refer to (know about and hold the information on), the `author`.
+Therefore if in our case the "A" object is `author` and the "B" object is `article`, we don’t want the `author` to refer to a million `article`. The `article` will refer to (know about and hold the information on), the `author`.
 
 It looks like this:
 
