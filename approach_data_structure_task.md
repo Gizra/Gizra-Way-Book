@@ -160,6 +160,6 @@ In our websites development world, we are faced with new tasks on a regular basi
 1. Define the entities. No matter how complex the task is, always start from drawing the first circle (entity) and then continue to the next one.
 2. Define what entities are related. Draw a line between them.
 3. Determine if there can be multiples of the same entity with Question 1: Can `entity A` be related to more than one `entity B`? Draw more of the entities where applicable.
-3. Define the relationships between the entities - what refers to what? Use Question 2 The Million Question' to help you out:Can and should one single `entity A` refer to a million `entity B`? Add the arrows to the lines.
-3. Remember you can create an additional entity in cases of complex relationships between two entities. 
-4. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
+4. Define the relationships between the entities - what refers to what? Use Question 2 The Million Question' to help you out:Can and should one single `entity A` refer to a million `entity B`? Add the arrows to the lines.
+5. Remember you can create an additional entity in cases of complex relationships between two entities. 
+6. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
