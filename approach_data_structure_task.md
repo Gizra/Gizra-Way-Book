@@ -110,37 +110,38 @@ What information do we need in order to send the reminder emails?
 
 We need to know, of course, when the membership began, so we can calculate when 9 months has passed to send the first reminder email. In technical words, the beginning date or any other date that represent that something has occured in the system is called a `timestamp`.
 
-But this information is not enough. Think about a situation where the user decides not to renew the registration. What happened to the membership? Does it go away, get deleted from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
+But this information is not enough. Think about a situation where the user decides not to renew his registration. What happened to his membership? Does it go away, get deleted from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
 
 So in order to send the user a reminder, we need to know two things:  the membership created date (`timestamp`) and if it is active or not (`status`).
 
 ![](9.jpg)
 
-Now we have all the information we need for sending the first reminder email (the one that comes after 9 month. To know which users to send an email to, we need to retrieve the right information from the database.
+Now we have all the information we need for sending the first reminder email (the one that comes after 9 month), so in order to know to which user we need to send that email, we need to retrieve from the database the right user. 
 Let’s describe in words the query for getting the right information from database:
+
 
 Give me all `membership` that their `status` is **active** and their `timestamp` is **today's date minus 9 month**.
 
 
-Almost there. There is still one more thing to consider - we need to check that we don't send the email more then one time to the same user. Assuming that we have a lots of `membership` in our database, we will need to limit the number of `membership` we get every time we run the query (if the system will bring us all the fit `membership` at once, it can run out of memory). So, for example, we will tell the system to brings us only 100 `membership` at a time, and we will run the query every 5 min. 
+Ok, we almost there, but there is still one more thing - we need to check that we don't send the email more then one time to the same user. Assuming that we have a lots of `membership` in our database, so we need to limit the number of `membership` we get every time we run the query (if the system will bring us all the fit `membership` at ones, it can be run out of memory). So for example we will tell the system to brings us only 100 `membership` at a time, and we will run the query every 5 min. 
 
-How do we make sure that the system does not bring us the same `membership` we already sent an email to 5 min ago?
+How do we make sure that the system won't bring us the same `membership` we already sent email for 5 min ago?
 
-We need to save the information for which `membership` an emails was already sent, and check it every time we want to send a reminder email.
+We need to save the information for which `membership` we already sent emails, and check it every time we want to send reminder email.
 But where are we going to save this information?
-Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership`, so it will be very complex to put all this data at the `user` entity. Additionally, the emails sent are based on a membership's timestamp. It seems that it would make more sense that the `membership` hold the information about sent emails. But, this won't be good enough either, because we need to send three emails (3 month, 1 month and 1 day before the membership expiration), and it's a lot of data to put at at the `membership` entity.
+Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership`, so it will be very complex to put all this data at the `user` entity. Additionally, the email sends based on a membership's timestamp, so it makes more sense that the `membership` will hold the information about the emails who was send. Well, this won't be good enough ether, because we need to send three emails (3 month, 1 month and 1 day before the membership expire), and it's to much data to put at at the `membership` entity.
 
-In this case, it will be better to create a new entity. Let's call it `email log`.
+In that case it will be better to create new entity. Let's call it `email log`.
 
 
 ![](10.jpg)
 
-Now we need to define the relationship. The `email log` has relationship with `membership` (and not with the `user` if you happen to think so) because we already mentioned that an email sent based on a `membership` data (`timestamp` and `status`).
-Now, what refers to what (direction of the arrow)?
+Now we need to define the relationship. the `email log` has relationship with `membership` (and not with the `user` if you happen to think so) because we already mentioned that an email sent based on a `membership` data (`timestamp` and `status`).
+We know `membership` and `email log` have a relationship, but what refers to what (direction of the arrow)?
 
-Question 1: can one `membership` has million `email log`? No it can has maximum three `email log` . 
+**Question 1:** can one `membership` has million `email log`? No it can has maximum three `email log` . 
 
-Because the answer is no, we don't need to ask the Million Question. We can decide that `membership` will refer to `email log`, because when we retrieve `membership` from the database, we want to also get the information about the `email log`.
+Because the answer is no, we don't need to ask the million question. we can decide that `membership` will refer to `email log`, because when we retrieve `membership` from the database, we want to get also the information about the `email log`.
 
 
 ![](11.jpg)
@@ -149,17 +150,19 @@ Because the answer is no, we don't need to ask the Million Question. We can deci
 Finally, let's describe the exact query:
 
 
-Give me all ```membership``` that their ```status``` is **active**, and their ```timestamp``` is **today's date minus 9 month**, and that does show up in ```email log``` because we have **not yet sent an email** to the user who created this membership.
+Give me all ```membership``` that their ```status``` is **active**, and their ```timestamp``` is **today's date minus 9 month**, and we didn't sent email yet to the user who created this membership.
 
 
 
 
-###Summary:
+**Summary:**
 
-In our websites development world, we are faced with new tasks on a regular basis. Even a complex task can be simple if we approach it with clear principles:
+In our developing websites world, we are facing with new tasks on a regular basis. Even a complex task can be simple to approach if we adopt clear principles:
 1. Define the entities. No matter how complex the task is, always start from drawing the first circle (entity) and then continue to the next one.
-2. Define what entities are related. Draw a line between them.
-3. Determine if there can be multiples of the same entity with Question 1. Draw more of the entity where applicable.
-3. Define the relationships between the entities - what refer to what? Use Question 2 The Million Question' to help you out. Add the arrows on the lines.
-3. Remember you can create additional entity in cases we have complex relationships between two entities. 
+2. Define the relationships between the entities - what refer to what. Use 'The million question' to help you out.
+3. Remember you can create additional entity in case we have complex relationships between two entities. 
 4. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
+
+
+
+
