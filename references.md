@@ -7,7 +7,7 @@
 | [Git - try git](https://try.github.io/levels/1/challenges/1) | Quick start for Git. |
 | [Git - git real](https://www.codeschool.com/courses/git-real) | Very clear and comprehensive course, including video tutorials and online practice. *only level 1 is free. |
 | [Git - learn git](https://www.codecademy.com/learn/learn-git) | Online course. |
-| [GitHub](https://www.codeschool.com/courses/mastering-github) | Online course teach best practices for collaborating more effectively with GitHub. *only level 1 is free. |
+| [GitHub](https://www.codeschool.com/courses/mastering-github) | Online course teaches best practices for collaborating more effectively with GitHub. *only level 1 is free. |
 
 | Jekyll |  |
 | -- | -- |
@@ -25,7 +25,7 @@
 | Drush |  |
 | -- | -- |
 | [Drush for beginners](https://www.digitalocean.com/community/tutorials/a-beginner-s-guide-to-drush-the-drupal-shell) | A Beginner's Guide To Drush: The Drupal Shell. |
-| [Drush commands](https://drushcommands.com) | all the core Drush commands. |
+| [Drush commands](https://drushcommands.com) | All the core Drush commands. |
 
 
 
@@ -34,7 +34,7 @@
 
 | PHP |  |
 | -- | -- |
-| [PHP for beginners](http://www.sololearn.com/Play/PHP#)| Nice and clear course, including online practice. When you done, you will know all the basics of PHP language. |
+| [PHP for beginners](http://www.sololearn.com/Play/PHP#)| Nice and clear course, including online practice. When you are done, you will know all the basics of PHP language. |
 
 
 
