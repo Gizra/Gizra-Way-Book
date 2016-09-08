@@ -1,10 +1,10 @@
 # How to approach a new task, and its underlying data structure 
 
-When you need to deal with new task, sometimes things seem confusing and even a simple task may be overwhelming because you don’t know from where to start.
+When approaching a new task, it may seem overwhelming because you don’t know from where to start.
 
-In this chappter we will present a method that includes a few steps of logical thinking to help you find the starting point from which to approach a task. A task being understanding how to implement a set of requirements, by first finding the underlying data structure.
+In this chapter we will present a method that includes a few steps of logical thinking to help you find the starting point. The task is understanding the set of requirements for implementation and it is done by first finding the underlying data structure.
 
-A task is often composed of many small parts. We need to break the "problem" down to atom parts and reveal the entities and the relationships between them. It is ultimately a world of circles and arrows.
+A task is often composed of many small parts. We need to break the "problem" down to atom parts and reveal the entities and the relationships between them. It is ultimately a world of circles, lines, and arrows.
 
 Take a look at the following simple scenario: 
 
@@ -12,7 +12,7 @@ Take a look at the following simple scenario:
 > Authors can write articles.
 
 
-Let's try to identify the entities and relationships in this simple scenario. An amazingly quick and simple way to do it is to draw it by hand. Use circles for entities and lines for the relationships between them.
+Let's try to identify the entities and relationships in this scenario. An amazingly quick and simple way to do it is to draw it by hand. Use circles for entities and lines for the relationships between them.
 
 ![](111.jpg)
 
@@ -26,15 +26,15 @@ Answer: Yes, she can! So, let's represent that in the sketch. It would look like
 
 ![](2.jpg)
 
-And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question we call:
+And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question:
 
 **Question 2. The Million Question** Can and should a single `author` entity refer to a million `article` entities?
 
 Answer: No, the answer is definitely not. It would be a bad idea. 
 
-To understand that we need to understand the **meaning of reference**. When object A refers to object B it means object A “knows” about object B, and this "knowing" becomes part of the information that object A holds.  So for example when we call object A from the database, it might also retrieve the information of all the "B" objects that it refers to. So, if theoretically there can be a million "B" objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
+To understand this, we need to talk about the **meaning of reference**. When object A refers to object B it means object A “knows” about object B. This "knowing" becomes part of the information that object A holds.  So for example when we call object A from the database, it might also retrieve the information of all the "B" objects that it refers to. So, if theoretically there can be a million "B" objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
 
-Thus, because we don’t want the `author` to refer to a million `articles`, the `article` will refer to (know about and hold the information on), the `author`.
+Therefore we don’t want the `author` to refer to a million `articles`, the `article` will refer to (know about and hold the information on), the `author`.
 
 It looks like this:
 
@@ -53,17 +53,18 @@ Articles are written on particular topics, so the `article` and the `topic` have
 
 ![](4.jpg)
 
-but what is the relationship direction. That is, who is referring to who? Let's apply our questions to answer this:
+Now, what is the relationship direction? That is, what is referring to what? Let's apply our questions to answer this:
 
-Question 1; Can one `topic` be written about in more than one `article`? Yes.
+Question 1: Can one `topic` be written about in more than one `article`? Yes.
 
-Question 2; (The Million Question) Can and should one single `topic`refer to a million `article`? No, we don't want that.
+Question 2: (The Million Question) Can and should one single `topic`refer to a million `article`? No, we don't want that.
 
-Now use the questions the other way around:
+Now ask the same questions from the other direction:
 
-Question 1 Can one `article` be written in more than one `topic`? Yes, that is the requirement
+Question 1: Can one `article` be written in more than one `topic`? Yes, that is the requirement.
 
-Question 2 (the Million Question); This is where the reality should help us dictate the answer. While in theory an article could reference a million topics, we know that won't be the case. A typical article/ blog post is probably under a single or a few of topics. So it should be safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, we can safely say that the `article` will refer the `topic`.
+Question 2 (the Million Question): Can and should one single `article` refer to a million `topic`?
+This is where the reality should help us dictate the answer. While in theory an article could reference a million topics, we know that this won't be the case. A typical article (blog post) will probably have a single or few topics. So, it is safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, we can safely say that the `article` refers to the `topic`.
 
 ![](5a.jpg)
 
