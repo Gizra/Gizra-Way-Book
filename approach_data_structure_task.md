@@ -34,7 +34,7 @@ Answer: No, the answer is definitely not. It would be a bad idea.
 
 To understand this, we need to talk about the **meaning of reference**. When object A refers to object B it means object A “knows” about object B. This "knowing" becomes part of the information that object A holds.  So for example when we call object A from the database, it might also retrieve the information of all the "B" objects that it refers to. So, if theoretically there can be a million "B" objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
 
-Therefore we don’t want the `author` to refer to a million `articles`, the `article` will refer to (know about and hold the information on), the `author`.
+Therefore we don’t want the `author` to refer to a million `articles`. The `article` will refer to (know about and hold the information on), the `author`.
 
 It looks like this:
 
@@ -53,7 +53,7 @@ Articles are written on particular topics, so the `article` and the `topic` have
 
 ![](4.jpg)
 
-Now, what is the relationship direction? That is, what is referring to what? Let's apply our questions to answer this:
+Now, what is the direction of the relationship? That is, what is referring to what? Let's apply our questions to answer this:
 
 Question 1: Can one `topic` be written about in more than one `article`? Yes.
 
@@ -64,23 +64,24 @@ Now ask the same questions from the other direction:
 Question 1: Can one `article` be written in more than one `topic`? Yes, that is the requirement.
 
 Question 2 (the Million Question): Can and should one single `article` refer to a million `topic`?
-This is where the reality should help us dictate the answer. While in theory an article could reference a million topics, we know that this won't be the case. A typical article (blog post) will probably have a single or few topics. So, it is safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, we can safely say that the `article` refers to the `topic`.
+This is where reality dictates the answer. While in theory an article could reference a million topics, we know that this won't be the case. A typical article (blog post) will probably have a single or few topics. So, it is safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, the `article` refers to the `topic`.
 
 ![](5a.jpg)
 
 
 ### Advanced requirements
 
-Up until now nothing was too complicated. Even if you are not a web developer, you are probably comfortable with the above logic. You might be tempted to think that the below requirements require some deep understanding of computer science. They don't!
+Up until now nothing was too complicated. Even if you are not a web developer, you are probably comfortable with the above logic. You may be tempted to think that the below scenerio will require some deep understanding of computer science. It doesn't!
 
-The simplicity and logic presnted can assist us even with the next scenarios:
+The above logic can assist us even with the next scenarios:
 
 > We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics of interest. Registering to a topic means that they can read articles that belong to it.
 
-In the above example we cheated a bit since we have called the `user` entity an `author`. But it's a real user. It's very rare of a site not to have a user, since, well you know - we, the people, are still important.
+In this scenerio, we can use the general word for the people who use the system - `user`. In the previous scenerio we called the `user` entity by the more specific name `author`.
 
+We know that the `user` has a relationship with a `topic` so we draw a line between them. 
 
-Question 1: Does a `user` have a relationship with a `topic`? Yes, they do.
+Question 1: asked in both directions
 Can a `user` register for more than one `topic`?
 Can a `topic` be chosen by more than one `user`?
 
