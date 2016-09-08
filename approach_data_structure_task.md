@@ -57,13 +57,13 @@ Now, what is the direction of the relationship? That is, what is referring to wh
 
 Question 1: Can one `topic` be written about in more than one `article`? Yes.
 
-Question 2: (The Million Question) Can and should one single `topic`refer to a million `article`? No, we don't want that.
+Question 2 (The Million Question): Can and should one single `topic`refer to a million `article`? No, we don't want that.
 
 Now ask the same questions from the other direction:
 
 Question 1: Can one `article` be written in more than one `topic`? Yes, that is the requirement.
 
-Question 2 (the Million Question): Can and should one single `article` refer to a million `topic`?
+Question 2 (The Million Question): Can and should one single `article` refer to a million `topic`?
 This is where reality dictates the answer. While in theory an article could reference a million topics, we know that this won't be the case. A typical article (blog post) will probably have a single or few topics. So, it is safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, the `article` refers to the `topic`.
 
 ![](5a.jpg)
@@ -77,7 +77,7 @@ The above logic can assist us even with the next scenarios:
 
 > We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics of interest. Registering to a topic means that they can read articles that belong to it.
 
-In this scenerio, we can use the general word for the people who use the system - `user`. In the previous scenerio we called the `user` entity by the more specific name `author`.
+In this scenerio, we can use the general word for the people who use the system - `user`. In the previous scenerio we called the `user` entity by the more specific name `author`but essentially they are the same.
 
 We know that the `user` has a relationship with a `topic` so we draw a line between them. 
 
@@ -85,13 +85,17 @@ Question 1: asked in both directions
 Can a `user` register for more than one `topic`?
 Can a `topic` be chosen by more than one `user`?
 
-
+The answer 'yes' to this question (in both directions) is draws like this:
 ![](6.jpg)
 
 
-Question 2: (The million question) hmm, seems we have a real problem here! A single user cannot reference million topics, and vice versa. Is the universe going to collapse into itself?! 
+Question 2 (The Million Question): 
+Can and should one single `topic` refer to a million `user`?
+Can and should one single `user` refer to a million `topic`?
 
-Worry not, because we have an elegant solution for this case. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
+Hmm, seems we have a real problem here! A single `user` cannot reference million `topic`, and vice versa. Is the universe going to collapse into itself?! 
+
+Worry not, because we have an elegant solution for cases like this. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
 
 By having a special entity for capturing the membership, we can actually add more meta-data to the memebership. Things like the state of the membership (i.e. Is the user an active member, pending or even blocked). The `created` timestamp, that is - when exactly was the `membership` created; and so on.
 
