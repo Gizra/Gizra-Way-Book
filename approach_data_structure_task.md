@@ -34,7 +34,7 @@ Answer: No, the answer is definitely not. It would be a bad idea.
 
 To understand this, we need to talk about the **meaning of reference**. When object A refers to object B it means object A “knows” about object B. This "knowing" becomes part of the information that object A holds.  So for example when we call object A from the database, it might also retrieve the information of all the "B" objects that it refers to. So, if theoretically there can be a million "B" objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
 
-Therefore if in our case the "A" object is `author` and the "B" object is `articles`, we don’t want the `author` to refer to a million `articles`. The `article` will refer to (know about and hold the information on), the `author`.
+Therefore we don’t want the `author` to refer to a million `articles`. The `article` will refer to (know about and hold the information on), the `author`.
 
 It looks like this:
 
@@ -138,9 +138,9 @@ In this case, it will be better to create a new entity. Let's call it `email log
 Now we need to define the relationship. The `email log` has relationship with `membership` (and not with the `user` if you happen to think so) because we already mentioned that an email sent based on a `membership` data (`timestamp` and `status`).
 Now, what refers to what (direction of the arrow)?
 
-Question 1: can one `membership` has million `email log`? No it can has maximum three `email log` . 
+Question 1: Can one `membership` have more than one `email log`? Yes. But, we know from this case that it is also limited to a maximum of three `email log` . 
 
-Because the answer is no, we don't need to ask the Million Question. We can decide that `membership` will refer to `email log`, because when we retrieve `membership` from the database, we want to also get the information about the `email log`.
+Because of this limit of the number of `email log`, we don't need to ask the Million Question. We can decide that `membership` will refer to `email log`, because when we retrieve `membership` from the database, we want to also get the information about the `email log`.
 
 
 ![](11.jpg)
@@ -159,7 +159,7 @@ Give me all ```membership``` that their ```status``` is **active**, and their ``
 In our websites development world, we are faced with new tasks on a regular basis. Even a complex task can be simple if we approach it with clear principles:
 1. Define the entities. No matter how complex the task is, always start from drawing the first circle (entity) and then continue to the next one.
 2. Define what entities are related. Draw a line between them.
-3. Determine if there can be multiples of the same entity with Question 1. Draw more of the entity where applicable.
-3. Define the relationships between the entities - what refer to what? Use Question 2 The Million Question' to help you out. Add the arrows on the lines.
-3. Remember you can create additional entity in cases we have complex relationships between two entities. 
+3. Determine if there can be multiples of the same entity with Question 1: Can `entity A` be related to more than one `entity B`? Draw more of the entities where applicable.
+3. Define the relationships between the entities - what refers to what? Use Question 2 The Million Question' to help you out:Can and should one single `entity A` refer to a million `entity B`? Add the arrows to the lines.
+3. Remember you can create an additional entity in cases of complex relationships between two entities. 
 4. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
