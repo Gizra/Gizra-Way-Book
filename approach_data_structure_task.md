@@ -75,7 +75,7 @@ Up until now nothing was too complicated. Even if you are not a web developer, y
 
 The above logic can assist us even with the next scenarios:
 
-> We are going to build a Premium Website that contains articles. People can sign-up and register to one or more topics of interest. Registering to a topic means that they can read articles that belong to it.
+> We are going to build a premium Website that contains articles. People can sign-up and register to one or more topics of interest. Registering to a topic means that they can read articles that belong to it.
 
 In this scenerio, we can use the general word for the people who use the system - `user`. In the previous scenerio we called the `user` entity by the more specific name `author`but essentially they are the same.
 
@@ -95,29 +95,24 @@ Can and should one single `user` refer to a million `topic`?
 
 Hmm, seems we have a real problem here! A single `user` cannot reference million `topic`, and vice versa. Is the universe going to collapse into itself?! 
 
-Worry not, because we have an elegant solution for cases like this. We'll simply create a new entity! We call this "revealing the entity", as sometimes that entity will be hidden in the requirements and not get an explicit name. But in our case, giving it a name shouldn't be too hard. We can call it `membership` and it will represent a specific registration (or a membership) of user to a topic. Now every user has only one single `membership` per topic.
-
-By having a special entity for capturing the membership, we can actually add more meta-data to the memebership. Things like the state of the membership (i.e. Is the user an active member, pending or even blocked). The `created` timestamp, that is - when exactly was the `membership` created; and so on.
-
-As a side note, it's worth mentioing that this Membership entity and its references are the base concept for the Organic groups module in Drupal.
-
+Worry not, because we have an elegant solution for cases like this. We'll simply create a new entity! We will place it in between the other two entities to solve the out-of-control referencing of a million in both directions. We call this "revealing the entity", as sometimes an entity will be hidden in the requirements and not get an explicit name. In our case, giving it a name shouldn't be too hard. We can call it `membership` and it will represent a specific registration (or a membership) of a user to a topic. Now every `user` has only one single `membership` per `topic`.
 
 ![](7.jpg)
 
+By having a special entity for capturing the membership, we can actually add more meta-data like the state of the membership (is the user an active member, pending or even blocked)or timestamp (when the `membership` was created) and so on.
 
-But we must continue, it seems that our client has more needs for thier Premium site.
+Side note: It's worth mentioning that this `membership` entity and its references is the base concept for the Organic Groups module in Drupal.
+But we must continue, it seems that our client has more needs for their premium website.
 
-> Registration should expire after a year. The member will get a reminder emails after 3 month, 1 month and 1 day before expiration. If not renewed, there membership should be set to pending.
+> Registration should expire after a year. The member will get a reminder emails after 3 month, 1 month and 1 day before expiration. If not renewed, the membership should be set to pending.
  
- 
-
 What information do we need in order to send the reminder emails?
 
-We need to know of course when the membership began, then we can calculate when 9 months has passed and send the first reminder email. In technical words, the beginning date (or any other date represent something occurs in the system), calls `timestamp`.
+We need to know, of course, when the membership began, so we can calculate when 9 months has passed to send the first reminder email. In technical words, the beginning date or any other date that represent that something has occured in the system is called a `timestamp`.
 
-But this information is not enough. Think about situation user decide not to renew his registration, what happened to his membership? Is it going away, delete from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
+But this information is not enough. Think about a situation where the user decides not to renew his registration. What happened to his membership? Does it go away, get deleted from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
 
-So in order to send the user reminder, we need to know two things:  the membership created date (i.e `timestamp`) and if it is active or not (i.e `status`).
+So in order to send the user a reminder, we need to know two things:  the membership created date (`timestamp`) and if it is active or not (`status`).
 
 ![](9.jpg)
 
