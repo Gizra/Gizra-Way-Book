@@ -95,11 +95,12 @@ Can and should one single `user` refer to a million `topic`?
 
 Hmm, seems we have a real problem here! A single `user` cannot reference million `topic`, and vice versa. Is the universe going to collapse into itself?! 
 
-Worry not, because we have an elegant solution for cases like this. We'll simply create a new entity! We will place it in between the other two entities to solve the out-of-control referencing of a million in both directions. We call this "revealing the entity", as sometimes an entity will be hidden in the requirements and not get an explicit name. In our case, giving it a name shouldn't be too hard. We can call it `membership` and it will represent a specific registration (or a membership) of a user to a topic. Now every `user` has only one single `membership` per `topic`.
+Worry not, because we have an elegant solution for cases like this. We'll use a new entity! We will place it in between the other two entities to solve the out-of-control referencing of a million in both directions.  
+We call this "revealing the entity", as sometimes an entity will be hidden in the requirements and not get an explicit name. In our case we can call it `membership` and it will represent a specific registration (or a membership) of a user to a topic. Now every `user` has only one single `membership` per `topic`.
 
 ![](7.jpg)
 
-By having a special entity for capturing the membership, we can actually add more meta-data like the state of the membership (is the user an active member, pending or even blocked)or timestamp (when the `membership` was created) and so on.
+By having a special entity for capturing the membership, we can also add more meta-data. For example we can capture the state of the membership - is the user an active member, pending or even blocked. We can also have a timestamp property to register the exact second for when the membership was created.
 
 Side note: It's worth mentioning that this `membership` entity and its references is the base concept for the Organic Groups module in Drupal.
 But we must continue, it seems that our client has more needs for their premium website.
