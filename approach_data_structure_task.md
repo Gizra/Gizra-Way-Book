@@ -123,38 +123,43 @@ Getting closer, but there is still one more thing to consider - we need to check
 
 So it's becoming obvious we'll need to save the information for which `membership` emails were already sent, however it's still not clear _where_ are we going to save this information?
 
-Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership`, so it will be very complex to put all this data at the `user` entity. Additionally, the emails sent are based on a membership's timestamp. It seems that it would make more sense that the `membership` hold the information about sent emails. But, this won't be good enough either, because we need to send three emails (3 month, 1 month and 1 day before the membership expiration), and it's a lot of data to put at at the `membership` entity.
+Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership` (potentially a million), so we can't hold that information there. 
 
-In this case, it will be better to create a new entity. Let's call it `email log`.
+Additionally, the emails sent are based on the _membership_ itslef. So maybe we can hold that information there? It's possible, but it won't be the best solution.Lets say we have 3 checkboxes marking each email that was sent.  
+Now, even though it was not in the requirements, we might want to know what time exactly the email was sent. You know, bugs happen, and we need data to debug it.
 
+But with the checkboxes on the `memebership` entity, that meta-data is not present.
 
-![](10.jpg)
+Meta data? On some piece of data? Sounds familiar? Yeah, the `membership` entity can hold valuable meta-data on the relation. We had to reveal the entity.
 
-Now we need to define the relationship. The `email log` has relationship with `membership` (and not with the `user` if you happen to think so) because we already mentioned that an email sent based on a `membership` data (`timestamp` and `status`).
-Now, what refers to what (direction of the arrow)?
+I hope that by now, you will not be too surprised that we will reveal another entity. Lets call it `email log` - It's an entity that logs a single email. It's like a snapshot of one specific email sent to one specific user, based on a single membership.
 
-Question 1: Can one `membership` have more than one `email log`? Yes. But, we know from this case that it is also limited to a maximum of three `email log` . 
+Can you think about the references of that entity? What are the properties it is holding?
 
-Because of this limit of the number of `email log`, we don't need to ask the Million Question. We can decide that `membership` will refer to `email log`, because when we retrieve `membership` from the database, we want to also get the information about the `email log`.
+Who will reference who - `membership` -> `email log`, or vice versa?
+Let's ask the questions
+
+Question 1: Can one `membership` have more than one `email log`? Yes. But, we know from this case that it is also limited to a maximum of three `email log`.
+
+In that case the answer is  - it can be both. We would probably go in this case with a `membership` referencing the `email log`, just because it would be slightly easier later to get the membership along with its related emails.
+
 
 
 ![](11.jpg)
 
 
-Finally, let's describe the exact query:
+Finally, let's describe the query again:
 
 
-Give me all ```membership``` that their ```status``` is **active**, and their ```timestamp``` is **today's date minus 9 month**, and that does show up in ```email log``` because we have **not yet sent an email** to the user who created this membership.
-
-
+Give me all `membership`s that their `state` is `active`, and their `created` timestamp is `today's date minus 9 month`, and that does not show up in an `email log` (because we have _not yet sent an email_ to the user who created this membership).
 
 
 ###Summary:
 
-In our websites development world, we are faced with new tasks on a regular basis. Even a complex task can be simple if we approach it with clear principles:
+In our websites development, we are faced with new tasks on a regular basis. A complex task should be broken down to smaller and simpler tasks. Alwats start by defining the data structure and the relations between them:
 1. Define the entities. No matter how complex the task is, always start from drawing the first circle (entity) and then continue to the next one.
-2. Define what entities are related. Draw a line between them.
-3. Determine if there can be multiples of the same entity with Question 1: Can `entity A` be related to more than one `entity B`? Draw more of the entities where applicable.
-4. Define the relationships between the entities - what refers to what? Use Question 2 The Million Question to help you out: Can and should one single `entity A` refer to a million `entity B`? Add the arrows to the lines.
-5. Remember you can create an additional entity in cases of complex relationships between two entities. 
-6. Describe your "asking for data" (i.e. query) in human words, don't jump to use technical words.
+2. Define how entities are related. Draw a line between them.
+3. Determine if there can be multiples of the same entity with Question 1: Can `entity A` be related to more than one `entity B`?
+4. Define the relationships between the entities - what refers to what? Use "The Million Question" to help you out. Can and should one single `entity A` refer to a million `entity B`? Add the arrows to the lines.
+5. Remember you can create an additional entity in cases of complex relationships between two entities.
+6. Describe your "asking for data" (i.e. query) in semi-technical words, don't jump to the DB implementation.
