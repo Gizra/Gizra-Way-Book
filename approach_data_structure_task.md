@@ -1,4 +1,4 @@
-# How to approach a new task, and its underlying data structure 
+# How to approach a new task, and its underlying data structure
 
 When approaching a new task, it may seem overwhelming because you don’t know from where to start.
 
@@ -6,7 +6,7 @@ In this chapter we will present a method that includes a few steps of logical th
 
 A task is often composed of many small parts. We need to break the "problem" down to atom parts and reveal the entities and the relationships between them. It is ultimately a world of circles, lines, and arrows.
 
-Take a look at the following simple scenario: 
+Take a look at the following simple scenario:
 
 
 > Authors can write articles.
@@ -14,7 +14,7 @@ Take a look at the following simple scenario:
 
 Let's try to identify the entities and relationships in this scenario. An amazingly quick and simple way to do it is to draw it by hand. Use circles for entities and lines for the relationships between them.
 
-![](111.jpg)
+![](images/approach_data_structure_task/111.jpg)
 
 That wasn't so hard, was it? In this case, the entities are `author` and `article`.  The line indicates that they are somehow related.
 
@@ -24,13 +24,13 @@ A relationship defines how entities relate, so we can use arrows to express the 
 
 Answer: Yes, she can! So, let's represent that in the sketch. It would look like this:
 
-![](2.jpg)
+![](images/approach_data_structure_task/2.jpg)
 
 And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question:
 
 **Question 2. The Million Question** Can and should a single `author` entity refer to a million `article` entities?
 
-Answer: No, the answer is definitely not. It would be a bad idea. 
+Answer: No, the answer is definitely not. It would be a bad idea.
 
 To understand this, we need to talk about the **meaning of reference**. When object A refers to object B it means object A “knows” about object B. This "knowing" becomes part of the information that object A holds.  So for example when we call object A from the database, it might also retrieve the information of all the "B" objects that it refers to. So, if theoretically there can be a million "B" objects, the system would retrieve them all. This is a very heavy task for the system that requires a lot of memory resources. We want to avoid this.
 
@@ -38,7 +38,7 @@ Therefore we don’t want the `author` to refer to a million `articles`. The `ar
 
 It looks like this:
 
-![](3.jpg)
+![](images/approach_data_structure_task/3.jpg)
 
 
 Now let's add more details to our scenario:
@@ -51,7 +51,7 @@ What is this new topic? Simple - It's an entity, represented as a circle.
 How does `topic` relate to the other entities?
 Articles are written on particular topics, so the `article` and the `topic` have a relationship.
 
-![](4.jpg)
+![](images/approach_data_structure_task/4.jpg)
 
 Now, what is the direction of the relationship? That is, what is referring to what? Let's apply our questions to answer this:
 
@@ -66,7 +66,7 @@ Question 1: Can one `article` be written in more than one `topic`? Yes, that is 
 Question 2 (The Million Question): Can and should one single `article` refer to a million `topic`?
 This is where reality dictates the answer. While in theory an article could reference a million topics, we know that this won't be the case. A typical article (blog post) will probably have a single or few topics. So, it is safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, the `article` refers to the `topic`.
 
-![](5a.jpg)
+![](images/approach_data_structure_task/5a.jpg)
 
 
 ### Advanced requirements
@@ -79,26 +79,26 @@ The above logic can assist us even with the next scenarios:
 
 In this scenerio, we can use the general word for the people who use the system - `user`. In the previous scenerio we called the `user` entity by the more specific name `author`but essentially they are the same.
 
-We know that the `user` has a relationship with a `topic` so we draw a line between them. 
+We know that the `user` has a relationship with a `topic` so we draw a line between them.
 
 Question 1: asked in both directions
 Can a `user` register for more than one `topic`?
 Can a `topic` be chosen by more than one `user`?
 
 The answer 'yes' to this question (in both directions) is draws like this:
-![](6.jpg)
+![](images/approach_data_structure_task/6.jpg)
 
 
-Question 2 (The Million Question): 
+Question 2 (The Million Question):
 Can and should one single `topic` refer to a million `user`?
 Can and should one single `user` refer to a million `topic`?
 
-Hmm, seems we have a real problem here! A single `user` cannot reference million `topic`, and vice versa. Is the universe going to collapse into itself?! 
+Hmm, seems we have a real problem here! A single `user` cannot reference million `topic`, and vice versa. Is the universe going to collapse into itself?!
 
 Worry not, because we have an elegant solution for cases like this. We'll use a new entity! We will place it in between the other two entities to solve the out-of-control referencing of a million in both directions.  
 We call this "revealing the entity", as sometimes an entity will be hidden in the requirements and not get an explicit name. In our case we can call it `membership` and it will represent a specific registration (or a membership) of a user to a topic. Now every `user` has only one single `membership` per `topic`.
 
-![](7.jpg)
+![](images/approach_data_structure_task/7.jpg)
 
 By having a special entity for capturing the membership, we can also add more meta-data. For example we can capture the state of the membership - is the user an active member, pending or even blocked. We can also have a timestamp property to register the exact second for when the membership was created.
 
@@ -107,7 +107,7 @@ Side note: It's worth mentioning that this `membership` entity and its reference
 Lets continue, it seems our client has more needs for their premium website.
 
 > Registration should expire after a year. The member will get a reminder emails after 3 month, 1 month and 1 day before expiration. If not renewed, the membership should be set to pending.
- 
+
 What information do we need in order to send the reminder emails?
 
 We need to know, of course, when the membership began, so we can calculate when 9 months have passed to send the first reminder email. Luckily we have the `created` property holding the timestamp.
@@ -123,7 +123,7 @@ Getting closer, but there is still one more thing to consider - we need to check
 
 So it's becoming obvious we'll need to save the information for which `membership` emails were already sent, however it's still not clear _where_ are we going to save this information?
 
-Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership` (potentially a million), so we can't hold that information there. 
+Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership` (potentially a million), so we can't hold that information there.
 
 Additionally, the emails sent are based on the _membership_ itslef. So maybe we can hold that information there? It's possible, but it won't be the best solution.Lets say we have 3 checkboxes marking each email that was sent.  
 Now, even though it was not in the requirements, we might want to know what time exactly the email was sent. You know, bugs happen, and we need data to debug it.
@@ -145,7 +145,7 @@ In that case the answer is  - it can be both. We would probably go in this case 
 
 
 
-![](11.jpg)
+![](images/approach_data_structure_task/11.jpg)
 
 
 Finally, let's describe the query again:
