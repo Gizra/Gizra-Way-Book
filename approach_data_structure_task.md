@@ -119,12 +119,9 @@ Now where we have the membership and its properties in place, we can think about
 
 Give me all `membership` that their `state` is `active` and their `created` is `today's date minus 9 month`.
 
-Almost there. There is still one more thing to consider - we need to check that we don't send the email more then one time to the same user. Assuming that we have a lots of `membership` in our database, we will need to limit the number of `membership` we get every time we run the query (if the system will bring us all the fit `membership` at once, it can run out of memory). So, for example, we will tell the system to brings us only 100 `membership` at a time, and we will run the query every 5 min. 
+Getting closer, but there is still one more thing to consider - we need to check that we don't send the email to many times to the same user. How do we make sure that we don't send a notification for the same `membership` over and over again?
 
-How do we make sure that the system does not bring us the same `membership` we already sent an email to 5 min ago?
-
-We need to save the information for which `membership` an emails was already sent, and check it every time we want to send a reminder email.
-But where are we going to save this information?
+So it's becoming obvious we'll need to save the information for which `membership` emails were already sent, however it's still not clear _where_ are we going to save this information?
 Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership`, so it will be very complex to put all this data at the `user` entity. Additionally, the emails sent are based on a membership's timestamp. It seems that it would make more sense that the `membership` hold the information about sent emails. But, this won't be good enough either, because we need to send three emails (3 month, 1 month and 1 day before the membership expiration), and it's a lot of data to put at at the `membership` entity.
 
 In this case, it will be better to create a new entity. Let's call it `email log`.
