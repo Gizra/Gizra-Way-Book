@@ -103,7 +103,8 @@ We call this "revealing the entity", as sometimes an entity will be hidden in th
 By having a special entity for capturing the membership, we can also add more meta-data. For example we can capture the state of the membership - is the user an active member, pending or even blocked. We can also have a timestamp property to register the exact second for when the membership was created.
 
 Side note: It's worth mentioning that this `membership` entity and its references is the base concept for the Organic Groups module in Drupal.
-But we must continue, it seems that our client has more needs for their premium website.
+
+Lets continue, it seems our client has more needs for their premium website.
 
 > Registration should expire after a year. The member will get a reminder emails after 3 month, 1 month and 1 day before expiration. If not renewed, the membership should be set to pending.
  
