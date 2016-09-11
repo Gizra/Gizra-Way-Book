@@ -122,6 +122,7 @@ Give me all `membership` that their `state` is `active` and their `created` is `
 Getting closer, but there is still one more thing to consider - we need to check that we don't send the email to many times to the same user. How do we make sure that we don't send a notification for the same `membership` over and over again?
 
 So it's becoming obvious we'll need to save the information for which `membership` emails were already sent, however it's still not clear _where_ are we going to save this information?
+
 Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership`, so it will be very complex to put all this data at the `user` entity. Additionally, the emails sent are based on a membership's timestamp. It seems that it would make more sense that the `membership` hold the information about sent emails. But, this won't be good enough either, because we need to send three emails (3 month, 1 month and 1 day before the membership expiration), and it's a lot of data to put at at the `membership` entity.
 
 In this case, it will be better to create a new entity. Let's call it `email log`.
