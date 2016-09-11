@@ -112,17 +112,12 @@ What information do we need in order to send the reminder emails?
 
 We need to know, of course, when the membership began, so we can calculate when 9 months have passed to send the first reminder email. Luckily we have the `created` property holding the timestamp.
 
-But this information is not enough. Think about a situation where the user decides not to renew the registration. What happened to the membership? Does it go away, get deleted from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
-
-So in order to send the user a reminder, we need to know two things:  the membership created date (`timestamp`) and if it is active or not (`status`).
+Next, the requiremenets have implied another property we mentioned - the membership `state`. If a user will not renew their membership we will not delete it, but rather set it to be `Pending`.
 
 
+Now where we have the membership and its properties in place, we can think about how to retrieve the memberships that need notification from the database. Let’s describe in semi-technical words the query:
 
-Now we have all the information we need for sending the first reminder email (the one that comes after 9 month. To know which users to send an email to, we need to retrieve the right information from the database.
-Let’s describe in words the query for getting the right information from database:
-
-Give me all `membership` that their `status` is **active** and their `timestamp` is **today's date minus 9 month**.
-
+Give me all `membership` that their `state` is `active` and their `created` is `today's date minus 9 month`.
 
 Almost there. There is still one more thing to consider - we need to check that we don't send the email more then one time to the same user. Assuming that we have a lots of `membership` in our database, we will need to limit the number of `membership` we get every time we run the query (if the system will bring us all the fit `membership` at once, it can run out of memory). So, for example, we will tell the system to brings us only 100 `membership` at a time, and we will run the query every 5 min. 
 
