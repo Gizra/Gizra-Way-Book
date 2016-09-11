@@ -110,13 +110,13 @@ Lets continue, it seems our client has more needs for their premium website.
  
 What information do we need in order to send the reminder emails?
 
-We need to know, of course, when the membership began, so we can calculate when 9 months has passed to send the first reminder email. In technical words, the beginning date or any other date that represent that something has occured in the system is called a `timestamp`.
+We need to know, of course, when the membership began, so we can calculate when 9 months have passed to send the first reminder email. 
 
 But this information is not enough. Think about a situation where the user decides not to renew the registration. What happened to the membership? Does it go away, get deleted from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
 
 So in order to send the user a reminder, we need to know two things:  the membership created date (`timestamp`) and if it is active or not (`status`).
 
-![](9.jpg)
+
 
 Now we have all the information we need for sending the first reminder email (the one that comes after 9 month. To know which users to send an email to, we need to retrieve the right information from the database.
 Let’s describe in words the query for getting the right information from database:
