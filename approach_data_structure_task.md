@@ -110,7 +110,7 @@ Lets continue, it seems our client has more needs for their premium website.
  
 What information do we need in order to send the reminder emails?
 
-We need to know, of course, when the membership began, so we can calculate when 9 months have passed to send the first reminder email. 
+We need to know, of course, when the membership began, so we can calculate when 9 months have passed to send the first reminder email. Luckily we have the `created` property holding the timestamp.
 
 But this information is not enough. Think about a situation where the user decides not to renew the registration. What happened to the membership? Does it go away, get deleted from the system? Well, usually we don’t delete content from the system, but we can mark it as inactive.
 
