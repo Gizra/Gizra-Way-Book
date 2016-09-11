@@ -119,13 +119,13 @@ Now where we have the membership and its properties in place, we can think about
 
 Give me all `membership` that their `state` is `active` and their `created` is `today's date minus 9 month`.
 
-Getting closer, but there is still one more thing to consider - we need to check that we don't send the email to many times to the same user. How do we make sure that we don't send a notification for the same `membership` over and over again?
+Getting closer, but there is still one more thing to consider - we need to check that we don't send the email too many times to the same user. How do we make sure that we don't send a notification for the same `membership` over and over again?
 
 So it's becoming obvious we'll need to save the information for which `membership` emails were already sent, however it's still not clear _where_ are we going to save this information?
 
 Is it going to be at the `user` entity? Well, remember that `user` can have more than one `membership` (potentially a million), so we can't hold that information there.
 
-Additionally, the emails sent are based on the _membership_ itslef. So maybe we can hold that information there? It's possible, but it won't be the best solution.Lets say we have 3 checkboxes marking each email that was sent.  
+Additionally, the emails sent are based on the _membership_ itslef. So maybe we can hold that information there? It's possible, but it won't be the best solution. Lets say we have 3 checkboxes marking each email that was sent.  
 Now, even though it was not in the requirements, we might want to know what time exactly the email was sent. You know, bugs happen, and we need data to debug it.
 
 But with the checkboxes on the `memebership` entity, that meta-data is not present.
