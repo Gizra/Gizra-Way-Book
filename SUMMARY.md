@@ -18,5 +18,5 @@
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 * Training
    * [How to approach a new task, and its underlying data structure](approach_data_structure_task.md)
-   * Features module: how to share site’s config with others?
+   * [Features module: how to share site’s config with others?](features_module_how_to_share_sites_config_with_oth.md)
 
