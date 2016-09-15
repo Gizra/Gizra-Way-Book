@@ -1,14 +1,9 @@
 # Features module: how to share site’s config with others?
 
-Features training - Outline
+If you already had a chance to build one or two Drupal sites,  you probably know Drupal site consists of three parts:
+**Code** (modules, themes…) stored in files, **Configuration**  (content types, views, panels…) stored in the database, and **Content** (nodes, terms…) stored in the database.
 
-Configuration management challenge.
-Drupal site consists of:
-- Code (modules, themes…) stored in files.
-- Configuration (content types, views, panels….) stored in DB.
-- Content (nodes, menus, terms…) stored in DB.
-Code is easy to share, but there is no easy way to merge changes to DB.
-The challenge: how to share site’s config with other collaborators or move config between environments?
+When we are collaborating in the project, building the site together, we want to share our work. As we build Drupal site, define content types, setup Views and Panels, we end up making a lot of configuration changes. These changes stored in DB. Code is easy to share, but there is no easy way to merge changes to DB. So here come our challenge: how to share site’s config with others?
 
 
 Optional solutions:
