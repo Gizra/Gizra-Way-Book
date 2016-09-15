@@ -8,11 +8,13 @@ When we are collaborating in the project, building the site together, we want to
 Optional solution: Document all the configuration we did and do them again in the new environment. Well, It's not a very clever way of working. It takes a lot of time and can lead to many mistakes along the way. Lucky for us, there is a way to manually export/import configuration in code.
 [screenshot of view export] 
 Views, content types, panels and some other modules provide this export/import option. But not every modules gives us this option. Additionally, working this way doesn't provide us the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configs that it relies on, how can we be sure we won't miss anythings?
-That is exactly why we have features module.
+That is exactly why we have Features module!
+
+Features simply package up all of that configuration (components) into a module, and we can use it like any other Drupal modules. In another words: Features is a module that creates modules.
+
+Let's take a look on a simple example.
 
 
-How Features works?
-Take components (for example: Blog content type, Blog view, Blog taxonomy) and turn them into module. We can use it like any other drupal module (install it and expand it with additional code).
 
 
 What should be “featurize”? What can’t be “featurize”? How we decide what to “featurize”? 
