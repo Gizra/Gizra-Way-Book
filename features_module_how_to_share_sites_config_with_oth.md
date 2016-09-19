@@ -41,7 +41,7 @@ Enable the module so Drupal can start using it.
 **Attention**: When you make your configurations in BD, then export it as a feature and enable the module, your configurations stored both in code and DB. In this case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module.
 
 
-## Update a feature
+## Change a feature
 
 Now we have our Blog feature (module) installed and running in our site. But what if we want to make change in our configuration, for instance change the page title to be 'Gizra blog' instead of 'Blog'?
 We can simply go to the View configuration in the UI and change the title.
@@ -50,17 +50,24 @@ We can simply go to the View configuration in the UI and change the title.
 
 But where is this change stored? Right, it stored in DB. So now we have the title 'Gizra blog' in DB and the title 'Blog' in code.
 
-Features module noticed this change made to the component and signal it with an `Overridden` state on the Features administration page.
+Features module noticed this change made to the component and mark it with an `Overridden` state on the Features administration page.
 
-{pic}
+![](images/features/overridden.png)
 
 Overridden state means that the configuration in DB is different from configuration in code, and what stored in DB is stronger, so it overrides the code.
-This is a situation we need to solve. 
+This is a situation we need to solve. We can choose to revert to the original state or to update the feature by applying the new changes to it. 
 
 
+## Revert a feature
 
-We can choose to revert to the original state or to update the feature by applying the new changes to it. 
+Click on the `Overridden` signal, then you see the component that was override (View in this case because we changed the view title). Check the component you want to revert and click on `Revert components`
 
+![](images/features/revert.png)
+
+
+Now go back to Features administration page and you will see that the state is `Default`, means the feature configurations in code are the same like in DB.
+
+![](images/features/default_state.png)
 
 What should be “featurize”? What can’t be “featurize”? How we decide what to “featurize”? 
 
