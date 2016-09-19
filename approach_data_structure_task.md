@@ -14,7 +14,7 @@ Take a look at the following simple scenario:
 
 Let's try to identify the entities and relationships in this scenario. An amazingly quick and simple way to do it is to draw it by hand. Use circles for entities and lines for the relationships between them.
 
-![](images/approach_data_structure_task/111.jpg)
+![](images/approach_data_structure_task/author-article.png)
 
 That wasn't so hard, was it? In this case, the entities are `author` and `article`.  The line indicates that they are somehow related.
 
@@ -24,7 +24,7 @@ A relationship defines how entities relate, so we can use arrows to express the 
 
 Answer: Yes, she can! So, let's represent that in the sketch. It would look like this:
 
-![](images/approach_data_structure_task/2.jpg)
+![](images/approach_data_structure_task/author-many-articles.png)
 
 And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question:
 
@@ -38,8 +38,7 @@ Therefore we don’t want the `author` to refer to a million `articles`. The `ar
 
 It looks like this:
 
-![](images/approach_data_structure_task/3.jpg)
-
+![](images/approach_data_structure_task/articles-reference-author.png)
 
 Now let's add more details to our scenario:
 
@@ -51,7 +50,7 @@ What is this new topic? Simple - It's an entity, represented as a circle.
 How does `topic` relate to the other entities?
 Articles are written on particular topics, so the `article` and the `topic` have a relationship.
 
-![](images/approach_data_structure_task/4.jpg)
+![](images/approach_data_structure_task/articles-relationship-topic.png)
 
 Now, what is the direction of the relationship? That is, what is referring to what? Let's apply our questions to answer this:
 
@@ -66,7 +65,7 @@ Question 1: Can one `article` be written in more than one `topic`? Yes, that is 
 Question 2 (The Million Question): Can and should one single `article` refer to a million `topic`?
 This is where reality dictates the answer. While in theory an article could reference a million topics, we know that this won't be the case. A typical article (blog post) will probably have a single or few topics. So, it is safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, the `article` refers to the `topic`.
 
-![](images/approach_data_structure_task/5a.jpg)
+![](images/approach_data_structure_task/articles-reference-topic.png)
 
 
 ### Advanced requirements
@@ -86,8 +85,8 @@ Can a `user` register for more than one `topic`?
 Can a `topic` be chosen by more than one `user`?
 
 The answer 'yes' to this question (in both directions) is draws like this:
-![](images/approach_data_structure_task/6.jpg)
 
+![](images/approach_data_structure_task/topic-user.png)
 
 Question 2 (The Million Question):
 Can and should one single `topic` refer to a million `user`?
@@ -98,7 +97,7 @@ Hmm, seems we have a real problem here! A single `user` cannot reference million
 Worry not, because we have an elegant solution for cases like this. We'll use a new entity! We will place it in between the other two entities to solve the out-of-control referencing of a million in both directions.  
 We call this "revealing the entity", as sometimes an entity will be hidden in the requirements and not get an explicit name. In our case we can call it `membership` and it will represent a specific registration (or a membership) of a user to a topic. Now every `user` has only one single `membership` per `topic`.
 
-![](images/approach_data_structure_task/7.jpg)
+![](images/approach_data_structure_task/membership-user-topic.png)
 
 By having a special entity for capturing the membership, we can also add more meta-data. For example we can capture the state of the membership - is the user an active member, pending or even blocked. We can also have a timestamp property to register the exact second for when the membership was created.
 
@@ -143,10 +142,7 @@ Question 1: Can one `membership` have more than one `email log`? Yes. But, we kn
 
 In that case the answer is  - it can be both. We would probably go in this case with a `membership` referencing the `email log`, just because it would be slightly easier later to get the membership along with its related emails.
 
-
-
-![](images/approach_data_structure_task/11.jpg)
-
+![](images/approach_data_structure_task/email-log.png)
 
 Finally, let's describe the query again:
 
