@@ -50,7 +50,7 @@ What is this new topic? Simple - It's an entity, represented as a circle.
 How does `topic` relate to the other entities?
 Articles are written on particular topics, so the `article` and the `topic` have a relationship.
 
-![](images/approach_data_structure_task/4.jpg)
+![](images/approach_data_structure_task/articles-relationship-topic.png)
 
 Now, what is the direction of the relationship? That is, what is referring to what? Let's apply our questions to answer this:
 
