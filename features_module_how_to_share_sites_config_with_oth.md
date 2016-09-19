@@ -27,8 +27,9 @@ As you can see, Features automatically select for us all the dependencies our mo
 
 When you done, just click on `Download feature`.
 Uncompress the file, and put the module folder under `modules/custom` in the project directory.
+Enable the module so Drupal can start using it.
 
-
+**Attention**: When you make your configurations in BD, then export it as a feature and enable the module, your configurations stored both in code and DB. In this case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module.
 
 
 What should be “featurize”? What can’t be “featurize”? How we decide what to “featurize”? 
