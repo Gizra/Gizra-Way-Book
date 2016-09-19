@@ -14,7 +14,7 @@ Take a look at the following simple scenario:
 
 Let's try to identify the entities and relationships in this scenario. An amazingly quick and simple way to do it is to draw it by hand. Use circles for entities and lines for the relationships between them.
 
-![](images/approach_data_structure_task/111.jpg)
+![](images/approach_data_structure_task/author-article.png)
 
 That wasn't so hard, was it? In this case, the entities are `author` and `article`.  The line indicates that they are somehow related.
 
@@ -24,7 +24,7 @@ A relationship defines how entities relate, so we can use arrows to express the 
 
 Answer: Yes, she can! So, let's represent that in the sketch. It would look like this:
 
-![](images/approach_data_structure_task/2.jpg)
+![](images/approach_data_structure_task/author-many-articles.png)
 
 And, if our author is particularly diligent, she can even write a million articles (theoretically of course), so this brings us to the next important question:
 
