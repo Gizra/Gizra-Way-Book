@@ -14,8 +14,17 @@ That is exactly why we have Features module!
 
 Features simply package up all of that configuration (components) into a module, and we can use it like any other Drupal module. In another words: Features is a module that creates modules.
 
-Take a look on a simple example: I created a web page that display list of blog post. It was built from Content type called Blog, and a View.
-Now I want to export my work and move it to another environment. I simply create a module (using features module) that contain my configurations (Content type and View). 
+
+## Create a feature
+
+Take a look on a simple example: Here is a web page that display list of blog post. 
+
+![](images/features/blog_page.png)
+
+
+It was built from Content type called `Blog`, and a View.
+Now we want to export our work and move it to another environment. We can simply create a module (using features module) that contain the blog configurations (Content type and View). 
+
 Let's do it together:
 
 Go to `admin/structure/features/create`.
@@ -30,6 +39,27 @@ Uncompress the file, and put the module folder under `modules/custom` in the pro
 Enable the module so Drupal can start using it.
 
 **Attention**: When you make your configurations in BD, then export it as a feature and enable the module, your configurations stored both in code and DB. In this case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module.
+
+
+## Update a feature
+
+Now we have our Blog feature (module) installed and running in our site. But what if we want to make change in our configuration, for instance change the page title to be 'Gizra blog' instead of 'Blog'?
+We can simply go to the View configuration in the UI and change the title.
+
+![](images/features/change_title.png)
+
+But where is this change stored? Right, it stored in DB. So now we have the title 'Gizra blog' in DB and the title 'Blog' in code.
+
+Features module noticed this change made to the component and signal it with an `Overridden` state on the Features administration page.
+
+{pic}
+
+Overridden state means that the configuration in DB is different from configuration in code, and what stored in DB is stronger, so it overrides the code.
+This is a situation we need to solve. 
+
+
+
+We can choose to revert to the original state or to update the feature by applying the new changes to it. 
 
 
 What should be “featurize”? What can’t be “featurize”? How we decide what to “featurize”? 
