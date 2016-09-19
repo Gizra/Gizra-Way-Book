@@ -85,8 +85,8 @@ Can a `user` register for more than one `topic`?
 Can a `topic` be chosen by more than one `user`?
 
 The answer 'yes' to this question (in both directions) is draws like this:
-![](images/approach_data_structure_task/6.jpg)
 
+![](images/approach_data_structure_task/topic-user.png)
 
 Question 2 (The Million Question):
 Can and should one single `topic` refer to a million `user`?
@@ -97,7 +97,7 @@ Hmm, seems we have a real problem here! A single `user` cannot reference million
 Worry not, because we have an elegant solution for cases like this. We'll use a new entity! We will place it in between the other two entities to solve the out-of-control referencing of a million in both directions.  
 We call this "revealing the entity", as sometimes an entity will be hidden in the requirements and not get an explicit name. In our case we can call it `membership` and it will represent a specific registration (or a membership) of a user to a topic. Now every `user` has only one single `membership` per `topic`.
 
-![](images/approach_data_structure_task/7.jpg)
+![](images/approach_data_structure_task/membership-user-topic.png)
 
 By having a special entity for capturing the membership, we can also add more meta-data. For example we can capture the state of the membership - is the user an active member, pending or even blocked. We can also have a timestamp property to register the exact second for when the membership was created.
 
@@ -142,10 +142,7 @@ Question 1: Can one `membership` have more than one `email log`? Yes. But, we kn
 
 In that case the answer is  - it can be both. We would probably go in this case with a `membership` referencing the `email log`, just because it would be slightly easier later to get the membership along with its related emails.
 
-
-
-![](images/approach_data_structure_task/11.jpg)
-
+![](images/approach_data_structure_task/email-log.png)
 
 Finally, let's describe the query again:
 
