@@ -38,8 +38,7 @@ Therefore we don’t want the `author` to refer to a million `articles`. The `ar
 
 It looks like this:
 
-![](images/approach_data_structure_task/3.jpg)
-
+![](images/approach_data_structure_task/articles-reference-author.png)
 
 Now let's add more details to our scenario:
 
@@ -66,7 +65,7 @@ Question 1: Can one `article` be written in more than one `topic`? Yes, that is 
 Question 2 (The Million Question): Can and should one single `article` refer to a million `topic`?
 This is where reality dictates the answer. While in theory an article could reference a million topics, we know that this won't be the case. A typical article (blog post) will probably have a single or few topics. So, it is safe to say, that based on the limitation which is derived from the fact we are building _real_ sites and not answering academic papers, the `article` refers to the `topic`.
 
-![](images/approach_data_structure_task/5a.jpg)
+![](images/approach_data_structure_task/articles-reference-topic.png)
 
 
 ### Advanced requirements
