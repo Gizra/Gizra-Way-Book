@@ -25,6 +25,9 @@ As you can see, Features automatically select for us all the dependencies our mo
 
 ![](images/features/create_feature.png)
 
+When you done, just click on `Download feature`.
+Uncompress the file, and put the module folder under `modules/custom` in the project directory.
+
 
 
 
