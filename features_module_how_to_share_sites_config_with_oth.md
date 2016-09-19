@@ -9,12 +9,18 @@ Optional solution: Document all the configuration we made and do them again in t
 
 ![](images/features/export_view.png)
 
-Views, content types, panels and some other modules provide this export/import option. But not every modules gives us this option. Additionally, working this way doesn't provide us the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configs that it relies on, how can we be sure we won't miss anythings?
+Views, content types, panels and some other modules provide this export/import option, But not every modules gives us this option. Additionally, working this way doesn't provide us the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configurations that it relies on, how can we be sure we won't miss anythings?
 That is exactly why we have Features module!
 
-Features simply package up all of that configuration (components) into a module, and we can use it like any other Drupal modules. In another words: Features is a module that creates modules.
+Features simply package up all of that configuration (components) into a module, and we can use it like any other Drupal module. In another words: Features is a module that creates modules.
 
-Let's take a look on a simple example.
+Take a look on a simple example: I created a web page that display list of blog post. It was built from Content type called Blog, and a View.
+Now I want to export my work and move it to another environment. I simply create a module (using features module) that contain my configurations (Content type and View). 
+Let's do it together:
+
+Go to `admin/structure/features/create`
+
+![](images/features/create_feature.png)
 
 
 
