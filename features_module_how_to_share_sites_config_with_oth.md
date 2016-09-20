@@ -74,10 +74,15 @@ Now go back to Features administration page and you will see that the state is `
 ## Update a feature
 
 When we make changes at the configuration and want to keep them, we need to update the code.
+One way is to do it through the UI: click on `recreate` and download the feature again. Then replace the old feature folder in module directory with the new one.
+Second and much quicker way is to use Drush. Run `drush fu [feature name]` in Drupal directory (www) and that's it, your feature is updated!
+
+If you go to Features administration page, you will see that the state is `Default` again.
 
 
+## How we decide what to “featurize”? 
 
-What should be “featurize”? What can’t be “featurize”? How we decide what to “featurize”? 
+
 
 
 Do it in practice - 
