@@ -84,8 +84,15 @@ If you go to Features administration page, you will see that the state is `Defau
 In short: All!
 Everything we have in our local DB should be in code, so we can share it. 
 Of course we can't featurize content. Content needs to be [migrating](https://www.drupal.org/project/migrate).
-But how can we decide which components to pack in one feature?
+But how can we decide which components to pack in one feature? Let's look on an example. 
 
+In our site we have main menu that links to: 
+
+Gallery - made of Content type, Views and Vocabulary (taxonomy)
+Blog - made of Content type, Views and Vocabulary (taxonomy)
+About page - made of Content type.
+
+How many features are we going to create?
 
 
 
