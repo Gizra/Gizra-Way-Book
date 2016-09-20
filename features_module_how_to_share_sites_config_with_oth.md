@@ -70,7 +70,6 @@ Now go back to Features administration page and you will see that the state is `
 ![](images/features/default_state.png)
 
 
-
 ## Update a feature
 
 When we make changes at the configuration and want to keep them, we need to update the code.
@@ -80,9 +79,10 @@ Second and much quicker way is to use Drush. Run `drush fu [feature name]` in Dr
 If you go to Features administration page, you will see that the state is `Default` again.
 
 
-## How we decide what to “featurize”? 
+## What to “featurize”? 
 
-
+In short: All!
+Everything we have in our local DB should be in code, so we can share it. 
 
 
 Do it in practice - 
