@@ -83,13 +83,13 @@ If you go to Features administration page, you will see that the state is `Defau
 
 In short: All!
 Everything we have in our local DB should be in code, so we can share it. 
+Of course we can't featurize content. Content needs to be [migrating](https://www.drupal.org/project/migrate).
+But how can we decide which components to pack in one feature?
 
 
-Do it in practice - 
-- Create feature (add component and dependencies).
-- Enable feature (how do we make sure the feature works?)
-- Update feature 
-- Feature state (default, override, conflict)
+
+
+(conflict)
 
 
 
