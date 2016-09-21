@@ -82,21 +82,23 @@ If you go to Features administration page, you will see that the state is `Defau
 ## What to “featurize”? 
 
 In short: All!
-Everything we have in our local DB should be in code, so we can share it. 
+
+Everything we have in our local DB should be in code, so we can share it.
+
 Of course we can't featurize content. Content needs to be [migrating](https://www.drupal.org/project/migrate).
-But how can we decide which components to pack in one feature? Feature is a set of components for a particular use case, so we need to 
 
-
+How can we decide which components to pack in one feature? Feature is a set of components for a particular use case, so we need to create feature with a common sense.
 
 for example, If we have site with main menu that links to: 
-
-Gallery - made of Content type, Views and Vocabulary (taxonomy)
-Blog - made of Content type, Views and Vocabulary (taxonomy)
-About page - made of Content type.
+1. Gallery - made of Content type, Views and Vocabulary (taxonomy)
+2. Blog - made of Content type, Views and Vocabulary (taxonomy)
+3. About page - made of Content type.
 
 How many features are we going to create from this structure?
 
-We can pack all in one module, but this way it can be 
+We can pack all in one module, but this way it can be difficult to maintain. Because if one person works on the Gallery, and the other makes change in the Blog, both of them need to recreate the same feature.
+So it is better to pack the Gallery in one feature and the Blog in another feature.
+But what if both Gallery and Blog used the same Vocabulary? 
 
 (conflict)
 
