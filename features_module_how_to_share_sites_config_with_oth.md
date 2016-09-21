@@ -84,7 +84,11 @@ If you go to Features administration page, you will see that the state is `Defau
 In short: All!
 Everything we have in our local DB should be in code, so we can share it. 
 Of course we can't featurize content. Content needs to be [migrating](https://www.drupal.org/project/migrate).
-But how can we decide which components to pack in one feature? for example, If we have site with main menu that links to: 
+But how can we decide which components to pack in one feature? Feature is a set of components for a particular use case, so we need to 
+
+
+
+for example, If we have site with main menu that links to: 
 
 Gallery - made of Content type, Views and Vocabulary (taxonomy)
 Blog - made of Content type, Views and Vocabulary (taxonomy)
@@ -92,9 +96,23 @@ About page - made of Content type.
 
 How many features are we going to create from this structure?
 
-
+We can pack all in one module, but this way it can be 
 
 (conflict)
+
+
+
+
+## Summary
+
+We use the Features module to export the configuration from database to code.
+When you create a Feature, you are in fact creating a module. It can be treated like any other module in Drupal.
+
+featurize **all** configurations you have made, and share them with Git. What's left in your local environment does not count.
+
+Keep the guideline: Every Content Type and its associated components (views, Vocabulary, etc.) will be pack in one feature.
+To avoid conflict, pack shared components (like vocabulary or fields that use in more then one content type) in separate feature. Use dependencies to connect between features that depend on each others.
+
 
 
 
