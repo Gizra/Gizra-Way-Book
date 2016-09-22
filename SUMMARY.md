@@ -17,4 +17,5 @@
    * [Preparation for new employee](preparation_for_new_employee.md)
    * [Preparation for departing employee](preparation_for_departing_employee.md)
 * Training
+   * [CTools plugins](ctools_plugins.md)
    * [How to approach a new task, and its underlying data structure](approach_data_structure_task.md)
