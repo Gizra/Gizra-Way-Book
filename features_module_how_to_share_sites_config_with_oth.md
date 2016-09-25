@@ -13,9 +13,9 @@ Another possibility is to manually export/import configuration in code, as you c
 
 Views, Content types, Panels, and some other modules provide this export/import option.  However, not every modules gives us this option. In addition, working this way doesn't provide us with the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configurations that it relies on. How can we be sure we won't miss anythings?
 
-That is exactly why we have Features module!
+That is exactly why we have the Features module!
 
-Features simply package up all of that configuration (components) into a module, and we can use it like any other Drupal module. In another words: Features is a module that creates modules.
+Features simply package up all of that configuration into a module, and we can use it like any other Drupal module. In another words: Features is a module that creates modules.
 
 
 ## Create a feature
@@ -25,7 +25,7 @@ Take a look on a simple example: Here is a web page that display list of blog po
 ![](images/features/blog_page.png)
 
 
-It was built from Content type called `Blog`, and a View.
+It was built from content type called `Blog`, and a View.
 Now we want to export our work and move it to another environment. We can simply create a module (using features module) that contain the blog configurations (Content type and View). 
 
 Let's do it together:
