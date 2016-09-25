@@ -17,36 +17,37 @@ Views, Content types, Panels, and some other modules provide this export/import 
 
 Our solution and the most efficient option, is to use the Features module!
 
-Features simply packages up all of that configuration into a module, and we can use it like any other Drupal module. In another words: **Features is a module that creates modules.**
+Features simply packages up all of that configuration into a module, and we can use it like any other Drupal module. In another words: **Features is a module that creates modules (known as Features).**
 
 
-## Creating a feature
+## Creating a Feature
 
-Let's use a simple example - a web page that displays a list of blog post. 
+Let's use a simple example - a web page that displays a list of blog posts. 
 
 ![](images/features/blog_page.png)
 
 
 It was built from a content type called `Blog`, and a View.
-Now we want to export our work and move it to another environment. We can simply create a module (using features module) that contain the blog configurations (Content type and View). 
+
+Now we want to export our work and move it to another environment. We create a module (using the Features module) that contains the blog configurations (content type and View). 
 
 Let's do it together:
 
 Go to `admin/structure/features/create`.
-Give the feature a name. This will be the name of the module, so we always use the project name and a reasonable name that tell us what this module use for (Blog in this case). Also write a description that tells more about this module.
-In the right area on the screen you need to select the components that should be include in the module (in this case Content type=Blog and View=Blog).
-As you can see, Features automatically select for us all the dependencies our module needs to work properly. You can add your own dependencies as you want.
+Give the Feature a name. This will be the name of the module, so we always use the project name and a reasonable name that tell us what this module is used for (Blog in this case). Also write a description that tells more about this module.
+In the right area on the screen you need to select the components that should be included in the module (in this case Content type=Blog and View=Blog).
+As you can see, Features automatically selects all the dependencies that our module needs to work properly. You can add your own dependencies as well.
 
 ![](images/features/create_feature.png)
 
-When you done, just click on `Download feature`.
+When you are done, just click on `Download feature`.
 Uncompress the file, and put the module folder under `modules/custom` in the project directory.
 Enable the module so Drupal can start using it.
 
-**Note**: When you make your configurations in DB, then export it as a feature and enable the module, your configurations stored both in code and DB. In that case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module.
+**Note**: When you make your configurations in DB, then export it as a Feature and enable the module, your configurations are stored both in the code and DB. In this case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all of our configuration moved successfully to code, is to start a new installation and then enable the module.
 
 
-## Changing a feature
+## Changing a Feature
 
 Now we have our Blog feature (module) installed and running in our site. But what if we want to make change in our configuration, for instance change the page title to be 'Gizra blog' instead of 'Blog'?
 We can simply go to the View configuration in the UI and change the title.
@@ -63,7 +64,7 @@ Overridden state means that the configuration in DB is different from configurat
 This is a situation we need to solve. We can choose to revert to the original code or to update the feature by applying the new changes to it. 
 
 
-## Revert a feature
+## Revert a Feature
 
 Click on the `Overridden` signal, then you will see the component that was override (View in this case because we changed the view title). Check the component you want to revert and click on `Revert components`
 
@@ -75,7 +76,7 @@ Now go back to Features administration page and you will see that the state is `
 ![](images/features/default_state.png)
 
 
-## Update a feature
+## Updating a Feature
 
 When we make changes at the configuration and want to keep them, we need to update the code.
 One way is to do it through the UI: click on `recreate` and download the feature again. Then replace the old feature folder in module directory with the new one.
@@ -84,7 +85,7 @@ Second and much quicker way is to use Drush. Run `drush fu [feature name]` in Dr
 If you go to Features administration page, you will see that the state is `Default` again.
 
 
-## What to “featurize”? 
+## What to “Featurize”? 
 
 In short: everything that is _not_ content!
 
