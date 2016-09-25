@@ -1,33 +1,33 @@
 # Features module: how to share a site’s configuration with others?
 
 If you had a chance to build one or two Drupal sites,  you probably already know that Drupal sites consists of three parts:
-**Code** (modules, themes…) stored in files, **Configuration**  (content types, views, panels…) stored in the database, and **Content** (nodes, terms…) stored in the database.
+**Code** (modules, themes…) stored in files, **Configuration**  (content types, Views, Panels…) stored in the database, and **Content** (nodes, terms…) stored in the database.
 
 ![](images/features/3_parts_drupal.png)
 
-When we collaborate on projects, building a site together, we often want to share our work. As we build Drupal sites, define content types, setup Views and Panels, we end up making a lot of configuration changes. These changes are stored in the DB. Code is easy to share, but there is no easy way to merge changes to DB. So here come our challenge - how do we share a site’s configuration with others?
+When we collaborate on projects, build a site together, we often want to share our work. As we build Drupal sites, define content types, setup Views and Panels, we end up making a lot of configuration changes. These changes are stored in the DB. Code is easy to share, but there is no easy way to merge changes to the DB. So here is our challenge - how do we share a site’s configuration with others?
 
 One possible solution is to document all the configurations made and repeat them in the new environment. However, this is not a very clever way of working. It takes a lot of time and there are too many opportunities to make mistakes along the way. 
 
-Another possibility is to manually export/import configuration in code, as you can see from the example in View options:
+Another possibility is to manually export/import configuration in code, as you can see from the example in View under the options:
 
 ![](images/features/export_view.png)
 
-Views, Content types, Panels, and some other modules provide this export/import option.  However, not every modules gives us this option. In addition, working this way doesn't provide us with the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configurations that it relies on. How can we be sure we won't miss anythings?
+Views, Content types, Panels, and some other modules provide this export/import option.  However, not all of modules gives us this option. In addition, working this way doesn't provide us with the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configurations that it relies on. How can we be sure we won't miss anythings?
 
-That is exactly why we have the Features module!
+Our solution and the most efficient option, is to use the Features module!
 
-Features simply package up all of that configuration into a module, and we can use it like any other Drupal module. In another words: Features is a module that creates modules.
+Features simply packages up all of that configuration into a module, and we can use it like any other Drupal module. In another words: **Features is a module that creates modules.**
 
 
-## Create a feature
+## Creating a feature
 
-Take a look on a simple example: Here is a web page that display list of blog post. 
+Let's use a simple example - a web page that displays a list of blog post. 
 
 ![](images/features/blog_page.png)
 
 
-It was built from content type called `Blog`, and a View.
+It was built from a content type called `Blog`, and a View.
 Now we want to export our work and move it to another environment. We can simply create a module (using features module) that contain the blog configurations (Content type and View). 
 
 Let's do it together:
@@ -46,7 +46,7 @@ Enable the module so Drupal can start using it.
 **Note**: When you make your configurations in DB, then export it as a feature and enable the module, your configurations stored both in code and DB. In that case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module.
 
 
-## Change a feature
+## Changing a feature
 
 Now we have our Blog feature (module) installed and running in our site. But what if we want to make change in our configuration, for instance change the page title to be 'Gizra blog' instead of 'Blog'?
 We can simply go to the View configuration in the UI and change the title.
