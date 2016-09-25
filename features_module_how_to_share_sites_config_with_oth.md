@@ -49,14 +49,14 @@ Enable the module so Drupal can start using it.
 
 ## Changing a Feature
 
-Now we have our Blog feature (module) installed and running in our site. But what if we want to make change in our configuration, for instance change the page title to be 'Gizra blog' instead of 'Blog'?
+Now we have our Blog Feature (module) installed and running on our site. But what if we want to make changes in our configuration? For example, change the page title to be 'Gizra blog' instead of 'Blog'?
 We can simply go to the View configuration in the UI and change the title.
 
 ![](images/features/change_title.png)
 
-But where is this change stored? Right, it stored in DB. So now we have the title 'Gizra blog' in DB and the title 'Blog' in code.
+But where is this change stored? Right, it is stored in DB. So now we have the title 'Gizra blog' in DB and the title 'Blog' in code.
 
-Features module noticed this change made to the component and mark it with an `Overridden` state on the Features administration page.
+Features module noticed this change made to the component and marks it with an `Overridden` state on the Features administration page.
 
 ![](images/features/overridden.png)
 
@@ -64,9 +64,9 @@ Overridden state means that the configuration in DB is different from configurat
 This is a situation we need to solve. We can choose to revert to the original code or to update the feature by applying the new changes to it. 
 
 
-## Revert a Feature
+## Reverting a Feature
 
-Click on the `Overridden` signal, then you will see the component that was override (View in this case because we changed the view title). Check the component you want to revert and click on `Revert components`
+Click on the `Overridden` signal, then you will see the component that was override (View in this case because we changed the View title). Check the component you want to revert and click on `Revert components`
 
 ![](images/features/revert.png)
 
@@ -78,9 +78,9 @@ Now go back to Features administration page and you will see that the state is `
 
 ## Updating a Feature
 
-When we make changes at the configuration and want to keep them, we need to update the code.
-One way is to do it through the UI: click on `recreate` and download the feature again. Then replace the old feature folder in module directory with the new one.
-Second and much quicker way is to use Drush. Run `drush fu [feature name]` in Drupal directory (www) and that's it, your feature is updated!
+When we make changes to the configuration and want to keep them, we need to update the code.
+One way is to do this is through the UI: click on `recreate` and download the feature again. Then replace the old feature folder in module directory with the new one.
+Second and much quicker way is to use Drush. Run `drush fu [feature name]` in Drupal directory (www) and that's it, your Feature is updated!
 
 If you go to Features administration page, you will see that the state is `Default` again.
 
@@ -93,19 +93,19 @@ Everything we have in our local DB should be in code, so we can share it.
 
 Of course we can't featurize content. Content needs to be [migrated](https://www.drupal.org/project/migrate).
 
-How can we decide which components to pack in one feature? Feature is a set of components for a particular use case, so we need to create feature with a common sense.
+How do we decide which components to pack in one feature? Feature is a set of components for a particular use case, so we need to create Features using common sense.
 
-for example, If we have site with main menu that links to: 
-1. Gallery - made of Content type, Views and Vocabulary (taxonomy)
-2. Blog - made of Content type, Views and Vocabulary (taxonomy)
-3. About page - made of Content type.
+For example, if we have a site with a main menu that links to: 
+1. Gallery - made of content type, Views and Vocabulary (taxonomy)
+2. Blog - made of content type, Views and Vocabulary (taxonomy)
+3. About page - made of content type.
 
 How many features are we going to create from this structure?
 
-We can pack all in one module, but this way it can be difficult to maintain, Because if one person works on the Gallery, and the other makes change in the Blog, both of them need to recreate the same feature.
-So it is better to pack the Gallery in one feature and the Blog in another feature.
-But what if both Gallery and Blog used the same Vocabulary? If we pack the Vocabulary with the Gallery feature, and also with the Blog feature, we will get a conflict when we try to enable them both. So the right strategy in this case is to pack the Vocabulary itself in a separate feature and define the Vocabulary feature as a dependency in the Gallery feature and in the Blog feature.
-What about the Menu? Well we can also pack it as a seperate feature, or we can treat the menu as a content and not featurize it at all.
+We can pack everything into one module, but it can be difficult to maintain.  If one person works on the Gallery, and the other makes changes to the Blog, both of them need to recreate the same Feature.So, it makes more sense to pack the Gallery into one Feature and the Blog in another Feature.
+
+But what if both Gallery and Blog use the same Vocabulary? If we pack the Vocabulary with the Gallery Feature, and also with the Blog Feature, we will get a conflict when we try to enable them both. So, it looks like the right strategy in this case is to pack the Vocabulary itself into a separate Feature and define the Vocabulary Feature as a dependency in the Gallery Feature and in the Blog Feature.
+What about the Menu? Well, we can also pack it as a separate Feature, or we can treat the menu as content and not Featurize it at all.
 
 
 ## Summary
