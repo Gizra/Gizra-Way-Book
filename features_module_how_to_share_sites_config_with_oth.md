@@ -44,7 +44,7 @@ When you are done, just click on `Download feature`.
 Uncompress the file, and put the module folder under `modules/custom` in the project directory.
 Enable the module so Drupal can start using it.
 
-**Note**: When you make your configurations in DB, then export it as a feature and enable the module, your configurations stored both in code and DB. In that case, you don't know if what you are seening on the screen coming from the code or from the DB, so you can't be sure if the module works exactly how you expected. The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module. Now, after a new installation you know everthing you see come from the code.
+**Note**: When you make your configurations in DB, then export it as a Feature and enable the module, your configurations are stored both in the code and DB. In this case, you don't know if what you are seeing on the screen is coming from the code or from the DB, so you can't be sure if the module is working as expected. The most effective way to make sure all our configuration moved successfully to the code, is to start a new installation and then enable the module. Now, after a new installation, you know that everything you see is from the code.
 
 
 ## Changing a Feature
@@ -61,7 +61,7 @@ Features module noticed this change made to the component and marks it with an `
 ![](images/features/overridden.png)
 
 Overridden state means that the configuration in DB is different from configuration in code, and what stored in DB is stronger, so it overrides the code.
-This is a situation we need to solve. We can choose to revert to the original code or to update the feature by applying the new changes to it. 
+This is a situation we need to solve. We can choose to revert to the original code or to update the Feature by applying the new changes to it. 
 
 
 ## Reverting a Feature
@@ -79,8 +79,8 @@ Now go back to Features administration page and you will see that the state is `
 ## Updating a Feature
 
 When we make changes to the configuration and want to keep them, we need to update the code.
-One way is to do this is through the UI: click on `recreate` and download the feature again. Then replace the old feature folder in module directory with the new one.
-Second and much quicker way is to use Drush. Run `drush fu [feature name]` in Drupal directory (www) and that's it, your Feature is updated!
+One way to do this is through the UI: click on `recreate` and download the Feature again. Then replace the old Feature folder in module directory with the new one.
+A second and much quicker way is to use Drush. Run `drush fu [feature name]` in Drupal directory (www) and that's it, your Feature is updated!
 
 If you go to Features administration page, you will see that the state is `Default` again.
 
@@ -91,20 +91,20 @@ In short: everything that is _not_ content!
 
 Everything we have in our local DB should be in code, so we can share it.
 
-Of course we can't featurize content. Content needs to be [migrated](https://www.drupal.org/project/migrate).
+Of course we can't Featurize content. Content needs to be [migrated](https://www.drupal.org/project/migrate).
 
-How do we decide which components to pack in one feature? Feature is a set of components for a particular use case, so we need to create Features using common sense.
+How do we decide which components to pack in a feature? Feature is a set of components for a particular use case, so we need to create Features using common sense.
 
 For example, if we have a site with a main menu that links to: 
 1. Gallery - made of content type, Views and Vocabulary (taxonomy)
 2. Blog - made of content type, Views and Vocabulary (taxonomy)
 3. About page - made of content type.
 
-How many features are we going to create from this structure?
+How many Features are we going to create from this structure?
 
-We can pack everything into one module, but it can be difficult to maintain.  If one person works on the Gallery, and the other makes changes to the Blog, both of them need to recreate the same Feature.So, it makes more sense to pack the Gallery into one Feature and the Blog in another Feature.
+We can pack everything into one module, but it can be difficult to maintain.  If one person works on the Gallery, and the other makes changes to the Blog, both of them need to recreate the same Feature.So, it makes more sense to pack the Gallery into one Feature and the Blog in another.
 
-But what if both Gallery and Blog use the same Vocabulary? If we pack the Vocabulary with the Gallery Feature, and also with the Blog Feature, we will get a conflict when we try to enable them both. So, it looks like the right strategy in this case is to pack the Vocabulary itself into a separate Feature and define the Vocabulary Feature as a dependency in the Gallery Feature and in the Blog Feature.
+But, what if both Gallery and Blog use the same Vocabulary? If we pack the Vocabulary with the Gallery Feature, and also with the Blog Feature, we will get a conflict when we try to enable them both. So, it looks like the right strategy in this case is to pack the Vocabulary itself into a separate Feature and define the Vocabulary Feature as a dependency in the Gallery Feature and in the Blog Feature.
 What about the Menu? Well, we can also pack it as a separate Feature, or we can treat the menu as content and not Featurize it at all.
 
 
@@ -115,8 +115,9 @@ When you create a Feature, you are in fact creating a module. It can be treated 
 
 Featurize **all** configurations you have made, and share them with Git. What's left in your local environment does not count.
 
-Keep the guideline: Every Content Type and its associated components (views, Vocabulary, etc.) will be pack in one feature.
-To avoid conflict, pack shared components (like vocabulary or fields that use in more then one content type) in separate feature. Use dependencies to connect between features that depend on each others.
+Keep to the guideline: Every content type and its associated components (Views, Vocabulary, etc.) will be packed into one Feature.
+To avoid conflict, pack shared components (like Vocabulary or fields that are used in more than one content type) in a separate Feature. Use dependencies to connect between Features that depend on each other.
+
 
 
 
