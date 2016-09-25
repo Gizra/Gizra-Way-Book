@@ -41,7 +41,7 @@ When you done, just click on `Download feature`.
 Uncompress the file, and put the module folder under `modules/custom` in the project directory.
 Enable the module so Drupal can start using it.
 
-**Attention**: When you make your configurations in DB, then export it as a feature and enable the module, your configurations stored both in code and DB. In that case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module.
+**Note**: When you make your configurations in DB, then export it as a feature and enable the module, your configurations stored both in code and DB. In that case, we can't be sure our module works exactly how we expected (try to disable the module and you still get the same configuration). The most effective way to make sure all our configuration moved successfully to code, is to start new installation and then enable the module.
 
 
 ## Change a feature
@@ -84,11 +84,11 @@ If you go to Features administration page, you will see that the state is `Defau
 
 ## What to “featurize”? 
 
-In short: All!
+In short: Everything that is _not_ content!
 
 Everything we have in our local DB should be in code, so we can share it.
 
-Of course we can't featurize content. Content needs to be [migrating](https://www.drupal.org/project/migrate).
+Of course we can't featurize content. Content needs to be [migrated](https://www.drupal.org/project/migrate).
 
 How can we decide which components to pack in one feature? Feature is a set of components for a particular use case, so we need to create feature with a common sense.
 
