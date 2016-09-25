@@ -3,6 +3,8 @@
 If you had a chance to build one or two Drupal sites,  you probably already know that Drupal sites consists of three parts:
 **Code** (modules, themes…) stored in files, **Configuration**  (content types, views, panels…) stored in the database, and **Content** (nodes, terms…) stored in the database.
 
+![](images/features/3_parts_drupal.png)
+
 When we collaborate on projects, building a site together, we often want to share our work. As we build Drupal sites, define content types, setup Views and Panels, we end up making a lot of configuration changes. These changes are stored in the DB. Code is easy to share, but there is no easy way to merge changes to DB. So here come our challenge - how do we share a site’s configuration with others?
 
 One possible solution is to document all the configurations made and repeat them in the new environment. However, this is not a very clever way of working. It takes a lot of time and there are too many opportunities to make mistakes along the way. 
