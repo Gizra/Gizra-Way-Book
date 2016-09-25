@@ -86,7 +86,7 @@ If you go to Features administration page, you will see that the state is `Defau
 
 ## What to “featurize”? 
 
-In short: Everything that is _not_ content!
+In short: everything that is _not_ content!
 
 Everything we have in our local DB should be in code, so we can share it.
 
@@ -112,7 +112,7 @@ What about the Menu? Well we can also pack it as a seperate feature, or we can t
 We use the Features module to export the configuration from database to code.
 When you create a Feature, you are in fact creating a module. It can be treated like any other module in Drupal.
 
-featurize **all** configurations you have made, and share them with Git. What's left in your local environment does not count.
+Featurize **all** configurations you have made, and share them with Git. What's left in your local environment does not count.
 
 Keep the guideline: Every Content Type and its associated components (views, Vocabulary, etc.) will be pack in one feature.
 To avoid conflict, pack shared components (like vocabulary or fields that use in more then one content type) in separate feature. Use dependencies to connect between features that depend on each others.
