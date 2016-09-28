@@ -47,7 +47,7 @@ Under the _Format_ section we can define how the View will display. Let's stick 
 
 Then, we can specify which parts of the content will display. We need to choose between `fields` or `content`.
 
-When you choose `fields`, it means that you can choose which fields from the content type the View will display. In our case we want to display the post title, so under _Format_ we will select to show `Fields`, and under _Fields_ section we will add the `Content: Title`  which is the node title field.
+When you choose `fields`, it means that you can choose which fields from the content type the View will display. In our case we want to display the post title, so under _Format_ we will select to show `Fields`, and under _Fields_ section we will leave the `Content: Title` field (the node title) which is come by default.
 
 ![](images/views/fields.png)
 
@@ -58,6 +58,18 @@ Another option is to show `Content`.
 Although we won't choose this in our case (because we want to display only the node title field), I will explain this option because it is an opportunity to explain the Drupal view modes.
 
 We can display every content type in a few view modes (full content, teaser, etc). For each view mode we can define the way the content will be display. For example, in the `teaser` view mode we can display the _Read more_ link to the node, but in the `full content` view mode, it won't be necessary.
+
+
+## Fields
+
+As we say, in this training we want to display a list of blog titles, so we choose to show the `Content: Title` under the _Fields_ section. To add more fields, click on the `Add` button and select the field/s you want to add. There is a lot of field types available, and lots of configuration options, you can play around with it and discover yourself.
+
+
+## Filter criteria
+
+
+
+
 
 
 
