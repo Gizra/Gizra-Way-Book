@@ -31,13 +31,26 @@ Any View can contain multiple displays of different types (page, block, feed etc
 In this training we want to display page with list of blog titles, so click on the `Add` button in the displays section (near the `Master`) and select `Page`. Now you can see we have two displays: `Master` and `Page` (if you can't see the Master display, go to and check the `Always show the master display` option).
 
 Every web page needs to have a path, so click on the `No path is set` and specify the URL. Under this _Page setting_ section you can also link the page to a menu and define an access rule for the page.
-Next, click on `None` under the Title section and specify the page title, like Blog.
+Next, click on `None` under the _Title_ section and specify the page title, like Blog.
 
 ![](images/views/page_display.png)
 
 As you can see, when you fill the title name. you get the choice to applied it **All displays** or only **This page**. This choice come up almost in every change you want to make in the View.  The default selection is All displays, So be careful when you have multiple displays. Always make sure you make changes to the displays you want to make changes to.
 
 ![](images/views/apply_all_displays.png)
+
+
+
+## Format
+
+Under the _Format_ section we can define how the View will display. Let's stick with the default one: `unformatted list`.
+
+Then, we can specify which parts of the content will display. We need to choose between `fields` or `content`.
+
+When you choose `fields`, it means that you can choose which fields from the content type the View will display. In our case we want to display the post title, so under _Format_ we will select `Fields` and under _Fields_ section we will add the `Content: Title`  which is the node title field.
+
+![](images/views/fields.png)
+
 
 
 
