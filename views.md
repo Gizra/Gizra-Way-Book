@@ -16,7 +16,19 @@ This form give us some main View definitions. Set the View name and description 
 
 In this View we want to display list of blog’s titles, so we select to show `Content` (nodes). Since we chose Content, we get also the option to select which content type. Although we know we need to choose the `Blog` content type, let’s leave it `All` for now, because I want to show you how to define that filter in the edit View page.
 
-There is also the possibility to create a page and a block in this form. Our Blog list will display on a page, but we will create it at the next step (just for you to see how we define this in the edit View page.), So leave the page checkboxes unchecked.
+There is also the possibility to create a page and a block in this form. Our Blog list will display on a page, but we will create it at the next step (just for you to see how we define this in the View edit page.), So leave the page checkboxes unchecked.
 We finished here, click `Continue and edit` button.
+
+Now we are in the View edit page. Be aware that the View not saved until you click on the `Save` button, so I recommend to click it right now and also during working on the view.
+
+![](images/views/save_view.png)
+
+
+## Displays
+
+Any View can contain multiple displays of different types (page, block, feed etc). Some contributed modules extend the displays options. That allows us  to create a single View that displays the same content in multiple ways, using different formats, filters etc. For example, we can create View that shows list of blog post. In the `page display` we will show all the nodes with their title and teaser, and in the `block display` we will show only the titles of the last five posts.
+
+In this training we want to display page with list of blog titles, so click on the `Add` button in the displays section (near the `Master`) and select `Page`. Now you can see we have two displays: `Master` and `Page` (if you can't see the Master display, go to and check the `Always show the master display` option).
+
 
 
