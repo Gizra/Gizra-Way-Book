@@ -57,6 +57,9 @@ Another option is to show `Content`.
 
 Although we won't choose this in our case (because we want to display only the node title field), I will explain this option because it is an opportunity to explain the Drupal view modes.
 
+We can display every content type in a few view modes (full content, teaser, etc). For each view mode we can define the way the node will be display. For example, in the `teaser` view mode we can display the _Read more_ link to the node, but in the `full content` view mode, it won't be necessary.
+
+
 
 
 
