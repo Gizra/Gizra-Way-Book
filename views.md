@@ -92,7 +92,7 @@ The reason is that the `Author name` field doesn't exist in the content table we
 
 Click on the `Add` button in the _Relationship_ section and choose the `Content: Author`. 
 
-Now if we go and add a new field under the _Field_ section, we can find `User: Name` field. Look at the View preview, and you will see it displayed.
+Now if we go and add a new field under the _Field_ section, we can select `User: Name` field. Look at the View preview, and you will see it displayed.
 
 ![](images/views/preview_author.png)
 
