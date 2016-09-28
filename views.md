@@ -67,8 +67,14 @@ As we say, in this training we want to display a list of blog titles, so we choo
 
 ## Filter criteria
 
+In this section we define by what criteria we filter the data in the query. As You can see it already contains one filter to shows only content that is published. But this is not enough, because we want to display only the blog titles, and not the titles of all the nodes in the site. So we have to add a second filter to shows only the nodes of the type `Blog`.
+Click on the `Add` button, select `Content: Type`, then choose the `Blog` option.
 
+![](images/views/filters.png)
 
+These of you who familiar with SQL can look at the bottom of the screen and see the query built from this View:
+
+![](images/views/query.png)
 
 
 
