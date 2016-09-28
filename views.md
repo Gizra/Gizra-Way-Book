@@ -35,5 +35,7 @@ Next, click on `None` under the Title section and specify the page title, like B
 
 ![](images/views/page_display.png)
 
+As you can see, when you fill the title name. you get the choice to applied it **All displays** or only **This page**. This choice come up almost in every change you want to make in the View.  The default selection is All displays, So be careful when you have multiple displays. Always make sure you make changes to the displays you want to make changes to.
 
+![](images/views/apply_all_displays.png)
 
