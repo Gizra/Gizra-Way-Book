@@ -99,6 +99,14 @@ Now if we go and add a new field under the _Field_ section, we can find `User: N
 In the configuration of the field we can of course change the label to be Author instead of Name.
 
 
+## Contextual filters
+
+Contextual filters are like filters under _filter criteria_ section. The different is that we don't set the filter value, it will be taken from context when we run the View.
+
+
+
+
+
 
 
 
