@@ -47,9 +47,15 @@ Under the _Format_ section we can define how the View will display. Let's stick 
 
 Then, we can specify which parts of the content will display. We need to choose between `fields` or `content`.
 
-When you choose `fields`, it means that you can choose which fields from the content type the View will display. In our case we want to display the post title, so under _Format_ we will select `Fields` and under _Fields_ section we will add the `Content: Title`  which is the node title field.
+When you choose `fields`, it means that you can choose which fields from the content type the View will display. In our case we want to display the post title, so under _Format_ we will select to show `Fields`, and under _Fields_ section we will add the `Content: Title`  which is the node title field.
 
 ![](images/views/fields.png)
+
+Another option is to show `Content`.
+
+![](images/views/content.png)
+
+Although we won't choose this in our case (because we want to display only the node title field), I will explain this option because it is an opportunity to explain the Drupal view modes.
 
 
 
