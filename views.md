@@ -72,9 +72,13 @@ Click on the `Add` button, select `Content: Type`, then choose the `Blog` option
 
 ![](images/views/filters.png)
 
-These of you who familiar with SQL can look at the bottom of the screen and see the query built from this View:
+These of you who familiar with SQL can look at the bottom of the screen and see the query built from this View (that's if you set the `Show the SQL query` in the View setting).
 
 ![](images/views/query.png)
+
+
+Below the Query you can see preview of the View results.
+
 
 
 
