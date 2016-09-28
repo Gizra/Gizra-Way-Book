@@ -30,5 +30,10 @@ Any View can contain multiple displays of different types (page, block, feed etc
 
 In this training we want to display page with list of blog titles, so click on the `Add` button in the displays section (near the `Master`) and select `Page`. Now you can see we have two displays: `Master` and `Page` (if you can't see the Master display, go to and check the `Always show the master display` option).
 
+Every web page needs to have a path, so click on the `No path is set` and specify the URL. Under this _Page setting_ section you can also link the page to a menu and define an access rule for the page.
+Next, click on `None` under the Title section and specify the page title, like Blog.
+
+![](images/views/page_display.png)
+
 
 
