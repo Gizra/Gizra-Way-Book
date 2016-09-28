@@ -98,7 +98,8 @@ Now if we go and add a new field under the _Field_ section, we can find `User: N
 
 In the configuration of the field we can of course change the label to be Author instead of Name.
 
-# Taxonomy
+
+## Taxonomy
 
 Let's take a break from the View configuration, and add new requirement to our Blog page. Don't worry, we will continue latter with the View.
 
