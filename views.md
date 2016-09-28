@@ -88,9 +88,11 @@ We need to go to _Field_ section and add the right field. But when we search for
 
 ![](images/views/author_field.png)
 
-The reason is that the `Author name` field doesn't exist in the main content table we were choose, so we need to bring it from another table.
+The reason is that the `Author name` field doesn't exist in the content table we selected when we first start to define the View. So we need to bring it from another table, in this case, the user table. The _Relationship_ section is there for that purpose.  If we say it in the SQL language, it means that table A (in this case `content`) will join with table B (in this case `user`) in order to get data related from both tables.
 
+Click on the `Add` button in the _Relationship_ section and choose the `Content: Author`. 
 
+Now if we go and add a new field under the _Field_ section, we can find `User: Name` field. Look at the View preview, and you will see it displayed.
 
 
 
