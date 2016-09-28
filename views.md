@@ -94,6 +94,10 @@ Click on the `Add` button in the _Relationship_ section and choose the `Content:
 
 Now if we go and add a new field under the _Field_ section, we can find `User: Name` field. Look at the View preview, and you will see it displayed.
 
+![](images/views/preview_author.png)
+
+In the configuration of the field we can of course change the label to be Author instead of Name.
+
 
 
 
