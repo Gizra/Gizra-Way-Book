@@ -39,3 +39,5 @@ As you can see, when you fill the title name. you get the choice to applied it *
 
 ![](images/views/apply_all_displays.png)
 
+
+
