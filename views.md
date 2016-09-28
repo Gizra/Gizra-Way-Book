@@ -81,6 +81,17 @@ Below the Query you can see preview of the View results.
 
 
 
+## Relationships
+
+Let's continue to the _Advanced_ section. Now we want to display also the author name of the blog post. 
+We need to go to _Field_ section and add the right field. But when we search for this field, we see only the `Author uid`, but we want to show her name.
+
+![](images/views/author_field.png)
+
+The reason is that the `Author name` field doesn't exist in the main content table we were choose, so we need to bring it from another table.
+
+
+
 
 
 
