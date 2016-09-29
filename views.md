@@ -113,6 +113,19 @@ Go to `admin/structure/taxonomy/add` and create a new vocabulary called `Movies 
 
 Now we need to connect between the content type `Blog` and the vocabulary `Movies categories` so we can classify the nodes (Blog posts) with the terms (Movies categories). 
 
+So we know the entity `Blog` and the entity `Movies categories` has a relationship, but what refer to what?
+Remember the million question? if not, read [How to approach a new task](https://www.thegizraway.com/approach_data_structure_task.html).
+
+Question 1: Can one category be classify more than one blog post? Yes.
+Question 2 (The Million Question): Can and should one single category refer to a million blog posts? No, we don't want that.
+Now ask the same questions from the other direction:
+Question 1: Can one blog post be classified by more than one category? Yes.
+Question 2 (The Million Question): Can and should one single blog post refer to a million categories? 
+This is where reality dictates the answer. While in theory a blog post could reference a million categories, we know that this won't be the case. A typical blog post will probably have a single or few categories. So, it is safe to say that based on the reality, the blog post refers to the category.
+
+
+
+
 
 
 
