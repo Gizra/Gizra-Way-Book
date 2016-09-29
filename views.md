@@ -109,6 +109,10 @@ The Taxonomy module allows us to classify content. All we need to do is to creat
 
 For example, let's assume our blog is about movies, so we want to classify the content by movies categories like: Action, Drama, Comedy, etc.
 
+Go to `admin/structure/taxonomy/add` and create a new vocabulary called `Movies categories` with some terms.
+
+Now we need to connect between the content type `Blog` and the vocabulary `Movies categories` so we can classify the nodes (Blog posts) with the terms (Movies categories). 
+
 
 
 
