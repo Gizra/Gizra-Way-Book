@@ -131,7 +131,7 @@ Question 1: Can one blog post be classified by more than one category? Yes.
 Question 2 (The Million Question): Can and should one single blog post refer to a million categories? 
 This is where reality dictates the answer. While in theory a blog post could reference a million categories, we know that this won't be the case. A typical blog post will probably have a single or few categories. So, it is safe to say that based on the reality, the blog post refers to the category.
 
-[pic]
+![](images/views/blog_category_reference.png)
 
 Go to the content types administration page and add a new reference field to `Blog` content type.
 
@@ -174,7 +174,25 @@ First step we need to tell the View what to do when the filter value **is not** 
 
 Next step is to tell the View what to do when the filter value **is** in the URL.
 
-We can override the title of the page. So it won't be Blog as we define at the _Title_ section, it will be the name of the category. 
+We can override the title of the page. So it won't be Blog as we define at the _Title_ section, it will be the name of the category.
+
+![](images/views/override_title.png)
+
+We can also validate the filter value to make sure we get only terms from `Movies categories` vocabulary.
+
+![](images/views/validation_criteria.png)
+
+Save the View and go to page `/blog/3`. You should see this screen, because `3` is the `Comedy` term id:
+
+![](images/views/comedy_movies.png)
+
+You can go and add more contextual filters. The order you put them under the _Contextual filters_ section will determine which will be the first argument, the second argument, etc.
+
+additionally we can use contextual filters not just in the URL context. For example let's add `Content: Author uid` filter, and under `WHEN THE FILTER VALUE IS NOT IN THE URL` select `Provide default value` with the type `User ID from logged in user`:
+
+![](images/views/logged_in_user.png)
+
+The result will be that when we go to page `/blog/3` we will see list of blog posts classified by `Comedy` term and written by the logged in user.
 
 
 
