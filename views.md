@@ -92,6 +92,10 @@ The reason is that the `Author name` field doesn't exist in the content table we
 
 Click on the `Add` button in the _Relationship_ section and choose the `Content: Author`. 
 
+Notice the `Require this relationship` check box. When we check it only blog posts that contain author will show. In Drupal every content has an author, so it isn't relevant this case, but it good to know this option exist.  
+
+![](images/views/require_relationship.png)
+
 Now if we go and add a new field under the _Field_ section, we can select `User: Name` field. Look at the View preview, and you will see it displayed.
 
 ![](images/views/preview_author.png)
@@ -146,11 +150,17 @@ Now, if we go to the Blog page, we will see on the top of the list the option to
 
 ![](images/views/expose_filter_select.png)
 
-But what if we don't want the end users to select the category, but we want them to go directly to the page list their favorite movie category?   
+But what if we don't want the end users to select the category, but we want them to go directly to the page list their favorite movie category? 
+
+for that we have contextual filters.
 
 ## Contextual filters
 
-Contextual filters are like filters under _filter criteria_ section. The different is that we don't set the filter value, it will be taken from context (usually from the URL) when we run the View.
+Under the _Advanced_ fieldset you can find the _Contextual filters_ section. Contextual filters are like regular filters, but instead of setting the filter value, it will be taken from context (usually from the URL) when we run the View.
+
+So let's remove the `Content: Has taxonomy term` filter under _Filter criteria_ section, and add it to _Contextual filters_ section.
+
+
 
 
 
