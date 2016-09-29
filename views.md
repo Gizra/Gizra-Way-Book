@@ -103,6 +103,16 @@ In the configuration of the field we can of course change the label to be Author
 
 Let's take a break from the View configuration, and add new requirement to our Blog page. Don't worry, we will continue latter with the View.
 
+We want our blog posts to be classify by tags. Then we want the ability to display in our View page only posts that classified by a specific tag.
+
+The Taxonomy module allows us to classify content. All we need to do is to create a vocabulary and provide terms in it. The terms structure can be flat, or hierarchical with parents and children.
+
+For example, let's assume our blog is about movies, so we want to classify the content by movies categories like: Action, Drama, Comedy, etc.
+
+
+
+
+
 
 
 
