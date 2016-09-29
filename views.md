@@ -107,30 +107,33 @@ We want our blog posts to be classify by tags. Then we want the ability to displ
 
 The Taxonomy module allows us to classify content. All we need to do is to create a vocabulary and provide terms in it. The terms structure can be flat, or hierarchical with parents and children.
 
-For example, let's assume our blog is about movies, so we want to classify the content by movies categories like: Action, Drama, Comedy, etc.
+For example, let's assume our blog is about movies, and we want to classify the content by movies categories like: Action, Drama, Comedy, etc.
 
 Go to `admin/structure/taxonomy/add` and create a new vocabulary called `Movies categories` with some terms.
 
 Now we need to connect between the content type `Blog` and the vocabulary `Movies categories` so we can classify the nodes (Blog posts) with the terms (Movies categories). 
 
-So we know the entity `Blog` and the entity `Movies categories` has a relationship, but what refer to what?
-Remember the million question? if not, read [How to approach a new task](https://www.thegizraway.com/approach_data_structure_task.html).
+We know the entity `Blog` and the entity `Movies categories` has a relationship, but what refer to what?
+Let's ask the million question. if you don't know what is it about, read [How to approach a new task](https://www.thegizraway.com/approach_data_structure_task.html).
 
-Question 1: Can one category be classify more than one blog post? Yes.
+Question 1: Can one category classifies more than one blog post? Yes.
+
 Question 2 (The Million Question): Can and should one single category refer to a million blog posts? No, we don't want that.
+
 Now ask the same questions from the other direction:
+
 Question 1: Can one blog post be classified by more than one category? Yes.
+
 Question 2 (The Million Question): Can and should one single blog post refer to a million categories? 
 This is where reality dictates the answer. While in theory a blog post could reference a million categories, we know that this won't be the case. A typical blog post will probably have a single or few categories. So, it is safe to say that based on the reality, the blog post refers to the category.
 
+[pic]
 
+Go to the content types administration page and add a new reference field to `Blog` content type.
 
+![](images/views/reference _field.png)
 
-
-
-
-
-
+Now let's go back to our View. the requirement is to display a page contains only posts that classified by a specific category.
 
 
 ## Contextual filters
