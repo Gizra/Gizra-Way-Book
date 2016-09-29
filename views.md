@@ -158,11 +158,25 @@ for that we have contextual filters.
 
 Under the _Advanced_ fieldset you can find the _Contextual filters_ section. Contextual filters are like regular filters, but instead of setting the filter value, it will be taken from context (usually from the URL) when we run the View.
 
+The filters values pass as arguments through the URL. The first filter will be the first argument, the second filter will be the second argument, etc.
+If we look at our URL it will look like this:
+
+
+> /blog/2/1
+
+`blog` is the view path, `2` is the first argument and `1` is the second argument.
+
 So let's remove the `Content: Has taxonomy term` filter under _Filter criteria_ section, and add it to _Contextual filters_ section.
 
-First step we need to tell the View what to do when the filter value is not in the URL. In that case, when no category (taxonomy term) pass through the URL we want to display all the blog posts.  
+First step we need to tell the View what to do when the filter value **is not** in the URL. In that case, when no category (taxonomy term) pass through the URL we want to display all the blog posts.  
 
 ![](images/views/value_not_in_url.png)
+
+Next step is to tell the View what to do when the filter value **is** in the URL.
+
+We can override the title of the page. So it won't be Blog as we define at the _Title_ section, it will be the name of the category. 
+
+
 
 
 
