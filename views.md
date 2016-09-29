@@ -133,8 +133,20 @@ Go to the content types administration page and add a new reference field to `Bl
 
 ![](images/views/reference _field.png)
 
-Now let's go back to our View. the requirement is to display a page contains only posts that classified by a specific category.
+Now let's go back to our View. the requirement is to have the ability to display a page that list only posts that classified by a specific category.
 
+
+## Expose filters
+
+Instead of setting the filter value, we can expose the filter to end users and give them the ability to select their required value. Add `Content: Has taxonomy term` under _Filter criteria_ section and in the setting of the filter check the box `Expose this filter to visitors`.
+
+![](images/views/expose_filter.png)
+
+Now, if we go to the Blog page, we will see on the top of the list the option to choose the category.
+
+![](images/views/expose_filter_select.png)
+
+But what if we don't want the end users to select the category, but we want them to go directly to the page list their favorite movie category?   
 
 ## Contextual filters
 
