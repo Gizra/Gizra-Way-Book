@@ -160,6 +160,10 @@ Under the _Advanced_ fieldset you can find the _Contextual filters_ section. Con
 
 So let's remove the `Content: Has taxonomy term` filter under _Filter criteria_ section, and add it to _Contextual filters_ section.
 
+First step we need to tell the View what to do when the filter value is not in the URL. In that case, when no category (taxonomy term) pass through the URL we want to display all the blog posts.  
+
+![](images/views/value_not_in_url.png)
+
 
 
 
