@@ -114,12 +114,36 @@ Rapportive is a great tool to find the validity of emails when reaching out to n
 
 
 ## Technology to track your email
+###Yesware - Track when and where an email was opened. 
+By knowing if an email was opened or not you can decide on when sending the follow or ever to try the phone.
+Yesware has a template feature. Use it to find out which subjact line get opened more. Same is with click - Yesware can track what links get opened. 
+**Note** -  Yesware display the IP of the device that opned the email. If there are more then on devices listed , there is a good chance that the original recipient FW the email to someone else in the team. This can indict that there is some interest. 
 
-# Cold Email content 
+Keep in mind that this is not 100% reliable. Some email services hide images by defaults from unknown user or hide the IP, which can lead to false  reasults. 
 
-## What to write 
 
-## follow ups
+
+# E-mail strategy
+
+## Subject line
+
+I found that the most effective subject line is include the  the company name and Gizra name in the subjact line I.E XXX<> Gizra. 
+Other good options : "XXX suggested that I will contact you" - when it is a referral.  
+If the person has a blog you can write - “ About your last blog post" or "watched you talked last night " 
+The most important thing - make sure it does not look like a spam email . 
+
+**HigerEd** : Include Harvard in the subject line can work (and can scare away as well). Depending on the receiver. 
+
+
+[good article for does and don't](http://www.yesware.com/blog/email-subject-line-analysis/)  
+
+## Make it personal
+
+Those people recive a lot of emails. if making a connections at the start and make it relevant to them - they will keep reading.
+
+**Homework** - spend little time to learn something about the target. a blog post, or award he/she won lately. reffer to it in the first paragraph. Right them something about THEMSLEVES and not about yourself first...   
+
+
 
 
 
