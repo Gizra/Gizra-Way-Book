@@ -6,31 +6,31 @@ As a query builder, there is a SQL query behind it. If you are interested in see
 
 In this training we will create a View that will display a list of blog titles.
 
-For this excersize, there is a content type called `Blog` with basic fields: Title, Body, and generated demo content.
+For this exercise, there is a content type called `Blog` with basic fields: Title, Body, and generated demo content.
 
 To start building a new View, go to `admin/structure/views/add`.
 
 This form give us some main View definitions: 
-* Set the View name and description - be kind and describe it shortly and clearly, so others can understand what this View shows.) 
-* In the ‘show’ field define what kind of information the View will show. This selection determines the main table in the DB that the View will use to retrieve data and **it cannot be changed later**.
+* Set the 'View name' and 'Description' - be kind and describe it shortly and clearly, so others can understand what this View shows. 
+* In the ‘Show’ field define what kind of information the View will show. This selection determines the main table in the DB that the View will use to retrieve data and **it cannot be changed later**.
 
 ![](images/views/first_view_form.png)
 
 In this View we want to display a list of blog titles, so we select to show `Content` (nodes). Since we chose Content, we also get the option to select the content type. Although we know we need to choose the `Blog` content type, let’s leave it `All` for now, so we can practice how to define that filter in the edit View page.
 
-There is also the possibility to create a page and a block in this form. Our Blog list will display on a page, but we will create it at the next step (just for you to see how we define this in the View edit page.), So leave the page checkboxes unchecked.
-We finished here, click `Continue and edit` button.
+There is also the possibility to create a page and a block in this form. Our Blog list will display on a page, but we will create it in the next step (just for you to see how we define this in the View edit page.) So leave the page checkboxes unchecked.
+When finished here, click `Continue and edit` button.
 
-Now we are in the View edit page. Be aware that the View not saved until you click on the `Save` button, so I recommend to click it right now and also during working on the view.
+This brings you to the View edit page. Be aware that the View is not saved until you click on the `Save` button, so I recommend saving it immediately and throughout your work on the view.
 
 ![](images/views/save_view.png)
 
 
 ## Displays
 
-Any View can contain multiple displays of different types (page, block, feed etc). Some contributed modules extend the displays options. That allows us  to create a single View that displays the same content in multiple ways, using different formats, filters etc. For example, we can create View that shows list of blog post. In the `page display` we will show all the nodes with their title and teaser, and in the `block display` we will show only the titles of the last five posts.
+Any View can contain multiple displays of different types (page, block, feed, etc). Some contributed modules extend the displays options that allow us to create a single View that displays the same content in multiple ways - different formats, filters, etc. For example, we can create a View that shows a list of blog posts. In the `page display` we will show all the nodes with their title and teaser, and in the `block display` we will show only the titles of the last five posts.
 
-In this training we want to display page with list of blog titles, so click on the `Add` button in the displays section (near the `Master`) and select `Page`. Now you can see we have two displays: `Master` and `Page` (if you can't see the Master display, go to and check the `Always show the master display` option).
+In this training we want to display a page with a list of blog titles, so click on the `Add` button in the displays section (near the `Master`) and select `Page`. Now you can see we have two displays: `Master` and `Page` (if you can't see the Master display, go to and check the `Always show the master display` under options).
 
 Every web page needs to have a path, so click on the `No path is set` and specify the URL. Under this _Page setting_ section you can also link the page to a menu and define an access rule for the page.
 Next, click on `None` under the _Title_ section and specify the page title, like Blog.
