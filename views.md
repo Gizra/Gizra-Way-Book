@@ -18,7 +18,12 @@ This form give us some main View definitions:
 
 In this View we want to display a list of blog titles, so we select to show `Content` (nodes). Since we chose Content, we also get the option to select the content type. Although we know we need to choose the `Blog` content type, let’s leave it `All` for now, so we can practice how to define that filter in the edit View page.
 
-There is also the possibility to create a page and a block in this form. Our Blog list will display on a page, but we will create it in the next step (just for you to see how we define this in the View edit page.) So leave the page checkboxes unchecked.
+There is also the possibility to create a page and a block in this form.
+
+![](images/views/create_page_block.png)
+
+
+Our Blog list will display on a page, but we will create it in the next step (just for you to see how we define this in the View edit page.) So leave the page checkbox unchecked.
 When finished here, click `Continue and edit` button.
 
 This brings you to the View edit page. Be aware that the View is not saved until you click on the `Save` button, so I recommend saving it immediately and throughout your work on the view.
