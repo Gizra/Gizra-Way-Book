@@ -91,7 +91,7 @@ In short: everything that is _not_ content!
 
 Everything we have in our local DB should be in code, so we can share it.
 
-Of course we can't Featurize content. Content needs to be [migrated](https://www.drupal.org/project/migrate).
+Of course we can't Featurize content. Content needs to be [migrated](http://www.gizra.com/content/migration-best-practices).
 
 How do we decide which components to pack in a feature? Feature is a set of components for a particular use case, so we need to create Features using common sense.
 
