@@ -12,7 +12,7 @@ On 2005 Brice and his wife moved to the New-York, to work as the support and QA 
 
 On 2006 after Amitai has finished his B.A in fashion design in Shenkar, he and his wife moved to Delhi, India to become the regional manager of the south east area, supervising over a dozen local team.
 
-On 2007 Amita and Brice combining both their deep knowledge of the textile industry, pattern making and of course software development have invented a new system called MTM (Made To Measure). It was a way for people to enter their body measurements and get a pattern for a garment that fits them precisely. Precision that usually can be reached only by going to a tailor. If for some reason you are interested in seeing how in depth we had the concept covered you can read this [online article](https://docs.google.com/document/d/1bwinkky6CHY9NZHB6HDcrRE88XaG7Avkz456sj1GN4o/edit?usp=sharing) we have published.
+On 2007 Amitai and Brice combining both their deep knowledge of the textile industry, pattern making and of course software development have invented a new system called MTM (Made To Measure). It was a way for people to enter their body measurements and get a pattern for a garment that fits them precisely. Precision that usually can be reached only by going to a tailor. If for some reason you are interested in seeing how in depth we had the concept covered you can read this [online article](https://docs.google.com/document/d/1bwinkky6CHY9NZHB6HDcrRE88XaG7Avkz456sj1GN4o/edit?usp=sharing) we have published.
 
 Being so excited about this revolutionary approach to MTM we have decided to form a partnership, register our company and work on simplePDM. A web site that would allow pattern makers to digitally manage their files, catalogues and collections. [This video](https://www.youtube.com/watch?v=cMj1w3Sx9_U) we created (and we mean _we created_ - we wrote, drew, recorded and edited all ourself back at those days) could help understand the concept. It's like Google Docs, but specific for the textile and garment industry.
 
@@ -91,12 +91,13 @@ If you'll look at our fancy Drupal's installation profile scripts you might not 
 
 ## Harvard University
 
-DrupalCon Denver (2012) has arrived, and not long before it Entity Reference was born (it started with Damien Tournoud from CG who later [asked Amitai](https://youtu.be/hC4RiK-m0BQ?t=7m40s) to become a co-maintainer) and was followed with the complete rewrite of Organic groups for Drupal 7. Didn't you already read about a complete re-write for OG for Drupal 7. Yes you did. However the 7.1 version had flaws that we wanted to fix. So we went ahead and fixed all the architectual issues we have wrongly done in D7. This 7.2 is still up and running, and is the basis for OG for Drupal 8, that has similar concepts just different code (since Drupal 8 is so different from Drupal 7).
+DrupalCon Denver (2012) has arrived, and not long before it Entity Reference was born (it started with Damien Tournoud from CG who later [asked Amitai](https://youtu.be/hC4RiK-m0BQ?t=7m40s) to become a co-maintainer) and was followed with the complete rewrite of Organic groups for Drupal 7. Didn't you already read about a complete re-write for OG for Drupal 7. Yes you did. However the 7.1 version had flaws that we wanted to fix. So we went ahead and fixed all the architectural issues we have wrongly done in D7. This 7.2 is still up and running, and is the basis for OG for Drupal 8, that has similar concepts just different code (since Drupal 8 is so different from Drupal 7).
 
-Brice and Amitai, for the first time decided to attend a higher Education session. It was by the people of Harvar'd OpenScholar (OS) distribution. The presenter, Ferdi Almahdi who was also the project lead of OS started the session by asking Amitai, who he recognized as the OG author: "Are you interesed in OpenScholar?"
-To which Amitai asked, "Does it use Organic Groups?"
-"Yes, a lot" ansewred Ferdi.
-"In that case yes, I'm interested".
+Brice and Amitai, for the first time decided to attend a higher Education session. It was by the people of Harvard's OpenScholar (OS) distribution. The presenter, Ferdi Almahdi who was also the project lead of OS started the session by asking Amitai, who he recognized as the OG author:
+- "Are you interested in OpenScholar?"  
+- "Does it use Organic Groups?", asked Amitai  
+- "Yes, a lot" answered Ferdi.  
+- "In that case yes, I'm interested".
 
 Little did they know, that it will lead to an ongoing relationship that has already crossed 4 years, and had the peak four full time developers from Gizra side.
 
@@ -104,6 +105,6 @@ It all started from hearing the session, then approach Ferdi and Richard Brandon
 
 They asked if we could give them consulting on how to port the OG vocab module to Drupal 7. Quickly it became obvious that the right way would be for us to take this non-trivial task.
 
-They initially thought we were going to have some per tasks relationship (i.e. we will have a work order per set of tasks), but we immeditaly recognized it as "foot in the door", and decided to dive into their platform.
+They initially thought we were going to have some per tasks relationship (i.e. we will have a work order per set of tasks), but we immediately recognized it as "foot in the door", and decided to dive into their platform.
 
 We have raised some issues, and gave them suggestions and solutions that were quickly translated to us becoming part of the core team of OpenScholar. This has probably been one of the most important milestones of the early years of Gizra.
