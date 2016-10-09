@@ -1,4 +1,4 @@
-# Features module: how to share a site’s configuration with others?
+# Features module Drupal 7: how to share a site’s configuration with others?
 
 If you had a chance to build one or two Drupal sites,  you probably already know that Drupal sites consists of three parts:
 **Code** (modules, themes…) stored in files, **Configuration**  (content types, Views, Panels…) stored in the database, and **Content** (nodes, terms…) stored in the database.
