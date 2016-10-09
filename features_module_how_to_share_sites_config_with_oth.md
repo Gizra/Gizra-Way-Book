@@ -34,7 +34,7 @@ Now we want to export our work and move it to another environment. We create a m
 Let's do it together:
 
 Go to `admin/structure/features/create`.
-Give the Feature a name. This will be the name of the module, so we always use the project name and a reasonable name that tell us what this module is used for (Blog in this case). Also write a description that tells more about this module.
+Give the Feature a name. This will be the name of the module, so use a reasonable name that tell us what this module is used for (Blog in this case). The name should be prefixed by the project name (=profile name), so the human would be Example blog and the machine example_blog. Also write a description that tells more about this module.
 In the right area on the screen you need to select the components that should be included in the module (in this case Content type=Blog and View=Blog).
 As you can see, Features automatically selects all the dependencies that our module needs to work properly. You can add your own dependencies as well.
 
