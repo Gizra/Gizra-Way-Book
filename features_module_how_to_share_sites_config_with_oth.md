@@ -102,7 +102,7 @@ For example, if we have a site with a main menu that links to:
 
 How many Features are we going to create from this structure?
 
-We can pack everything into one module, but it can be difficult to maintain.  If one person works on the Gallery, and the other makes changes to the Blog, both of them need to recreate the same Feature.So, it makes more sense to pack the Gallery into one Feature and the Blog in another.
+We can pack everything into one module, but it can be difficult to maintain.  If one person works on the Gallery, and the other makes changes to the Blog, both of them need to recreate the same Feature. So, it makes more sense to pack the Gallery into one Feature and the Blog in another.
 
 But, what if both Gallery and Blog use the same Vocabulary? If we pack the Vocabulary with the Gallery Feature, and also with the Blog Feature, we will get a conflict when we try to enable them both. So, it looks like the right strategy in this case is to pack the Vocabulary itself into a separate Feature and define the Vocabulary Feature as a dependency in the Gallery Feature and in the Blog Feature.
 What about the Menu? Well, we can also pack it as a separate Feature, or we can treat the menu as content and not Featurize it at all.
