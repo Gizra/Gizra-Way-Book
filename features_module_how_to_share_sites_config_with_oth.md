@@ -123,9 +123,3 @@ Featurize **all** configurations you have made, and share them with Git. What's 
 
 Keep to the guideline: Every content type and its associated components (Views, Vocabulary, etc.) will be packed into one Feature.
 To avoid conflict, pack shared components (like Vocabulary or fields that are used in more than one content type) in a separate Feature. Use dependencies to connect between Features that depend on each other.
-
-
-
-
-
-
