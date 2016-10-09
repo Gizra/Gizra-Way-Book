@@ -5,7 +5,12 @@ If you had a chance to build one or two Drupal sites,  you probably already know
 
 ![](images/features/3_parts_drupal.png)
 
-When we collaborate on projects, build a site together, we often want to share our work. As we build Drupal sites, define content types, setup Views and Panels, we end up making a lot of configuration changes. These changes are stored in the DB. Code is easy to share, but there is no easy way to merge changes to the DB. So here is our challenge - how do we share a site’s configuration with others?
+When we collaborate on projects, build a site together, we often want to share our work. As we build Drupal sites, define content types, setup Views and Panels, we end up making a lot of configuration changes. These changes are stored in the DB. Code is easy to share, but there is no easy way to merge changes to the DB. 
+
+In addition, during the work we move between environments: localy -> dev -> stage ->prod.
+Content is going down from prod, and config is going up from local. Whatever you have running on your computer has no significance. Only if it can be reproduced and later be pushed to production, then we care about it.
+
+So here is our challenge - how do we share a site’s configuration with others and between environments?
 
 One possible solution is to document all the configurations made and repeat them in the new environment. However, this is not a very clever way of working. It takes a lot of time and there are too many opportunities to make mistakes along the way. 
 
