@@ -110,7 +110,8 @@ But, what if both Gallery and Blog use the same Vocabulary? If we pack the Vocab
 
 ![](images/features/three_features.png)
 
-What about the Menu? Well, we can also pack it as a separate Feature, or we can treat the menu as content and not Featurize it at all.
+What about the Menu? 
+In D8 menu it content, so it is best to migrate it. But in D7 we could bundle it in a separate Feature as-well.
 
 
 ## Summary
