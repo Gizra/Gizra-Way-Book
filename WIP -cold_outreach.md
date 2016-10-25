@@ -116,7 +116,18 @@ Rapportive is a great tool to find the validity of emails when reaching out to n
 ## Technology to track your email
 ###Yesware - Track when and where an email was opened. 
 By knowing if an email was opened or not you can decide on when sending the follow or ever to try the phone.
-Yesware has a template feature. Use it to find out which subjact line get opened more. Same is with click - Yesware can track what links get opened. 
+
+
+* Know for sure if your email was read or is sitting in an inbox unopened.
+* Track how many time an email  was opened and if it was opened by more than one person. An email that has been opened by on more than one device across a long period of time - can indicate that there is some kind of interest or at least it sparks internal conversation about it. 
+* Hit when you notice activity on an old email - If you notice that an old email that was send , been opened again , that might mean that the client is now ready to connect. Good to be on an the offense here and send a casual reminder email.
+* Use Yesware templates to speed up sending out cold email . Try different templates and different subject lines and use Yesware reports to  track which template works better. Which has a better open rate and response rate. 
+* Send email later - You can use Yesware to send an email in specific time and date. You can schedule a follow respond to go  out automatically after X amount of days if there is no answer to the previous email
+* Reminders -  Yesware can re-surface an email to your inbox if you need a reminder. You can use it as a reminder to send out a follow up. 
+
+
+
+
 **Note** -  Yesware display the IP of the device that opned the email. If there are more then on devices listed , there is a good chance that the original recipient FW the email to someone else in the team. This can indict that there is some interest. 
 
 Keep in mind that this is not 100% reliable. Some email services hide images by defaults from unknown user or hide the IP, which can lead to false  reasults. 
@@ -139,9 +150,29 @@ The most important thing - make sure it does not look like a spam email .
 
 ## Make it personal
 
-Those people recive a lot of emails. if making a connections at the start and make it relevant to them - they will keep reading.
+The people that we targets receive a lot of emails. If making a connections at the start and make it relevant to them - they will keep reading.
 
-**Homework** - spend little time to learn something about the target. a blog post, or award he/she won lately. reffer to it in the first paragraph. Right them something about THEMSLEVES and not about yourself first...   
+**Homework** - spend little time to learn something about the target. a blog post, or award he/she won lately. refer to it in the first paragraph. Right them something about them and not about yourself first...  
+
+
+##Keep it short
+One paragraph, maybe 2. Split up the content for easy reading. Test the lentgh on your phone - make sure the messege can be read in 2 scrolls 
+
+##Close with an actionable follow up
+
+“Do you have time to chat about it next week Monday or Tuesday? 
+“How does your calendar looks like for the next couple of days? 
+“Who on you team is the appropriate person to send this email to”? 
+Say thanks and respect other people's time - they will be more likely to help and respond 
+
+#Bringing it all together
+
+
+**A personal opening** (optional) :  I love your blog post, I see that you went to X conference , congrats on a award.
+
+**Why are you contacting them** <br>
+A reason to contact:  Such as “ I notice that you are Drupal 6. “ We have done similer project with XX “, “I see that you attending X confrance”   
+Or Genral reason : Fit pitch (there is a better way to do projects) or   Gizra into ( I would like to introo you to Gizra - an elite dev agency)
 
 
 
