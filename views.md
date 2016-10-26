@@ -31,16 +31,16 @@ This brings you to the View edit page. Be aware that the View is not saved until
 
 ## Displays
 
-Any View can contain multiple displays of different types (page, block, feed, etc). Some contributed modules extend the displays options that allow us to create a single View that displays the same content in multiple ways - different formats, filters, etc. For example, we can create a View that shows a list of blog posts. In the `page display` we will show all the nodes with their title and teaser, and in the `block display` we will show only the titles of the last five posts.
+Any View can contain multiple displays of different types - page, block, feed, etc. Some contributed modules extend the displays options that allow us to create a single View that displays the same content in multiple ways - different formats, filters, etc. For example, we can create a View that shows a list of blog posts. In the `page display` we will show all the nodes with their title and teaser, and in the `block display` we will show only the titles of the last five posts.
 
-In this training we want to display a page with a list of blog titles, so click on the `Add` button in the displays section (near the `Master`) and select `Page`. Now you can see we have two displays: `Master` and `Page` (if you can't see the Master display, go to and check the `Always show the master display` under options).
+In this training we want to display a page with a list of blog titles, so click on the `Add` button in the displays section (near the `Master`) and select `Page`. Now you can see that we have two displays: `Master` and `Page` (if you can't see the Master display, go to and check the `Always show the master display` under options).
 
 Every web page needs to have a path, so click on the `No path is set` and specify the URL. Under this _Page setting_ section you can also link the page to a menu and define an access rule for the page.
 Next, click on `None` under the _Title_ section and specify the page title, like Blog.
 
 ![](images/views/page_display.png)
 
-As you can see, when you fill the title name. you get the choice to applied it **All displays** or only **This page**. This choice come up almost in every change you want to make in the View.  The default selection is All displays, So be careful when you have multiple displays. Always make sure you make changes to the displays you want to make changes to.
+As you can see, when you fill the title name, you get the choice to where it is applied: **All displays** or only **This page**. This choice comes up almost in every change you want to make in the View.  The default selection is All displays, so be careful when you have multiple displays. Always make sure you make changes to the displays you want to make changes to.
 
 ![](images/views/apply_all_displays.png)
 
