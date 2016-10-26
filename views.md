@@ -48,11 +48,11 @@ As you can see, when you fill the title name, you get the choice to where it is 
 
 ## Format
 
-Under the _Format_ section we can define how the View will display. Let's stick with the default one: `unformatted list`.
+Under the _Format_ section, we can define how the View will display. Let's stick with the default one: `unformatted list`.
 
 Then, we can specify which parts of the content will display. We need to choose between `fields` or `content`.
 
-When you choose `fields`, it means that you can choose which fields from the content type the View will display. In our case we want to display the post title, so under _Format_ we will select to show `Fields`, and under _Fields_ section we will leave the `Content: Title` field (the node title) which is come by default.
+When you choose `fields`, it means that you can choose which fields from the content type the View will display. In our case, we want to display the post title, so under _Format_ we will select to show `Fields`, and under the _Fields_ section, we will leave it `Content: Title` (the node title) which is the default.
 
 ![](images/views/fields.png)
 
@@ -60,24 +60,24 @@ Another option is to show `Content`.
 
 ![](images/views/content.png)
 
-Although we won't choose this in our case (because we want to display only the node title field), I will explain this option because it is an opportunity to explain the Drupal view modes.
+Although we won't choose this in our case (because we want to display only the node title field), here is an explanation of the Drupal view modes.
 
-We can display every content type in a few view modes (full content, teaser, etc). For each view mode we can define the way the content will be display. For example, in the `teaser` view mode we can display the _Read more_ link to the node, but in the `full content` view mode, it won't be necessary.
+We can display every content type in a few view modes (full content, teaser, etc). For each view mode, we can define the way the content will be displayed. For example, in the `teaser` view mode we can display the _Read more_ link to the node, but in the `full content` view mode, it is not necessary.
 
 
 ## Fields
 
-As we say, in this training we want to display a list of blog titles, so we choose to show the `Content: Title` under the _Fields_ section. To add more fields, click on the `Add` button and select the field/s you want to add. There is a lot of field types available, and lots of configuration options, you can play around with it and discover yourself.
+In this training we want to display a list of blog titles, so we choose to show the `Content: Title` under the _Fields_ section. To add more fields, click on the `Add` button and select the field(s) you want to add. There are a lot of field types available, and lots of configuration options - you can play around with it and discover yourself.
 
 
 ## Filter criteria
 
-In this section we define by what criteria we filter the data in the query. As You can see it already contains one filter to shows only content that is published. But this is not enough, because we want to display only the blog titles, and not the titles of all the nodes in the site. So we have to add a second filter to shows only the nodes of the type `Blog`.
+In this section we define by what criteria we filter the data in the query. As you can see, it  already contains one filter to shows only content that is published. But this is not enough, because we want to display only the blog titles, and not the titles of all the nodes in the site. So we have to add a second filter to show only the nodes of the type `Blog`.
 Click on the `Add` button, select `Content: Type`, then choose the `Blog` option.
 
 ![](images/views/filters.png)
 
-These of you who familiar with SQL can look at the bottom of the screen and see the query built from this View (that's if you set the `Show the SQL query` in the View setting).
+Those of you who are familiar with SQL can look at the bottom of the screen and see the query built from this View (that's if you set the `Show the SQL query` in the View settings).
 
 ![](images/views/query.png)
 
@@ -88,12 +88,12 @@ Below the Query you can see preview of the View results.
 
 ## Relationships
 
-Let's continue to the _Advanced_ section. Now we want to display also the author name of the blog post. 
-We need to go to _Field_ section and add the right field. But when we search for this field, we see only the `Author uid`, but we want to show her name.
+Let's continue to the _Advanced_ section. Now we want to also display the author name of the blog post. 
+We need to go to the _Field_ section and add the correct field. But when we search for this field, we see only the `Author uid`, but we want to show her name.
 
 ![](images/views/author_field.png)
 
-The reason is that the `Author name` field doesn't exist in the content table we selected when we first start to define the View. So we need to bring it from another table, in this case, the user table. The _Relationship_ section is there for that purpose.  If we say it in the SQL language, it means that table A (in this case `content`) will join with table B (in this case `user`) in order to get data related from both tables.
+The reason is that the `Author name` field doesn't exist in the content table we selected when we first started to define the View. So we need to bring it from another table - in this case, the user table. The _Relationship_ section is there for that purpose.  In SQL language, it means that table A (in this case `content`) will join with table B (in this case `user`) in order to get data related from both tables.
 
 Click on the `Add` button in the _Relationship_ section and choose the `Content: Author`. 
 
