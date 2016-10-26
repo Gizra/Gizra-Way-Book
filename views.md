@@ -1,18 +1,16 @@
 # Views Module
 
-Simply, the Views module is a query builder. But, it is not simple at all - in fact, Views is a very powerful and complex tool that has a lot of options that sometimes can be very confusing. But no worries, when you understand the basic logical, it will becomes easy to dive into it.
+Simply explained, the Views module is a query builder. But, it is not simple at all - in fact, Views is a very powerful and complex tool that has a lot of options - that sometimes can be very confusing. But no worries, when you understand the basic logical, it becomes easy to dive into it.
 
-As a query builder, there is a SQL query behind it. If you are interested in seeing the query in the UI, during building the view, you can go to `admin/structure/views/settings` and check the `Show the SQL query` option.
+As a query builder, there is a SQL query behind it. If you are interested in seeing the query in the UI, while building the view, you can go to `admin/structure/views/settings` and check the `Show the SQL query` option.
 
-In this training we will create a View that will display a list of blog titles.
-
-For this exercise, there is a content type called `Blog` with basic fields: Title, Body, and generated demo content.
+In this training we will create a View that will display a list of blog titles and there is a content type called `Blog` with basic fields: Title, Body, and generated demo content.
 
 To start building a new View, go to `admin/structure/views/add`.
 
 This form give us some main View definitions: 
 * Set the 'View name' and 'Description' - be kind and describe it shortly and clearly, so others can understand what this View shows. 
-* In the ‘Show’ field define what kind of information the View will show. This selection determines the main table in the DB that the View will use to retrieve data and **it cannot be changed later**.
+* In the ‘Show’ field, define what kind of information the View will show. This selection determines the main table in the DB that the View will use to retrieve data and **it cannot be changed later**.
 
 ![](images/views/first_view_form.png)
 
@@ -24,7 +22,7 @@ There is also the possibility to create a page and a block in this form.
 
 
 Our Blog list will display on a page, but we will create it in the next step (just for you to see how we define this in the View edit page.) So leave the page checkbox unchecked.
-When finished here, click `Continue and edit` button.
+When finished, click `Continue and edit` button.
 
 This brings you to the View edit page. Be aware that the View is not saved until you click on the `Save` button, so I recommend saving it immediately and throughout your work on the view.
 
