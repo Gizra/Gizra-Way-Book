@@ -116,13 +116,13 @@ We want our blog posts to be classify by tags. Then we want the ability to displ
 
 The Taxonomy module allows us to classify content. All we need to do is create a vocabulary and provide terms in it. The terms structure can be flat, or hierarchical with parents and children.
 
-For example, let's assume our blog is about movies, and we want to classify the content by movie categories like: Action, Drama, Comedy, etc.
+For example, let's assume our blog is about movies, and we want to classify the content by movies categories like: Action, Drama, Comedy, etc.
 
-Go to `admin/structure/taxonomy/add` and create a new vocabulary called `Movie categories` with some terms.
+Go to `admin/structure/taxonomy/add` and create a new vocabulary called `Movies categories` with some terms.
 
-Now we need to connect between the content type `Blog` and the vocabulary `Movie categories` so we can classify the nodes (Blog posts) with the terms (Movie categories). 
+Now we need to connect between the content type `Blog` and the vocabulary `Movies categories` so we can classify the nodes (Blog posts) with the terms (Movies categories). 
 
-We know the entity `Blog` and the entity `Movie categories` has a relationship, but what refers to what?
+We know the entity `Blog` and the entity `Movies categories` has a relationship, but what refers to what?
 Let's ask the million question. If you don't know what this is, please read [How to approach a new task](https://www.thegizraway.com/approach_data_structure_task.html).
 
 Question 1: Can one category classify more than one blog post? Yes.
@@ -155,16 +155,14 @@ Now, if we go to the Blog page, we will see on the top of the list the option to
 
 ![](images/views/expose_filter_select.png)
 
-But what if we don't want the end users to select the category, but we want them to go directly to the page list their favorite movie category? 
-
-for that we have contextual filters.
+But what if we don't want the end users to select the category, and instead want them to go directly to the page that lists their favorite movies category? For that we have contextual filters.
 
 ## Contextual filters
 
 Under the _Advanced_ fieldset you can find the _Contextual filters_ section. Contextual filters are like regular filters, but instead of setting the filter value, it will be taken from context (usually from the URL) when we run the View.
 
 The filters values pass as arguments through the URL. The first filter will be the first argument, the second filter will be the second argument, etc.
-If we look at our URL it will look like this:
+In our URL, it will look like this:
 
 
 > /blog/2/1
@@ -173,17 +171,17 @@ If we look at our URL it will look like this:
 
 So let's remove the `Content: Has taxonomy term` filter under _Filter criteria_ section, and add it to _Contextual filters_ section.
 
-First step we need to tell the View what to do when the filter value **is not** in the URL. In that case, when no category (taxonomy term) pass through the URL we want to display all the blog posts.  
+For the first step, we need to tell the View what to do when the filter value **is not** in the URL. In this case, when no category (taxonomy term) pass through the URL we want to display all the blog posts.  
 
 ![](images/views/value_not_in_url.png)
 
-Next step is to tell the View what to do when the filter value **is** in the URL.
+The next step is to tell the View what to do when the filter value **is** in the URL.
 
 We can override the title of the page. So it won't be Blog as we define at the _Title_ section, it will be the name of the category.
 
 ![](images/views/override_title.png)
 
-We can also validate the filter value to make sure we get only terms from `Movies categories` vocabulary.
+We can also validate the filter value to make sure we only get terms from `Movies categories` vocabulary.
 
 ![](images/views/validation_criteria.png)
 
@@ -193,11 +191,11 @@ Save the View and go to page `/blog/3`. You should see this screen, because `3` 
 
 You can go and add more contextual filters. The order you put them under the _Contextual filters_ section will determine which will be the first argument, the second argument, etc.
 
-additionally we can use contextual filters not just in the URL context. For example let's add `Content: Author uid` filter, and under `WHEN THE FILTER VALUE IS NOT IN THE URL` select `Provide default value` with the type `User ID from logged in user`:
+Additionally, we can use contextual filters not just in the URL context. For example let's add `Content: Author uid` filter, and under `WHEN THE FILTER VALUE IS NOT IN THE URL` select `Provide default value` with the type `User ID from logged in user`:
 
 ![](images/views/logged_in_user.png)
 
-The result will be that when we go to page `/blog/3` we will see list of blog posts classified by `Comedy` term and written by the logged in user.
+The result will be that when we go to page `/blog/3` we will see a list of blog posts classified by `Comedy` term and written by the logged in user.
 
 
 
