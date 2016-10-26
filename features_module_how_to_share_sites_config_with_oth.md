@@ -7,8 +7,8 @@ If you had a chance to build one or two Drupal sites,  you probably already know
 
 When we collaborate on projects, build a site together, we often want to share our work. As we build Drupal sites, define content types, setup Views and Panels, we end up making a lot of configuration changes. These changes are stored in the DB. Code is easy to share, but there is no easy way to merge changes to the DB. 
 
-In addition, during the work we move between environments: localy -> dev -> stage ->prod.
-Content is going down from prod, and config is going up from local. Whatever you have running on your computer has no significance. Only if it can be reproduced and later be pushed to production, then we care about it.
+In addition, during the work we move between environments: locally -> dev -> stage ->prod.
+Content is going down from prod and config is going up from local. Whatever you have running on your computer has no significance. Only if it can be reproduced and later be pushed to production, then we care about it.
 
 So here is our challenge - how do we share a site’s configuration with others and between environments?
 
@@ -18,11 +18,11 @@ Another possibility is to manually export/import configuration in code, as you c
 
 ![](images/features/export_view.png)
 
-Views, Content types, Panels, and some other modules provide this export/import option.  However, not all of modules gives us this option. In addition, working this way doesn't provide us with the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configurations that it relies on. How can we be sure we won't miss anythings?
+Views, Content types, Panels, and some other modules provide this export/import option.  However, not all modules give us this option. In addition, working this way doesn't provide us with the ability to know the dependencies of our configuration. For example, when we export View, we need to export also the content type it depends on, otherwise the View won't work. And when the View is complex, there can be more and more configurations that it relies on. How can we be sure we won't miss anythings?
 
 Our solution and the most efficient option, is to use the Features module!
 
-Features simply packages up all of that configuration into a module, and we can use it like any other Drupal module. In another words: **Features is a module that creates modules (known as Features).**
+Features simply packages up all of that configuration into a module, and we can use it like any other Drupal module. In other words: **Features is a module that creates modules (known as Features).**
 
 
 ## Creating a Feature
@@ -39,8 +39,8 @@ Now we want to export our work and move it to another environment. We create a m
 Let's do it together:
 
 Go to `admin/structure/features/create`.
-Give the Feature a name. This will be the name of the module, so use a reasonable name that tell us what this module is used for (Blog in this case). The name should be prefixed by the project name (=profile name), so the human would be Example blog and the machine example_blog. Also write a description that tells more about this module.
-In the right area on the screen you need to select the components that should be included in the module (in this case Content type=Blog and View=Blog).
+Give the Feature a name. This will be the name of the module, so use a reasonable name that tell us what this module is used for (Blog in this case). The name should be prefixed by the project name (=profile name), so the human name would be Example blog and the machine name example_blog. Also write a description that tells more about this module.
+On the right side, you need to select the components that should be included in the module (in this case Content type=Blog and View=Blog).
 As you can see, Features automatically selects all the dependencies that our module needs to work properly. You can add your own dependencies as well.
 
 ![](images/features/create_feature.png)
@@ -49,12 +49,14 @@ When you are done, just click on `Download feature`.
 Uncompress the file, and put the module folder under `modules/custom` in the project directory.
 Enable the module so Drupal can start using it.
 
-**Note**: When you make your configurations in DB, then export it as a Feature and enable the module, your configurations are stored both in the code and DB. In this case, you don't know if what you are seeing on the screen is coming from the code or from the DB, so you can't be sure if the module is working as expected. The most effective way to make sure all our configuration moved successfully to the code, is to start a new installation and then enable the module. Now, after a new installation, you know that everything you see is from the code.
+**Note**: When you make your configurations in DB, then export it as a Feature and enable the module, your configurations are stored both in the code and DB. In this case, you don't know if what you are seeing on the screen is coming from the code or from the DB, so you can't be sure if the module is working as expected. 
+
+The most effective way to make sure all our configuration moved successfully to the code, is to start a new installation and then enable the module. Now, after a new installation, you know that everything you see is from the code.
 
 
 ## Changing a Feature
 
-Now we have our Blog Feature (module) installed and running on our site. But what if we want to make changes in our configuration? For example, change the page title to be 'Gizra blog' instead of 'Blog'?
+Now we have our Blog Feature (module) installed and running on our site. But what if we want to make changes in our configuration? For example, change the page title to 'Gizra blog' instead of 'Blog'?
 We can simply go to the View configuration in the UI and change the title.
 
 ![](images/features/change_title.png)
@@ -65,18 +67,18 @@ Features module noticed this change made to the component and marks it with an `
 
 ![](images/features/overridden.png)
 
-Overridden state means that the configuration in DB is different from configuration in code, and what stored in DB is stronger, so it overrides the code.
+The Overridden state means that the configuration in the DB is different from the configuration in code, and what is stored in the DB is stronger, so it overrides the code.
 This is a situation we need to solve. We can choose to revert to the original code or to update the Feature by applying the new changes to it. 
 
 
 ## Reverting a Feature
 
-Click on the `Overridden` signal, then you will see the component that was override (View in this case because we changed the View title). Check the component you want to revert and click on `Revert components`
+Click on the `Overridden` signal - you will see the component that was override (View in this case because we changed the View title). Check the component you want to revert and click on `Revert components`
 
 ![](images/features/revert.png)
 
 
-Now go back to Features administration page and you will see that the state is `Default`, means the feature configurations in code are the same like in DB.
+Now go back to the Features administration page and you will see that the state is `Default`, which means that the feature configurations in code are the same as in the DB.
 
 ![](images/features/default_state.png)
 
@@ -111,12 +113,12 @@ We can pack everything into one module, but it can be difficult to maintain.  If
 
 ![](images/features/two_features.png)
 
-But, what if both Gallery and Blog use the same Vocabulary? If we pack the Vocabulary with the Gallery Feature, and also with the Blog Feature, we will get a conflict when we try to enable them both. So, it looks like the right strategy in this case is to pack the Vocabulary itself into a separate Feature and define the Vocabulary Feature as a dependency in the Gallery Feature and in the Blog Feature.
+But, what if both Gallery and Blog use the same Vocabulary? If we pack the Vocabulary with the Gallery Feature, and also with the Blog Feature, we will get a conflict when we try to enable them both. So, it looks like that the right strategy in this case is to pack the Vocabulary itself into a separate Feature and define the Vocabulary Feature as a dependency in the Gallery Feature and in the Blog Feature.
 
 ![](images/features/three_features.png)
 
 What about the Menu? 
-In D8 menu it content, so it is best to migrate it. But in D7 we could bundle it in a separate Feature as-well.
+In D8, the menu it content, so it is best to migrate it. But in D7 we could bundle it in a separate Feature as well.
 
 
 ## Summary
