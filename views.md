@@ -2,9 +2,9 @@
 
 Simply explained, the Views module is a query builder. But, it is not simple at all - in fact, Views is a very powerful and complex tool that has a lot of options - that sometimes can be very confusing. But no worries, when you understand the basic logical, it becomes easy to dive into it.
 
-As a query builder, there is a SQL query behind it. If you are interested in seeing the query in the UI, while building the view, you can go to `admin/structure/views/settings` and check the `Show the SQL query` option.
+As a query builder, there is a SQL query behind it. If you are interested in seeing the query in the UI, while building the View, you can go to `admin/structure/views/settings` and check the `Show the SQL query` option.
 
-In this training we will create a View that will display a list of blog titles and there is a content type called `Blog` with basic fields: Title, Body, and generated demo content.
+In this training we will create a View that will display a list of blog titles with a content type called `Blog` with basic fields: Title, Body, and generated demo content.
 
 To start building a new View, go to `admin/structure/views/add`.
 
