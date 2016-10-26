@@ -97,35 +97,35 @@ The reason is that the `Author name` field doesn't exist in the content table we
 
 Click on the `Add` button in the _Relationship_ section and choose the `Content: Author`. 
 
-Notice the `Require this relationship` check box. When we check it only blog posts that contain author will show. In Drupal every content has an author, so it isn't relevant this case, but it good to know this option exist.  
+Notice the `Require this relationship` check box. When we check it, only blog posts that contain author will show. In Drupal, every content has an author, so it isn't relevant in this case, but it is good to know this option exists.  
 
 ![](images/views/require_relationship.png)
 
-Now if we go and add a new field under the _Field_ section, we can select `User: Name` field. Look at the View preview, and you will see it displayed.
+Now, if we go and add a new field under the _Field_ section, we can select the `User: Name` field. Look at the View preview, and you will see it displayed.
 
 ![](images/views/preview_author.png)
 
-In the configuration of the field we can of course change the label to be Author instead of Name.
+In the configuration of the field we can, of course, change the label to Author instead of Name.
 
 
 ## Taxonomy
 
-Let's take a break from the View configuration, and add new requirement to our Blog page. Don't worry, we will continue latter with the View.
+Let's take a break from the View configuration, and add new requirements to our Blog page. Don't worry, we will continue later with the View.
 
-We want our blog posts to be classify by tags. Then we want the ability to display in our View page only posts that classified by a specific tag.
+We want our blog posts to be classify by tags. Then we want the ability to display, in our View page, only posts that are classified by a specific tag.
 
-The Taxonomy module allows us to classify content. All we need to do is to create a vocabulary and provide terms in it. The terms structure can be flat, or hierarchical with parents and children.
+The Taxonomy module allows us to classify content. All we need to do is create a vocabulary and provide terms in it. The terms structure can be flat, or hierarchical with parents and children.
 
-For example, let's assume our blog is about movies, and we want to classify the content by movies categories like: Action, Drama, Comedy, etc.
+For example, let's assume our blog is about movies, and we want to classify the content by movie categories like: Action, Drama, Comedy, etc.
 
-Go to `admin/structure/taxonomy/add` and create a new vocabulary called `Movies categories` with some terms.
+Go to `admin/structure/taxonomy/add` and create a new vocabulary called `Movie categories` with some terms.
 
-Now we need to connect between the content type `Blog` and the vocabulary `Movies categories` so we can classify the nodes (Blog posts) with the terms (Movies categories). 
+Now we need to connect between the content type `Blog` and the vocabulary `Movie categories` so we can classify the nodes (Blog posts) with the terms (Movie categories). 
 
-We know the entity `Blog` and the entity `Movies categories` has a relationship, but what refer to what?
-Let's ask the million question. if you don't know what is it about, read [How to approach a new task](https://www.thegizraway.com/approach_data_structure_task.html).
+We know the entity `Blog` and the entity `Movie categories` has a relationship, but what refers to what?
+Let's ask the million question. If you don't know what this is, please read [How to approach a new task](https://www.thegizraway.com/approach_data_structure_task.html).
 
-Question 1: Can one category classifies more than one blog post? Yes.
+Question 1: Can one category classify more than one blog post? Yes.
 
 Question 2 (The Million Question): Can and should one single category refer to a million blog posts? No, we don't want that.
 
@@ -134,7 +134,7 @@ Now ask the same questions from the other direction:
 Question 1: Can one blog post be classified by more than one category? Yes.
 
 Question 2 (The Million Question): Can and should one single blog post refer to a million categories? 
-This is where reality dictates the answer. While in theory a blog post could reference a million categories, we know that this won't be the case. A typical blog post will probably have a single or few categories. So, it is safe to say that based on the reality, the blog post refers to the category.
+This is where reality dictates the answer. While in theory a blog post could reference a million categories, we know that this won't be the case. A typical blog post will probably have a single or few categories. So, it is safe to say that based on reality, the blog post refers to the category.
 
 ![](images/views/blog_category_reference.png)
 
@@ -142,7 +142,7 @@ Go to the content types administration page and add a new reference field to `Bl
 
 ![](images/views/reference _field.png)
 
-Now let's go back to our View. the requirement is to have the ability to display a page that list only posts that classified by a specific category.
+Now let's go back to our View. The requirement is to have the ability to display a page that lists only posts that are classified by a specific category.
 
 
 ## Expose filters
