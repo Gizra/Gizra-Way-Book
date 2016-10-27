@@ -156,7 +156,7 @@ The people that we targets receive a lot of emails. If making a connections at t
 
 
 ##Keep it short
-One paragraph, maybe 2. Split up the content for easy reading. Test the lentgh on your phone - make sure the messege can be read in 2 scrolls 
+One paragraph, maybe 2. Split up the content for easy reading. Test the lentgh on your phone - make sure the message can be read in 2 scrolls 
 
 ##Close with an actionable follow up
 
@@ -170,11 +170,37 @@ Say thanks and respect other people's time - they will be more likely to help an
 
 **A personal opening** (optional) :  I love your blog post, I see that you went to X conference , congrats on a award.
 
-**Why are you contacting them** <br>
-A reason to contact:  Such as “ I notice that you are Drupal 6. “ We have done similer project with XX “, “I see that you attending X confrance”   
-Or Genral reason : Fit pitch (there is a better way to do projects) or   Gizra into ( I would like to introo you to Gizra - an elite dev agency)
+**Explain the reason you are contacting them** <br>
+* 
+A Reason to contact Such as: “ I notice that you are Drupal 6". “We have done slimier project with XX “, “I see that you attending conference X"  
+* 
+It can be a more of generic reason such as a the "Fit pitch" (there is a better way to do projects) or a Gizra into (I would like to intrduce  you to Gizra - an elite development agency)
+
+**Who you are and what is Gizra** <br>
+
+> My name is XXXX and I am Gizra's XXX. Gizra is a web development company specializing in complex web solutions with clients such as The UN, Harvard University, and European Commission. 
 
 
+
+**Pique Curiosity** <br>
+* 
+Share a relevant case study or content - 
+“I wanted to share with you this case study which describes the work we have been doing / have done with our strategic partner X (Haravad, Taglit, EU ). I am confident that you will find it relevant for you need"
+
+* 
+"We know how to make project on time, on budget and with happy users. - i would like to share it with you
+* 
+"We are an elite Drupal agency with clients such as X,Y,Z (competitors or peers) - and I would love to hear about the project you are doing" 
+* 
+*We will be at conference X and would love to meet you"
+
+* try and make it as relevant as possible and include metrics or a good reason for them to hear more . Examples: how much money Haravad or taglit is saving;the freedom that open source gives; quick results thanks for the Gizra way approch 
+
+**Close with clear ask**
+
+A) Are you avaibale to chat for 10 min next week Monday? 
+B) I will be in LA next week - would like to meet?
+C) who should I contact ? 
 
 
 
