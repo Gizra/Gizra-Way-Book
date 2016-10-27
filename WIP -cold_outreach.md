@@ -86,26 +86,18 @@ This can be the most time consuming and frustrating step. With the right tools a
 * Another trick is to search for the person name in google with or without the @ sign or the word “email” 
 
 
-### Find out the email formula used in that org   
+**Find out the email formula used in that org**  
 
 There are few tools that can help us out here. 
 
-**Look for a colleague email address** - figure out your target email address  from somebody else email address. Maybe a marketing person, a liaison, sales director. 
-
-**Search google for “@comapnydomian”** - give it a shot, you might found it this way
-
-C**heck Whois** - sites such as [whoisology.com](whoisology.com) holds infomramtio on the person who registered the domain (name and email). Very often this is someone from the organization and you can figure out the email tample from it. 
-
-**Emails4Corp**	- A free resource providing a listing of corporations. If you are lucky the company you're researching is listed there.
-  
-
-**Guess and test it I **- There are sites that let you test and verify email addresses. Entered the email address are recive a feedback if this a valid working email. This is not 100% reliable  Note that not all domains allow email verification or there are mail servers that set to "catch all ” emails.
+* Look for a colleague email address - figure out your target email address  from somebody else email address. Maybe a marketing person, a liaison, sales director. 
+* Search google for “@comapnydomian” - give it a shot, you might found it this way
+* Check Whois - sites such as [whoisology.com](whoisology.com) holds infomramtio on the person who registered the domain (name and email). Very often this is someone from the organization and you can figure out the email tample from it.
+* Emails4Corp	- A free resource providing a listing of corporations. If you are lucky the company you're researching is listed there.
+* Guess and test it I - There are sites that let you test and verify email addresses. Entered the email address are recive a feedback if this a valid working email. This is not 100% reliable  Note that not all domains allow email verification or there are mail servers that set to "catch all ” emails.
 (Meaning:the server do not reject emails but there are no grantee that someone will ever read them...) 
-  
 [Mailtester.com](Mailtester.com), [kickbox.io](kickbox.io) , [app.neverbounce.com](app.neverbounce.com) are some of them.
-
-**Guess and test it II**
- Install Rapportive – [Rapportive](https://rapportive.com/) is a free add-on for chrome+ Gmail. When you type an email address into a new message, Rapportive opens up a sidebar that gives you the LinkedIn information of that contact. It displays information from the linkedIn profile and other social media sites.
+* Guess and test it II. Install Rapportive – [Rapportive](https://rapportive.com/) is a free add-on for chrome+ Gmail. When you type an email address into a new message, Rapportive opens up a sidebar that gives you the LinkedIn information of that contact. It displays information from the linkedIn profile and other social media sites.
 Rapportive is a great tool to find the validity of emails when reaching out to new contacts. Just enter the guessed email adress into the TO field. If the person picture and info displayed on Rapportive side bar - bingo. if not, it still can be the person email but not the one he/she uses for their linkedin account 
 
 
@@ -125,7 +117,7 @@ By knowing if an email was opened or not you can decide on when sending the foll
 
 
 
-**Note** -  Yesware display the IP of the device that opned the email. If there are more then on devices listed , there is a good chance that the original recipient FW the email to someone else in the team. This can indict that there is some interest. 
+Note -  Yesware display the IP of the device that opned the email. If there are more then on devices listed , there is a good chance that the original recipient FW the email to someone else in the team. This can indict that there is some interest. 
 
 Keep in mind that this is not 100% reliable. Some email services hide images by defaults from unknown user or hide the IP, which can lead to false  reasults. 
 
