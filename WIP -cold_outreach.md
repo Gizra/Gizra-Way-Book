@@ -34,7 +34,7 @@ Note: When it comes to large public organizations, such as in HigerEd and Govern
 
 **LinkedIn** If the website does not include this information, LinkedIn is a good next step. Find the Company page in LinkedIn and click on the number of people that work there in order to view a list. The list can be very long, so it is a good idea to use the filters (filter by location, current company and Industry). Also try to search for the company name + CEO, CTO or Marketing. 
 
-**Phone** Make a few calls to the organization and try to figure out who is the decision marker. Does the IS dept is the owner of the website or marketing? If so - who in those dept. What if we want to offer internal platform for teacher - who should we contact? 
+**Phone** Make a few calls to the organization and try to figure out who the decision marker is. What department owns the website?
 
 **Just ask ** At small firms it might be good idea to shoot an email or a phone call asking 
 > “Hi, I just wanted to know if you were responsible for the company website/ Digital Projects/ Web present/ CMS / Development team.
