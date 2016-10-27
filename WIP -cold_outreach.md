@@ -1,23 +1,20 @@
 
-<center>
-Cold Outreach
+#Cold Outreach
+Reaching out by email to someone you don't know and does not know you can sometimes be disheartening. However, there are ways to increase the chances of getting a response and that is by finding the right person to contact and by using effective emails.
+## Finding the right person 
+### Roles in Buying Decision 
 
-</center>
+There are few types of personas in the selling process. Identified  through lead qualification.
 
-# Finding the right person 
+**Influencer** - Works directly with the decision makers (above or below or outside the organization) and their opinion is respected. Their influence tends to be informal but powerful. 
 
+**Decision Maker** - The person who has the power to decide on the deal. They may not be the person who sign it (Approver) but does have the formal responsibility on the budget level.
 
-## Roles in Buying Decision 
+**Champion** - Someone who is willing to actively fight for Gizra. It can be a 'Decision Maker' or an active Influencer. 
 
-There are few types of personas in the selling process. Identified  through lead qualification
-**Influencer** - Works directly with the decision makers (above or below or outside the organization). Respect for their opinions. Tends to be informal but powerful. 
-**Decision Maker** - The person who has the power to decide on the deal. He/she might not be the person who sign it (Approver). Has the formal responsibility for budget levels.
-**Champion** - Someone who is willing to actively fight for Gizra. It can a Decision Maker or  an active Influencer. 
-**Blocker/Gatekeeper** - The person who keep away time wasters from the people above. The person who answer the phone, the boss assistance,low-level on the chain. 
+**Blocker/Gatekeeper** - The person who keeps away time wasters from the people above. The person who answers the phone, the boss's  assistant, usually low-level on the chain.
 
-
-
-## Engagement level for each role 
+### Engagement level for each role 
 **Influencer** - Key Influencers are  important for the success. Try and get the key Influencers to actively support and convert him to Champion. The first contact can be done with him/her. Keep engaging with him during the sales process and when managing the account.  Try to find more than one to support the process. 
 **Decision Maker** - Best if we can  get the Decision Maker to actively drive the project and to commit to Gizra. If the Decision Maker and the Approver is the same person that make the process easier and quicker. 
 **Champion** - Try and build a "champion" from an influencer.  It can be someone we know (that worked with us at the past) use him as an active influencer  from the get-go.
