@@ -1,41 +1,40 @@
 
 #Cold Outreach
-Reaching out by email to someone you don't know and does not know you can sometimes be disheartening. However, there are ways to increase the chances of getting a response and that is by finding the right person to contact, finding their contact information and engaging them with effective emails.
+Reaching out by email to someone you don't know and does not know you can sometimes be disheartening. However, there are ways to increase the chances of getting a response and that is by finding the right person to contact, finding their contact information, and engaging them with effective emails.
 
 ## The right person 
 ### Roles in Buying Decision 
 
-There are few types of personas in the selling process. Identified  through lead qualification.
+There are few types of personas in the selling process. Identified through lead qualification.
 
 **Influencer** - Works directly with the decision makers (above or below or outside the organization) and their opinion is respected. Their influence tends to be informal but powerful. 
 
-**Decision Maker** - The person who has the power to decide on the deal. They may not be the person who sign it (Approver) but does have the formal responsibility on the budget level.
+**Decision Maker** - The person who has the power to decide on the deal. They may not be the person who signs off on it (Approver) but does have the formal responsibility on the budget level.
 
 **Champion** - Someone who is willing to actively fight for Gizra. It can be a 'Decision Maker' or an active Influencer. 
 
-**Blocker/Gatekeeper** - The person who keeps away time wasters from the people above. The person who answers the phone, the boss's assistant.
+**Blocker/Gatekeeper** - The person who keeps away time wasters from the people above. The person who answers the phone - the boss's assistant.
 
 ### Engaging each role 
-**Influencer** - Key Influencers are  important for the success. Try and get the key Influencers to actively support and convert him to Champion. The first contact can be done with him/her. Keep engaging with him during the sales process and when managing the account.  Try to find more than one to support the process.
+**Influencer** - Key Influencers are important for success. Try and get the key Influencers to actively support and convert them into a Champion. The first contact with an organization can be done with them. Keep engaging with this person through out  the sales process and when managing the account.  Try to find more than one person to support the process.
 
-**Decision Maker** - Best if we can  get the Decision Maker to actively drive the project and to commit to Gizra. If the Decision Maker and the Approver is the same person that make the process easier and quicker. 
+**Decision Maker** - Best if we can  get the Decision Maker to actively drive the project and to commit to Gizra. If the Decision Maker and the Approver is the same person that makes the process easier and quicker. 
 
-**Champion** - Try and build a "champion" from an influencer and someone who understands the buying process.  It can be someone we know (that worked with us in the past) use him as an active influencer from the get-go.
+**Champion** - Try and build a "champion" from an influencer and someone who understands the buying process.  It can be someone you know (worked with us in the past) and use them as an active influencer from the get-go.
 
-**Blocker/Gatekeeper** - Be nice to them and try to get information on who is the decision maker and how to reach her/him. Do not spend time on technical information.  
+**Blocker/Gatekeeper** - Be nice to them and try to get information on who is the decision maker is how they can be reached. Do not spend time on technical information.  
 
 ### Qualification - Techniques for finding right person.  
 
 **Company website**
-Check the About section of the company website. Often there are sections such as: Team, Management, Staff. Try to locate the right person on of the lists. 
-The right person to contact can be: CEO, CTO, CDO (chief digital officer) ,CMO (Chief marketing Officer), VP marketing etc. 
-Note: when it comes to large public organizations (such as HigerEd,gov,etc), it is worth a while to look for the purchasing department page on site in order  to learn more about the purchasing process 
+Check the 'About' section of the company website. Often there are sections such as: Team, Management, Staff. Try to locate the right person on the lists. 
+The right person to contact can be: CEO, CTO, CDO (Chief Digital Officer) ,CMO (Chief Marketing Officer), VP marketing etc. 
 
-**Linkedin** In the website does not include that information, Linkedin can has it. Find the company page in linkedin and click on the number of people that work there in order to view a list. The list can be very long, so it is a good idea to use the filters (filter by location, current company and Industry). Also try to search for the company name + CEO, CTO or Marketing. 
+Note: When it comes to large public organizations, such as in HigerEd and Governments, it is worth taking the time to look for the purchasing department page on site - it can help understand the purchasing process. 
 
+**LinkedIn** If the website does not include this information, LinkedIn is a good next step. Find the Company page in LinkedIn and click on the number of people that work there in order to view a list. The list can be very long, so it is a good idea to use the filters (filter by location, current company and Industry). Also try to search for the company name + CEO, CTO or Marketing. 
 
-**Phone** Speak with few people and try to figure out who is the decision marker. Does the IS dept is the owner of the website or marketing? If so - who in those dept. What if we want to offer internal platform for teacher - who should we contact? 
-
+**Phone** Make a few calls to the organization and try to figure out who is the decision marker. Does the IS dept is the owner of the website or marketing? If so - who in those dept. What if we want to offer internal platform for teacher - who should we contact? 
 
 **Just ask ** At small firms it might be good idea to shoot an email or a phone call asking 
 > “Hi, I just wanted to know if you were responsible for the company website/ Digital Projects/ Web present/ CMS / Development team.
