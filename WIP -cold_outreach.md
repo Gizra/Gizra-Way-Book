@@ -24,7 +24,7 @@ There are few types of personas in the selling process. Identified through lead 
 
 **Blocker/Gatekeeper** - Be nice to them and try to get information on who is the decision maker is how they can be reached. Do not spend time on technical information.  
 
-### Qualification - Techniques for finding right person.  
+### Techniques for finding right person.  
 
 **Company website**
 Check the 'About' section of the company website. Often there are sections such as: Team, Management, Staff. Try to locate the right person on the lists. 
@@ -117,7 +117,7 @@ The most important thing - make sure it does not look like a spam email.
 
 **HigherEd**: Including Harvard in the subject line can work or can scare away as well, depending on the receiver. 
 
-Here is a [good article for does and don't](http://www.yesware.com/blog/email-subject-line-analysis/).  
+Here is a [good article for do's and don't](http://www.yesware.com/blog/email-subject-line-analysis/).  
 
 ### Make it personal
 
