@@ -11,6 +11,7 @@
    * [Our Brand](our_brand.md)
    * [Phone Call](phone_call.md)
    * [Price offer](price_offer.md)
+   * [Cold Outreach](WIP -cold_outreach.md)
 * [How and What to Document](how_and_what_to_document.md)
    * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
 * [HR](hr.md)
@@ -19,3 +20,4 @@
 * Training
    * [CTools plugins](ctools_plugins.md)
    * [How to approach a new task, and its underlying data structure](approach_data_structure_task.md)
+
