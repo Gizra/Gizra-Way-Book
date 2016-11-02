@@ -1,10 +1,10 @@
 # CTools plugins
 
-Gizra's work method is to build a static site with jekyll and then make it dynamic, by copying HTML and CSS to the Drupal site, and replacing the static parts with dynamic content. You can read more about this method in [Gizra blog](http://www.gizra.com/content/custom-css-as-contrib-with-jekyll/).
+Gizra's work method is to build a static site with Jekyll (a static site generator) and then make it dynamic, by copying HTML and CSS to the Drupal site, and replacing the static parts with dynamic content. You can read more about this method in this [post](http://www.gizra.com/content/custom-css-as-contrib-with-jekyll/).
 
-In this training we will focus on a particular part of the implementation of this method, by using two powerful Drupal modules: [CTools](https://www.drupal.org/project/ctools) and [Panels](https://www.drupal.org/project/panels).
+In this chaptter we will focus on a particular part of the implementation of this method, by using two powerful Drupal modules: [CTools](https://www.drupal.org/project/ctools) and [Panels](https://www.drupal.org/project/panels).
 
-One of the great tools of CTools is the Plugins.
+One of the great tools of CTools is the `Plugins` system.  
 CTools plugin is a piece of code located in small file (.inc), which helps us to extend any module functionality.
 Panels provides content areas exposed as block or page. We use the panel as a container to display our plugin.
 In this post we'll go through a few steps, show how to create and use CTools plugins with Panels.
