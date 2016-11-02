@@ -17,13 +17,10 @@ Token marked by @{....} (i.e. `@{message:user:name}`)replaced at the first time 
 8. Message Notify module provide the ability to notify user when messages are generated. We determine the method for sending a message via a notifier plugin (email, sms, etc.)
 9. Message Subscribe module provide the ability to notified users who subscribe to content. The module leverages the [Flag](https://www.drupal.org/project/flag) module, which provides subscribe functionality to users. It determines the context of the message (comment, node, group etc) and collates all users who have subscribed to (flagged) objects in this context.
 
+For example, users can be notify anytime somebody comment on content they subscribed to (or involved in that content, by context).  
+The work flow will look like this:
 
 
-
-
-
-
-The combination of these modules allow users to subscribe to content and be notified when events occur involving that content.
 
 
 You can read more in the references above:   
