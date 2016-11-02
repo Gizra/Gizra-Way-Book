@@ -20,10 +20,10 @@ Token marked by @{....} (i.e. `@{message:user:name}`)replaced at the first time 
 For example, users can be notify anytime somebody comment on content they subscribed to (or involved in that content, by context).  
 The work flow will look like this:
 
+![](images/message/message_stack workflow.jpg)
 
 
-
-You can read more in the references above:   
+You can read more about Message Stack in the references above:   
 [Webinar with Amitai](https://vimeo.com/63919900)  
 [Module documentation](https://www.drupal.org/node/2180145)  
 [Gizra blog](http://www.gizra.com/tags.html#Message-ref)
