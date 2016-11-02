@@ -20,4 +20,3 @@
 * Training
    * [CTools plugins](ctools_plugins.md)
    * [How to approach a new task, and its underlying data structure](approach_data_structure_task.md)
- 
