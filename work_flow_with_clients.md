@@ -7,10 +7,10 @@ Here is the outline:
 | | Stage | Owner | Documents |
 | -- | -- | -- | -- |
 | 1 | Discovery meeting(s)  | Account Manager |  |
-| 2 | Price Proposal | Account Manager| e-mail template + Price Offer spreadsheet +  Proposal document |
-| 3 | Terms of Work | Operations Manager| Master Service Agreement + Scope Of Work|
+| 2 | Price Proposal | Account Manager| Email template, Price Offer spreadsheet, Proposal document |
+| 3 | Terms of Work | Operations Manager| Master Service Agreement, Scope Of Work (Project+Retainer, or Retainer only)|
 | 4 | Payment Milestones  | Operations Manager |  |
-| 5 | Accounts Receivable | Operations Manager | Invoice |
+| 5 | Accounts Receivable | Operations Manager | Invoice email template, Invoice |
 
 ###Stage 1: Discovery Meeting(s)
 At this point, Sales invites the Account Manager to join the meetings. The Account Manager will be the primary contact for the clients in navigating through their project and therefore it makes sense that they join at this early stage. It is also reassuring to the clients to know their main contact before jumping into a project.
@@ -43,14 +43,5 @@ The Account Manager is responsible for updating in Productivity the payment mile
 Upon confirmation, the Operations Manager requests payment (invoices) accordingly.
 
 ###Master Documentation Source:
-It is really important to use one 'master' source for all of our documentation. This allows us to continue updating one document and ensures we are consistent with all our clients. The index for all master materials is displayed in dapulse under "[Materials Index](https://gizra.dapulse.com/boards/16995781)" where you can find the following: 
-
-* Price Offer Spreadsheet
-* Price Proposal Document
-* Work Proposal Document
-  * Project and Retainer
-  * Retainer only
-* Scope of Work
-* Master Service Agreement
-
+It is really important to use one 'master' source for all of our documentation. This allows us to continue updating one document and ensures we are consistent with all our clients. The index for all master materials is displayed in dapulse under "[Materials Index](https://gizra.dapulse.com/boards/16995781)."
 
