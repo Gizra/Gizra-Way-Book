@@ -2,7 +2,8 @@
 
 The message stack contains three modules: [Message](https://www.drupal.org/project/message), [Message Notify](https://www.drupal.org/project/message_notify) and [Message Subscribe](https://www.drupal.org/project/message_subscribe).
 
-Highlights:
+
+### Highlights
 
 Message represents a record of event that occurred in the system. Message is an entity - `message` to `message type` is like `node` to `content type`. We can define different message types for different events.
 
@@ -23,11 +24,16 @@ Message module does not provide a way to create messages. We need to leverage di
 
 **Message Subscribe** module provide the ability to notified users who subscribe to content. The module leverages the [Flag](https://www.drupal.org/project/flag) module, which provides subscribe functionality to users. It determines the context of the message (comment, node, group etc) and collates all users who have subscribed to (flagged) objects in this context.
 
+
+### Work flow
 For example, users can be notify anytime somebody comment on content they subscribed to (or involved in that content, by context).  
 The work flow will look like this:
 
 ![](images/message/message_stack workflow.jpg)
 
+
+
+### Read more
 
 You can read more about Message Stack in the references above:   
 [Webinar with Amitai](https://vimeo.com/63919900)  
