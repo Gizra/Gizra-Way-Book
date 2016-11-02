@@ -1,6 +1,6 @@
 # Work Flow with Clients
 
-Sales did their job. They worked hard to bring in a potential client and now we are at the critical point of finding out their needs and providing a price proposal. This is also where the clients interact with more of us at Gizra which is great but also a potential pitfall for misunderstandings. We want to avoid this and hence, the purpose of this section is to clearly outline who is involved and what documents we use at the various stages of our interaction with clients. 
+Sales did their job. They worked hard to bring in a potential client and now we are at the critical point of finding out their needs and providing a price proposal. This is also where the clients interact with more than one of us at Gizra which is great but also a potential pitfall for misunderstandings. We want to avoid this and hence, the purpose of this section is to clearly outline who is involved and what documents we use at the various stages of our interaction with clients. 
 
 Here is the outline:
 
@@ -43,7 +43,7 @@ The Account Manager is responsible for updating in Productivity the payment mile
 Upon confirmation, the Operations Manager requests payment (invoices) accordingly.
 
 ###Master Documentation Source:
-It is really important to use one 'master' source for all of our documentation. This allows us to continue updating one document and ensures we are consistent with all our clients.
+It is really important to use one 'master' source for all of our documentation. This allows us to continue updating one document and ensures we are consistent with all our clients. The index for all master materials is displayed in dapulse under "[Materials Index](https://gizra.dapulse.com/boards/16995781)" where you can find the following: 
 
 * Price Offer Spreadsheet
 * Price Proposal Document
