@@ -8,11 +8,14 @@ Highlights:
 2. Message is an entity - `message` to `message type` is like `node` to `content type`. We can define different message types for different events. 
 3. Message type is fieldable, meaning we can store data with a message.
 4. Message type supports view modes. We can display different partial of the same massage ID in different ways.
-5. Message module supports localization (with Local module) so message types can be created to support multilingual web sites.
-6. Message types can be created with tokens (with Token module), so the messages can be dynamically generated. We have two types of tokens:
-Token marked by [....] (i.e. `[message:field-node-ref:title]`) will be replaced on-the-fly (each time the message text is rendered).
+5. Message module supports localization (with Local module, part of Drupal core), so message types can be created to support multilingual web sites.
+6. Message types can be created with tokens (with [Token](https://www.drupal.org/project/token) module), so the messages can be dynamically generated.   
+We have two types of tokens:  
+Token marked by [....] (i.e. `[message:field-node-ref:title]`) will be replaced on-the-fly (each time the message text is rendered).  
 Token marked by @{....} (i.e. `@{message:user:name}`)replaced at the first time the message is displayed the replaced text is stored with the message record in the database.
 7. Message module does not provide a way to create messages. We need to leverage different Drupal hooks, depending on the requirements. During development we can use [Message UI](https://www.drupal.org/project/message_ui) to create a message instance through the user interface.
+8. 
+
 
 
 
