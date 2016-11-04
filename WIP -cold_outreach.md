@@ -44,7 +44,9 @@ Note: When it comes to large public organizations, such as in HigerEd and Govern
 In an email always ask who else you can send the message to. 
 
 
-##Reaching out to the Target 
+##Reaching out to the Target
+Now, after we ID the target, we need to find his/her contact information. This part can be a little tricky sometimes and time consumings. The best way is to find someone in your network that can refer you to your target. But if there is no real connection between you, fear not - below there are few technics to find your target's email address that will work 90% of the time.
+ 
 ###Referrals 
 
 **Your Network**
@@ -109,6 +111,10 @@ Note - Yesware displays the IP of the device that opened the email. If there are
 Keep in mind that this is not 100% reliable. Some email services hide images by defaults from unknown users or hide the IP, which can lead to false  results. 
 
 ## E-mail strategy
+Being able to write a cold email that will to be opned and read is not an easy task. There is no one single tamaplte that works each time and it changes acording to who do you send the email to and what is that you are offerning. 
+Below are few tips for what can be a successful cold sales email campaign. Again, there is no magic and even if you had written the most perfect email, it still might not be opned from reasons that not in your power to change. 
+A good start point to think on a stratgey is to ***put yourself in the reader shoes*** 
+
 
 ### Subject line
 
