@@ -2,7 +2,9 @@
 #Cold Outreach
 Reaching out by email to someone you don't know and does not know you can sometimes be disheartening. However, there are ways to increase the chances of getting a response and that is by finding the right person to contact, finding their contact information, and engaging them with effective emails.
 
-## The right person 
+## The right person
+Finding the right persons to engage with is critical for the success of the sales process. We wat to make sure that we are not wasting effort and enrgy going after somoeone who someone who doesn't have the power to buy our services or has low influence on the purchasing decisions. 
+
 ### Roles in Buying Decision 
 
 There are few types of personas in the selling process. Identified through lead qualification.
