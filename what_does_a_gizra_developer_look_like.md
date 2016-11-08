@@ -1,2 +1,3 @@
-# What does a Gizra developer look like?
+# What does a Gizra employee look like?
+
 
