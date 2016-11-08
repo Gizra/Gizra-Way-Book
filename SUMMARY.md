@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [On Boarding](on_boarding.md)
    * [Agenda](on_boarding_agenda.md)
+   * What does a Gizra developer look like?
 * [How to Solve a Problem](how_to_solve_a_problem.md)
 * [Pull Requests](pull_requests.md)
 * [Work life balance](work_life_balance.md)
