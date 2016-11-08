@@ -11,4 +11,11 @@ Gizra supports it as well as part of the work:
  - Full-time roll responsible for training.
  - Training session every week.
  - Time to practice in part of the working day.
- - payment for days of "convection" 
+ - payment for days of "convection"
+
+* transparency
+
+* Contribution
+
+* Team lead / Account manager / Trainer - give real and significant feedback
+
