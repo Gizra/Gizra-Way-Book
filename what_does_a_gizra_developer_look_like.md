@@ -13,7 +13,8 @@ Gizra supports it as well as part of the work:
  - Time to practice in part of the working day.
  - payment for days of "Conference days"
 
-* transparency
+
+* Transparency
 
 * Contribution
 
