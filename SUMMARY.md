@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * [Who Are We](who_are_we.md)
 * [On Boarding](on_boarding.md)
    * [Agenda](on_boarding_agenda.md)
 * [How to Solve a Problem](how_to_solve_a_problem.md)
