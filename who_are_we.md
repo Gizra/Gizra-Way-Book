@@ -78,32 +78,34 @@ The platform, originally starting in Spanish didn't pick up, so Medico decided t
 
 The site in Portuguese at a certain point picked up rapidly and we saw heavy use by Portuguese people. This sudden success in the Portuguese market was not enough to impress the investors who pulled the plug and didn't fund for round two.
 
-We were five people in the office when we were told the money is going to end in a week or so.
+We were five people in the office when we were told that the money is going to end in a week or so.
 
 ## Commerce Guys
 
-Luck, or asking the universe or whatever you will decide to call it, has brought Commerce Guys (CG) to approach us immediately after the work for Medico has completely terminated.
+Luck, or asking the universe or whatever you decide to call it, brought Commerce Guys (CG) to us immediately after the work for Medico ended.
 
-We have known the owners for some time, and were always both good friends and both sharing similar technical vision. So that might have been the reason for them to ask us to jump on board and help them get their [Commerce Kickstart](http://demo.commerceguys.com/) distribution up and running. Timeline was fierce, given the amount of tasks they wanted to have, and scrutinizing code reviews were in abundance. Just the way we liked it.
+We knew the owners for some time, and were always good friends that shared a similar technical vision. So that might have been the reason for them to ask us to jump on board and help them get their [Commerce Kickstart](http://demo.commerceguys.com/) distribution up and running. The timeline was fierce given the amount of tasks they wanted to have, and scrutinizing code reviews were in abundance. Just the way we liked it.
 
-If you'll look at our fancy Drupal's installation profile scripts you might not recognize it, but it all started with the work we've done _long_ time ago with CG.
+If you look at our fancy Drupal's installation profile scripts you might not recognize it, but it all started with the work we did a _long_ time ago with CG.
 
 ## Harvard University
 
-DrupalCon Denver (2012) has arrived, and not long before it Entity Reference was born (it started with Damien Tournoud from CG who later [asked Amitai](https://youtu.be/hC4RiK-m0BQ?t=7m40s) to become a co-maintainer) and was followed with the complete rewrite of Organic groups for Drupal 7. Didn't you already read about a complete re-write for OG for Drupal 7. Yes you did. However the 7.1 version had flaws that we wanted to fix. So we went ahead and fixed all the architectural issues we have wrongly done in D7. This 7.2 is still up and running, and is the basis for OG for Drupal 8, that has similar concepts just different code (since Drupal 8 is so different from Drupal 7).
+DrupalCon Denver 2012 arrived, and not long after Entity Reference was born (it started with Damien Tournoud from CG who later [asked Amitai](https://youtu.be/hC4RiK-m0BQ?t=7m40s) to become a co-maintainer) and was followed up with the complete rewrite of Organic groups for Drupal 7. Didn't you already read about the complete re-write for OG for Drupal 7. Yes you did. However the 7.1 version had flaws that we wanted to fix. So we went ahead and fixed all the architectural issues we wrongly commited in D7. This 7.2 is still up and running, and is the basis for OG for Drupal 8, that has similar concepts just different code (since Drupal 8 is so different from Drupal 7).
 
-Brice and Amitai, for the first time decided to attend a higher Education session. It was by the people of Harvard's OpenScholar (OS) distribution. The presenter, Ferdi Almahdi who was also the project lead of OS started the session by asking Amitai, who he recognized as the OG author:
+Brice and Amitai, for the first time decided to attend a higher Education session. It was by the people of Harvard's OpenScholar (OS) distribution. The presenter, Ferdi Almahdi, who was also the project lead of OS, started the session by asking Amitai, who he recognized as the OG author:
 - "Are you interested in OpenScholar?"  
 - "Does it use Organic Groups?", asked Amitai  
 - "Yes, a lot" answered Ferdi.  
 - "In that case yes, I'm interested".
 
-Little did they know, that it will lead to an ongoing relationship that has already crossed 4 years, and had the peak four full time developers from Gizra side.
+Little did they know, that it will lead to an ongoing relationship that has already crossed 4 years, and at its peak had four full time developers on it from Gizra's side.
 
 It all started from hearing the session, then approach Ferdi and Richard Brandon (once the lead developer, and now the project lead) and offer our services. They said they will contact us when the summer vacation ends, and they did.
 
-They asked if we could give them consulting on how to port the OG vocab module to Drupal 7. Quickly it became obvious that the right way would be for us to take this non-trivial task.
+They asked if we could consult for them on how to port the OG vocab module to Drupal 7. Quickly, it became obvious that the right way to do this was for us to take this non-trivial task.
 
-They initially thought we were going to have some per tasks relationship (i.e. we will have a work order per set of tasks), but we immediately recognized it as "foot in the door", and decided to dive into their platform.
+They initially thought we were going to have some per tasks relationship (i.e. we will have a work order per set of tasks), but we immediately recognized it as a "foot in the door", and decided to dive into their platform.
 
-We have raised some issues, and gave them suggestions and solutions that were quickly translated to us becoming part of the core team of OpenScholar. This has probably been one of the most important milestones of the early years of Gizra.
+We raised some issues, and gave them suggestions, and solutions that quickly translated to us becoming part of the core team of OpenScholar. This was probably one of the most important milestones of the early years of Gizra.
+
+More to come...
