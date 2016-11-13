@@ -10,11 +10,11 @@ Brice Lenfant and Amitai Burstein, now the co-owners of Gizra, met for the first
 
 In 2005, Brice, with his wife, relocated to New York, where he worked as the support and QA manager for the US branch.
 
-In 2006, after Amitai completed his B.A in fashion design at Shenkar, he with his wife, relocated to Delhi, India so he can take on the tole of the regional manager of the south east region, supervising over a dozen local teams.
+In 2006, after Amitai completed his B.A in fashion design at Shenkar, he with his wife, relocated to Delhi, India so he can take on the role of the regional manager of the south east region, supervising over a dozen local employees.
 
 In 2007, Brice and Amitai, combining both their deep knowledge of the textile industry, pattern making, and of course software development, invented a new system called MTM (Made To Measure). It was a way for people to enter their body measurements and get a pattern for a garment that fits them precisely. Precision that usually can only be reached by going to a tailor. If, for some reason, you are interested in seeing how in depth they had the concept covered, you can read this [online article](https://docs.google.com/document/d/1bwinkky6CHY9NZHB6HDcrRE88XaG7Avkz456sj1GN4o/edit?usp=sharing) that they published.
 
-The excitement about this revolutionary approach of MTM led Brice and Amitai to form a partnership, register the company, and begin work on simplePDM - a web site that would allow pattern makers to digitally manage their files, catalogues, and collections. They created [this video](https://www.youtube.com/watch?v=cMj1w3Sx9_U) (and we mean _they created_ - they wrote, drew, recorded and edited all on their own - not a simple task back in those days) to help understand the concept. Essentially, it's like Google Docs, but specific for the textile and garment industry.
+The excitement about this revolutionary approach of MTM led Brice and Amitai to form a partnership, register the company, and begin work on simplePDM - a web site that would allow pattern makers to digitally manage their files, catalogues, and collections. They created [this video](https://www.youtube.com/watch?v=cMj1w3Sx9_U) (and we mean _they created_ - they wrote, drew, recorded and edited all on their own) to help understand the concept. Essentially, it's like Google Docs, but specific for the textile and garment industry.
 
 The technological decision to go with Drupal, they owe equally to a good investment of time in finding the right technology, and to pure luck. At that time, it seemed the better option, where today most of the other options don't even exist.
 
