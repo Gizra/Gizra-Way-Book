@@ -45,7 +45,7 @@ They returned back to Israel, with commit access to one of the most important Dr
 
 ## Theatrical Recognition
 
-Even though we were handed a significant module, Gizra was still quite unknown by the international community. We did however hire our first employees: an office manager who was also a project manager, and followed by a developer.
+Even though they were handed a significant module, Gizra was still quite unknown by the international community. They did however hire our first employees: an office manager who was also a project manager, and followed by a developer.
 
 Amitai, being the maintainer of Organic groups, indeed started [re-writing](https://www.drupal.org/node/567840) the module and upgrading its architecture to make it ready for the, back then, new Drupal 7 release.
 
