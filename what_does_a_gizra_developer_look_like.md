@@ -18,9 +18,11 @@ Gizra supports it as well as part of the work:
 
 * Transparency and honesty
 
-* Contribution and knowledge sharing
+* Contribution and knowledge sharing.
 
-* Get out of the comfort zone - open to try new things, take on extra responsibility. Dare to make mistakes, this is a great opportunity to learn and grow.
+* Teamwork
+
+* Get out of the comfort zone - open to try new things, initiate and take on extra responsibility. Dare to make mistakes, this is a great opportunity to learn and grow.
 
 * Solving problems - not only find problems, also make effort to find a solution for them.
 
