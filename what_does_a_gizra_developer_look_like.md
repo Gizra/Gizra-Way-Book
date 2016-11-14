@@ -16,9 +16,11 @@ Gizra supports it as well as part of the work:
 
 * Accuracy - attention to detail, not to leave open ends.
 
-* Transparency
+* Transparency and honesty
 
-* Contribution
+* Contribution and knowledge sharing
+
+* Get out of the comfort zone - open to try new things, take on extra responsibility. Dare to make mistakes, this is a great opportunity to learn and grow.
 
 * Team lead / Account manager / Trainer - give real and significant feedback
 
