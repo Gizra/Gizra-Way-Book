@@ -2,7 +2,7 @@
 
 * Curiosity - Ask questions, explore, be thirst for knowledge, be interested in what is happening in the company, read posts in Gizra blog.
 
-* Improvement - always think how can we make it better.
+* Improvement - always think how can you/we make it better.
 
 * Productivity - take responsibility for your time and tasks. Be productive so you can balance between work and personal life.
 
