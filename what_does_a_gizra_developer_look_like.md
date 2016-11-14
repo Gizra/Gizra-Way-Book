@@ -22,5 +22,7 @@ Gizra supports it as well as part of the work:
 
 * Get out of the comfort zone - open to try new things, take on extra responsibility. Dare to make mistakes, this is a great opportunity to learn and grow.
 
+* Solving problems - not only find problems, also make effort to find a solution for them.
+
 * Team lead / Account manager / Trainer - give real and significant feedback
 
