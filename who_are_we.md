@@ -109,3 +109,21 @@ They initially thought we were going to have some per tasks relationship (i.e. w
 We raised some issues, and gave them suggestions, and solutions that quickly translated to us becoming part of the core team of OpenScholar. This was probably one of the most important milestones of the early years of Gizra.
 
 More to come...
+
+
+##Trivia game
+Play and discover what do you know about Gizra.
+
+Instruction:  
+You need a computer + a smart phone.
+
+1. On the computer: browse to the [game](https://play.kahoot.it/#/k/d65bc611-eeb2-4d82-be22-51c1ef39e614). 
+2. Click on `Play`.
+3. Click on `Start now`.
+4. choose `Classic` mode.
+5. On the phone: browse to https://kahoot.it and enter the PIN code shown on the computer screen.
+6. Click `Start` on the computer screen.
+4. The questions appear on the computer screen and you pick the answer on the phone screen.
+
+Have fun!
+
