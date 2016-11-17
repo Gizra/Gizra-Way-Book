@@ -39,3 +39,17 @@ You can read more about Message Stack in the references above:
 [Webinar with Amitai](https://vimeo.com/63919900)  
 [Module documentation](https://www.drupal.org/node/2180145)  
 [Gizra blog](http://www.gizra.com/tags.html#Message-ref)
+
+
+### Exercise
+
+**1/ **Create a message type: every time user comments on a post, a message will be created.   
+* The message should be: (user) commented (comment title) on (node title).
+* The node title should be a link to the node.
+In accordance with the client's request, the comment title can’t be edited after creating a comment. Use the right token.
+* The message should be in English and Hebrew.
+
+**2/** Create a View to display a list like in admin/content/message.
+* Display only messages that belong to the message type you created.
+* Add the option for the user (expose filter) to filter the content by the node type.
+
