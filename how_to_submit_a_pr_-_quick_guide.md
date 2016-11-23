@@ -1,35 +1,36 @@
-# How to submit a PR - Quick guide
+# How to submit a Pull Request - Quick guide
 
 
 ## Objective
 
-After reading, you will know how to submit PR for code review.
-
-
+After reading, you will know how to submit Pull Request (PR) for code review.
 
 ## Prerequisite
 
 * I Understand the project goal and what is its main purpose.
-* I know who are the team lead and project manager.
+* I know who is the team lead and account manager.
 
 
 
 ## The Flow
 
-1. Open your task on Github: Go to `Project` tab, click on `Weekly Workplan`, under your name you will see all your tasks in the project.
-2. Read the description and move the issue to `Today in Progress`. See if you understand, write any questions you feel to fully understand.
-3. Check the timeboxing and see if it make sense to you. If it doesn’t, communicate that to your team lead.
-4. Write user stories (in [Behat format](http://docs.behat.org/en/v2.5/guides/1.gherkin.html)), to be used for the QA team and automated test.
-5. If the issue include writing a new feature, write the outline of the solution. If you feel unsure, tag your team lead.
-6. Make sure your master branch is updated.
-7. Create a new branch named after the issue number with a tiny description. (ie. 450-fixing-feature).
-8. Create PR with WIP prefix in the title, assign it to yourself.
-9. Start coding, push code regularly to allow code review during your work.
-10. When work is done and ready for review, push the final code.
-11. Go over the user stories and check your work at least once for each case. If this is a bug make sure to include in your testings the **exact** scenario of the bug, and to add this scenario to the user stories.
-12. Code review yourself first, then make sure travis return green (both with Coder and Tests).
-13. Add a screenshot.
-14. When all done, remove WIP from PR title, assign to Team Lead developer for review, and add relevant label.
+1. **Open your task** on Github: Go to `Project` tab, click on `Weekly Workplan`, under your name you will see all your tasks in the project.
+2. Read the description and move the issue to `Today in Progress`. **Check if you understand the issue**, and if you don't, this is the time to  write any questions. *This is important. Keep asking questions until you understand!*
+3. **Check the timeboxing** and see if it make sense to you. If it doesn’t, communicate that to your team lead. *This will help identify early on any issues with the timebox, how well the task was explained, and if you really understand the task. Giving this thought can save you a lot confusion and frustration later on.  *
+4. **Write user stories** (in [Behat format](http://docs.behat.org/en/v2.5/guides/1.gherkin.html)), to be used for the QA team and automated test.
+5. If the issue include writing a new feature, write the **outline of the solution**. If you feel unsure, tag your team lead.
+6. Make sure your **master branch is updated**.
+7. **Create a new branch** named after the issue number with a tiny description. (ie. 450-fixing-feature).
+8. **Create PR **with WIP prefix in the title, assign it to yourself.
+9. Start coding, **push code regularly** to allow code review during your work.
+10. When work is done and ready for review, **push the final code**.
+11. Go over the user stories and **check your work** at least once for each case. If this is a bug make sure to include in your testings the ***exact*** scenario of the bug, and to add this scenario to the user stories.
+12. **Code review yourself** first, then make sure travis return green (both with Coder and Tests).
+13. Add a **screenshot**.
+14. **When all done** 
+  15. remove the WIP from the PR title 
+  16. assign it to the Team Lead developer for review
+  17. add relevant label.
 
 Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for more information.
 
