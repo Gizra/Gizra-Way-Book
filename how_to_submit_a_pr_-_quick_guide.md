@@ -37,7 +37,7 @@ Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for more in
 
 ## Coding standard 
  
-Make sure you know the coding standard required for the language, coder should run on your files to validate this. 
+Make sure you know the coding standard required for the language, the coder should run on your files to validate this. 
 
 
 ## Issue tracking and Bugs
@@ -45,7 +45,7 @@ Make sure you know the coding standard required for the language, coder should r
 Use Github issue tracking to document your work and progress when necessary, especially when working on bugs. This will allow other developers to help, and stakeholders to track your progress.
 
 
-## GH Issue Flow
+## Github Issue Flow
 
 
 Typically an issue is opened by the account manager, or by the QA team/ Customer, the basic rule of thumb is that an issue  is closed by the person who opened it.
@@ -55,24 +55,21 @@ Account managers or Team leads are responsible to assign issues to other team me
 
 ## Focus and Follow Up issues
 
-During your work try to stay on track, for bugs if you feel a quick solution can be thrown before dipping into proper solution, please consult with your team lead.
+During your work try to stay on track, for bugs if you feel a quick solution can be thrown before dipping into a proper solution, please consult with your team lead.
 Any indirect issue you find during your work should be translated to a new follow up issue, and documented in your GH issue.  
-make sure you don't have more than 2 or 3 missions in progress. stay focused.
+make sure you don't have more than 2 or 3 missions in progress. Stay focused.
 
 
-## Automated Test
+## Automated Tests
 
-Check if a test should written with your team lead or write one if you have extra time out of your timebox.
-
+Check with your Team Lead if a test should written or write one if you have extra time out of your timebox.
 
 ## How deal with a problem
 
 Read [How to solve a problem](https://www.thegizraway.com/how_to_solve_a_problem.html).
 
 
-
 ## Checklist
-
 
 [ ] - Pull latest code from the master branch.  
 [ ] - Reinstall project and test your feature/check the bug.  
@@ -83,4 +80,4 @@ Read [How to solve a problem](https://www.thegizraway.com/how_to_solve_a_problem
 [ ] - Add a screenshot.
 [ ] - Test your code.  
 [ ] - Add a wiki entry when needed.  
-[ ] - Add a user story.  
+[ ] - Add a user story.
