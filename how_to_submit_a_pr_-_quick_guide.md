@@ -1,7 +1,7 @@
 # How to submit a Pull Request - Quick guide
 
 
-## Objective
+## Goal
 
 After reading, you will know how to submit Pull Request (PR) for code review.
 
@@ -12,7 +12,9 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 
 
 
-## The Flow
+## The Flow 
+
+**Note:** *1-5 should be performed for all your weekly task in the first day of the week - This will allow PM and TL to review the user story and proposed technical solution*
 
 1. **Open your task** on Github: Go to `Project` tab, click on `Weekly Workplan`, under your name you will see all your tasks in the project.
 2. Read the description and move the issue to `Today in Progress`. **Check if you understand the issue**, and if you don't, this is the time to  write any questions. *This is important. Keep asking questions until you understand!*
@@ -37,8 +39,10 @@ Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for more in
 
 ## Coding standard 
  
-Make sure you know the coding standard required for the language, the coder should run on your files to validate this. 
+Make sure you know the coding standard required for the language, the coder should run on your files to confirm this.
 
+* [How to setup coding standard in PHPStorm](https://www.jetbrains.com/help/phpstorm/2016.2/configuring-code-style.html#d1056806e40).
+* [Drupal coding standard](https://www.drupal.org/docs/develop/standards).
 
 ## Issue tracking and Bugs
 
@@ -48,7 +52,8 @@ Use Github issue tracking to document your work and progress when necessary, esp
 ## Github Issue Flow
 
 
-Typically an issue is opened by the account manager, or by the QA team/ Customer, the basic rule of thumb is that an issue  is closed by the person who opened it.
+Typically an issue is opened by the account manager, or by the QA team/ Customer, the basic rule of thumb is that an issue is closed by the person who opened it. 
+This mean you can close issues opened by you when they are done and deployed after validation, and other issue should be assign to the account manager.
 
 Account managers or Team leads are responsible to assign issues to other team members.
 
@@ -71,13 +76,11 @@ Read [How to solve a problem](https://www.thegizraway.com/how_to_solve_a_problem
 
 ## Checklist
 
-[ ] - Pull latest code from the master branch.  
-[ ] - Reinstall project and test your feature/check the bug.  
-[ ] - Run coder.  
+[ ] - Merge latest code from the master branch.    
 [ ] - Code review yourself.  
 [ ] - Comment on all functions and comment complicated part of your code, be generous.  
 [ ] - Security check your code.  
-[ ] - Add a screenshot.
-[ ] - Test your code.  
-[ ] - Add a wiki entry when needed.  
-[ ] - Add a user story.
+[ ] - Add a screen-shot.
+[ ] - Test your code, using the user stories, Add screenshot to the user story results. 
+[ ] - Add a wiki entry when needed, or release protocols.
+[ ] - Assign for review.
