@@ -95,7 +95,7 @@ Read [How to solve a problem](https://www.thegizraway.com/how_to_solve_a_problem
 [ ] - Code review yourself.  
 [ ] - Comment on all functions and comment complicated part of your code, be generous.  
 [ ] - Security check your code.  
-[ ] - Add a screen-shot.
-[ ] - Test your code, using the user stories, Add screenshot to the user story results. 
-[ ] - Add a wiki entry when needed, or release protocols.
+[ ] - Add a screen-shot.  
+[ ] - Test your code, using the user stories, Add screenshot to the user story results.   
+[ ] - Add a wiki entry when needed, or release protocols.  
 [ ] - Assign for review.
