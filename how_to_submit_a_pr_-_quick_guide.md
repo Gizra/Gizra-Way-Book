@@ -34,7 +34,8 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 
 ####2. Write some awesome code
 
-6. Make sure your **master branch is updated**.
+6. On Github: under `Project` tab, move the task to `In progress` column.
+7. Make sure your **master branch is updated**.
 7. **Create a new branch** named after the issue number with a tiny description. (ie. 450-fixing-feature).
 8. **Create PR **with WIP prefix in the title, assign it to yourself.
 9. Start coding, **push code regularly** to allow code review during your work.
