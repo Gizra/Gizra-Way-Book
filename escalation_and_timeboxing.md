@@ -26,7 +26,14 @@ Team lead gives goes over the outline solutions and give input if necessary.
 ### 3. Write code
 
 The rest of the week:
-Developers write code and fix bugs as needed.
+Developers write code and fix bugs as needed.  
+Read [How to submit a PR].  
+Team leads review and give direction to solve problems.
+
+
+## Escalation Process
+
+
 
 
 
