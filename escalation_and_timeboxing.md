@@ -31,6 +31,14 @@ Read [How to submit a PR].
 Team leads review and give direction to solve problems.
 
 
+| Activity Type | Activity is clear | Prep | Plan | Implement |
+| -- | -- | -- | -- | -- |
+| Task | Understand the issue?* | Check timeboxing.* | Write user stories and outline solution.* | Write code and Review (again and again and again!!!). |
+| Bug | Expected vs actual? | Reproduce bug. | List affecting areas with strategies & priority. | Implement strategies. |
+
+*Weekly Prep (1st day of week)
+
+
 ## Escalation Process
 
 
