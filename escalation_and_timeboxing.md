@@ -64,15 +64,15 @@ Team leads review and give direction to solve problems.
 
 ## Report in Productivity
 
-Be accurate in reporting! We need real numbers to help us as a company do our best. It's not about nit picking with employees.
-Update every day. This is important for our reporting with the clients.
-Expectations: 9 hour days, we expect to see 6-8 hours of productive time. Yes, take breaks as needed but when you work, work well!
-Non-project reporting:
-Installments and set-up include in project. Team Leads need to include this task in the project.
-IT issues - Install issues are taken into consideration.  Any issues, please tell Orit! She will ensure someone provides support.
-Training - Sessions and meetings with Employee training and development person.
-Gizra Meetings - Company wide meetings and personal meetings with operations manager.
-Business Development -  It includes any work on gizra.com, Blog post, marketing and RFP materials.
+1. Be accurate in reporting! We need real numbers to help us as a company do our best. It's not about nit picking with employees.
+2. Update every day. This is important for our reporting with the clients.
+3. Expectations: 9 hour days, we expect to see 6-8 hours of productive time. Yes, take breaks as needed but when you work, work well!
+4. Non-project reporting:
+  * **IT issues** - Install issues are taken into consideration.
+  * **Training** - Sessions and practice.
+  * **Gizra Meetings** - Company wide meetings and personal meetings with operations manager.
+  * **Business Development** -  It includes any work on gizra.com, Blog post, marketing and RFP materials.
+5. Installments and set-ups - report inside the project with label “Installation and set-up”.
 
 
 
