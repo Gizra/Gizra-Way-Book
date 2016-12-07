@@ -43,6 +43,40 @@ Team leads review and give direction to solve problems.
 
 
 
+## Time Boxing
+
+1. Timeboxing is the **amount of time set to complete a task**.
+2. It is a tool to provide a price proposal to the clients and manage our project resources.
+3. Timeboxing is based on an **average** skilled developer (NOT according to who will be doing the task).
+4. Each developer has a **personal factor** ( x * timebox) of how much time they take to complete a task per the timebox.
+  * Each developer knows their own number.
+  * It’s an overall average usually based on at least 6 months of development. 
+  * It’s dependent on ramp-up requirements per project (you may be a skilled developer but you now have a project of with a technology that is new to you).
+
+5. **Escalation in timebox** - Every developer works a little different.  Decide at what points of the timebox, you stop and check where you are (use personal factor to help here). Work with Team Lead to create a structure that works for you.
+6. **Timeboxing factor** (actual time vs. set timebox) is a nonspecific indicator. It is used to raise red flags in areas that need attention - many of the them are not related to the developers capabilities. Issues can be:
+  * Is the timebox assessment to the client wrong?
+  * The task may not make sense.
+  * Is the task clear - explained well and understood well?
+  * Where is a developer struggling and if we can support with training?
+  * Where as a company can we do better?
+
+
+## Report in Productivity
+
+Be accurate in reporting! We need real numbers to help us as a company do our best. It's not about nit picking with employees.
+Update every day. This is important for our reporting with the clients.
+Expectations: 9 hour days, we expect to see 6-8 hours of productive time. Yes, take breaks as needed but when you work, work well!
+Non-project reporting:
+Installments and set-up include in project. Team Leads need to include this task in the project.
+IT issues - Install issues are taken into consideration.  Any issues, please tell Orit! She will ensure someone provides support.
+Training - Sessions and meetings with Employee training and development person.
+Gizra Meetings - Company wide meetings and personal meetings with operations manager.
+Business Development -  It includes any work on gizra.com, Blog post, marketing and RFP materials.
+
+
+
+
 
 
 
