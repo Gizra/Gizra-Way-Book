@@ -4,6 +4,8 @@
    * [Who Are We](who_are_we.md)
 * [On Boarding](on_boarding.md)
    * [Agenda](on_boarding_agenda.md)
+* Being Gizra employee
+   * [Escalation and Timeboxing](escalation_and_timeboxing.md)
 * [How to Solve a Problem](how_to_solve_a_problem.md)
 * [Pull Requests](pull_requests.md)
 * [Work life balance](work_life_balance.md)
@@ -23,6 +25,4 @@
    * [How to approach a new task, and its underlying data structure](approach_data_structure_task.md)
    * [Views](views.md)
    * [Features module: how to share site’s config with others?](features_module_how_to_share_sites_config_with_oth.md)
-* Being Gizra employee
-   * [Escalation and Timeboxing](escalation_and_timeboxing.md)
 
