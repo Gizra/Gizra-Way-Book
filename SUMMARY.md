@@ -24,5 +24,4 @@
    * [Views](views.md)
    * [Features module: how to share site’s config with others?](features_module_how_to_share_sites_config_with_oth.md)
 * Being Gizra employee
-* [Escalation and Timeboxing](escalation_and_timeboxing.md)
 
