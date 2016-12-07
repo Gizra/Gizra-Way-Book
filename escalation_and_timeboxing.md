@@ -75,6 +75,16 @@ Team leads review and give direction to solve problems.
 5. Installments and set-ups - report inside the project with label “Installation and set-up”.
 
 
+## Team Leads
+
+1. **Task process** - know the task process, monitor it, and clear away as many obstacles as possible - Sundays are a critical days. Review the outline solutions wrote by the developers, and give your input if necessary.
+2. **Escalation process** - understand the escalation process and enforce it - this also means what should not be done, like a developer escalating to another developer. When a developer escalates to you, your responsibility is to provide a direction, priorities where applicable, and training resources if needed.   
+Keep to the 1-15 minute timebox. If it takes longer, then you are probably doing something you shouldn’t (like training them or trying to solve the bug with them). Your example of taking timeboxing seriously will trickle down to the developers.
+3. **Training** - make note of the areas where the developers need training help and communicate this to Employee training and development person, so she can provide the appropriate resources. It may be personally training the developer(s), finding the best online training, or matching up a mentor.
+4. **Feedback** - your interaction with the developers is very important.  When a developer does something right, remember to provide them positive feedback - they really need to hear it.  When the developer messes up, tell them - getting real time feedback to where they need to improve is helpful for them and for Gizra. If you see that you need to correct/remind a developer repeatedly on the same mistake, it's time for you to escalate this at your next meeting with Brice/Amitai.
+
+
+
 
 
 
