@@ -36,9 +36,7 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 7. Make sure your **master branch is updated**.
 7. **Create a new branch** named after the issue number with a tiny description. (ie. 450-fixing-feature).
 8. **Create PR **with WIP prefix in the title, assign it to yourself.
-9. Start coding, **push code regularly** to allow code review during your work. Make sure you know the **coding standard** required for the language - the coder should run on your files to confirm this.
-  10. [How to setup coding standard in PHPStorm](https://www.jetbrains.com/help/phpstorm/2016.2/configuring-code-style.html#d1056806e40).
-  11. [Drupal coding standard](https://www.drupal.org/docs/develop/standards). 
+9. Start coding, **push code regularly** to allow code review during your work.
 10. When your work is done and ready for review, **push the final code**.
 
 ####3. Test your work and submit for review
@@ -54,7 +52,7 @@ Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for a detai
 
 
 
-Things to keep in mind of the following:
+#Here are some things to keep in mind while coding:
 
 ## Coding standard 
  
