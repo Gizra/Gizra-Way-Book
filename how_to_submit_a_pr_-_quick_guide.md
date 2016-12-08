@@ -52,7 +52,7 @@ Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for more in
 
 ## Coding standard 
  
-Make sure you know the coding standard required for the language, the coder should run on your files to confirm this.
+Make sure you know the coding standard required for the language - the coder should run on your files to confirm this.
 
 * [How to setup coding standard in PHPStorm](https://www.jetbrains.com/help/phpstorm/2016.2/configuring-code-style.html#d1056806e40).
 * [Drupal coding standard](https://www.drupal.org/docs/develop/standards).
@@ -65,25 +65,21 @@ Use Github issue tracking to document your work and progress when necessary, esp
 ## Github Issue Flow
 
 
-Typically an issue is opened by the account manager, or by the QA team/ Customer, the basic rule of thumb is that an issue is closed by the person who opened it. 
+Typically an issue is opened by the account manager, or by the QA team/customer, the basic rule of thumb is that an issue is closed by the person who opened it. 
 This mean you can close issues opened by you when they are done and deployed after validation, and other issue should be assign to the account manager.
 
-Account managers or Team leads are responsible to assign issues to other team members.
-
+Account managers or Team leads are responsible to assign issues to the team members.
 
 ## Focus and Follow Up issues
 
 During your work try to stay on track, for bugs if you feel a quick solution can be thrown before dipping into a proper solution, please consult with your team lead.
-Any indirect issue you find during your work should be translated to a new follow up issue, and documented in your GH issue.  
-make sure you don't have more than 2 or 3 missions in progress. Stay focused.
-
+Any indirect issue you find during your work should be translated to a new follow up issue, and documented in your GH issue. Make sure you don't have more than 2 or 3 missions in progress. Stay focused.
 
 ## Automated Tests
 
 Check with your Team Lead if a test should written or write one if you have extra time out of your timebox.
 
 ## How deal with a problem
-
 Read [How to solve a problem](https://www.thegizraway.com/how_to_solve_a_problem.html).
 
 
