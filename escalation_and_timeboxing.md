@@ -13,7 +13,7 @@ On Thursdays, the Account Manager creates a weekly plan and Team Leads assign th
 
 Note: the priority is indicated by how high up the task is on the list.
 
-[insert screen shot of one of the columns here]
+![](images/escalation_and_timebox/task_priority.png)
 
 QA's list of activities is an exception. They have their own board and it is based on an ongoing list - not a weekly plan. The goal is to clear the list as quickly as possible per the priorities set.
 
