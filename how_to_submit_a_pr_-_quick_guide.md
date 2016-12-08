@@ -50,8 +50,8 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 
 Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for a detailed explanation, including screen shots, on how to do the above.
 
-####Summary
-When a PR is created, this checklist will automatically be in the first comment. **Before you submit the PR**, please make sure that you did all the following things.
+####Use the Checklist
+This will help remind you of the above items to implement. When a PR is created, this checklist will automatically be in the first comment. **Before you submit the PR**, please make sure that you did all the following things.
 
 [ ] - Merge latest code from the master branch.    
 [ ] - Code review yourself.  
