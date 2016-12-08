@@ -50,8 +50,6 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 
 Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for a detailed explanation, including screen shots, on how to do the above.
 
-
-
 #Here are some things to keep in mind while coding:
 
 ## Coding standard 
