@@ -1,4 +1,4 @@
-# How to submit a Pull Request - Quick guide
+# How to submit a Pull Request - Quick Guide
 
 
 ## Goal
@@ -63,24 +63,25 @@ This will help you do your work. When a PR is created, this checklist will autom
 [ ] - Assign for review.
 
 
-#Here are some things to keep in mind while coding:
+##Here are some things to keep in mind while coding:
 
-## Coding standard 
+### Coding standard 
  
 Make sure you know the coding standard required for the language - the coder should run on your files to confirm this.
 
 * [How to setup coding standard in PHPStorm](https://www.jetbrains.com/help/phpstorm/2016.2/configuring-code-style.html#d1056806e40).
 * [Drupal coding standard](https://www.drupal.org/docs/develop/standards).
 
-## Issue tracking and Bugs
+### Issue tracking and Bugs
 
 Use Github issue tracking to document your work and progress when necessary, especially when working on bugs. This will allow other developers to help, and stakeholders to track your progress.
 
-## Focus and Follow Up issues
+### Focus and Follow Up issues
 
 During your work try to stay on track, for bugs if you feel a quick solution can be thrown before dipping into a proper solution, please consult with your team lead.
 Any indirect issue you find during your work should be translated to a new follow up issue, and documented in your GH issue. Make sure you don't have more than 2 or 3 missions in progress. Stay focused.
-## Github Issue Flow
+
+### Github Issue Flow
 
 
 Typically an issue is opened by the account manager, or by the QA team/customer, the basic rule of thumb is that an issue is closed by the person who opened it. 
@@ -88,22 +89,9 @@ This mean you can close issues opened by you when they are done and deployed aft
 
 Account managers or Team leads are responsible to assign issues to the team members.
 
-## Automated Tests
+### Automated Tests
 
 Check with your Team Lead if a test should written or write one if you have extra time out of your timebox.
 
-## How deal with a problem
+### How deal with a problem
 Read [How to solve a problem](https://www.thegizraway.com/how_to_solve_a_problem.html).
-
-
-## Checklist
-When a PR is created, this checklist will automatically be in the first comment. **Before you submit the PR**, please make sure that you did all the following things.
-
-[ ] - Merge latest code from the master branch.    
-[ ] - Code review yourself.  
-[ ] - Comment on all functions and comment complicated part of your code, be generous.  
-[ ] - Security check your code.  
-[ ] - Add a screen-shot.  
-[ ] - Test your code, using the user stories, Add screenshot to the user story results.   
-[ ] - Add a wiki entry when needed, or release protocols.  
-[ ] - Assign for review.
