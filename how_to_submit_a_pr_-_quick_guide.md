@@ -7,8 +7,8 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 
 ## Prerequisite
 
-* I Understand the project goal and what is its main purpose.
-* I know who is the team lead and account manager.
+* You understand the project goals.
+* You know who is the team lead and account manager.
 
 ## The Flow 
 
@@ -21,10 +21,10 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 ### Flow in detail:
 
 ####1. Prepare your tasks for the week
-**Note:** *this part should be performed for all your weekly tasks in the first day of the week - this will allow AMs and TLs to review the user stories and proposed technical solutions.*
+**Note:** *this part should be performed for all your weekly tasks in the first day of the week - this will allow account managers and team leads to review the user stories and proposed technical solutions.*
 
 
-1. **Open your task** on Github: Go to `Project` tab, click on `Weekly Workplan`, under your name you will see all your tasks in the project and their priority (top one is no. 1 and so forth).
+1. **Open your task** on Github: Go to `Project` tab, click on `Weekly Workplan`, under your name you will see all your tasks in the project and their priority (the top one is no. 1 and so forth).
 2. Read the description, **Check if you understand the issue**, and if you don't, this is the time to  write any questions. *This is important. Keep asking questions until you understand!*
 3. **Check the timeboxing** and see if it makes sense to you. If it doesn’t, communicate that to your team lead. *This will help identify early on any issues with the timebox, how well the task was explained, and if you really understand the task. Giving this thought can save you a lot confusion and frustration later on.  *
 4. **Write user stories** (in [Behat format](http://docs.behat.org/en/v2.5/guides/1.gherkin.html)), to be used for the QA team and automated tests.
@@ -51,7 +51,7 @@ After reading, you will know how to submit Pull Request (PR) for code review.
 Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for a detailed explanation, including screen shots, on how to do the above.
 
 ####Use the Checklist
-This will help you do your work. When a PR is created, this checklist will automatically be in the first comment. **Before you submit the PR**, please make sure that you did all the following things.
+When a PR is created, this checklist will automatically be in the first comment. **Before you submit the PR**, please make sure that you did all the following things.
 
 [ ] - Merge latest code from the master branch.    
 [ ] - Code review yourself.  
@@ -91,7 +91,7 @@ Account managers or Team leads are responsible to assign issues to the team memb
 
 ### Automated Tests
 
-Check with your Team Lead if a test should written or write one if you have extra time out of your timebox.
+Check with your Team Lead if a test should written or write one if you have extra time out of your time box.
 
 ### How deal with a problem
 Read [How to solve a problem](https://www.thegizraway.com/how_to_solve_a_problem.html).
