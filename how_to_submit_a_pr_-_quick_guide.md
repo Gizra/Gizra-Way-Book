@@ -48,6 +48,20 @@ After reading, you will know how to submit Pull Request (PR) for code review.
   16. assign it to the Team Lead developer for review
   17. add relevant label.
 
+####4. Checklist
+When a PR is created, this checklist will automatically be in the first comment. **Before you submit the PR**, please make sure that you did all the following things.
+
+[ ] - Merge latest code from the master branch.    
+[ ] - Code review yourself.  
+[ ] - Comment on all functions and comment complicated part of your code, be generous.  
+[ ] - Security check your code.  
+[ ] - Add a screen-shot.  
+[ ] - Test your code, using the user stories, Add screenshot to the user story results.   
+[ ] - Add a wiki entry when needed, or release protocols.  
+[ ] - Assign for review.
+
+
+
 Read [Pull Requests](https://www.thegizraway.com/pull_requests.html) for a detailed explanation, including screen shots, on how to do the above.
 
 #Here are some things to keep in mind while coding:
@@ -63,7 +77,10 @@ Make sure you know the coding standard required for the language - the coder sho
 
 Use Github issue tracking to document your work and progress when necessary, especially when working on bugs. This will allow other developers to help, and stakeholders to track your progress.
 
+## Focus and Follow Up issues
 
+During your work try to stay on track, for bugs if you feel a quick solution can be thrown before dipping into a proper solution, please consult with your team lead.
+Any indirect issue you find during your work should be translated to a new follow up issue, and documented in your GH issue. Make sure you don't have more than 2 or 3 missions in progress. Stay focused.
 ## Github Issue Flow
 
 
@@ -71,11 +88,6 @@ Typically an issue is opened by the account manager, or by the QA team/customer,
 This mean you can close issues opened by you when they are done and deployed after validation, and other issue should be assign to the account manager.
 
 Account managers or Team leads are responsible to assign issues to the team members.
-
-## Focus and Follow Up issues
-
-During your work try to stay on track, for bugs if you feel a quick solution can be thrown before dipping into a proper solution, please consult with your team lead.
-Any indirect issue you find during your work should be translated to a new follow up issue, and documented in your GH issue. Make sure you don't have more than 2 or 3 missions in progress. Stay focused.
 
 ## Automated Tests
 
