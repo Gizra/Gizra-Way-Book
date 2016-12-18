@@ -18,14 +18,14 @@ QA's list of activities is an exception. They have their own board and it is bas
 
 On Sunday, Developers go over their tasks and do the following:  
 1. **Understand the task**. Ask question until you do.  
-2. **Check time boxing**. If it doesn’t make sense to you, communicate that to your team lead.   
+2. **Check time boxing**. If it doesn’t make sense to you, communicate that to your team lead.  
 3. **Write user stories** \(where applicable\) **and outline the solution** \(the title in Github \#\# Solution Outline\). If you are not sure about the solution, tag your team lead to review it.
 
 The Team Leads review the outlined solutions, and give input if necessary.
 
 ### Write code
 
-As soon as the Developers prepared their tasks, the rest of the week is meant for the   
+As soon as the Developers prepared their tasks, the rest of the week is meant for the  
 Developers to write code, and fix bugs as needed. Read [How to submit a PR](https://www.thegizraway.com/how_to_submit_a_pr_-_quick_guide.html).  
 Throughout this process, Team Leads review and give direction to solve problems. Account Managers juggle the client's needs and communicate priorities of the tasks.
 
@@ -52,15 +52,16 @@ Throughout this process, Team Leads review and give direction to solve problems.
    * Each developer knows their own factor \(x\).
    * It’s an overall average usually based on at least 6 months of development. 
    * It is dependent on ramp-up requirements per project \(you may be a skilled developer but you now have a project with a technology that is new to you\).
+   * Use the timebox set for the task as a compass. Even if your personal timebox is double then the average timebox, keep it in your mind so you can know what expected to improve your job and reduce your personal factor.
 
 5. **Escalation in timebox** - Every developer works a little different.  Decide at what points of the timebox, you stop and check where you are \(use personal factor to help here\). Work with your Team Lead to create a structure that works for you.
 
 6. **Timeboxing factor** \(actual time vs. set timebox\) is a nonspecific indicator. It is used to raise red flags in areas that need attention - many of the them are not related to the developers capabilities. Issues can be:
+
    * Is the timebox assessment to the client wrong?
    * Is the task clear - explained well and understood well?
    * Where is a developer struggling and if we can support this with training?
    * Where as a company can we do better?
-
 
 ## Report in Productivity
 
@@ -68,6 +69,7 @@ Throughout this process, Team Leads review and give direction to solve problems.
 2. **Update every day**. This is important for our reporting with the clients.
 3. Expectations: in Gizra's 9 hour days, we expect to see 6-8 hours of productive time. Yes, take breaks as needed but when you work, work well!
 4. Non-project reporting:
+
    * **IT issues** - Install issues are taken into consideration.
    * **Training** - Sessions and practice.
    * **Gizra Meetings** - Company wide meetings and personal meetings with Operations Manager.
