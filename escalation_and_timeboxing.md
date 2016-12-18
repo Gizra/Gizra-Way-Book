@@ -40,7 +40,7 @@ Throughout this process, Team Leads review and give direction to solve problems.
 
 ## Escalation Process
 
-![](images/escalation_and_timebox/escalation-flowchart.png)
+![](/assets/escalation-flowchart.png)
 
 ## Time Boxing
 
