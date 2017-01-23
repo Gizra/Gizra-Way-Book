@@ -1,1 +1,1 @@
-# QA - Quality Assurance
+# Quality Assurance in Gizra
