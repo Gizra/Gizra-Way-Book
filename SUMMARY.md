@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
     * [Who Are We](who_are_we.md)
+* [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
 * [On Boarding](on_boarding.md)
     * [Agenda](on_boarding_agenda.md)
 * Being Gizra employee
@@ -16,12 +17,10 @@
     * [Phone Call](phone_call.md)
     * [Price offer](price_offer.md)
     * [Work Flow with Clients](work_flow_with_clients.md)
-* [How and What to Document](how_and_what_to_document.md)
-    * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
 * [HR](hr.md)
     * [Preparation for new employee](preparation_for_new_employee.md)
     * [Preparation for departing employee](preparation_for_departing_employee.md)
-* Training
+* Technical Training
     * [CTools plugins](ctools_plugins.md)
     * [How to approach a new task, and its underlying data structure](approach_data_structure_task.md)
     * [Views](views.md)
