@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
     * [Who Are We](who_are_we.md)
+    * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
 * [On Boarding](on_boarding.md)
     * [Agenda](on_boarding_agenda.md)
 * Being Gizra employee
@@ -17,7 +18,6 @@
     * [Price offer](price_offer.md)
     * [Work Flow with Clients](work_flow_with_clients.md)
 * [How and What to Document](how_and_what_to_document.md)
-    * [GitBook & GitHub Workflow](gitbook_and_github_workflow.md)
 * [HR](hr.md)
     * [Preparation for new employee](preparation_for_new_employee.md)
     * [Preparation for departing employee](preparation_for_departing_employee.md)
@@ -28,4 +28,3 @@
     * [Views](views.md)
     * [Features module: how to share site’s config with others?](features_module_how_to_share_sites_config_with_oth.md)
     * [Who are we - Trivia game](who_are_we_-_trivia_game.md)
-
