@@ -36,9 +36,11 @@ After reading, you will know how to submit Pull Request \(PR\) for code review.
 1. On Github: under `Project` tab, move the task to `In progress` column.
 2. Make sure your **master branch is updated**.
 3. **Create a new branch** named after the issue number with a tiny description. \(ie. 450-fixing-feature\). As soon as you start a new branch, and add new code you should commit and push it, as means of having backup to your code. In case your computer will  break, no work will be lost.
-4. **Create PR** with a clear title, prefixed with WIP \(Work in progress\). Assign it to yourself.
-5. Start coding, **push code regularly** to allow code review during your work.
-6. When your work is done and ready for review, **push the final code**.
+4. **Create PR** with a clear title, prefixed with WIP \(Work in progress\). 
+5. In the body of the PR add a reference to the original issue. For example, if the issue is under `https://github.com/Gizra/foo/issues/100` then enter `#100` in the description \(it will automatically be converted to a link\).
+6. Assign the PR to yourself.
+7. Start coding, **push code regularly** to allow code review during your work. It is considered a best practice to update the issue from time to time \(about once an hour\) with your progress. It can be a screenshot or a one-liner; just enough for the rest of the team to keep in tabs with your progress. Mistakes are avoided by doing so. A screenshot can help detect early on, cases where you are working on the wrong element, or another developers is already working on a similar task.
+8. When your work is done and ready for review, **push the final code**.
 
 #### 3. Test your work and submit for review
 
@@ -85,7 +87,7 @@ Any indirect issue you find during your work should be translated to a new follo
 
 ### Github Issue Flow
 
-Typically an issue is opened by the account manager, or by the QA team/customer, the basic rule of thumb is that an issue is closed by the person who opened it.   
+Typically an issue is opened by the account manager, or by the QA team/customer, the basic rule of thumb is that an issue is closed by the person who opened it.  
 This mean you can close issues opened by you when they are done and deployed after validation, and other issue should be assign to the account manager.
 
 Account managers or Team leads are responsible to assign issues to the team members.
