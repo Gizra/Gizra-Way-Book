@@ -40,9 +40,11 @@ After reading, you will know how to submit Pull Request \(PR\) for code review.
 5. In the body of the PR add a reference to the original issue. For example, if the issue is under `https://github.com/Gizra/foo/issues/100` then enter `#100` in the description \(it will automatically be converted to a link\).
 6. Assign the PR to yourself.
 7. Start coding, **push code regularly** to allow code review during your work. It is considered a best practice to update the issue from time to time \(about once an hour\) with your progress. It can be a screenshot or a one-liner; just enough for the rest of the team to keep in tabs with your progress. Mistakes are avoided by doing so. A screenshot can help detect early on, cases where you are working on the wrong element, or another developers is already working on a similar task.
-8. When your work is done and ready for review, **push the final code**.
+8. When your work is done and ready for review, **push the final code**. 
 
 #### 3. Test your work and submit for review
+
+A pull request is ready for review whenever you feel it's ready for a review by the team lead, and is ready to be merged into the `master` branch.
 
 1. Go over the user stories and **check your work** at least once for each case. If this is a bug make sure to include in your testings the _**exact**_ scenario of the bug, and to add this scenario to the user stories.
 2. **Code review yourself** first, then make sure travis returns green \(both with Coder and Tests\).
