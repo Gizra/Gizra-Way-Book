@@ -5,6 +5,7 @@
 * [On Boarding](on_boarding.md)
     * [Agenda](on_boarding_agenda.md)
 * Being Gizra employee
+    * [What does a Gizra employee look like?](what_does_a_gizra_developer_look_like.md)
     * [Escalation and Timeboxing](escalation_and_timeboxing.md)
     * [How to submit a PR - Quick guide](how_to_submit_a_pr_-_quick_guide.md)
     * [Pull Requests](pull_requests.md)
