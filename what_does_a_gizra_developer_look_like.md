@@ -16,17 +16,13 @@ Each person is different and unique, but Gizra employees have common main charac
 
 **Accuracy** - attention to detail, not to leave open ends.
 
-**Transparency** and **honesty **- 
+**Transparency** and **honesty **- We provide both our customers and employees the ability to freely see what is there, and also willingness to tell them what it is.
 
-* Contribution and knowledge sharing.
+**Get out of the comfort zone** - Open to try new things, initiate and take on extra responsibility. Dare to make mistakes, as a great opportunity to learn and grow.
 
-* Teamwork
+**Solving problems** - not only find problems, also make effort to find a solution for them.
 
-* Get out of the comfort zone - open to try new things, initiate and take on extra responsibility. Dare to make mistakes, this is a great opportunity to learn and grow.
-
-* Solving problems - not only find problems, also make effort to find a solution for them.
-
-
+**Contribution and knowledge sharing**.
 
 
 
