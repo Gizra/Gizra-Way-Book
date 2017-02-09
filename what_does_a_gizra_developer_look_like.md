@@ -12,11 +12,11 @@ Each person is different and unique, but Gizra employees have common main charac
 
 **learning - **Investing time in learning beyond working hours. **learning, not working! **We have no intention that Gizra employees will work beyond of working hours, but we have the expectation Gizra employees continuing to develop their professionally all the time.
 
-* Teamwork -
+**Teamwork** - The work of one affects the others. We try to use individual skills to work well and achieve a goal together.
 
-* Accuracy - attention to detail, not to leave open ends.
+**Accuracy** - attention to detail, not to leave open ends.
 
-* Transparency and honesty
+**Transparency** and **honesty **- 
 
 * Contribution and knowledge sharing.
 
@@ -26,7 +26,7 @@ Each person is different and unique, but Gizra employees have common main charac
 
 * Solving problems - not only find problems, also make effort to find a solution for them.
 
-* Team lead / Account manager / Trainer - give real and significant feedback
+
 
 
 
