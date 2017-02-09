@@ -22,5 +22,7 @@ Each person is different and unique, but Gizra employees have common main charac
 
 **Solving problems** - not only find problems, also make effort to find a solution for them.
 
-**Contribution and knowledge sharing**.
+**Contribution and knowledge sharing - **When we share knowledge we become part of a community,
+
+we have pride of excellence, and our knowledge becomes valuable. 
 
