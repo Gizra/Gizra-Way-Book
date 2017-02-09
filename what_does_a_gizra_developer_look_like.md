@@ -10,9 +10,9 @@ Each person is different and unique, but Gizra employees have common main charac
 
 **Productivity** - Take responsibility for management time and tasks. Balance work/personal life.
 
-**learning - **Investing time in learning beyond working hours. **learning, not working! **We have no intention that Gizra employees will work beyond of working hours, but we have the expectation Gizra employees continuing to develop their professionally all the time.
+**Professionalism - **Investing time in learning beyond working hours. **learning, not working! **We have no intention that Gizra employees will work beyond of working hours, but we have the expectation Gizra employees continuing to develop their professionally all the time.
 
-**Teamwork** - The work of one affects the others. We try to use individual skills to work well and achieve a goal together.
+**Teamwork** - The work of one affects the others. We try to use individual skills to work well and be clear so others can understand our work. We better achieve our goals together.
 
 **Accuracy** - attention to detail, not to leave open ends.
 
@@ -23,6 +23,4 @@ Each person is different and unique, but Gizra employees have common main charac
 **Solving problems** - not only find problems, also make effort to find a solution for them.
 
 **Contribution and knowledge sharing**.
-
-
 
