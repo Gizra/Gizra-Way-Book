@@ -27,7 +27,7 @@ After reading, you will know how to submit Pull Request \(PR\) for code review.
 
 1. **Open your task** on Github: Go to `Project` tab, click on `Weekly Workplan`, under your name you will see all your tasks in the project and their priority \(the top one is no. 1 and so forth\).
 2. Read the description, **Check if you understand the issue**, and if you don't, this is the time to  write any questions. _This is important. Keep asking questions until you understand!_
-3. **Check the timeboxing** and see if it makes sense to you. If it doesn’t, communicate that to your team lead. _This will help identify early on any issues with the timebox, how well the task was explained, and if you really understand the task. Giving this thought can save you a lot confusion and frustration later on.  _
+3. **Check the timeboxing** and see if it makes sense to you. If it doesn’t, communicate that to your team lead. _This will help identify early on any issues with the timebox, how well the task was explained, and if you really understand the task. Giving this thought can save you a lot confusion and frustration later on._
 4. **Write user stories** \(in [Behat format](http://docs.behat.org/en/v2.5/guides/1.gherkin.html)\), to be used for the QA team and automated tests.
 5. If the issue include writing a new feature, write the **outline of the solution** titled \#\#"Solution Outline" in the comment. If you feel unsure, tag your team lead.
 
@@ -47,15 +47,11 @@ After reading, you will know how to submit Pull Request \(PR\) for code review.
 A pull request is ready for review whenever you feel it's ready for a review by the team lead, and is ready to be merged into the `master` branch.
 
 1. Go over the user stories and **check your work** at least once for each case. If this is a bug make sure to include in your testings the _**exact**_ scenario of the bug, and to add this scenario to the user stories.
-2. **Code review yourself. **The rule of thumb of changing a PR to ready for review is that you need to be sure the PR has the required changes. Not more not less. Review your own work, by checking the `Files changes` tab: ![Checking "files changed"](images/github/pull-request-review-1.jpg)
+2. **Code review yourself.** The rule of thumb of changing a PR to ready for review is that you need to be sure the PR has the required changes. Not more not less. Review your own work, by checking the `Files changes` tab: ![Checking "files changed"](images/github/pull-request-review-1.jpg)
    Every change on every file and every character should be a change you can explain and desire. This part is crucial as newbies may often commit unrelated code changes. If such unrelated code was committed, it should be removed.
 3. Attach final screenshots and/ or explanation needed for the team lead to quickly understand what the PR is doing.
 4. make sure travis returns green \(both with Coder and Tests\)
-5. **When all done:**
-
-1. * Remove the WIP from the PR title. 
-2. * Assign it to the Team Lead for review.
-3. * Add `ready for review` label.
+5. **When all done:** Remove the WIP from the PR title. Assign it to the Team Lead for review. Add `ready for review` label.
 
 #### Use the Checklist
 
