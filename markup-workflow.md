@@ -5,7 +5,7 @@ The purpose of this chapter is to understand to process of creating markup with 
  
 ###Prepare the instruction file
 Create an explanation file contains the design sketch and instructions to the Markup guy (or girl).  
-you can see example here [url].
+you can see example [here](https://docs.google.com/spreadsheets/d/1GUch-TRll47WAbuLORqHeElqrEHolMTPg6kFnU97ItY/edit#gid=0).
 
 * Be sure to consider all elements of the sketch.
 * If there is a separate design for mobile Web, be sure to refer to it.
@@ -14,7 +14,7 @@ you can see example here [url].
 
 
 ###Post the job offer 
-Post the job offer here [url]  
+Post the job offer at [Upwork](https://www.upwork.com/c/3474169/jobs/new).  
 
 
 ###The Markup guy start working 
