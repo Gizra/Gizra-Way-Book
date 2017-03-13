@@ -11,11 +11,8 @@ you can see example [here](https://docs.google.com/spreadsheets/d/1GUch-TRll47WA
 * If there is a separate design for mobile Web, be sure to refer to it.
 * Pointed out the various devices which need to be checked.
 
-
-
 ###Post the job offer 
-Post the job offer at [Upwork](https://www.upwork.com/c/3474169/jobs/new).  
-
+Post the job offer at [Upwork](https://www.upwork.com/c/3474169/jobs/new). 
 
 ###The Markup guy start working 
 The guy (or girl) who takes the jobs start working on it and ask for clarification if needed.
