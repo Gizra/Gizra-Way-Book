@@ -10,15 +10,14 @@ in work times and where employees sit and this is mostly determined by role and 
 Gizra’s recent hiring strategy has introduced a wonderful group of distributed employees that form almost half
 the company, span across 7 countries (North America and Europe), and several timezones. This has been wonderful for
 Gizra but it also comes with the need to rethink how we communicate with each other. This is very important and we ALL
-need to be mindful of it. If you work per Gizra’s [escalation process]
-(https://www.thegizraway.com/escalation_and_timeboxing.html) you should not be reluctant to initiate all the below forms
+need to be mindful of it. If you work per Gizra’s [escalation process](https://www.thegizraway.com/escalation_and_timeboxing.html) you should not be reluctant to initiate all the below forms
 of communication.
 
 ##Tools we have available
 
 ###Github
 This is where the project development is communicated.
-The chapters about [Pull Requests] (https://www.thegizraway.com/pull_requests.html) covers how to communicate
+The chapters about [Pull Requests](https://www.thegizraway.com/pull_requests.html) covers how to communicate
 in Github. However, it is worth mentioning that the goal is to write liberally and make things easy to
 understand so anyone, at anytime, located anywhere can read it, and know how to proceed. Note: communicating
 with clients occurs in the issues, and not in the PR's.
