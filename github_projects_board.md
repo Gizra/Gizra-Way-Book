@@ -17,3 +17,4 @@ Important information for the Account Manager that can't be reflect on the weekl
 One optional (and partial) solution is to mark the completed issues with `LIVE` label.
 Another way to deal with it, is to ask the person who made the deployment, to announce it in Slack project channel, and give a screenshot of all the PRs that deployed. 
 
+![](images/github_project_board/slack_deployed_prs.png)
