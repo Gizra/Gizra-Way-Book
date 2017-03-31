@@ -39,7 +39,7 @@ After reading, you will know how to submit Pull Request \(PR\) for code review.
 4. **Create PR** with a clear title, prefixed with WIP \(Work in progress\). 
 5. In the body of the PR add a reference to the original issue. For example, if the issue is under `https://github.com/Gizra/foo/issues/100` then enter `#100` in the description \(it will automatically be converted to a link\).
 6. Assign the PR to yourself.
-7. Start coding, **push code regularly** to allow code review during your work. It is considered a best practice to update the issue from time to time \(about once an hour\) with your progress. It can be a screenshot or a one-liner; just enough for the rest of the team to keep in tabs with your progress. Mistakes are avoided by doing so. A screenshot can help detect early on, cases where you are working on the wrong element, or another developers is already working on a similar task.
+7. Start coding, **push code regularly** to allow code review during your work. It is considered a best practice to update the issue from time to time \(about once an hour\) with your progress. It can be a screenshot or a one-liner; just enough for the rest of the team to keep in tabs with your progress. Mistakes are avoided by doing so. A screenshot can help detect early on, cases where you are working on the wrong element, or another developers is already working on a similar task. It also helps the Account Managers or Team Leaders to visualize the what the distributed team is doing.
 8. When your work is done and ready for review, **push the final code**. 
 
 #### 3. Test your work and submit for review
