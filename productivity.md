@@ -24,7 +24,7 @@ employees.
 5. Training - All activities by Trainer
 
 
-## What about the "other?"
+## What about the "other" stuff?
 
 There are various activities, such as meetings and IT problems, that don’t fit nicely under a client projects - they don’t require reporting.  
 
