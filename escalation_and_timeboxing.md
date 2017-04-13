@@ -45,23 +45,9 @@ Throughout this process, Team Leads review and give direction to solve problems.
 ## Time Boxing
 
 1. Timeboxing is the **amount of time set to complete a task**.
-2. It is a tool to provide a price proposal to the clients and manage our project resources.
-3. Timeboxing is based on an **average** skilled developer - NOT according to who will be doing the task.
-4. Each developer has a **personal factor** \( x \* timebox\) of how much time they take to complete a task per the timebox.
-
-   * Each developer knows their own factor \(x\).
-   * It’s an overall average usually based on at least 6 months of development. 
-   * It is dependent on ramp-up requirements per project \(you may be a skilled developer but you now have a project with a technology that is new to you\).
-   * Use the timebox set for the task as a compass. Even if your personal timebox is double then the average timebox, keep it in your mind so you can know what expected to improve your job and reduce your personal factor.
-
-5. **Escalation in timebox** - Every developer works a little different.  Decide at what points of the timebox, you stop and check where you are \(use personal factor to help here\). Work with your Team Lead to create a structure that works for you.
-
-6. **Timeboxing factor** \(actual time vs. set timebox\) is a nonspecific indicator. It is used to raise red flags in areas that need attention - many of the them are not related to the developers capabilities. Issues can be:
-
-   * Is the timebox assessment to the client wrong?
-   * Is the task clear - explained well and understood well?
-   * Where is a developer struggling and if we can support this with training?
-   * Where as a company can we do better?
+1. It is a tool to provide a price proposal to the clients and manage our project resources.
+1. Timeboxing is based on an **average** skilled developer - NOT according to who will be doing the task.
+1. **Escalation in timebox** - An update to an issue should happen about once an hour (update, image, git commit). If you see the timebox is reaching don't wait to the last minute. Reach out to your team lead (technical stuff) or account manager (spec) and communicate it, via a comment on GitHub.
 
 ## Report in Productivity
 
