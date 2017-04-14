@@ -18,7 +18,7 @@ QA's list of activities is an exception. They have their own board and it is bas
 2. **Check time boxing**. If it doesn’t make sense to you, communicate that to your team lead.  
 3. **Outline the solution** in advance if you are not sure about it so your team lead can review it.
 
-### Time Boxing
+## Time Boxing
 
 1. Timeboxing is the **amount of time set to complete a task**.
 2. It is the most important tool to manage our project, and have real time monitoring over them.
