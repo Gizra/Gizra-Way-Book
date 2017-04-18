@@ -6,7 +6,7 @@ The goal of this chapter is to clarify Gizra’s core project management process
 
 ### Create a weekly plan
 
-On the begging or end of the week, the Account Manager creates a weekly plan and they with or without the Team Leads assign the tasks to the developers. Every Developer gets their tasks for the next week.
+At the begging or end of the week, the Account Manager creates a weekly plan and they, with or without the Team Leads, assign the tasks to the developers. Every Developer gets their tasks for the next week.
 
 The priority is indicated by how high up the task is on the list.
 
@@ -14,40 +14,33 @@ QA's list of activities is an exception. They have their own board and it is bas
 
 ### Review and prepare the tasks
 
-1. **Understand the task**. Ask question until you do.  
-2. **Check time boxing**. If it doesn’t make sense to you, communicate that to your team lead.  
+1. **Understand the task**. Ask questions until you do.  
+2. **Check the timeboxing**. If it doesn’t make sense to you, communicate that to your team lead.  
 3. **Outline the solution** in advance if you are not sure about it so your team lead can review it.
 
-## Time Boxing
+## Timeboxing
 
 1. Timeboxing is the **amount of time set to complete a task**.
-2. It is the most important tool to manage our project, and have real time monitoring over them.
+2. It is our most important tool to manage our project, and have real-time monitoring.
 3. Timeboxing is based on an **average** skilled developer - _not_ according to who will be doing the task.
-4. **Escalation in timebox** - An update to an issue should happen about **once an hour** \(update/ image/ git commit\). If you see the timebox is reaching don't wait to the last minute. Reach out to your team lead \(technical stuff\) or account manager \(spec\) and communicate it, via a comment on GitHub.
+4. **Escalating in the timebox.** An update to an issue should happen about **once an hour** \(update/ image/ git commit\). If you see that you are reaching the timebox, don't wait to the last minute - reach out to your team lead \(technical stuff\) or account manager \(spec\) and communicate it, via a comment on GitHub.
 
-## Report in Productivity
+## Reporting in Productivity
 
 1. Be accurate in reporting! We need real numbers to help us as a company do our best. It's not about nit picking with employees.
 2. **Update every day**. This is important for our reporting with the clients.
 3. Expectations: in Gizra's 9 hour days, we expect to see 6-8 hours of productive time. Yes, take breaks as needed but when you work, be focused.
-4. Non-project reporting:
-
-   * **IT issues** - Install issues are taken into consideration.
-   * **Training** - Sessions and practice.
-   * **Gizra Meetings** - Company wide meetings and personal meetings with Operations Manager.
-   * **Business Development** -  This includes any work on gizra.com, blog posts, marketing materials, and RFP materials.
-
-5. Installation and set-ups - this is reported inside the project with the label “Installation and set-up”.
+4. How to report your work is detailed in the [Reporting in Productivity](https://www.thegizraway.com/productivity.html) chapter.
 
 ## Team Leads
 
 ### Task process
 
-Know the activity process, monitor it, and clear away as many obstacles as possible - Beginning of the week is best. Review the solution outlines written by the developers, and give your input if necessary.
+Know the activity process, monitor it, and clear away as many obstacles as possible - beginning of the week is best. Review the solution outlines written by the developers, and give your input if necessary.
 
 ### Escalation process
 
-Make sure you don't spend too much time along with the dev trying to fix it. 15 minutes are probably the maximum - after that your time should be calculated as part of the task. That is, if you and the developer sat together for 30 minutes, than both of you should clock it in Productivity.
+Make sure you don't spend too much time along with the dev trying to fix it. 15 minutes are probably the maximum - after that your time should be calculated as part of the task. That is, if you and the developer sat together for 30 minutes, then both of you should clock it in Productivity.
 
 ### Feedback
 
