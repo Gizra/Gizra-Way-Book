@@ -4,7 +4,7 @@
   * [Who Are We](who_are_we.md)
 * [On Boarding](on_boarding.md)
   * [Agenda](on_boarding_agenda.md)
-* Being Gizra employee
+* [Being Gizra employee](being-gizra-employee.md)
   * [Reporting in Productivity](productivity.md)
   * [Escalation and Timeboxing](escalation_and_timeboxing.md)
   * [How to submit a PR - Quick guide](how_to_submit_a_pr_-_quick_guide.md)
@@ -29,3 +29,4 @@
   * [Views](views.md)
   * [Features module: how to share site’s config with others?](features_module_how_to_share_sites_config_with_oth.md)
   * [Who are we - Trivia game](who_are_we_-_trivia_game.md)
+
