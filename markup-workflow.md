@@ -3,18 +3,26 @@
 Markup is the process which we take design sketch and convert them to Html/Css files.  
 The purpose of this chapter is to understand the process of creating markup with outsourcing providers.
 
-### Prepare the instruction file
+Prepare the instruction file
 
 Create an explanation file contains the design sketch and instructions to the Markup developer.  
 you can see example [here](https://docs.google.com/spreadsheets/d/1GUch-TRll47WAbuLORqHeElqrEHolMTPg6kFnU97ItY/edit#gid=0).
 
 * Be sure to consider all elements of the sketch.
 * If there is a separate design for mobile, be sure to refer to it.
+* If there are already known css classes, mention them, so the markup developer can use them.
 * Point out the various devices which need to be checked.
 
 ### Post the job offer
 
 Post the job offer at [Upwork](https://www.upwork.com/c/3474169/jobs/new).
+
+The job offer should contain:
+
+* Explanation file.
+* PDF file\(s\) contain design screenshots.
+* PSD file contains design layers.
+* [Markup guidelines](https://docs.google.com/document/d/18mDgml5u-LII6YYS0c0D3koVjVRZe3FUCYLcaaJSKhA/edit)
 
 ### The Markup developer start working
 
