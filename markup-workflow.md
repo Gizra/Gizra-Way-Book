@@ -6,7 +6,7 @@ The purpose of this chapter is to understand the process of creating markup with
 Prepare the instruction file
 
 Create an explanation file contains the design sketch and instructions to the Markup developer.  
-you can see example [here](https://docs.google.com/spreadsheets/d/1GUch-TRll47WAbuLORqHeElqrEHolMTPg6kFnU97ItY/edit#gid=0).
+you can see  a template file [here](https://docs.google.com/a/gizra.com/spreadsheets/d/14S9DAGbGdZW0w-6qY-3e9tl0e2Av8WFhyI4419I4Swk/edit?usp=sharing).
 
 * Be sure to consider all elements of the sketch.
 * If there is a separate design for mobile, be sure to refer to it.
