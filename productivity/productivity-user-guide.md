@@ -28,3 +28,39 @@ Of course you can add/delete row as you wish, according to what you have worked 
 
 Please make sure to add a separate row to each issue and report the work hours per issue/PR. This helps us to analyze how many hours we have spent on a particular issue compared to the timeboxing, in order to improve our estimations for next time.
 
+
+
+# Monthly project breakdown
+
+In this section you can see summary of the hours reported in Productivity, per project, and the total for the month.
+
+![](/images/productivity/month_breakdown.jpg)
+
+# Timewatch summary
+
+This section is for the Israeli employees only, who reports their hours in the Timewatch.
+
+
+
+Potential - the max hours you suppose to work in a month, i.e all working days in that month \(not including official holidays\).
+
+Attendance - office / remote attendance, i.e hours reported in Timewatch.
+
+Absence \(Miluim / Vacation / Sick / Conventions\) - reported as 9 hours a day, except Vacation that you can report half a day. 
+
+Total - summary of attendance + absence hours.
+
+Time off - the gap between the potential and the total hours.
+
+Out of X Hours, you reported Y Hours, which is Z% - 
+
+X - the reported hours in the Timewatch \(attendance\) .
+
+Y - the reported hours in Productivity \(actual work\).
+
+Z - This percentage reflects your productivity \(the optimal should be 94%, which are 8.5 hours of work out of 9 hours of attendance each day\).
+
+
+
+Extra time \(overtime\)
+
