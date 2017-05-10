@@ -34,13 +34,11 @@ Please make sure to add a separate row to each issue and report the work hours p
 
 If you have any known vacations or absence requests \(Miluim / Conventions\) -  Please send an event via Calendar to HR \(orit@gizra.com\)
 
-**Sick** 
+**Sick**
 
-In case you are sick, you need notify HR and your Account Manager in an email. 
+In case you are sick, you need notify HR and your Account Manager in an email.
 
 HR will notify the relevant people and add those days to the Productivity.
-
-
 
 # Monthly project breakdown
 
@@ -77,4 +75,6 @@ Out of **X** Hours, you reported **Y** Hours, which is **Z**% -
 ![](/images/productivity/extra_time.jpg)
 
 **No overtime allowed!** Please check your hours from time to time to see that you are not exceeding the potential hours. If you see you are about to exceed please contact HR to resolve this issue.
+
+
 
