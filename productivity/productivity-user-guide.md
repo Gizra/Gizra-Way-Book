@@ -1,8 +1,8 @@
 Go to [http://productivity.gizra.com](http://productivity.gizra.com)
 
-# Month Report
+# Monthly Report
 
-In this section you can see all your reported hour in a month view.
+In this section you can see all your reported hour in a monthly view.
 
 ![](/images/productivity/month_report.jpg)
 
@@ -16,21 +16,19 @@ In this section you can see all your reported hour in a month view.
 
 # Reporting working hours
 
-**Working hours needs to be reported each day! **
+**Working hours need to be reported every day! **This [chapter](https://www.thegizraway.com/productivity.html) covers what requires reporting. 
 
-Please [read](https://www.thegizraway.com/productivity.html) to know what needs to be report.
-
-Before reporting, make sure you're on the right date, to avoid mistakes.
+Before reporting, make sure you are on the right date.
 
 ![](/images/productivity/report_working_hours.jpg)
 
-The system add row automatically when you are involved \(participant\) in issue/PR in Github. The row show all the details \(Project, Repo, Issue number, PR number and description\), only the time presented as 0.00. You need to update manually the actual time you have spent working on that issue/PR.
+The system automatically adds rows when you participant in an issue/PR in Github. The row provides all the details \(Project, Repo, Issue number, PR number, and description\). The time is presented as 0.00 and this is where you update the actual time you spent working on that issue/PR.
 
-Of course you can add/delete row as you wish, according to what you have worked on.
+You can add/delete rows as you wish to reflect what you worked on.
 
-Please make sure to add a separate row to each issue and report the work hours per issue/PR. This helps us to analyze how many hours we have spent on a particular issue compared to the timeboxing, in order to improve our estimations for next time.
+Please make sure to add a separate row per each issue and report the work hours per issue/PR. This helps us analyze how many hours we have spent on a particular issue compared to the timeboxing. We use this information to improve our estimations for next time.
 
-## Reporting Absence
+## Reporting an Absence
 
 **Absence Requests**
 
@@ -44,21 +42,21 @@ HR will notify the relevant people and add those days to the Productivity.
 
 # Monthly project breakdown
 
-In this section you can see summary of the hours reported in Productivity, per project, and the total for the month.
+In this section you can see the total of your reported hours per project.
 
 ![](/images/productivity/month_breakdown.jpg)
 
 # Timewatch summary
 
-This section is for the Israeli employees only, who reports their hours in the Timewatch.
+This section is for Israeli employees only, who report their hours in Timewatch.
 
 ![](/images/productivity/timewatch_summary.jpg)
 
-**Potential** - the max hours you suppose to work in a month, i.e all working days in that month \(not including official holidays\).
+**Potential** - the maximum hours you are suppose to work in a month - based on working days less official holidays
 
-**Attendance** - office / remote attendance, i.e hours reported in Timewatch.
+**Attendance** - hours in the office or remote attendance that are reported in Timewatch.
 
-**Absence** \(Miluim / Vacation / Sick / Conventions\) - reported as 9 hours a day, except Vacation that you can report half a day.
+**Absence** \(Miluim / Vacation / Sick / Conventions\) - calculated as 9 hour days with the exception that vacations can also be reported in half day increments.
 
 **Total** - summary of attendance + absence hours.
 
@@ -66,11 +64,11 @@ This section is for the Israeli employees only, who reports their hours in the T
 
 Out of **X** Hours, you reported **Y** Hours, which is **Z**% -
 
-**X** - the reported hours in the Timewatch \(attendance\) .
+**X** - the reported hours in Timewatch \(attendance\) 
 
-**Y** - the reported hours in Productivity \(actual work\).
+**Y** - the reported hours in Productivity \(work\)
 
-**Z** - This percentage reflects your productivity \(the optimal should be 94%, which are 8.5 hours of work out of 9 hours of attendance each day\).
+**Z** - This percentage reflects your productivity \(optimal is 94%, which is 8.5 hours of reported work out of 9 hours of attendance\)
 
 **Extra time \(overtime\)**
 
