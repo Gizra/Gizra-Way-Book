@@ -18,7 +18,7 @@ In this section you can see all your reported hour in a monthly view.
 
 # Reporting your working hours
 
-**Working hours need to be reported every day! **This [chapter](https://www.thegizraway.com/productivity.html) covers what requires reporting.Before reporting, always make sure you are on the right date.
+**Working hours need to be reported every day! **This [chapter](https://www.thegizraway.com/productivity.html) covers what requires reporting. Before reporting, always make sure you are on the right date.
 
 It is important to report your hours per issue/PR in github - each in a separate row. This helps us analyze how many hours we spent on a particular issue compared to the timeboxing. We use this information to improve our work and estimations.![](/images/productivity/report_working_hours.jpg)
 
