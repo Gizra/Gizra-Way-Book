@@ -14,6 +14,8 @@ In this section you can see all your reported hour in a monthly view.
 
 * The second row \(highlighted in red on the screenshot\) represent the summary of the Timewatch reported hours per day \(this is only relevant for Israeli employees as obligated by law\).
 
+* The letters mean: W - weekend, H - holiday, V - vacation, S - sick, M - miluim, E - empty \(which mean you didn't report anything yet on that date\).
+
 # Reporting your working hours
 
 **Working hours need to be reported every day! **This [chapter](https://www.thegizraway.com/productivity.html) covers what requires reporting.Before reporting, always make sure you are on the right date.
