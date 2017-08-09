@@ -14,6 +14,7 @@ employees.
 ## Reporting Options
 
 1. Development
+
 | Activity | Project | Description | Type |
 | -- | -- | -- | -- |
 | Development | Project name | Auto-populated from issue | Dev |
