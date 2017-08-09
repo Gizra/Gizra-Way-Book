@@ -13,7 +13,14 @@ employees.
 
 ## Reporting Options
 
-1. Development - All activities by Team Leads and Developers. Please note that this includes project environment setup and installation - it should be reported against a project issue opened by the Account Manager.
+1. Development
+| Activity | Project | Description | Type |
+| -- | -- | -- | -- |
+| Development | Project name | Auto-populated from issue | Dev |
+| Installation | Project name | Installation | Dev |
+| Meetings | Project name | Dev Meeting | Dev |
+| Non-project related IT issues | IT issues | Describe problem | Dev |
+| Non-project related meetings | Gizra Meetings | Describe meeting | Dev |
 
 2. QA - All activities by the QA team.
 
@@ -22,11 +29,3 @@ employees.
 4. Support - This is a very specific activity and the people assigned to this will know that they are working under the “support” function.
 
 5. Training - All activities by Trainer
-
-
-## What about the "other" stuff?
-
-There are various activities, such as meetings and IT problems, that don’t fit nicely under a client projects - they don’t require reporting.  
-
-For our hourly employees, based on past reporting, we will add 10% to their total reported development.  
-For our salaried employees, this is already taken into consideration.
