@@ -11,6 +11,7 @@
   * [How to submit a PR - Quick guide](how_to_submit_a_pr_-_quick_guide.md)
   * [How to Solve a Problem](how_to_solve_a_problem.md)
   * [Communicating in Gizra](communication.md)
+  * [Working with QA](working-with-qa.md)
 * [Work life balance](work_life_balance.md)
   * [Thinking of quitting](thinking_of_quitting.md)
 * [Sales](sales_intro.md)
