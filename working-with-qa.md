@@ -24,7 +24,7 @@ Responsibility: the developer who developed the issue
 
 Preparation: not needed
 
-Description: 
+Description:
 
 After each issue development, and as part of the code that encapsulates the issue, the developer creates at least 1 simple test for the issue. No issue development is considered complete until a test is created for it, and the test code is reviewed in the code review session \(3\).
 
@@ -38,12 +38,24 @@ Description:
 
 Manual QA is actually the last barrier before the product is deployed \(and the re-deployed over and over again\), and before any new feature is introduced to the users.
 
-While the dev team members always try to think outside the box, it is only natural to get immersed in the details of a specific issue, and sometimes lose sight of what might be the affect of the newly introduced changes on the code. Yes, dev team member will write a simple test \(2\). Yes, the issue will go through code review \(3\) and CI \(4\), however none of the above guarantees that 
+While the dev team members always try to think outside the box, it is only natural to get immersed in the details of a specific issue, and sometimes lose sight of what might be the affect of the newly introduced changes on the code. Yes, dev team member will write a simple test \(2\). Yes, the issue will go through code review \(3\) and CI \(4\), however none of the above guarantees that
 
 1. The feature is satisfying all client requirements that were mentioned in the issue
 2. No other feature is harmed by the changes introduced 
 
-The above 2 points are the major focus of the Manual QA.
+The above 2 points are the major focus and goal of the Manual QA.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
