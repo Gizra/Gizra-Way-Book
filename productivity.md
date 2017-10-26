@@ -20,10 +20,9 @@ Correct reporting is a crucial part in a project’s life. We use the reporting 
 | Development | Issue: Planning, Tests, Code review, Review fixes, Chats with TL/AM about issue, Documentation (update Readme or Wiki) |
 | Deploy | Deployment |
 | Installation | Project Installation - project and per developer |
-| Management | Project Meetings
-Issue Gardening (TL only) |
+| Management | Project Meetings and Issue Gardening (TL only) |
 | Gizra | Non-project related IT issues and Non-project related IT meetings |
-| Support | Support | 
+| Support | Support |
 
 * QA - All activities by the QA team.
 * Management - All activities by Account Managers.
