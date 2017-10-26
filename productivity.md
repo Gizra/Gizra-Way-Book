@@ -15,18 +15,17 @@ Correct reporting is a crucial part in a project’s life. We use the reporting 
 
 * Development
 
-| Activity | Project | Description | Type |
-| --- | --- | --- | --- |
-| Development | Project name | Auto-populated from issue | Dev |
-| Installation | Project name | Installation | Dev |
-| Meetings | Project name | Dev Meeting | Dev |
-| Non-project related IT issues | IT issues | Describe problem | Dev |
-| Non-project related meetings | Gizra Meetings | Describe meeting | Dev |
+| Type | Activity |
+| --- | --- |
+| Development | Issue: Planning, Tests, Code review, Review fixes, Chats with TL/AM about issue, Documentation (update Readme or Wiki) |
+| Deploy | Deployment |
+| Installation | Project Installation - project and per developer |
+| Management | Project Meetings
+Issue Gardening (TL only) |
+| Gizra | Non-project related IT issues and Non-project related IT meetings |
+| Support | Support | 
 
 * QA - All activities by the QA team.
 * Management - All activities by Account Managers.
 * Support - This is a very specific activity and the people assigned to this will know that they are working under the “support” function.
 * Training - All activities by Trainer
-
-
-
