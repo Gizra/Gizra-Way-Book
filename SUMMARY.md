@@ -30,4 +30,3 @@
   * [Views](views.md)
   * [Features module: how to share site’s config with others?](features_module_how_to_share_sites_config_with_oth.md)
   * [Who are we - Trivia game](who_are_we_-_trivia_game.md)
-
