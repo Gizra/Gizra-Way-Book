@@ -18,7 +18,7 @@ In this section you can see all your reported hour in a monthly view.
 
 # Reporting your working hours
 
-**Working hours need to be reported every day! **This [chapter](https://www.thegizraway.com/productivity.html) covers what requires reporting. 
+**Working hours need to be reported every day! **This [chapter](https://www.thegizraway.com/productivity.html) covers what requires reporting.
 
 Before reporting, always make sure you are on the right date.
 
@@ -30,15 +30,29 @@ To help, the system automatically adds rows for each issue/PR in Github that you
 
 You should add/delete rows to accurately reflect what you worked on.
 
-## Reporting an Absence
+# TimeWatch
 
-**Absence Requests**
+Israeli employees must report entry and exit at the beginning and end of each working day. If you need to go out in the middle of the day, you can report exit and then re-entry when you are back to work.
+
+Go to TimeWatch tab.
+
+**Reporting attendance hours**
+
+Click on `Punch Now` to report entry. Your report line will appear in the table below. To report exit click again on `Punch Now`.
+
+**Note:** if you intend to work on Municipality project, mark the Municipality checkbox before you hit Punch Now button. 
+
+![](/assets/Live_Gizra_productivity.jpg)
+
+**Reporting an Absence**
 
 If you have any known vacations or absence requests \(Miluim / Conventions\), please send an event via Calendar to HR \(orit@gizra.com\)
 
-**Sick**
+In the case you are sick, notify HR and your Account Manager in an email. 
 
-In the case you are sick, notify HR and your Account Manager in an email. HR will notify the relevant people and add those days to Productivity.
+To report absence, select the relevant from the list and click on Submit. Sick and Vacation can be reported as a full day or half a day.
+
+
 
 # Monthly project breakdown
 
