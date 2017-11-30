@@ -50,7 +50,7 @@ If you have any known vacations or absence requests \(Miluim / Conventions\), pl
 
 In the case you are sick, notify HR and your Account Manager in an email.
 
-To report absence, select the relevant from the list and click on Submit. Sick and Vacation can be reported as a full day or half a day.
+To report absence, select the relevant from the list and click on `Submit`. Sick and Vacation can be reported as a full day or half a day.
 
 ![](/assets/timewatch_absence.jpg)
 
