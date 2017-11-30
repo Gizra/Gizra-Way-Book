@@ -40,19 +40,19 @@ Go to TimeWatch tab.
 
 Click on `Punch Now` to report entry. Your report line will appear in the table below. To report exit click again on `Punch Now`.
 
-**Note:** if you intend to work on Municipality project, mark the Municipality checkbox before you hit Punch Now button. 
+**Note:** if you intend to work on Municipality project, mark the Municipality checkbox before you hit Punch Now button.
 
-![](/assets/Live_Gizra_productivity.jpg)
+![](/assets/timewatch_attendance.jpg)
 
 **Reporting an Absence**
 
 If you have any known vacations or absence requests \(Miluim / Conventions\), please send an event via Calendar to HR \(orit@gizra.com\)
 
-In the case you are sick, notify HR and your Account Manager in an email. 
+In the case you are sick, notify HR and your Account Manager in an email.
 
 To report absence, select the relevant from the list and click on Submit. Sick and Vacation can be reported as a full day or half a day.
 
-
+![](/assets/timewatch_absence.jpg)
 
 # Monthly project breakdown
 
