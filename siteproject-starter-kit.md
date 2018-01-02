@@ -1,28 +1,28 @@
 ## Initialization, Performance, and Health Audit
 
-[WHyWHat](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.7zma0848bhq4)
+[WHyWHat](#whywhat)
 
-[The Protocol](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.s5c9swt9zh3i)
+[The Protocol](#theprotocol)
 
-* [Drupal General Settings](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.a6fd61cjrup5)
+* [Drupal General Settings](#drupal-general-settings)
 
-* [Logging and monitoring:](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.roi6tl5bwg80)
+* [Logging and monitoring](#log)
 
-* [Server Settings](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.s897adk5oqnx)
+* [Server Settings](#server-settings)
 
-* [Customer docs](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.q9uu79oj560c)
+* [Customer docs](#customer-docs)[Admin UX and UI](#admin-ux-and-ui)
 
-* [User Permissions](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.wvvtcivc03lx)
+* [User Permissions](#user-permissions)
 
-* [3rd party services \(if relevant\)](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.eqe8xeblx87y)
+* [3rd party services \(if relevant\)](#3rd-party-services)
 
-* [Site Down Procedure](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.kor5a7ioq4fv)
+* [Site Down Procedure](#site-down-procedure)
 
-* [Admin UX and UI](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.13vwx79874jo)
+* [Admin UX and UI](#admin-ux-and-ui)
 
-* [SEO](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.uotqm9ppg6eo)
+* [SEO](#seo)
 
-#### WHyWHat
+#### WHyWHat {#whywhat}
 
 At Gizra, we are at a point where we insist on minimum quality checks and procedures when starting to work on a new project for either inherited websites or websites built from scratch. We internally understand the importance of these activities and the challenge is communicating and aligning expectations with the clients.
 
@@ -42,11 +42,11 @@ The time \(and budget\) to go through the following list of checks and activitie
 
 Some of the following checks provide useful information in times of urgency. Therefore, make sure to document the details, add a link to the specific issue from the [common file](https://docs.google.com/spreadsheets/d/1GrFjvMkp-9zv-8U59Mtg4gQPnZXICRhbQDnsOIjLPeM/edit?usp=sharing) and create each of the mentioned wiki entry.
 
-We should know which tools are available for each site, especially when we are on rush.
+We should know which tools are available for each site, especially when we are in a rush.
 
-### The Protocol
+### The Protocol {#theprotocol}
 
-#### Drupal General Settings
+#### Drupal General Settings {#drupal-general-settings}
 
 * [ ] Set a site email and contact us mail \(if relevant\)
 
@@ -62,7 +62,7 @@ We should know which tools are available for each site, especially when we are o
 
 * [ ] Consider assigning each developer and PM a user with the developer role with an identifiable name \(such as, gizranoam\).
 
-#### Logging and monitoring:
+#### Logging and Monitoring {#loggingandmonitoring}
 
 * [ ] Install [http\_log](https://www.drupal.org/project/logs_http) and setup setting for [Rollbar](https://rollbar.com/). Remember to add Rollbar for both \`test\` and \`live\` environments. Set the required alerts to your email/Slack/other medium for TL / AM. Better enable Rollbar to open issues on Github.
 
@@ -70,7 +70,7 @@ We should know which tools are available for each site, especially when we are o
 
 * [ ] Ensure the live environment StatusCake is connected to the Gizra SiteHealth channel.
 
-#### Server Settings
+#### Server Settings {#server-settings}
 
 * [ ] Connect live domain to [pantheon](https://pantheon.io/docs/articles/sites/domains/) \(or another hosting service\) and to [CloudFlare](https://www.cloudflare.com/) \(or another CDN\), and document the chosen one. For CDN, Pantheon is first choice, than if hosted not on pantheon CloudFlare should be the CDN, for DNS management we always use CloudFlare.
 
@@ -82,7 +82,7 @@ We should know which tools are available for each site, especially when we are o
 
 * [ ] Automatic daily periods backup for a month.
 
-#### Customer docs
+#### Customer Docs {#customer-docs}
 
 * [ ] Create a basic written user guide manual. Remember it will keep being updated as you add more and more tasks and features to the project.
 
@@ -102,7 +102,7 @@ We should know which tools are available for each site, especially when we are o
 
   etc... \(wait, think about any other relevant services to document in the wiki before moving on!\)
 
-#### User Permissions
+#### User Permissions {#user-permissions}
 
 * [ ] Create a matrix of content types with the following criteria:
 
@@ -120,7 +120,7 @@ We should know which tools are available for each site, especially when we are o
 
 #### 
 
-#### 3rd Party Services \(if relevant\)
+#### 3rd Party Services \(if relevant\) {#3rd-party-services}
 
 * [ ] connect a facebook app
 
@@ -130,7 +130,7 @@ We should know which tools are available for each site, especially when we are o
 
 #### 
 
-#### Site Down Procedure
+#### Site Down Procedure {#site-down-procedure}
 
 * [ ] Create a [Site Down Procedure](https://docs.google.com/spreadsheets/d/1kPEXR7zYNi-cyPhVPGSfaTlncVYzLfCufipNIs5j-Mg/edit?usp=sharing) for Gizra Team, document it on Wiki
 
@@ -138,13 +138,13 @@ We should know which tools are available for each site, especially when we are o
 
 * [ ] Create and share Site Down Procedure for Client, document it on Wiki \(see an[Example Template](https://docs.google.com/document/d/19T6j0a6MjUhXiKx1eNuojXLW8W_H1FCcJnz06OhCUdE/edit?usp=sharing)for the wiki entry\)
 
-#### Admin UX and UI
+#### Admin UX and UI {#admin-ux-and-ui}
 
 1. [ ] If it's new project build from scratch, the admin UI/UX is part of the project tasks, and needs to be open as development issues, according to UI/UX repo. [Contact Liat](mailto:liat@gizra.com) for recommended checks and issues.
 
 2. [ ] If it is existing project, open an issue with 5h \(5 hours\) timebox to learn the admin UI and how things was build there and then recommend of possible improvements.
 
-#### SEO
+#### SEO {#seo}
 
 * [ ] Connect and get permissions to the [Google Search Console](https://www.google.com/webmasters/#?modal_active=none).
 
