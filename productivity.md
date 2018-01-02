@@ -17,10 +17,10 @@ Correct reporting is a crucial part in a project’s life. We use the reporting 
 
 | Type | Activity |
 | --- | --- |
-| Development | Issue: Planning, Tests, Code review, Review fixes, Chats with TL/AM about issue, Documentation (update Readme or Wiki) |
+| Development | Issue: Planning, Tests, Code review, Review fixes, Chats with TL/AM about issue, Documentation \(update Readme or Wiki\) |
 | Deploy | Deployment |
 | Installation | Project Installation - project and per developer |
-| Management | Project Meetings and Issue Gardening (TL only) |
+| Management | Project Meetings and Issue Gardening \(TL only\) |
 | Gizra | Non-project related IT issues and Non-project related IT meetings |
 | Support | Support |
 
@@ -28,3 +28,6 @@ Correct reporting is a crucial part in a project’s life. We use the reporting 
 * Management - All activities by Account Managers.
 * Support - This is a very specific activity and the people assigned to this will know that they are working under the “support” function.
 * Training - All activities by Trainer
+
+
+
