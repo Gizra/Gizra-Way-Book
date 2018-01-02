@@ -3,7 +3,6 @@
 * [Introduction](README.md)
   * [Who Are We](who_are_we.md)
 * [On Boarding](on_boarding.md)
-  * [Agenda](on_boarding_agenda.md)
 * [Being Gizra employee](being-gizra-employee.md)
   * [Reporting in Productivity](productivity.md)
     * [Productivity user guide](productivity/productivity-user-guide.md)
@@ -23,7 +22,7 @@
 * [HR](hr.md)
   * [Preparation for new employee](preparation_for_new_employee.md)
   * [Preparation for departing employee](preparation_for_departing_employee.md)
-* Training
+* [Training](training.md)
   * [CTools plugins](ctools_plugins.md)
   * [How to approach a new task, and its underlying data structure](approach_data_structure_task.md)
   * [Message stack](message_stack.md)

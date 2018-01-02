@@ -47,7 +47,7 @@ After reading, you will know how to submit Pull Request \(PR\) for code review.
 A pull request is ready for review whenever you feel it's ready for a review by the team lead, and is ready to be merged into the `master` branch.
 
 1. Go over the user stories and **check your work** at least once for each case. If this is a bug make sure to include in your testings the _**exact**_ scenario of the bug, and to add this scenario to the user stories.
-2. **Code review yourself.** The rule of thumb of changing a PR to ready for review is that you need to be sure the PR has the required changes. Not more not less. Review your own work, by checking the `Files changes` tab: ![Checking "files changed"](images/github/pull-request-review-1.jpg)
+2. **Code review yourself.** The rule of thumb of changing a PR to ready for review is that you need to be sure the PR has the required changes. Not more not less. Review your own work, by checking the `Files changes` tab: ![Checking &quot;files changed&quot;](images/github/pull-request-review-1.jpg)
    Every change on every file and every character should be a change you can explain and desire. This part is crucial as newbies may often commit unrelated code changes. If such unrelated code was committed, it should be removed.
 3. Attach final screenshots and/ or explanation needed for the team lead to quickly understand what the PR is doing.
 4. make sure travis returns green \(both with Coder and Tests\)
@@ -61,7 +61,7 @@ When a PR is created, this checklist will automatically be in the first comment.
 \[ \] - Code review yourself.  
 \[ \] - Comment on all functions and comment complicated part of your code, be generous.  
 \[ \] - Security check your code.  
-\[ \] - Add a screen-shot.  
+\[ \] - Add a screen-shot/gif  
 \[ \] - Test your code, using the user stories, Add screenshot to the user story results.  
 \[ \] - Add a wiki entry when needed, or release protocols.  
 \[ \] - Assign for review.
