@@ -1,6 +1,5 @@
 ## Initialization, Performance, and Health Audit
 
-  
 [WHyWHat](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.7zma0848bhq4)
 
 [The Protocol](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.s5c9swt9zh3i)
@@ -23,14 +22,11 @@
 
 * [SEO](https://docs.google.com/document/d/1aguqKly03j6pYKrzUpXEjHpZS8w5ujD_m4mGylDiAKY/edit#heading=h.uotqm9ppg6eo)
 
-  
-
-
 #### WHyWHat
 
 At Gizra, we are at a point where we insist on minimum quality checks and procedures when starting to work on a new project for either inherited websites or websites built from scratch. We internally understand the importance of these activities and the challenge is communicating and aligning expectations with the clients.
 
-Client expectations are that Gizra takes care of all the required technical aspects to make sure their website runs smoothly, fast, and is secure. In most cases, clients are only happy to hand it over and forget about it. However, this means that they may not always understand the importance or urgency of technical initilaziation and maintenance activities. It is our responsibility to advocate for these procedures and activities, even if they are not sexy to our clients like a new feature or design change. 
+Client expectations are that Gizra takes care of all the required technical aspects to make sure their website runs smoothly, fast, and is secure. In most cases, clients are only happy to hand it over and forget about it. However, this means that they may not always understand the importance or urgency of technical initilaziation and maintenance activities. It is our responsibility to advocate for these procedures and activities, even if they are not sexy to our clients like a new feature or design change.
 
 The time \(and budget\) to go through the following list of checks and activities is reflected in several ways in our engagement with the client.
 
@@ -44,9 +40,7 @@ The time \(and budget\) to go through the following list of checks and activitie
 
 * Maintenance - “Technical Maintenance Services” - Set amount of monthly budget for ongoing checks and technical maintenance activities determined by Gizra to ensure the website runs smoothly, fast, and is secure.
 
-
-
-Some of the following checks provide useful information in times of urgency. Therefore, make sure to document the details, add a link to the specific issue from the [common file](https://docs.google.com/spreadsheets/d/1GrFjvMkp-9zv-8U59Mtg4gQPnZXICRhbQDnsOIjLPeM/edit?usp=sharing) and create each of the mentioned wiki entry. 
+Some of the following checks provide useful information in times of urgency. Therefore, make sure to document the details, add a link to the specific issue from the [common file](https://docs.google.com/spreadsheets/d/1GrFjvMkp-9zv-8U59Mtg4gQPnZXICRhbQDnsOIjLPeM/edit?usp=sharing) and create each of the mentioned wiki entry.
 
 We should know which tools are available for each site, especially when we are on rush.
 
@@ -94,7 +88,7 @@ We should know which tools are available for each site, especially when we are o
 
 * [ ] Add a wiki entry, add a link to the written user guide.
 
-* [ ] Add another wiki entry, named “Hosting and Monitoring Direct Links”, with direct links to 
+* [ ] Add another wiki entry, named “Hosting and Monitoring Direct Links”, with direct links to
 
   * Hosting service
 
@@ -108,17 +102,15 @@ We should know which tools are available for each site, especially when we are o
 
   etc... \(wait, think about any other relevant services to document in the wiki before moving on!\)
 
-
-
 #### User Permissions
 
 * [ ] Create a matrix of content types with the following criteria:
 
-1. view/edit/delete per content type
+* view/edit/delete per content type
 
-2. /node \(should be blocked\)
+* /node \(should be blocked\)
 
-3. /rss.xml \(should be blocked\)
+* /rss.xml \(should be blocked\)
 
 * define the expected result of each combination for anonymous users
 
@@ -146,16 +138,11 @@ We should know which tools are available for each site, especially when we are o
 
 * [ ] Create and share Site Down Procedure for Client, document it on Wiki \(see an[Example Template](https://docs.google.com/document/d/19T6j0a6MjUhXiKx1eNuojXLW8W_H1FCcJnz06OhCUdE/edit?usp=sharing)for the wiki entry\)
 
-  
-
-
 #### Admin UX and UI
 
 1. [ ] If it's new project build from scratch, the admin UI/UX is part of the project tasks, and needs to be open as development issues, according to UI/UX repo. [Contact Liat](mailto:liat@gizra.com) for recommended checks and issues.
 
 2. [ ] If it is existing project, open an issue with 5h \(5 hours\) timebox to learn the admin UI and how things was build there and then recommend of possible improvements.
-
-
 
 #### SEO
 
