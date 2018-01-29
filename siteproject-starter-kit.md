@@ -56,7 +56,7 @@ We should know which tools are available for each site, especially when we are i
 
 * [ ] Make sure non-live environments are not sending mails to users \(probably would like to have them redirected to a QA / AM address for checks\). For Pantheon, [read here](https://pantheon.io/docs/guides/rerouting-outbound-email/).
 
-* [ ] Disable user/1 account. Why, because [this kind of real-world scenarios](https://www.drupal.org/project/drupal/issues/2939720).
+* [ ] Install the Honeypot module, or consider disabling the user/1 account, Due to [this kind of real-world scenarios](https://www.drupal.org/project/drupal/issues/2939720).
 
 * [ ] Add a "developer" role to the project which has all the permissions that user/1 would have.
 
