@@ -4,7 +4,7 @@ The goal is to have all projects on Productivity ready by the beginning of the m
 
 Review means:
 
-1. Going over the hours making sure nothing seems out of the ordinary \(wrong submission of hours, or some nasty Productivity bug\)
+1. Going over the hours making sure nothing seems out of the ordinary \(wrong submission of hours, or some nasty Productivity bug\).
 
 2. Making sure the titles of the issues seem right, without spelling mistakes, or titles that are not client-friendly "Starting at window to think about the problem" is better replaced with "Planning of solution".
 
@@ -22,11 +22,9 @@ For cases where the 1st isn't on Monday-Thursday, Productivity should be ready b
 
 | **1st of the month** | **US Projects** | **IL Projects** |
 | :--- | :--- | :--- |
-| **Friday** | **Friday, 1st.** | **Thursday, 30th** |
-| **Saturday** | **Monday, 3rd.** | **Sunday, 2nd.** |
-| **Sunday** | **Monday, 2nd.** | **Sunday, 1st.** |
-
-
+| Friday | Friday, 1st. | Thursday, 30th. |
+| Saturday | Monday, 3rd. | Sunday, 2nd. |
+| Sunday | Monday, 2nd. | Sunday, 1st. |
 
 ## **Billing by Milestone**
 
@@ -50,7 +48,4 @@ In case there was indeed a rejection, we'd need to setup a new deadline \(with A
 We expect the client to accept the milestone in up to 4 business days. So it means that on the 18th, once we got a green light, we'd send the invoice.
 
 For cases where the end-date is on Friday, then the Productivity review should be done on the following Monday.
-
-  
-
 
