@@ -10,7 +10,7 @@ Review means:
 
 For some issues, a PM may decide they would want from some hours not to be billed. As much as we'd want to always bill 100% of our efforts, we are aware that reality can be more complicated.
 
-Those hours should be escalated. That is, as part of the review process the PM should write down in Slack \`\#account-managers\` the details, and address it to Amitai \(or Efrat is he's out\). This will either be followed with a discussion or an immediate approval / rejection.
+Those hours should be escalated. That is, as part of the review process the PM should write down in Slack `#account-managers` the details, and address it to Amitai \(or Efrat is he's out\). This will either be followed with a discussion or an immediate approval / rejection.
 
 Normally, if those are very few hours \(e.g. 5 hours out of 100h\) approval is likely to be granted without too much discussion.  
 We believe that it should be in the PM's toolbox the capability of not charging a client.  
