@@ -30,16 +30,16 @@ For cases where the 1st isn't on Monday-Thursday, Productivity should be ready b
 
 Some projects are billed based on milestone. The milestone's end date is registered in the related Productivity project.
 
-Anyone can open the projects in Productivity with the end date for each project/ milestone. However, Orit should be notified as-well via Slack \`\#account-managers\`, so the end date will be inserted in the \`Project Timeline\` calendar and will be considered as the deadline - the day that the client accepts it for their review.
+Anyone can open the projects in Productivity with the end date for each project/ milestone. However, Orit should be notified as-well via Slack `#account-managers`, so the end date will be inserted in the `Project Timeline` calendar and will be considered as the deadline - the day that the client accepts it for their review.
 
-If the PM understands at some point, that a deadline might not be reached its original date, it should be escalated to Amitai \(or Efrat is he's out\).  
-A deadline can only be changed after it was escalated and approved. Once approved, it needs to be changed also in On Productivity as well as \`Project Timeline\` calendar, therefore, an alert to Orit is needed.
+If the PM understands at some point, that a deadline might not be reached its original date, it should be escalated to Amitai.  
+A deadline can only be changed after it was escalated and approved. Once approved, it needs to be changed also in On Productivity as well as `Project Timeline` calendar, therefore, an alert to Orit is needed.
 
 The goal is to have the project on Productivity reviewed on the day after it’s sent to acceptance for the client.
 
-Notifying whether it was accepted or rejected by the client should be done in Slack on \`\#account-managers\`
+Notifying whether it was accepted or rejected by the client should be done in Slack on `#account-managers`
 
-So if the deadline is the 15th, and it was submitted for acceptance to the client \(which is likely to be in US timezone\), then the PM is responsible for having Productivity reviewed by the 16th.
+So if the deadline is the 15th, and it was submitted for acceptance to the client (which is likely to be in US timezone), then the PM is responsible for having Productivity reviewed by the 16th.
 
 It's possible that the client will have some rejections, and in that case, a 2nd review will be done again after re-submitting, but hopefully, that would not be common.
 
